@@ -244,6 +244,39 @@ my %convert = (
        },
 );
 
+# From MDK::Common :
+sub substInFile(&@) {
+    my ($f, $file) = @_;
+    #FIXME we should follow symlinks, and fail in case of loop
+    if (-l $file) {
+        my $targetfile = readlink $file;
+        $file = $targetfile;
+    }
+    if (-s $file) {
+        local @ARGV = $file;
+        local $^I = '.bak';
+        local $_;
+        while (<>) {
+            $_ .= "\n" if eof && !/\n/;
+            &$f($_);
+            print;
+        }
+        open(my $F, $file);
+	warn ">> opening $file\n";
+        unlink "$file$^I"; # remove old backup now that we have closed new file
+    } else {
+        #- special handling for zero-sized or nonexistent files
+        #- because while (<>) will not do any iteration
+        open(my $F, "+> $file") or return;
+        #- "eof" without an argument uses the last file read
+        my $dummy = <$F>;
+        local $_ = '';
+        &$f($_);
+        print $F $_;
+    }
+}
+
+
 # Sanitation check:
 # TODO: would need to check subkeys too for registers split by year
 my %seen_keys;
@@ -262,9 +295,20 @@ foreach my $key (keys %seen_keys) {
 # end of check
 
 foreach my $arg (@ARGV) {
+    # If it's an URL, just display the new URL:
     if ($arg =~ /https/) {
 	my $new_url = process($arg);
 	warn "<<OLD URL: '$arg'\n>>NEW_URL=\n$new_url\n"; # "\n" in order to be able to do fast copying from terminal
+    } elsif (-f $arg) {
+	# If it's a file, convert the file in place:
+	substInFile {
+	    if (my ($url) = m!(https://recherche.archives.finistere.fr/viewer/[^< \n]*)!) {
+		my $new_url = process($url);
+		if ($new_url =~ /^http/) { # checkup for bad things
+		    s!\Q$url\E!$new_url!;
+		}
+	    }
+	} $arg;
     }
 }
 
