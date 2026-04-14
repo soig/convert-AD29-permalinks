@@ -40,5 +40,5 @@ Exemples avec la collection communale : Sépultures de Saint-Hernin 1753-1787 :
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/EDEPOT/1237EDEPOT/1237EDEPOT_003?img=FRAD029_1237EDEPOT_03_0118.jpg
 
 Exemples avec un registre qui avait été découpé par an (URL plus compliquées avant 2026) :
-* https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1924_001.jpg&e=FRAD029_3E348_0050_00N_1924_028.jpg&img=FRAD029_3E348_0050_00N_1924_007.jpg&levelDescription=FRAD029_00003E348_pa-1203
 * https://recherche.archives.finistere.fr/ark:/72506/1373301/img:FRAD029_3E348_0050_00N_1924_007
+* https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1924_001.jpg&e=FRAD029_3E348_0050_00N_1924_028.jpg&img=FRAD029_3E348_0050_00N_1924_007.jpg&levelDescription=FRAD029_00003E348_pa-1203
