@@ -59,7 +59,23 @@ my %convert = (
 	'3E212_0004' => '658573.1332285',	# Sép Plonéis  3 E 212 4	1749-1792
 	'3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4
 	'3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
-	'3E351_0010' => '',			# Naissances Tourc'h 3 E 351/10/12	1881 (BUG/FIXME: n'apparait plus avec le nouveau site!)
+	# TODO: more compact format if there's no jump (eg: first_year_id => , first_year => 1870, last_year => 1883, last_year_id => …) ?
+	'3E351_0010' => {			# Naissances Tourc'h 3 E 351 10	1870-1883
+		1870 => '1374392',		# Naissances Tourc'h 3 E 351/10/1	1870
+		1871 => '1374393',
+		1872 => '1374394',
+		1873 => '1374395',
+		1874 => '1374396',
+		1875 => '1374397',
+		1876 => '1374398',
+		1876 => '1374399',
+		1878 => '1374400',
+		1879 => '1374401',
+		1880 => '1374402',		# Naissances Tourc'h 3 E 351/10/11	1880
+		1881 =>	'1374403',		# Naissances Tourc'h 3 E 351/10/12	1881
+		1882 =>	'1374404',
+		1883 =>	'1374405',
+	},
 	'3E348_0050' => {			# Naissances Spezet 3 E 348 50		1924-1929
 		1924 => '1373301',		# Naissances Spezet 3 E 348/50/1	1924
 		1925 => '1373302',
