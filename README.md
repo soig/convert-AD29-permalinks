@@ -35,7 +35,7 @@ Sépultures de Saint-Hernin de 1753-1792 :
 * https://recherche.archives.finistere.fr/ark:/72506/1040259.1634656/img:FRAD029_3E309_05_0264
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E309/3E309_0005?img=FRAD029_3E309_05_0264.jpg
 
-Exemples avec la collection communale :
+Exemples avec la collection communale : Sépultures de Saint-Hernin 1753-1787 :
 * https://recherche.archives.finistere.fr/ark:/72506/645578.1478934/img:FRAD029_1237EDEPOT_03_0118
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/EDEPOT/1237EDEPOT/1237EDEPOT_003?img=FRAD029_1237EDEPOT_03_0118.jpg
 
