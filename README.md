@@ -1,5 +1,7 @@
 # convert-AD29-permalinks
 
+## Présentation
+
 Convert old permalinks to new permalinks after upstream software change
 Convertit les anciens permaliens (avant avril 2026) en nouveaux permaliens.
 Les AD 29 ont changé de logiciel en avril 2026, ce qui a cassé tous les anciens permaliens.
@@ -15,7 +17,7 @@ Ce script génère la 2e URL à partir de l'ancien permalien car :
 * c'est plus logique, on obtient la même URL qu'avec le bouton "permalien"
 * il est impossible de générer la 1e URL car il manque le numéro de vue
 
-## Examples :
+## Examples :
 
 Tables décennales de Quimperlé 1933-1972 :
 * Après : https://recherche.archives.finistere.fr/ark:/72506/1132985/img:FRAD029_5E_0241_006_03_000238
@@ -38,5 +40,5 @@ Exemples avec la collection communale :
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/EDEPOT/1237EDEPOT/1237EDEPOT_003?img=FRAD029_1237EDEPOT_03_0118.jpg
 
 Exemples avec un registre qui avait été découpé par an (URL plus compliquées avant 2026) :
-* https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1924_001.jpg&e=FRAD029_3E348_0050_00N_1924_028.jpg&img=FRAD029_3E348_0050_00N_1924_007.jpg&levelDescription=FRAD029_00003E348_pa-1203'
+* https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1924_001.jpg&e=FRAD029_3E348_0050_00N_1924_028.jpg&img=FRAD029_3E348_0050_00N_1924_007.jpg&levelDescription=FRAD029_00003E348_pa-1203
 * https://recherche.archives.finistere.fr/ark:/72506/1373301/img:FRAD029_3E348_0050_00N_1924_007
