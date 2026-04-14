@@ -261,7 +261,16 @@ foreach my $key (keys %seen_keys) {
 }
 # end of check
 
-foreach (@ARGV) {
+foreach my $arg (@ARGV) {
+    if ($arg =~ /https/) {
+	my $new_url = process($arg);
+	warn "<<OLD URL: '$arg'\n>>NEW_URL=\n$new_url\n"; # "\n" in order to be able to do fast copying from terminal
+    }
+}
+
+sub process {
+	my ($url) = @_;
+	local $_ = $url;
 	## before last "/"
 	#my ($id) = m!([^/]*)/[^/]*$!;
 	# after last "/" (more complete ID + extract image name); accept an optional "/" before "?img="
@@ -278,7 +287,7 @@ foreach (@ARGV) {
 	$id =~ s/_00[0-9]$// if /EDEPOT_00/;
 	if (!$id) {
 		warn "!!! FAILED TO PARSE '$_'!\n";
-		next;
+		return;
 	}
 	my $newID = $convert{$id};
 	# Special case for registers that has beep split per year (and thus share the same ID):
@@ -297,11 +306,9 @@ foreach (@ARGV) {
 	}
 	if (!$newID) {
 		warn "!!! ID '$id' IS NOT IN THE DB!\n";
-		next;
+		return;
 	}
-	#warn "==> ID='$id' => $convert{$id}\n";
-	#use Data::Dumper; warn Dumper \%convert;
-	warn "<<OLD URL: '$_'\n>>NEW_URL=\n${prefix}$newID/$image\n"; # "\n" in order to be able to do fast copying from terminal
+	return "${prefix}$newID/$image";
 }
 
 
