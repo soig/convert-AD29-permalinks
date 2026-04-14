@@ -12,7 +12,23 @@
 use strict;
 
 my $old_prefix = 'https://recherche.archives.finistere.fr/viewer/series/medias/collections/'; # unused, for reference only
-my $prefix = 'https://recherche.archives.finistere.fr/ark:/72506/';
+my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
+
+# The config for converting old obsolete permalinks into new ones:
+# - old software included the register ID in the URL
+# - new one includes an arbitrary ID
+# We need to map then
+#
+# There's a special case for registers that has been split per year:
+# We map to a sub hash mapping eavery year
+# B/c we need to account either eg s=FRAD029_3E348_0050_00N_1925_001.jpg or levelDescription=FRAD029_00003E348_pa-1204 from the old URL
+# Compare
+# Spezet 1924: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1924_001.jpg&e=FRAD029_3E348_0050_00N_1924_028.jpg&img=FRAD029_3E348_0050_00N_1924_007.jpg&levelDescription=FRAD029_00003E348_pa-1203
+# => https://recherche.archives.finistere.fr/ark:/72506/1373301/daogrp/0/layout:table/idsearch:RECH_FranceConnect_bb51b13adf7724dfe3a92e71b3dc52b9
+# Spezet 1925: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1925_001.jpg&e=FRAD029_3E348_0050_00N_1925_029.jpg&img=FRAD029_3E348_0050_00N_1925_008.jpg&levelDescription=FRAD029_00003E348_pa-1204
+# => https://recherche.archives.finistere.fr/ark:/72506/1373302/daogrp/0/layout:table/idsearch:RECH_FranceConnect_bb51b13adf7724dfe3a92e71b3dc52b9
+# Same register so duplicating 3E348_0050 but each year has a different ID : '1373301' vs '1373302'
+
 my %convert = (
 	'1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
 	'3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
@@ -44,20 +60,18 @@ my %convert = (
 	'3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4
 	'3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
 	'3E351_0010' => '',			# Naissances Tourc'h 3 E 351/10/12	1881 (BUG/FIXME: n'apparait plus avec le nouveau site!)
-	'3E348_0050' => '1373301',		# Naissances Spezet 3 E 348/50/1	1924 (BUG/FIXME: duplicate id from URL: what to parse??)
-	'3E348_0050' => '1373302',		# Naissances Spezet 3 E 348/50/2	1925
+	'3E348_0050' => {			# Naissances Spezet 3 E 348 50		1924-1929
+		1924 => '1373301',		# Naissances Spezet 3 E 348/50/1	1924
+		1925 => '1373302',
+		1926 => '1373303',
+		1927 => '1373304',
+		1928 => '1373305',
+		1929 => '1373306',
+	},
 	'5E_0283_001_01' => '1133694',		# TD Scaer
 	'5E_0287_002_08' => '1133798',		# TD Spezet
 	'5E_0241_006_03' => '1132985',		# TD Quimperlé
 );
-
-# BUG: need to take account either s=FRAD029_3E348_0050_00N_1925_001.jpg or levelDescription=FRAD029_00003E348_pa-1204
-# => We need further data for registers that have been split by years
-# Spezet 1924: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1924_001.jpg&e=FRAD029_3E348_0050_00N_1924_028.jpg&img=FRAD029_3E348_0050_00N_1924_007.jpg&levelDescription=FRAD029_00003E348_pa-1203
-# => https://recherche.archives.finistere.fr/ark:/72506/1373301/daogrp/0/layout:table/idsearch:RECH_FranceConnect_bb51b13adf7724dfe3a92e71b3dc52b9
-# Spezet 1925: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1925_001.jpg&e=FRAD029_3E348_0050_00N_1925_029.jpg&img=FRAD029_3E348_0050_00N_1925_008.jpg&levelDescription=FRAD029_00003E348_pa-1204
-# => https://recherche.archives.finistere.fr/ark:/72506/1373302/daogrp/0/layout:table/idsearch:RECH_FranceConnect_bb51b13adf7724dfe3a92e71b3dc52b9
-# Different register but duplicated 3E348_0050 vs different '1373301' vs '1373302'
 
 # Sanitation check:
 my %seen_keys;
@@ -95,13 +109,18 @@ foreach (@ARGV) {
 		next;
 	}
 	my $newID = $convert{$id};
+	# Special case for registers that has beep split per year (and thus share the same ID):
+	if (ref($newID)) {
+		my ($year) = /s=FRAD029_[^_]+_[^_]+_[^_]+_(\d\d\d\d)_001.jpg/;
+		$newID = $newID->{$year};
+	}
 	if (!$newID) {
 		warn "!!! ID '$id' IS NOT IN THE DB!\n";
 		next;
 	}
 	#warn "==> ID='$id' => $convert{$id}\n";
 	#use Data::Dumper; warn Dumper \%convert;
-	warn "<<OLD URL: '$_'\n>>NEW_URL=\n${prefix}$convert{$id}/$image\n"; # "\n" in order to be able to do fast copying from terminal
+	warn "<<OLD URL: '$_'\n>>NEW_URL=\n${prefix}$newID/$image\n"; # "\n" in order to be able to do fast copying from terminal
 }
 
 
