@@ -20,11 +20,14 @@ Ce script génère la 2e URL à partir de l'ancien permalien car :
 * Avant : https://recherche.archives.finistere.fr/ark:/72506/1132985/img:FRAD029_5E_0241_006_03_000238
 * Après : https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0241_006_03/?img=FRAD029_5E_0241_006_03_000238.jpg
 
+
 * https://recherche.archives.finistere.fr/ark:/72506/1133798/img:FRAD029_5E_0287_002_08_000036
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0287_002_08/?img=FRAD029_5E_0287_002_08_000036.jpg
 
+
 * https://recherche.archives.finistere.fr/ark:/72506/1133694/img:FRAD029_5E_0283_001_01_000036
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0283_001_01/?img=FRAD029_5E_0283_001_01_000036.jpg
+
 
 * https://recherche.archives.finistere.fr/ark:/72506/1040259.1634656/img:FRAD029_3E309_05_0264
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E309/3E309_0005?img=FRAD029_3E309_05_0264.jpg
