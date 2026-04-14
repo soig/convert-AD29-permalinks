@@ -61,6 +61,7 @@ my %convert = (
 	'3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
 	# TODO: more compact format if there's no jump (eg: first_year_id => , first_year => 1870, last_year => 1883, last_year_id => …) ?
 	# TODO: BMS
+	# TODO: Sépultures Carhaix, Cleden-Poher, Plonéis, Plouguer, Saint-Hernin
 	# TODO: décès … Tourc'h
 	# TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
 	# TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer 
