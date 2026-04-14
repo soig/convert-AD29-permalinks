@@ -11,6 +11,9 @@ Maintenant, c'est au choix :
 * https://recherche.archives.finistere.fr/ark:/72506/659573.1340592/daoloc/0/48 (avec le numéro de vue, ici 48/207, comme le font les AD56 avec le même logiciel)
 * https://recherche.archives.finistere.fr/ark:/72506/659573.1340592/img:FRAD029_1MIEC234_06_0052 (avec le numéro/nom de l'image, c'est ce que donne le bouton "permalien")
 
+Ce script génère la 2e URL à partir de l'ancien permalien car :
+* c'est plus logique, on obtient la même URL qu'avec le bouton "permalien"
+* il est impossible de générer la 1e URL car il manque le numéro de vue
 
 ## Examples :
 
