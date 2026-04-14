@@ -140,21 +140,3 @@ foreach (@ARGV) {
 }
 
 
-# EXAMPLES:
-#NEW: https://recherche.archives.finistere.fr/ark:/72506/1132985/img:FRAD029_5E_0241_006_03_000238
-#OLD: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0241_006_03/?img=FRAD029_5E_0241_006_03_000238.jpg
-#
-#https://recherche.archives.finistere.fr/ark:/72506/1133798/img:FRAD029_5E_0287_002_08_000036
-#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0287_002_08/?img=FRAD029_5E_0287_002_08_000036.jpg
-#
-#https://recherche.archives.finistere.fr/ark:/72506/1133694/img:FRAD029_5E_0283_001_01_000036
-#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0283_001_01/?img=FRAD029_5E_0283_001_01_000036.jpg
-#
-#https://recherche.archives.finistere.fr/ark:/72506/1040259.1634656/img:FRAD029_3E309_05_0264
-#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E309/3E309_0005?img=FRAD029_3E309_05_0264.jpg
-#
-#https://recherche.archives.finistere.fr/ark:/72506/645578.1478934/img:FRAD029_1237EDEPOT_03_0118
-#https://recherche.archives.finistere.fr/viewer/series/medias/collections/EDEPOT/1237EDEPOT/1237EDEPOT_003?img=FRAD029_1237EDEPOT_03_0118.jpg
-#
-# TODO:
-#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E351/3E351_0010?s=FRAD029_3E351_0010_00N_1881_001.jpg&e=FRAD029_3E351_0010_00N_1881_008.jpg&img=FRAD029_3E351_0010_00N_1881_004.jpg&levelDescription=FRAD029_00003E351_pa-88
