@@ -39,6 +39,10 @@ Sépultures de Saint-Hernin de 1753-1792 :
 * https://recherche.archives.finistere.fr/ark:/72506/1040259.1634656/img:FRAD029_3E309_05_0264
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E309/3E309_0005?img=FRAD029_3E309_05_0264.jpg
 
+Naissances calendrier républicain :
+* https://recherche.archives.finistere.fr/ark:/72506/1373156/img:FRAD029_3E348_0012_00N_AN02_003
+* https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0012?s=FRAD029_3E348_0012_00N_AN02_001.jpg&e=FRAD029_3E348_0012_00N_AN02_029.jpg&img=FRAD029_3E348_0012_00N_AN02_003.jpg&levelDescription=FRAD029_00003E348_pa-851
+
 Exemples avec la collection communale : Sépultures de Saint-Hernin 1753-1787 :
 * https://recherche.archives.finistere.fr/ark:/72506/645578.1478934/img:FRAD029_1237EDEPOT_03_0118
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/EDEPOT/1237EDEPOT/1237EDEPOT_003?img=FRAD029_1237EDEPOT_03_0118.jpg
