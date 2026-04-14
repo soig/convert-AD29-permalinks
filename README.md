@@ -35,6 +35,10 @@ Recensement Spézet 1936 :
 * https://recherche.archives.finistere.fr/ark:/72506/1145865/img:FRAD029_6M_0833_06_000034
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M05/6M0833?s=FRAD029_6M_0833_06_000001.jpg&e=FRAD029_6M_0833_06_000062.jpg&img=FRAD029_6M_0833_06_000034.jpg&levelDescription=FRAD029_00000006M_pa-5362
 
+Registre matricule :
+* https://recherche.archives.finistere.fr/ark:/72506/836111.1076438/img:FRAD029_1R_01653_0291
+* https://recherche.archives.finistere.fr/viewer/series/medias/collections/R/01R/1R01653?img=FRAD029_1R_01653_0291.jpg
+
 Sépultures de Saint-Hernin de 1753-1792 :
 * https://recherche.archives.finistere.fr/ark:/72506/1040259.1634656/img:FRAD029_3E309_05_0264
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E309/3E309_0005?img=FRAD029_3E309_05_0264.jpg

@@ -31,6 +31,8 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 
 my %convert = (
 	'1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
+	# Registre matricule:
+	'1R01653' => '1145865',			# Bureau de Brest-Châteaulin n° 4001 à 4422, 4433 à 4434, 4439 à 4440. (1920)
 	'3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
 	'3E037_0002' => '652176.1275535',	# BMS Carhaix  3 E 37/2		1690-1714
 	'3E037_0003' => '652177.1275536',	# BMS Carhaix  3 E 37/3		1715-1728
