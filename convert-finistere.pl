@@ -95,6 +95,7 @@ my %convert = (
 );
 
 # Sanitation check:
+# TODO: would need to check subkeys too for registers split by year
 my %seen_keys;
 for my $key (keys %convert) {
 	push @{$seen_keys{$convert{$key}}}, $key
