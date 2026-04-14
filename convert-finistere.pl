@@ -87,6 +87,11 @@ my %convert = (
 	'5E_0283_001_01' => '1133694',		# TD Scaer
 	'5E_0287_002_08' => '1133798',		# TD Spezet
 	'5E_0241_006_03' => '1132985',		# TD Quimperlé
+	'6M0833' => {				# Recensement Spézet
+	       5360 => '1145863',		# Recensement Spézet 1926
+	       5361 => '1145864',		# Recensement Spézet 1931
+	       5362 => '1145865',		# Recensement Spézet 1936
+       },
 );
 
 # Sanitation check:
@@ -128,7 +133,16 @@ foreach (@ARGV) {
 	# Special case for registers that has beep split per year (and thus share the same ID):
 	if (ref($newID)) {
 		my ($year) = /s=FRAD029_[^_]+_[^_]+_[^_]+_(\d\d\d\d)_001.jpg/;
-		$newID = $newID->{$year};
+		if ($year) {
+			$newID = $newID->{$year};
+		} elsif (my ($subID) = /levelDescription=FRAD029_[^_]+_pa-(\d+)/) {
+			# Above does't work for recensements:
+			# https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M03/6M0833?s=FRAD029_6M_0833_04_000001.jpg&e=FRAD029_6M_0833_04_000068.jpg&img=FRAD029_6M_0833_04_000030.jpg&levelDescription=FRAD029_00000006M_pa-5360 (1926)
+			# https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M05/6M0833?s=FRAD029_6M_0833_06_000001.jpg&e=FRAD029_6M_0833_06_000062.jpg&img=FRAD029_6M_0833_06_000034.jpg&levelDescription=FRAD029_00000006M_pa-5362 (1936)
+			$newID = $newID->{$subID};
+		} else {
+			warn ">> Failed to parse '$_'\n";
+		}
 	}
 	if (!$newID) {
 		warn "!!! ID '$id' IS NOT IN THE DB!\n";

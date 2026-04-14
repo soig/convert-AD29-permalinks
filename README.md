@@ -31,6 +31,10 @@ Tables décennales de Scaër An XI-1902 :
 * https://recherche.archives.finistere.fr/ark:/72506/1133694/img:FRAD029_5E_0283_001_01_000036
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/05E/5E_0283_001_01/?img=FRAD029_5E_0283_001_01_000036.jpg
 
+Recensement Spézet 1936 :
+* https://recherche.archives.finistere.fr/ark:/72506/1145865/img:FRAD029_6M_0833_06_000034
+* https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M05/6M0833?s=FRAD029_6M_0833_06_000001.jpg&e=FRAD029_6M_0833_06_000062.jpg&img=FRAD029_6M_0833_06_000034.jpg&levelDescription=FRAD029_00000006M_pa-5362
+
 Sépultures de Saint-Hernin de 1753-1792 :
 * https://recherche.archives.finistere.fr/ark:/72506/1040259.1634656/img:FRAD029_3E309_05_0264
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E309/3E309_0005?img=FRAD029_3E309_05_0264.jpg
