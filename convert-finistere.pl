@@ -68,7 +68,6 @@ my %convert = (
     '3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4
     '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
     # NMD :
-    # TODO: more compact format if there's no jump (eg: first_year_id => , first_year => 1870, last_year => 1883, last_year_id => …) ?
     # TODO: Sépultures Carhaix, Cleden-Poher, Plonéis, Plouguer, Saint-Hernin
     # TODO: décès … Tourc'h
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
@@ -241,11 +240,92 @@ my %convert = (
 	1929 => '1373306',
     },
     # Tables décennales :
+    # TD Kergloff
+    '5E_0092_002_02' => '1130530',
     '5E_0283_001_01' => '1133694',	# TD Scaer
     '5E_0287_002_08' => '1133798',	# TD Spezet
     '5E_0241_006_03' => '1132985',	# TD Quimperlé
     # Recensements :
+    # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Cléden-Poher%20(Finistère)|&RECH_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&type=recensements
+    '6M0209' => {			# Recensement Clédin-Poher
+	# I don't have (and thus haven't tested) any of them in my tree:
+	'572' => '1140255', 		# Recensement Clédin-Poher 1836
+	'573' => '1140256', 		# Recensement Clédin-Poher 1841
+	'574' => '1140257', 		# Recensement Clédin-Poher 1846
+	'575' => '1140258', 		# Recensement Clédin-Poher 1851
+	'576' => '1140259', 		# Recensement Clédin-Poher 1856
+	'577' => '1140260', 		# Recensement Clédin-Poher 1861
+	'578' => '1140261', 		# Recensement Clédin-Poher 1866
+	'579' => '1140262', 		# Recensement Clédin-Poher 1872
+	'580' => '1140263', 		# Recensement Clédin-Poher 1876
+    },
+    '6M0210' => {			# Recensement Clédin-Poher
+	# I only have (and thus only tested) the 1936 in my tree:
+	'581' => '1140265', 		# Recensement Clédin-Poher 1881 (Note they jumped from 1140263 to 1140265)
+	'582' => '1140266', 		# Recensement Clédin-Poher 1886
+	'583' => '1140267', 		# Recensement Clédin-Poher 1891
+	'584' => '1140268', 		# Recensement Clédin-Poher 1896
+	'585' => '1140269', 		# Recensement Clédin-Poher 1901
+	'586' => '1140270', 		# Recensement Clédin-Poher 1906
+	'587' => '1140271', 		# Recensement Clédin-Poher 1911
+	'588' => '1140272', 		# Recensement Clédin-Poher 1921
+	'589' => '1140273', 		# Recensement Clédin-Poher 1926
+	'590' => '1140274', 		# Recensement Clédin-Poher 1931
+	'591' => '1140275', 		# Recensement Clédin-Poher 1936
+    },
+    # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Kergloff%20(Finistère)|&RECH_commune_Md5=b514c4417f09b16bf87e6d3adcf13473|&type=recensements
+    '6M0344' => {			# Recensement Kergloff
+	1728 => '1141602', 		# Recensement Kergloff 1881
+	1729 => '1141603',		# Recensement Kergloff 1886
+    },
+    # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
+    '6M0763' => {			# Recensement Saint-Hernin
+	4821 => '1145228',		# Recensement Saint-Hernin 1836
+	4822 => '1145229',		# Recensement Saint-Hernin 1841
+	4823 => '1145230',		# Recensement Saint-Hernin 1846
+	4824 => '1145231',		# Recensement Saint-Hernin 1851
+	4825 => '1145232',		# Recensement Saint-Hernin 1856
+	4826 => '1145233',		# Recensement Saint-Hernin 1861
+	4827 => '1145234',		# Recensement Saint-Hernin 1866
+	4828 => '1145235',		# Recensement Saint-Hernin 1872
+    },
+    '6M0764' => {			# Recensement Saint-Hernin
+	# https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
+	4829 => '1145237',		# Recensement Saint-Hernin 1876
+	4830 => '1145238',		# Recensement Saint-Hernin 1881
+    },
+    # https://recherche.archives.finistere.fr/archive/resultats/recensements/tableau?RECH_commune_Libel=Scaër%20(Finist_re)|&RECH_commune_Md5=9c354717cc7a5c14e68227d48522db2a|&type=recensements
+    '6M0819' => {
+	# I only have 1906 in my tree:
+	5278 => '1145763' 		# Recensement Scaer 1906
+    },
+    '6M0820' => {
+	5279 => '1145765', 		# Recensement Scaer 1911  (Note they jumped from 1145763 to 1145765)
+	# Pas de recensement à Scaer en 1921?
+	5280 => '1145766', 		# Recensement Scaer 1926
+	5281 => '1145767', 		# Recensement Scaer 1931
+	5282 => '1145768', 		# Recensement Scaer 1936
+    },
+    # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Spézet%20(Finistère)|&RECH_commune_Md5=b6713734e42457b28f4773f547444ce7|&type=recensements
     '6M0833' => {			# Recensement Spézet
+	# I only have (and thus only tested) the 188X in my tree
+	5343 => '1145844',		# Recensement Spézet 1836
+	5344 => '1145845',		# Recensement Spézet 1841
+	5345 => '1145846',		# Recensement Spézet 1846
+	5346 => '1145847',		# Recensement Spézet 1851
+	5347 => '1145848',		# Recensement Spézet 1856
+	5348 => '1145849',		# Recensement Spézet 1861
+	5349 => '1145851',		# Recensement Spézet 1866  (Note they jumped from 1145849 to 1145851)
+	5350 => '1145852',		# Recensement Spézet 1872
+	5351 => '1145853',		# Recensement Spézet 1876
+	5352 => '1145854',		# Recensement Spézet 1881
+	5353 => '1145855',		# Recensement Spézet 1886
+	5354 => '1145856',		# Recensement Spézet 1891
+	5355 => '1145857',		# Recensement Spézet 1896
+	5356 => '1145858',		# Recensement Spézet 1901
+	5357 => '1145860',		# Recensement Spézet 1906  (Note they jumped from 1145858 to 1145860)
+	5358 => '1145861',		# Recensement Spézet 1911
+	5359 => '1145862',		# Recensement Spézet 1921
 	5360 => '1145863',		# Recensement Spézet 1926
 	5361 => '1145864',		# Recensement Spézet 1931
 	5362 => '1145865',		# Recensement Spézet 1936
