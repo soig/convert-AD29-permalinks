@@ -33,6 +33,8 @@ my %convert = (
     '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
     # Registre matricule:
     '1R01653' => '1145865',			# Bureau de Brest-Châteaulin n° 4001 à 4422, 4433 à 4434, 4439 à 4440. (1920)
+    # BMS :
+    # TODO: add conversion for all BMS in my tree
     '3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
     '3E037_0002' => '652176.1275535',	# BMS Carhaix  3 E 37/2		1690-1714
     '3E037_0003' => '652177.1275536',	# BMS Carhaix  3 E 37/3		1715-1728
@@ -61,8 +63,8 @@ my %convert = (
     '3E212_0004' => '658573.1332285',	# Sép Plonéis  3 E 212 4	1749-1792
     '3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4
     '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
+    # NMD :
     # TODO: more compact format if there's no jump (eg: first_year_id => , first_year => 1870, last_year => 1883, last_year_id => …) ?
-    # TODO: BMS
     # TODO: Sépultures Carhaix, Cleden-Poher, Plonéis, Plouguer, Saint-Hernin
     # TODO: décès … Tourc'h
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
@@ -234,9 +236,11 @@ my %convert = (
 	1928 => '1373305',
 	1929 => '1373306',
     },
+    # Tables décennales :
     '5E_0283_001_01' => '1133694',	# TD Scaer
     '5E_0287_002_08' => '1133798',	# TD Spezet
     '5E_0241_006_03' => '1132985',	# TD Quimperlé
+    # Recensements :
     '6M0833' => {			# Recensement Spézet
 	5360 => '1145863',		# Recensement Spézet 1926
 	5361 => '1145864',		# Recensement Spézet 1931
