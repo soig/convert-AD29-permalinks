@@ -153,18 +153,19 @@ my %convert = (
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
+	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
 	# TODO: vérifier les URLs qui correspondent au calendrier républicain: mais je n'en ai pas dans mon arbre !
 	'AN11' => '1373166',		# Naissances Spezet  3 E 348 13 1	an XI
-	    'AN12' => '1373167',
-	    'AN13' => '1373168',
-	    'AN14' => '1373169',
-	    # TODO: fin du bloc que je ne peux tester
-	    1807 => '1373170',		# Naissances Spezet  3 E 348 13 5	1807
-	    1808 => '1373171',
-	    1809 => '1373172',
-	    1810 => '1373173',
-	    1811 => '1373174',
-	    1812 => '1373175',
+	'AN12' => '1373167',
+	'AN13' => '1373168',
+	'AN14' => '1373169',
+	# TODO: fin du bloc que je ne peux tester
+	1807 => '1373170',		# Naissances Spezet  3 E 348 13 5	1807
+	1808 => '1373171',
+	1809 => '1373172',
+	1810 => '1373173',
+	1811 => '1373174',
+	1812 => '1373175',
     },
     '3E348_0014' => {			# Naissances Spezet  3 E 348 14		1813-1822
 	1813 => '1373177',		# Naissances Spezet  3 E 348 14 1	1813
