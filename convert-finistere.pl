@@ -72,6 +72,7 @@ my %convert = (
     # TODO: décès … Tourc'h
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
     # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer 
+    # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
 	# TODO: vérifier les URLs qui correspondent au calendrier républicain: mais je n'en ai pas dans mon arbre !
@@ -215,6 +216,7 @@ my %convert = (
 	1935 => '1373628',
 	1936 => '1373629',
     },
+    # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Tourch+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E351_0010' => {			# Naissances Tourc'h 3 E 351 10	1870-1883
 	1870 => '1374392',		# Naissances Tourc'h 3 E 351/10/1	1870
 	1871 => '1374393',
@@ -241,6 +243,7 @@ my %convert = (
     },
     # Tables décennales :
     # TD Kergloff
+    # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau?REch_commune_Libel=Kergloff+%28Finistère%29%7C&REch_commune_Md5=b514c4417f09b16bf87e6d3adcf13473%7C&Rech_typologie%5B0%5D=Table+d%C3%A9cennale&type=etatcivil
     '5E_0092_002_02' => '1130530',
     '5E_0283_001_01' => '1133694',	# TD Scaer
     '5E_0287_002_08' => '1133798',	# TD Spezet
