@@ -36,7 +36,27 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 my %convert = (
     '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
     # Registre matricule:
-    '1R01653' => '1145865',			# Bureau de Brest-Châteaulin n° 4001 à 4422, 4433 à 4434, 4439 à 4440. (1920)
+    # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
+    '1R01642' => '836100.1076426',             # Bureau Bureau de Brest n° 1 à 500. (1920)
+    '1R01643' => '836101.1076427',             # Bureau Bureau de Brest n° 501 à 1000. (1920)
+    '1R01644' => '836102.1076428',             # Bureau Bureau de Brest n° 1001 à 1500. (1920)
+    '1R01645' => '836103.1076429',             # Bureau Bureau de Brest n° 1501 à 2000. (1920)
+    '1R01646' => '836104.1076430',             # Bureau Bureau de Brest n° 2001 à 2500. (1920)
+    '1R01647' => '836105.1076431',             # Bureau Bureau de Brest n° 2501 à 3000. (1920)
+    '1R01648' => '836106.1076432',             # Bureau Bureau de Brest n° 3001 à 3500. (1920)
+    '1R01649' => '836107.1076433',             # Bureau Bureau de Brest n° 3501 à 4000. (1920)
+    '1R01650' => '836108.1076434',             # Bureau Bureau de Brest n° 4001 à 4432. (1920)
+    '1R01654' => '1076435',                    # Bureau Table alphabétique de Brest. (1920)
+    '1R01651' => '836109.1076436',             # Bureau Bureau de Brest-Châteaulin n° 3104 à 3500. (1920)
+    '1R01652' => '836110.1076437',             # Bureau Bureau de Brest-Châteaulin n° 3501 à 4000. (1920)
+    '1R01653' => '836111.1076438',             # Bureau Bureau de Brest-Châteaulin n° 4001 à 4422, 4433 à 4434, 4439 à 4440. (1920)
+    '1R01654' => '1076439',                    # Bureau Table alphabétique de Brest-Châteaulin, suivie d'une liste d'omis et (ou) d'exemptés, de natifs du Finistère recensés ailleurs et d'étrangers recensés dans le Finistère. (1920)
+    '1R01655' => '836113.1076440',             # Bureau Bureau de Quimper n° 1 à 500. (1920)
+    '1R01656' => '836114.1076441',             # Bureau Bureau de Quimper n° 501 à 1000. (1920)
+    '1R01657' => '836115.1076442',             # Bureau Bureau de Quimper n° 1001 à 1500. (1920)
+    '1R01658' => '836116.1076443',             # Bureau Bureau de Quimper n° 1501 à 2000. (1920)
+    '1R01659' => '836117.1076444',             # Bureau Bureau de Quimper n° 2001 à 2500. (1920)
+    '1R01660' => '836118.1076445',             # Bureau Bureau de Quimper n° 2501 à 3104, 3484, 3486, 3515, 3523, 3525, 3543, 3547 à 3548, 3569, 3578, 3581, 3596, 3608, 3610, 3616, 3628 à 3629, 3640, 3649, 3657, 3665, 4423 à 4432, 4435 à 4438, 4441 à 4443. (1920)
     # BMS :
     # TODO: add conversion for all BMS in my tree
     '3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
