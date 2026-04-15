@@ -104,10 +104,10 @@ my %convert = (
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
 	# TODO: vérifier les URLs qui correspondent au calendrier républicain: mais je n'en ai pas dans mon arbre !
-	'an XI' => '1373166',		# Naissances Spezet  3 E 348 13 1	an XI
-	    'an XII' => '1373167',
-	    'an XII' => '1373168',
-	    'an XIV' => '1373169',
+	'AN11' => '1373166',		# Naissances Spezet  3 E 348 13 1	an XI
+	    'AN12' => '1373167',
+	    'AN13' => '1373168',
+	    'AN14' => '1373169',
 	    # TODO: fin du bloc que je ne peux tester
 	    1807 => '1373170',		# Naissances Spezet  3 E 348 13 5	1807
 	    1808 => '1373171',
