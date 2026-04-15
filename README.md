@@ -4,7 +4,8 @@
 
 Convert old permalinks to new permalinks after upstream software change
 Convertit les anciens permaliens (avant avril 2026) en nouveaux permaliens.
-Les AD 29 ont changé de logiciel en avril 2026, ce qui a cassé tous les anciens permaliens.
+Les AD 29 ont changé de logiciel en avril 2026, ce qui a cassé tous les anciens permaliens :
+* https://archives.finistere.fr/actualites/nouveau-moteur-de-recherche-en-ligne
 
 Par exemple, un acte d'avril 1764 à Plouguer avait autrefois pour permalien :
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E234/3E234_0004?img=FRAD029_1MIEC234_06_0052.jpg

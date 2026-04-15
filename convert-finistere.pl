@@ -28,6 +28,10 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 # Spezet 1925: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E348/3E348_0050?s=FRAD029_3E348_0050_00N_1925_001.jpg&e=FRAD029_3E348_0050_00N_1925_029.jpg&img=FRAD029_3E348_0050_00N_1925_008.jpg&levelDescription=FRAD029_00003E348_pa-1204
 # => https://recherche.archives.finistere.fr/ark:/72506/1373302/daogrp/0/layout:table/idsearch:RECH_FranceConnect_bb51b13adf7724dfe3a92e71b3dc52b9
 # Same register so duplicating 3E348_0050 but each year has a different ID : '1373301' vs '1373302'
+#
+# To add conversion, one need both :
+# - old URL, as well as the register name
+# - lookup the new register URL in AD29 and identiy the new ARK ID for the register (eg: "137330X" in the above example)
 
 my %convert = (
     '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
