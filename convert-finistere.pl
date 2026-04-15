@@ -99,7 +99,57 @@ my %convert = (
 
 
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Cléden-Poher%20(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[]=Naissance&type=etatcivil
-    '3E042_0012' => '1277179',		# Naissances Cleden-Poher  3 E 42 12		1793 - an II
+    '3E042_0011' => {		        # Naissances Cleden-Poher  3 E 42 12		1793 - an II
+	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
+	'AN02' => '1277179',            # Naissance Cléden-Poher 3 E 42/11/1 (1793 - an II)
+	'AN03' => '1277180',            # Naissance Cléden-Poher 3 E 42/11/2 (an III)
+	'AN04' => '1277181',            # Naissance Cléden-Poher 3 E 42/11/3 (an IV)
+	'AN05' => '1277182',            # Naissance Cléden-Poher 3 E 42/11/4 (an V)
+	'AN06' => '1277183',            # Naissance Cléden-Poher 3 E 42/11/5 (an VI)
+	'AN07' => '1277184',            # Naissance Cléden-Poher 3 E 42/11/6 (an VII)
+	'AN08' => '1277185',            # Naissance Cléden-Poher 3 E 42/11/7 (an VIII)
+	'AN09' => '1277186',            # Naissance Cléden-Poher 3 E 42/11/8 (an IX)
+	'AN10' => '1277187',            # Naissance Cléden-Poher 3 E 42/11/9 (an X)
+    },
+    '3E042_0012' => {		# Naissances Cleden-Poher  3 E 42 12		an 11 - 1810
+	# FIXME: à part l'an 12, je n'ai pas d'autres actes pour lesquels vérifier la conversion
+	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
+	'AN11' => '1277189',            # Naissance Cléden-Poher 3 E 42/12/1 (an XI)
+	'AN12' => '1277190',            # Naissance Cléden-Poher 3 E 42/12/2 (an XII)
+	'AN13' => '1277191',            # Naissance Cléden-Poher 3 E 42/12/3 (an XIII)
+	'AN14' => '1277192',            # Naissance Cléden-Poher 3 E 42/12/4 (an XIV - 1806)
+	'1807' => '1277193',            # Naissance Cléden-Poher 3 E 42/12/5 (1807)
+	'1808' => '1277194',            # Naissance Cléden-Poher 3 E 42/12/6 (1808)
+	'1809' => '1277195',            # Naissance Cléden-Poher 3 E 42/12/7 (1809)
+	'1810' => '1277196',            # Naissance Cléden-Poher 3 E 42/12/8 (1810)
+    },
+
+    # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=Cléden-Poher+(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[0]=Décès&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil&pagination_25
+    '3E042_0028' => {
+	# Décès Cléden-Poher  3 E 42 28             1793 - an X
+	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
+	'AN02' => '1277491',            # Décès Cléden-Poher 3 E 42/28/1 (1793 - an II)
+        'AN03' => '1277492',            # Décès Cléden-Poher 3 E 42/28/2 (an III)
+        'AN04' => '1277493',            # Décès Cléden-Poher 3 E 42/28/3 (an IV)
+        'AN05' => '1277494',            # Décès Cléden-Poher 3 E 42/28/4 (an V)
+        'AN06' => '1277495',            # Décès Cléden-Poher 3 E 42/28/5 (an VI)
+        'AN07' => '1277496',            # Décès Cléden-Poher 3 E 42/28/6 (an VII)
+        'AN08' => '1277497',            # Décès Cléden-Poher 3 E 42/28/7 (an VIII)
+        'AN09' => '1277498',            # Décès Cléden-Poher 3 E 42/28/8 (an IX)
+        'AN10' => '1277499',            # Décès Cléden-Poher 3 E 42/28/9 (an X)
+    },
+    '3E042_0029' => {	    # Décès Cléden-Poher  3 E 42 29             an XI - 1810
+	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
+        'AN11' => '1277501',            # Décès Cléden-Poher 3 E 42/29/1 (an XI)
+	'AN12' => '1277502',            # Décès Cléden-Poher 3 E 42/29/2 (an XII)
+        'AN13' => '1277503',            # Décès Cléden-Poher 3 E 42/29/3 (an XIII)
+        'AN14' => '1277504',            # Décès Cléden-Poher 3 E 42/29/4 (an XIV - 1806)
+        '1807' => '1277505',            # Décès Cléden-Poher 3 E 42/29/5 (1807)
+        '1808' => '1277506',            # Décès Cléden-Poher 3 E 42/29/6 (1808)
+        '1809' => '1277507',            # Décès Cléden-Poher 3 E 42/29/7 (1809)
+        '1810' => '1277508',            # Décès Cléden-Poher 3 E 42/29/8 (1810)
+    },
+
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
