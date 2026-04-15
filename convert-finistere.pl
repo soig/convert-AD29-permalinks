@@ -440,7 +440,7 @@ sub process {
 	}
     }
     if (!$newID) {
-	warn "!!! ID '$id' IS NOT IN THE DB!\n";
+	warn "!!! ID '$id' IS NOT IN THE DB! (URL=$_)\n";
 	return;
     }
     return "${prefix}$newID/$image";
