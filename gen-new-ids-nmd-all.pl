@@ -72,6 +72,7 @@ my %years = (
 
     'Décès' => {
 	1793 => 1802,
+	# FIXME : we usually emit a hole here for years 1804-1806
 	1802 => 1822,
 	1823 => 1832,
 	1833 => 1842,
