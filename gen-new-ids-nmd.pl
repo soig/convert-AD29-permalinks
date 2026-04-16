@@ -6,6 +6,7 @@ use Data::Dumper;
 use File::Temp qw(tempfile);
 use Getopt::Long;
 use HTML::TableExtract;
+use Scalar::Util qw(looks_like_number);
 
 my $nowarn;
 GetOptions('no-warning' => \$nowarn);
@@ -69,7 +70,8 @@ foreach my $row ($table->rows) {
     if ($link) {
 	($link) = $link =~ m!<a href="(/ark[^"]*)"!;
 	#eg: "	1917 => '1373293',		# Naissances Spezet  3 E 348 49 1	1917"
-	print "	'$year' => '$ark',            # $type $commune $id ($desc)\n";
+	$year = "'$year'" if !looks_like_number($year);
+	print "	$year => '$ark',            # $type $commune $id ($desc)\n";
     } else {
 	# print hash opening with comment (note that one element will be off b/c AD29 badly sort):
 	my @oldid = split(' ', $id);
