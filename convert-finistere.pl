@@ -853,6 +853,15 @@ sub process {
 	return;
     }
     my $newID = $convert{$id};
+
+    # I've _one_ URL out of thousands that has an issue b/c it's different from all other: here the year is encoded as "/YEAR/" :
+    # https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E042/3E042_0012/AN11/?img=FRAD029_3E042_0012_00N_AN11_016.jpg
+    # Add a special case for it:
+    if ($id =~ /^AN[0-9]+/) {
+	(my $id2, $image) = m![^/]*/([^/?]*)/AN[0-9]+/?\?(img=.*)\.jpg$!;
+	$newID = $convert{$id2}{$id};
+    }
+
     # Special case for registers that has beep split per year (and thus share the same ID):
     if (ref($newID)) {
 	my ($year) = /s=FRAD029_[^_]+_[^_]+_[^_]+_(\d\d\d\d)_001.jpg/;
