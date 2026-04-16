@@ -147,6 +147,19 @@ my %convert = (
         '1808' => '1277506',            # Décès Cléden-Poher 3 E 42/29/6 (1808)
         '1809' => '1277507',            # Décès Cléden-Poher 3 E 42/29/7 (1809)
         '1810' => '1277508',            # Décès Cléden-Poher 3 E 42/29/8 (1810)
+        '1811' => '1277509',            # Décès Cléden-Poher 3 E 42/29/9 (1811)
+        '1812' => '1277510',            # Décès Cléden-Poher 3 E 42/29/10 (1812)
+        '1813' => '1277511',            # Décès Cléden-Poher 3 E 42/29/11 (1813)
+        '1814' => '1277512',            # Décès Cléden-Poher 3 E 42/29/12 (1814)
+        '1815' => '1277513',            # Décès Cléden-Poher 3 E 42/29/13 (1815)
+        '1816' => '1277514',            # Décès Cléden-Poher 3 E 42/29/14 (1816)
+        '1817' => '1277515',            # Décès Cléden-Poher 3 E 42/29/15 (1817)
+        '1818' => '1277516',            # Décès Cléden-Poher 3 E 42/29/16 (1818)
+        '1819' => '1277517',            # Décès Cléden-Poher 3 E 42/29/17 (1819)
+        '1820' => '1277518',            # Décès Cléden-Poher 3 E 42/29/18 (1820)
+        '1820' => '1277518',            # Décès Cléden-Poher 3 E 42/29/18 (1820)
+        '1821' => '1277519',            # Décès Cléden-Poher 3 E 42/29/19 (1821)
+        '1822' => '1277520',            # Décès Cléden-Poher 3 E 42/29/20 (1822)
     },
 
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
