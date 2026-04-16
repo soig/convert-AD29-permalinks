@@ -553,7 +553,7 @@ my %convert = (
         1862 => '1301912',              # Naissance Kergloff 3 E 106/8/10 (1862)
     },
 
-    '3E106_0009' => {                   # Naissance Kergloff 3 E 106 9   1863-1869"
+    '3E106_0009' => {                   # Naissance Kergloff 3 E 106 9   1863-1869
         1863 => '1301914',              # Naissance Kergloff 3 E 106/9/1 (1863)
         1864 => '1301915',              # Naissance Kergloff 3 E 106/9/2 (1864)
         1865 => '1301916',              # Naissance Kergloff 3 E 106/9/3 (1865)
@@ -706,7 +706,7 @@ my %convert = (
 	1896 => '1301949',              # Naissance Kergloff 3 E 106/25/15 (1896)
     },
 
-    '3E106_0026' => {			# Décès Kergloff 3 E 106 26   1885-1901"
+    '3E106_0026' => {			# Décès Kergloff 3 E 106 26   1885-1901
 	1885   => '1302245',            # Décès Kergloff 3 E 106/26/1 (1885)
 	1886   => '1302246',            # Décès Kergloff 3 E 106/26/2 (1886)
 	1887   => '1302247',            # Décès Kergloff 3 E 106/26/3 (1887)
