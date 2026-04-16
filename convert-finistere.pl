@@ -552,8 +552,83 @@ my %convert = (
         '1862' => '1301912',            # Naissance Kergloff 3 E 106/8/10 (1862)
     },
 
+    '3E106_0009' => {                   # Naissance Kergloff 3 E 106 9   1863-1869"
+        '1863' => '1301914',            # Naissance Kergloff 3 E 106/9/1 (1863)
+        '1864' => '1301915',            # Naissance Kergloff 3 E 106/9/2 (1864)
+        '1865' => '1301916',            # Naissance Kergloff 3 E 106/9/3 (1865)
+        '1866' => '1301917',            # Naissance Kergloff 3 E 106/9/4 (1866)
+        '1867' => '1301918',            # Naissance Kergloff 3 E 106/9/5 (1867)
+        '1868' => '1301919',            # Naissance Kergloff 3 E 106/9/6 (1868)
+        '1869' => '1301920',            # Naissance Kergloff 3 E 106/9/7 (1869)
+    },
+
+    '3E106_0010' => {			# Naissance Kergloff 3 E 106 10   1870-1881
+	'1870' => '1301922',            # Naissance Kergloff 3 E 106/10/1 (1870)
+	'1871' => '1301923',            # Naissance Kergloff 3 E 106/10/2 (1871)
+	'1872' => '1301924',            # Naissance Kergloff 3 E 106/10/3 (1872)
+	'1873' => '1301925',            # Naissance Kergloff 3 E 106/10/4 (1873)
+	'1874' => '1301926',            # Naissance Kergloff 3 E 106/10/5 (1874)
+	'1875' => '1301927',            # Naissance Kergloff 3 E 106/10/6 (1875)
+	'1876' => '1301928',            # Naissance Kergloff 3 E 106/10/7 (1876)
+	'1877' => '1301929',            # Naissance Kergloff 3 E 106/10/8 (1877)
+	'1878' => '1301930',            # Naissance Kergloff 3 E 106/10/9 (1878)
+	'1879' => '1301931',            # Naissance Kergloff 3 E 106/10/10 (1879)
+	'1880' => '1301932',            # Naissance Kergloff 3 E 106/10/11 (1880)
+	'1881' => '1301933',            # Naissance Kergloff 3 E 106/10/12 (1881)
+    },
+
+    '3E106_0025' => {			# Naissance Kergloff 3 E 106 25   1882-1896
+	'1882' => '1301935',            # Naissance Kergloff 3 E 106/25/1 (1882)
+	'1883' => '1301936',            # Naissance Kergloff 3 E 106/25/2 (1883)
+	'1884' => '1301937',            # Naissance Kergloff 3 E 106/25/3 (1884)
+	'1885' => '1301938',            # Naissance Kergloff 3 E 106/25/4 (1885)
+	'1886' => '1301939',            # Naissance Kergloff 3 E 106/25/5 (1886)
+	'1887' => '1301940',            # Naissance Kergloff 3 E 106/25/6 (1887)
+	'1888' => '1301941',            # Naissance Kergloff 3 E 106/25/7 (1888)
+	'1889' => '1301942',            # Naissance Kergloff 3 E 106/25/8 (1889)
+	'1890' => '1301943',            # Naissance Kergloff 3 E 106/25/9 (1890)
+	'1891' => '1301944',            # Naissance Kergloff 3 E 106/25/10 (1891)
+	'1892' => '1301945',            # Naissance Kergloff 3 E 106/25/11 (1892)
+	'1893' => '1301946',            # Naissance Kergloff 3 E 106/25/12 (1893)
+	'1894' => '1301947',            # Naissance Kergloff 3 E 106/25/13 (1894)
+	'1895' => '1301948',            # Naissance Kergloff 3 E 106/25/14 (1895)
+	'1896' => '1301949',            # Naissance Kergloff 3 E 106/25/15 (1896)
+    },
+
+    '3E106_0028' => {			# Naissance Kergloff 3 E 106 28   1897-1908
+	'1897' => '1301951',            # Naissance Kergloff 3 E 106/28/1 (1897)
+	'1898' => '1301952',            # Naissance Kergloff 3 E 106/28/2 (1898)
+	'1899' => '1301953',            # Naissance Kergloff 3 E 106/28/3 (1899)
+	'1900' => '1301954',            # Naissance Kergloff 3 E 106/28/4 (1900)
+	'1901' => '1301955',            # Naissance Kergloff 3 E 106/28/5 (1901)
+	'1902' => '1301956',            # Naissance Kergloff 3 E 106/28/6 (1902)
+	'1903' => '1301957',            # Naissance Kergloff 3 E 106/28/7 (1903)
+	'1904' => '1301958',            # Naissance Kergloff 3 E 106/28/8 (1904)
+	'1904' => '1301958',            # Naissance Kergloff 3 E 106/28/8 (1904)
+	'1905' => '1301959',            # Naissance Kergloff 3 E 106/28/9 (1905)
+	'1906' => '1301960',            # Naissance Kergloff 3 E 106/28/10 (1906)
+	'1907' => '1301961',            # Naissance Kergloff 3 E 106/28/11 (1907)
+	'1908' => '1301962',            # Naissance Kergloff 3 E 106/28/12 (1908)
+    },
+
+    '3E106_0029' => {			# Naissance Kergloff 3 E 106 29   1909-1920
+	'1909' => '1301964',            # Naissance Kergloff 3 E 106/29/1 (1909)
+	'1910' => '1301965',            # Naissance Kergloff 3 E 106/29/2 (1910)
+	'1911' => '1301966',            # Naissance Kergloff 3 E 106/29/3 (1911)
+	'1912' => '1301967',            # Naissance Kergloff 3 E 106/29/4 (1912)
+	'1913' => '1301968',            # Naissance Kergloff 3 E 106/29/5 (1913)
+	'1914' => '1301969',            # Naissance Kergloff 3 E 106/29/6 (1914)
+	'1915' => '1301970',            # Naissance Kergloff 3 E 106/29/7 (1915)
+	'1916' => '1301971',            # Naissance Kergloff 3 E 106/29/8 (1916)
+	'1917' => '1301972',            # Naissance Kergloff 3 E 106/29/9 (1917)
+	'1918' => '1301973',            # Naissance Kergloff 3 E 106/29/10 (1918)
+	'1919' => '1301974',            # Naissance Kergloff 3 E 106/29/11 (1919)
+	'1920' => '1301975',            # Naissance Kergloff 3 E 106/29/12 (1920)
+    },
 
     '3E106_0030' => {                   # Naissance Kergloff 3 E 106 30   1923-1941
+	'1921' => '1301977',            # Naissance Kergloff 3 E 106/30/1 (1921)
+	'1922' => '1301978',            # Naissance Kergloff 3 E 106/30/2 (1922)
         '1923' => '1301979',            # Naissance Kergloff 3 E 106/30/3 (1923)
         '1924' => '1301980',            # Naissance Kergloff 3 E 106/30/4 (1924)
         '1925' => '1301981',            # Naissance Kergloff 3 E 106/30/5 (1925)
