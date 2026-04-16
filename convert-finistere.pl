@@ -464,6 +464,102 @@ my %convert = (
         '1936' => '1277644',            # Décès Cléden-Poher 3 E 42/46/15 (1936)
     },
 
+    # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Kergloff+%28Finist%C3%A8re%29%7C&REch_commune_Md5=b514c4417f09b16bf87e6d3adcf13473%7C&Rech_typologie%5B0%5D=Naissance&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil
+
+    '3E106_0004' => {                   # Naissance Kergloff 3 E 106 4   1793-1810"
+        'AN02' => '1301840',            # Naissance Kergloff 3 E 106/4/1 (1793 - an II)
+        'AN03' => '1301841',            # Naissance Kergloff 3 E 106/4/2 (an III)
+        'AN04' => '1301842',            # Naissance Kergloff 3 E 106/4/3 (an IV)
+        'AN05' => '1301843',            # Naissance Kergloff 3 E 106/4/4 (an V)
+        'AN06' => '1301844',            # Naissance Kergloff 3 E 106/4/5 (an VI)
+        'AN07' => '1301845',            # Naissance Kergloff 3 E 106/4/6 (an VII)
+        'AN08' => '1301846',            # Naissance Kergloff 3 E 106/4/7 (an VIII)
+        'AN09' => '1301847',            # Naissance Kergloff 3 E 106/4/8 (an IX)
+        'AN10' => '1301848',            # Naissance Kergloff 3 E 106/4/9 (an X)
+        'AN11' => '1301849',            # Naissance Kergloff 3 E 106/4/10 (an XI)
+        'AN12' => '1301850',            # Naissance Kergloff 3 E 106/4/11 (an XII)
+        'AN13' => '1301851',            # Naissance Kergloff 3 E 106/4/12 (an XIII)
+        'AN14' => '1301852',            # Naissance Kergloff 3 E 106/4/13 (an XIV - 1806)
+        '1807' => '1301853',            # Naissance Kergloff 3 E 106/4/14 (1807)
+        '1808' => '1301854',            # Naissance Kergloff 3 E 106/4/15 (1808)
+        '1809' => '1301855',            # Naissance Kergloff 3 E 106/4/16 (1809)
+        '1810' => '1301856',            # Naissance Kergloff 3 E 106/4/17 (1810)
+        '1811' => '1301857',            # Naissance Kergloff 3 E 106/4/18 (1811)
+    },
+
+    '3E106_0005' => {                   # Naissance Kergloff 3 E 106 5   1812-1832"
+        '1812' => '1301859',            # Naissance Kergloff 3 E 106/5/1 (1812)
+        '1813' => '1301860',            # Naissance Kergloff 3 E 106/5/2 (1813)
+        '1814' => '1301861',            # Naissance Kergloff 3 E 106/5/3 (1814)
+        '1815' => '1301862',            # Naissance Kergloff 3 E 106/5/4 (1815)
+        '1816' => '1301863',            # Naissance Kergloff 3 E 106/5/5 (1816)
+        '1817' => '1301864',            # Naissance Kergloff 3 E 106/5/6 (1817)
+        '1818' => '1301865',            # Naissance Kergloff 3 E 106/5/7 (1818)
+        '1819' => '1301866',            # Naissance Kergloff 3 E 106/5/8 (1819)
+        '1820' => '1301867',            # Naissance Kergloff 3 E 106/5/9 (1820)
+        '1821' => '1301868',            # Naissance Kergloff 3 E 106/5/10 (1821)
+        '1822' => '1301869',            # Naissance Kergloff 3 E 106/5/11 (1822)
+        '1823' => '1301870',            # Naissance Kergloff 3 E 106/5/12 (1823)
+        '1824' => '1301871',            # Naissance Kergloff 3 E 106/5/13 (1824)
+        '1825' => '1301872',            # Naissance Kergloff 3 E 106/5/14 (1825)
+        '1825' => '1301872',            # Naissance Kergloff 3 E 106/5/14 (1825)
+        '1826' => '1301873',            # Naissance Kergloff 3 E 106/5/15 (1826)
+        '1827' => '1301874',            # Naissance Kergloff 3 E 106/5/16 (1827)
+        '1828' => '1301875',            # Naissance Kergloff 3 E 106/5/17 (1828)
+        '1829' => '1301876',            # Naissance Kergloff 3 E 106/5/18 (1829)
+        '1830' => '1301877',            # Naissance Kergloff 3 E 106/5/19 (1830)
+        '1831' => '1301878',            # Naissance Kergloff 3 E 106/5/20 (1831)
+        '1832' => '1301879',            # Naissance Kergloff 3 E 106/5/21 (1832)
+    },
+
+    '3E106_0006' => {                   # Naissance Kergloff 3 E 106 6   1833-1842"
+        '1833' => '1301881',            # Naissance Kergloff 3 E 106/6/1 (1833)
+        '1834' => '1301882',            # Naissance Kergloff 3 E 106/6/2 (1834)
+        '1835' => '1301883',            # Naissance Kergloff 3 E 106/6/3 (1835)
+        '1836' => '1301884',            # Naissance Kergloff 3 E 106/6/4 (1836)
+        '1837' => '1301885',            # Naissance Kergloff 3 E 106/6/5 (1837)
+        '1838' => '1301886',            # Naissance Kergloff 3 E 106/6/6 (1838)
+        '1839' => '1301887',            # Naissance Kergloff 3 E 106/6/7 (1839)
+        '1840' => '1301888',            # Naissance Kergloff 3 E 106/6/8 (1840)
+        '1841' => '1301889',            # Naissance Kergloff 3 E 106/6/9 (1841)
+        '1842' => '1301890',            # Naissance Kergloff 3 E 106/6/10 (1842)
+    },
+
+    '3E106_0007' => {                   # Naissance Kergloff 3 E 106 7   1843-1852"
+        '1843' => '1301892',            # Naissance Kergloff 3 E 106/7/1 (1843)
+        '1844' => '1301893',            # Naissance Kergloff 3 E 106/7/2 (1844)
+        '1845' => '1301894',            # Naissance Kergloff 3 E 106/7/3 (1845)
+        '1846' => '1301895',            # Naissance Kergloff 3 E 106/7/4 (1846)
+        '1847' => '1301896',            # Naissance Kergloff 3 E 106/7/5 (1847)
+        '1848' => '1301897',            # Naissance Kergloff 3 E 106/7/6 (1848)
+        '1849' => '1301898',            # Naissance Kergloff 3 E 106/7/7 (1849)
+        '1850' => '1301899',            # Naissance Kergloff 3 E 106/7/8 (1850)
+        '1851' => '1301900',            # Naissance Kergloff 3 E 106/7/9 (1851)
+        '1852' => '1301901',            # Naissance Kergloff 3 E 106/7/10 (1852)
+        '1853' => '1301903',            # Naissance Kergloff 3 E 106/8/1 (1853)
+    },
+
+    '3E106_0008' => {                   # Naissance Kergloff 3 E 106 8   <YEARS TO FILL>"
+        '1853' => '1301903',            # Naissance Kergloff 3 E 106/8/1 (1853)
+        '1854' => '1301904',            # Naissance Kergloff 3 E 106/8/2 (1854)
+        '1855' => '1301905',            # Naissance Kergloff 3 E 106/8/3 (1855)
+        '1856' => '1301906',            # Naissance Kergloff 3 E 106/8/4 (1856)
+        '1857' => '1301907',            # Naissance Kergloff 3 E 106/8/5 (1857)
+        '1858' => '1301908',            # Naissance Kergloff 3 E 106/8/6 (1858)
+        '1859' => '1301909',            # Naissance Kergloff 3 E 106/8/7 (1859)
+        '1860' => '1301910',            # Naissance Kergloff 3 E 106/8/8 (1860)
+        '1861' => '1301911',            # Naissance Kergloff 3 E 106/8/9 (1861)
+        '1862' => '1301912',            # Naissance Kergloff 3 E 106/8/10 (1862)
+        '1863' => '1301914',            # Naissance Kergloff 3 E 106/9/1 (1863)
+    },
+
+
+    '3E106_0030' => {                   # Naissance Kergloff 3 E 106 30   1923-1941"
+        '1923' => '1301979',            # Naissance Kergloff 3 E 106/30/3 (1923)
+        '1924' => '1301980',            # Naissance Kergloff 3 E 106/30/4 (1924)
+        '1925' => '1301981',            # Naissance Kergloff 3 E 106/30/5 (1925)
+    },
+
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
