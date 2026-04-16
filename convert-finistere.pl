@@ -74,6 +74,7 @@ my %convert = (
     '3E037_0010' => '652184.1275545',	# Sép Carhaix  3 E 37/10	1767-1780
     '3E037_0011' => '652185.1275546',	# Sép Carhaix  3 E 37/11	1781-1792
     #'3E037_0012' => '',			# Naissances Carhaix  3 E 37/12	1793-an X	Pas numérisé
+
     '3E042_0001' => '652429.1277165',	# BMS Cleden-Poher 3 E 42 1	1694-1712
     '3E042_0002' => '652430.1277166',	# BMS Cleden-Poher 3 E 42 2	1713-1730
     '3E042_0003' => '652431.1277167',	# BMS Cleden-Poher 3 E 42 3	1730-1746
@@ -84,9 +85,12 @@ my %convert = (
     '3E042_0008' => '652436.1277174',	# Sép Cleden-Poher 3 E 42 8	1753-1766
     '3E042_0009' => '652437.1277175',	# Sép Cleden-Poher 3 E 42 9	1767-1780
     '3E042_0010' => '652438.1277176',	# Sép Cleden-Poher 3 E 42 10	1781-1792
+
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
+
     '3E212_0002' => '658571.1332282',	# BM  Plonéis  3 E 212 2	1749-1774
     '3E212_0003' => '658572.1332283',	# BM  Plonéis  3 E 212 3	1775-1792
+
     '3E212_0004' => '658573.1332285',	# Sép Plonéis  3 E 212 4	1749-1792
     '3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4
     '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
@@ -111,6 +115,7 @@ my %convert = (
 	'AN09' => '1277186',            # Naissance Cléden-Poher 3 E 42/11/8 (an IX)
 	'AN10' => '1277187',            # Naissance Cléden-Poher 3 E 42/11/9 (an X)
     },
+
     '3E042_0012' => {			# Naissances Cleden-Poher  3 E 42 12		an 11 - 1810
 	# FIXME: à part l'an 12, je n'ai pas d'autres actes pour lesquels vérifier la conversion
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
@@ -137,6 +142,7 @@ my %convert = (
         'AN09' => '1277498',            # Décès Cléden-Poher 3 E 42/28/8 (an IX)
         'AN10' => '1277499',            # Décès Cléden-Poher 3 E 42/28/9 (an X)
     },
+
     '3E042_0029' => {	    # Décès Cléden-Poher  3 E 42 29             an XI - 1810
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
         'AN11' => '1277501',            # Décès Cléden-Poher 3 E 42/29/1 (an XI)
@@ -192,6 +198,7 @@ my %convert = (
 	1811 => '1373174',
 	1812 => '1373175',
     },
+
     '3E348_0014' => {			# Naissances Spezet  3 E 348 14		1813-1822
 	1813 => '1373177',		# Naissances Spezet  3 E 348 14 1	1813
 	1814 => '1373178',
@@ -204,6 +211,7 @@ my %convert = (
 	1821 => '1373185',
 	1822 => '1373186',
     },
+
     '3E348_0016' => {			# Naissances Spezet  3 E 348 16		1833-1842
 	1833 => '1373199',		# Naissances Spezet  3 E 348 16 1	1833
 	1834 => '1373200',
@@ -216,7 +224,9 @@ my %convert = (
 	1841 => '1373207',
 	1842 => '1373208',
     },
+
     # Unused in my tree:1843-1852
+
     '3E348_0018' => {			# Naissances Spezet  3 E 348 18		1853-1862
 	1853 => '1373221',		# Naissances Spezet  3 E 348 18 1	1853
 	1854 => '1373222',
@@ -240,6 +250,7 @@ my %convert = (
 	1876 => '1373246',
 	1877 => '1373247',
     },
+
     '3E348_0021' => {			# Naissances Spezet  3 E 348 21		1878-1886
 	# Unused in my tree
 	1878 => '1373249',		# Naissances Spezet  3 E 348 21 1	1878
@@ -252,6 +263,7 @@ my %convert = (
 	1885 => '1373256',
 	1886 => '1373257',
     },
+
     '3E348_0041' => {			# Naissances Spezet  3 E 348 41		1887-1895
 	1887 => '1373259',		# Naissances Spezet  3 E 348 41 1	1887
 	1888 => '1373260',
@@ -263,6 +275,7 @@ my %convert = (
 	1894 => '1373266',
 	1895 => '1373267',
     },
+
     '3E348_0044' => {			# Naissances Spezet  3 E 348 44		1896-1902
 	1896 => '1373269',		# Naissances Spezet  3 E 348 44 1	1896
 	1897 => '1373270',
@@ -272,6 +285,7 @@ my %convert = (
 	1901 => '1373274',
 	1902 => '1373275',
     },
+
     '3E348_0047' => {			# Naissances Spezet  3 E 348 47		1903-1909
 	1903 => '1373277',		# Naissances Spezet  3 E 348 47 1	1903
 	1904 => '1373278',
@@ -281,6 +295,7 @@ my %convert = (
 	1908 => '1373282',
 	1909 => '1373283',
     },
+
     '3E348_0048' => {			# Naissances Spezet  3 E 348 48		1910-1916
 	1910 => '1373285',		# Naissances Spezet  3 E 348 48 1	1910
 	1911 => '1373286',		# Naissances Spezet  3 E 348 48 2	1911
@@ -290,6 +305,7 @@ my %convert = (
 	1915 => '1373290',
 	1916 => '1373291',
     },
+
     '3E348_0049' => {			# Naissances Spezet  3 E 348 49		1917-1923
 	1917 => '1373293',		# Naissances Spezet  3 E 348 49 1	1917
 	1918 => '1373294',
@@ -299,6 +315,7 @@ my %convert = (
 	1922 => '1373298',
 	1923 => '1373299',
     },
+
     '3E348_0050' => {			# Naissances Spezet  3 E 348 50		1924-1929
 	1924 => '1373301',		# Naissances Spezet  3 E 348 50 1	1924
 	1925 => '1373302',
@@ -307,6 +324,7 @@ my %convert = (
 	1928 => '1373305',
 	1929 => '1373306',
     },
+
     '3E348_0051' => {			# Naissances Spezet  3 E 348 51		1930-1936
 	1930 => '1373308',		# Naissances Spezet  3 E 348 51 1	1930
 	1931 => '1373309',
@@ -316,6 +334,7 @@ my %convert = (
 	1935 => '1373313',
 	1936 => '1373314',
     },
+
     '3E348_0057' => {			# Décès      Spezet  3 E 348 57		1924-1936
 	1935 => '1373628',
 	1936 => '1373629',
@@ -338,6 +357,7 @@ my %convert = (
 	1882 =>	'1374404',
 	1883 =>	'1374405',
     },
+
     '3E348_0050' => {			# Naissances Spezet 3 E 348 50		1924-1929
 	1924 => '1373301',		# Naissances Spezet 3 E 348/50/1	1924
 	1925 => '1373302',
@@ -369,6 +389,7 @@ my %convert = (
 	'579' => '1140262', 		# Recensement Clédin-Poher 1872
 	'580' => '1140263', 		# Recensement Clédin-Poher 1876
     },
+
     '6M0210' => {			# Recensement Clédin-Poher
 	# I only have (and thus only tested) the 1936 in my tree:
 	'581' => '1140265', 		# Recensement Clédin-Poher 1881 (Note they jumped from 1140263 to 1140265)
@@ -383,11 +404,13 @@ my %convert = (
 	'590' => '1140274', 		# Recensement Clédin-Poher 1931
 	'591' => '1140275', 		# Recensement Clédin-Poher 1936
     },
+
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Kergloff%20(Finistère)|&RECH_commune_Md5=b514c4417f09b16bf87e6d3adcf13473|&type=recensements
     '6M0344' => {			# Recensement Kergloff
 	1728 => '1141602', 		# Recensement Kergloff 1881
 	1729 => '1141603',		# Recensement Kergloff 1886
     },
+
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
     '6M0763' => {			# Recensement Saint-Hernin
 	4821 => '1145228',		# Recensement Saint-Hernin 1836
@@ -399,16 +422,19 @@ my %convert = (
 	4827 => '1145234',		# Recensement Saint-Hernin 1866
 	4828 => '1145235',		# Recensement Saint-Hernin 1872
     },
+
     '6M0764' => {			# Recensement Saint-Hernin
 	# https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
 	4829 => '1145237',		# Recensement Saint-Hernin 1876
 	4830 => '1145238',		# Recensement Saint-Hernin 1881
     },
+
     # https://recherche.archives.finistere.fr/archive/resultats/recensements/tableau?RECH_commune_Libel=Scaër%20(Finist_re)|&RECH_commune_Md5=9c354717cc7a5c14e68227d48522db2a|&type=recensements
     '6M0819' => {
 	# I only have 1906 in my tree:
 	5278 => '1145763' 		# Recensement Scaer 1906
     },
+
     '6M0820' => {
 	5279 => '1145765', 		# Recensement Scaer 1911  (Note they jumped from 1145763 to 1145765)
 	# Pas de recensement à Scaer en 1921?
@@ -416,6 +442,7 @@ my %convert = (
 	5281 => '1145767', 		# Recensement Scaer 1931
 	5282 => '1145768', 		# Recensement Scaer 1936
     },
+
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Spézet%20(Finistère)|&RECH_commune_Md5=b6713734e42457b28f4773f547444ce7|&type=recensements
     '6M0833' => {			# Recensement Spézet
 	# I only have (and thus only tested) the 188X in my tree
