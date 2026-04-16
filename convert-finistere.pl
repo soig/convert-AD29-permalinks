@@ -111,7 +111,7 @@ my %convert = (
 	'AN09' => '1277186',            # Naissance Cléden-Poher 3 E 42/11/8 (an IX)
 	'AN10' => '1277187',            # Naissance Cléden-Poher 3 E 42/11/9 (an X)
     },
-    '3E042_0012' => {		# Naissances Cleden-Poher  3 E 42 12		an 11 - 1810
+    '3E042_0012' => {			# Naissances Cleden-Poher  3 E 42 12		an 11 - 1810
 	# FIXME: à part l'an 12, je n'ai pas d'autres actes pour lesquels vérifier la conversion
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
 	'AN11' => '1277189',            # Naissance Cléden-Poher 3 E 42/12/1 (an XI)
@@ -125,8 +125,7 @@ my %convert = (
     },
 
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=Cléden-Poher+(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[0]=Décès&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil&pagination_25
-    '3E042_0028' => {
-	# Décès Cléden-Poher  3 E 42 28             1793 - an X
+    '3E042_0028' => {			# Décès Cléden-Poher  3 E 42 28             1793 - an X
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
 	'AN02' => '1277491',            # Décès Cléden-Poher 3 E 42/28/1 (1793 - an II)
         'AN03' => '1277492',            # Décès Cléden-Poher 3 E 42/28/2 (an III)
