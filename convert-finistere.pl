@@ -502,7 +502,7 @@ sub substInFile(&@) {
 }
 
 
-# Sanitation check:
+# Sanitation check: Make sure that each old key translates to a unique key
 # TODO: would need to check subkeys too for registers split by year
 my %seen_keys;
 foreach my $key (keys %convert) {
