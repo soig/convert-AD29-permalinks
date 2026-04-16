@@ -67,8 +67,14 @@ foreach my $row ($table->rows) {
 	#eg: "	1917 => '1373293',		# Naissances Spezet  3 E 348 49 1	1917"
 	print "	'$year' => '$ark',            # $type $commune $id ($desc)\n";
     } else {
-	# print a comment:
-	print "    # $type $commune  $id		<YEARS TO FILL>\n";
+	# print hash opening with comment (note that one element will be off b/c AD29 badly sort):
+	my @oldid = split(' ', $id);
+	my $oldid = sprintf("%s%s%s_%04d", @oldid); # Ideally to doble check in old tree!
+	print qq(    },
+
+    '$oldid' => {			# $type $commune $id   <YEARS TO FILL>"
+);
+
     }
 }
 print qq(>> WARNING: ARK ID will be bogus for registers that are not split by years!
