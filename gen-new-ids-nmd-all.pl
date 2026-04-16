@@ -79,15 +79,15 @@ my %years = (
 	1853 => 1862,
 	1863 => 1872,
 	1870 => 1882,
-	1883 => 1892,
-	1897 => 1909,
+	1883 => 1895,
+	1896 => 1909,
 	1910 => 1921,
 	1922 => 1936,
     },
     );
 
 my $url = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=%s|&REch_commune_Md5=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&type=etatcivil&pagination_25";
-foreach my $type (qw(Naissance)) { #'Décès'
+foreach my $type (qw(Naissance Décès)) {
     my $years2 = $years{$type};
     foreach my $first (sort(keys %$years2)) {
 	my $end = $years2->{$first};

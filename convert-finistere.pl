@@ -349,7 +349,7 @@ my %convert = (
         1882 => '1277586',              # Décès Cléden-Poher 3 E 42/35/13 (1882)
     },
 
-    '3E042_0036' => {			# Décès Cléden-Poher 3 E 42 36   1883-1892
+    '3E042_0036' => {			# Décès Cléden-Poher 3 E 42 36   1883-1895
         1883 => '1277588',              # Décès Cléden-Poher 3 E 42/36/1 (1883)
         1884 => '1277589',              # Décès Cléden-Poher 3 E 42/36/2 (1884)
         1885 => '1277590',              # Décès Cléden-Poher 3 E 42/36/3 (1885)
@@ -381,7 +381,7 @@ my %convert = (
         1904 => '1277299',              # Naissance Cléden-Poher 3 E 42/40/1 (1904)
     },
 
-    '3E42_0039' => {                    # Décès Cléden-Poher 3 E 42 39   1897-1909
+    '3E42_0039' => {                    # Décès Cléden-Poher 3 E 42 39   1896-1909
         1896 => '1277602',              # Décès Cléden-Poher 3 E 42/39/1 (1896)
         1897 => '1277603',              # Décès Cléden-Poher 3 E 42/39/2 (1897)
         1898 => '1277604',              # Décès Cléden-Poher 3 E 42/39/3 (1898)
