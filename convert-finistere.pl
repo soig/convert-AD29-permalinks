@@ -162,6 +162,19 @@ my %convert = (
         '1822' => '1277520',            # Décès Cléden-Poher 3 E 42/29/20 (1822)
     },
 
+    '3E042_0030' => {			# Décès Cléden-Poher 3 E 42 30   1823-1832
+        '1823' => '1277522',            # Décès Cléden-Poher 3 E 42/30/1 (1823)
+        '1824' => '1277523',            # Décès Cléden-Poher 3 E 42/30/2 (1824)
+        '1825' => '1277524',            # Décès Cléden-Poher 3 E 42/30/3 (1825)
+        '1826' => '1277525',            # Décès Cléden-Poher 3 E 42/30/4 (1826)
+        '1827' => '1277526',            # Décès Cléden-Poher 3 E 42/30/5 (1827)
+        '1828' => '1277527',            # Décès Cléden-Poher 3 E 42/30/6 (1828)
+        '1829' => '1277528',            # Décès Cléden-Poher 3 E 42/30/7 (1829)
+        '1830' => '1277529',            # Décès Cléden-Poher 3 E 42/30/8 (1830)
+        '1831' => '1277530',            # Décès Cléden-Poher 3 E 42/30/9 (1831)
+        '1832' => '1277531',            # Décès Cléden-Poher 3 E 42/30/10 (1832)
+    },
+
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
