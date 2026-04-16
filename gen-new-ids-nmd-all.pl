@@ -1,6 +1,7 @@
 #!/bin/perl
 # Wrapper for emitting all in once for one commune : all births, mariages & deaths, grouped by register
 # FIXME : collect all data in a hash before outputing at once at the end? (less manual formating after)
+# FIXME: add options to select only N, M or D?
 
 my ($ville, $md5) = @ARGV;
 
@@ -68,6 +69,17 @@ my %years = (
     },
 
     'Mariage' => {
+	# FIXME: to split if too wide a span?
+	1793 => 1812,
+	1813 => 1832,
+	1833 => 1842,
+	1843 => 1852,
+	1853 => 1862,
+	1863 => 1869,
+	1870 => 1887,
+	1888 => 1903,
+	1904 => 1917,
+	1918 => 1925, # Technically 1919-1936 but later years weren't online on the old server
     },
 
     'Décès' => {
@@ -88,7 +100,7 @@ my %years = (
     );
 
 my $url = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=%s|&REch_commune_Md5=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&type=etatcivil&pagination_25";
-foreach my $type (qw(Naissance Décès)) {
+foreach my $type (qw(Naissance Mariage Décès)) {
     my $years2 = $years{$type};
     foreach my $first (sort(keys %$years2)) {
 	my $end = $years2->{$first};
