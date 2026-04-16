@@ -79,7 +79,7 @@ foreach my $row ($table->rows) {
 	my $oldid = sprintf("%s%s%s_%04d", @oldid); # Ideally to doble check in old tree!
 	print qq(    },
 
-    '$oldid' => {			# $type $commune $id   <YEARS TO FILL>"
+    '$oldid' => {			# $type $commune $id   <YEARS TO FILL>
 );
 
     }
