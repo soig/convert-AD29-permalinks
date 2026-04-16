@@ -4,7 +4,11 @@
 use strict;
 use Data::Dumper;
 use File::Temp qw(tempfile);
+use Getopt::Long;
 use HTML::TableExtract;
+
+my $nowarn;
+GetOptions('no-warning' => \$nowarn);
 
 my ($url) = @ARGV;
 
@@ -80,4 +84,4 @@ foreach my $row ($table->rows) {
 print qq(>> WARNING: ARK ID will be bogus for registers that are not split by years!
 In all cases you need the ID used in the old URL!
 For example if key is '1793 - an II', the real key from old URL is actually 'AN02' !
-);
+) if !$nowarn;
