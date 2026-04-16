@@ -69,8 +69,9 @@ foreach my $row ($table->rows) {
     my ($ark) = $link =~ m!/ark:/72506/([^/]+)/!;
     if ($link) {
 	($link) = $link =~ m!<a href="(/ark[^"]*)"!;
+	# emit quotes if republican years, else just add 2 spaces for padding if numerical:
 	#eg: "	1917 => '1373293',		# Naissances Spezet  3 E 348 49 1	1917"
-	$year = "'$year'" if !looks_like_number($year);
+	$year = looks_like_number($year) ? "$year  " : "'$year'";
 	print "	$year => '$ark',            # $type $commune $id ($desc)\n";
     } else {
 	# print hash opening with comment (note that one element will be off b/c AD29 badly sort):
