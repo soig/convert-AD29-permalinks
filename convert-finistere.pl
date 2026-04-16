@@ -508,7 +508,18 @@ my %convert = (
 	1842 => '1373208',
     },
 
-    # Unused in my tree:1843-1852
+    '3E348_0017' => {                   # Naissance Spézet 3 E 348 17   1843-1852
+        '1843' => '1373210',            # Naissance Spézet 3 E 348/17/1 (1843)
+        '1844' => '1373211',            # Naissance Spézet 3 E 348/17/2 (1844)
+        '1845' => '1373212',            # Naissance Spézet 3 E 348/17/3 (1845)
+        '1846' => '1373213',            # Naissance Spézet 3 E 348/17/4 (1846)
+        '1847' => '1373214',            # Naissance Spézet 3 E 348/17/5 (1847)
+        '1848' => '1373215',            # Naissance Spézet 3 E 348/17/6 (1848)
+        '1849' => '1373216',            # Naissance Spézet 3 E 348/17/7 (1849)
+        '1850' => '1373217',            # Naissance Spézet 3 E 348/17/8 (1850)
+        '1851' => '1373218',            # Naissance Spézet 3 E 348/17/9 (1851)
+        '1852' => '1373219',            # Naissance Spézet 3 E 348/17/10 (1852)
+    },
 
     '3E348_0018' => {			# Naissances Spezet  3 E 348 18		1853-1862
 	1853 => '1373221',		# Naissances Spezet  3 E 348 18 1	1853
