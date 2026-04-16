@@ -181,6 +181,46 @@ my %convert = (
         '1832' => '1277531',            # Décès Cléden-Poher 3 E 42/30/10 (1832)
     },
 
+    # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=Cléden-Poher+(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[0]=Décès&RECH_unitdate_debut=1833&RECH_unitdate_fin=1853&type=etatcivil&pagination_25
+    '3E042_0031' => {			# Décès Cléden-Poher 3 E 42 31   1833-1842
+        '1833' => '1277533',            # Décès Cléden-Poher 3 E 42/31/1 (1833)
+        '1834' => '1277534',            # Décès Cléden-Poher 3 E 42/31/2 (1834)
+        '1835' => '1277535',            # Décès Cléden-Poher 3 E 42/31/3 (1835)
+        '1836' => '1277536',            # Décès Cléden-Poher 3 E 42/31/4 (1836)
+        '1837' => '1277537',            # Décès Cléden-Poher 3 E 42/31/5 (1837)
+        '1838' => '1277538',            # Décès Cléden-Poher 3 E 42/31/6 (1838)
+        '1839' => '1277539',            # Décès Cléden-Poher 3 E 42/31/7 (1839)
+        '1840' => '1277540',            # Décès Cléden-Poher 3 E 42/31/8 (1840)
+        '1841' => '1277541',            # Décès Cléden-Poher 3 E 42/31/9 (1841)
+        '1842' => '1277542',            # Décès Cléden-Poher 3 E 42/31/10 (1842)
+    },
+
+    '3E042_0032' => {			# Décès Cléden-Poher 3 E 42 32   1843-1852
+        '1843' => '1277544',            # Décès Cléden-Poher 3 E 42/32/1 (1843)
+        '1844' => '1277545',            # Décès Cléden-Poher 3 E 42/32/2 (1844)
+        '1845' => '1277546',            # Décès Cléden-Poher 3 E 42/32/3 (1845)
+        '1846' => '1277547',            # Décès Cléden-Poher 3 E 42/32/4 (1846)
+        '1847' => '1277548',            # Décès Cléden-Poher 3 E 42/32/5 (1847)
+        '1848' => '1277549',            # Décès Cléden-Poher 3 E 42/32/6 (1848)
+        '1849' => '1277550',            # Décès Cléden-Poher 3 E 42/32/7 (1849)
+        '1850' => '1277551',            # Décès Cléden-Poher 3 E 42/32/8 (1850)
+        '1851' => '1277552',            # Décès Cléden-Poher 3 E 42/32/9 (1851)
+        '1852' => '1277553',            # Décès Cléden-Poher 3 E 42/32/10 (1852)
+    },
+
+    '3E042_0033' => {			# Décès Cléden-Poher 3 E 42 33   1853-1862
+        '1853' => '1277555',            # Décès Cléden-Poher 3 E 42/33/1 (1853)
+        '1854' => '1277556',            # Décès Cléden-Poher 3 E 42/33/2 (1854)
+        '1855' => '1277557',            # Décès Cléden-Poher 3 E 42/33/3 (1855)
+        '1856' => '1277558',            # Décès Cléden-Poher 3 E 42/33/4 (1856)
+        '1857' => '1277559',            # Décès Cléden-Poher 3 E 42/33/5 (1857)
+        '1858' => '1277560',            # Décès Cléden-Poher 3 E 42/33/6 (1858)
+        '1859' => '1277561',            # Décès Cléden-Poher 3 E 42/33/7 (1859)
+        '1860' => '1277562',            # Décès Cléden-Poher 3 E 42/33/8 (1860)
+        '1861' => '1277563',            # Décès Cléden-Poher 3 E 42/33/9 (1861)
+        '1862' => '1277564',            # Décès Cléden-Poher 3 E 42/33/10 (1862)
+    },
+
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
