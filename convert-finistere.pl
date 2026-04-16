@@ -1044,7 +1044,7 @@ sub process {
 	    # https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M05/6M0833?s=FRAD029_6M_0833_06_000001.jpg&e=FRAD029_6M_0833_06_000062.jpg&img=FRAD029_6M_0833_06_000034.jpg&levelDescription=FRAD029_00000006M_pa-5362 (1936)
 	    $newID = $newID->{$subID};
 	} else {
-	    warn ">> Failed to parse '$_'\n";
+	    warn ">> Failed to parse: ID=$id, $newID=$newID, URL='$_'\n";
 	}
     }
     if (!$newID) {
