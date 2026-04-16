@@ -578,6 +578,119 @@ my %convert = (
 	1881 => '1301933',              # Naissance Kergloff 3 E 106/10/12 (1881)
     },
 
+    '3E106_0011' => {			# Mariage Kergloff 3 E 106 11   1793-1812
+	'AN02' => '1301995',            # Mariage Kergloff 3 E 106/11/1 (1793 - an II)
+	'AN03' => '1301996',            # Mariage Kergloff 3 E 106/11/2 (an III)
+	'AN04' => '1301997',            # Mariage Kergloff 3 E 106/11/3 (an IV)
+	'AN05' => '1301998',            # Mariage Kergloff 3 E 106/11/4 (an V)
+	'AN06' => '1301999',            # Mariage Kergloff 3 E 106/11/5 (an VI)
+	'AN09' => '1302000',            # Mariage Kergloff 3 E 106/11/6 (an IX)
+	'AN10' => '1302001',            # Mariage Kergloff 3 E 106/11/7 (an X)
+	'AN11' => '1302002',            # Mariage Kergloff 3 E 106/11/8 (an XI)
+	'AN12' => '1302003',            # Mariage Kergloff 3 E 106/11/9 (an XII)
+	'AN13' => '1302004',            # Mariage Kergloff 3 E 106/11/10 (an XIII)
+	'AN14' => '1302005',            # Mariage Kergloff 3 E 106/11/11 (an XIV - 1806)
+	1807   => '1302006',            # Mariage Kergloff 3 E 106/11/12 (1807)
+	1808   => '1302007',            # Mariage Kergloff 3 E 106/11/13 (1808)
+	1809   => '1302008',            # Mariage Kergloff 3 E 106/11/14 (1809)
+	1810   => '1302009',            # Mariage Kergloff 3 E 106/11/15 (1810)
+	1811   => '1302010',            # Mariage Kergloff 3 E 106/11/16 (1811)
+	1812   => '1302011',            # Mariage Kergloff 3 E 106/11/17 (1812)
+    },
+
+    '3E106_0012' => {			# Mariage Kergloff 3 E 106 12   1813-1832
+	1813   => '1302013',            # Mariage Kergloff 3 E 106/12/1 (1813)
+	1814   => '1302014',            # Mariage Kergloff 3 E 106/12/2 (1814)
+	1815   => '1302015',            # Mariage Kergloff 3 E 106/12/3 (1815)
+	1816   => '1302016',            # Mariage Kergloff 3 E 106/12/4 (1816)
+	1817   => '1302017',            # Mariage Kergloff 3 E 106/12/5 (1817)
+	1818   => '1302018',            # Mariage Kergloff 3 E 106/12/6 (1818)
+	1819   => '1302019',            # Mariage Kergloff 3 E 106/12/7 (1819)
+	1820   => '1302020',            # Mariage Kergloff 3 E 106/12/8 (1820)
+	1821   => '1302021',            # Mariage Kergloff 3 E 106/12/9 (1821)
+	1822   => '1302022',            # Mariage Kergloff 3 E 106/12/10 (1822)
+	1823   => '1302023',            # Mariage Kergloff 3 E 106/12/11 (1823)
+	1824   => '1302024',            # Mariage Kergloff 3 E 106/12/12 (1824)
+	1825   => '1302025',            # Mariage Kergloff 3 E 106/12/13 (1825)
+	1826   => '1302026',            # Mariage Kergloff 3 E 106/12/14 (1826)
+	1827   => '1302027',            # Mariage Kergloff 3 E 106/12/15 (1827)
+	1828   => '1302028',            # Mariage Kergloff 3 E 106/12/16 (1828)
+	1829   => '1302029',            # Mariage Kergloff 3 E 106/12/17 (1829)
+	1830   => '1302030',            # Mariage Kergloff 3 E 106/12/18 (1830)
+	1831   => '1302031',            # Mariage Kergloff 3 E 106/12/19 (1831)
+        1832   => '1302032',            # Mariage Kergloff 3 E 106/12/20 (1832)
+    },
+
+    '3E106_0013' => {			# Mariage Kergloff 3 E 106 13   1833-1842
+	1833   => '1302034',            # Mariage Kergloff 3 E 106/13/1 (1833)
+	1834   => '1302035',            # Mariage Kergloff 3 E 106/13/2 (1834)
+	1835   => '1302036',            # Mariage Kergloff 3 E 106/13/3 (1835)
+	1836   => '1302037',            # Mariage Kergloff 3 E 106/13/4 (1836)
+	1837   => '1302038',            # Mariage Kergloff 3 E 106/13/5 (1837)
+	1838   => '1302039',            # Mariage Kergloff 3 E 106/13/6 (1838)
+	1839   => '1302040',            # Mariage Kergloff 3 E 106/13/7 (1839)
+	1840   => '1302041',            # Mariage Kergloff 3 E 106/13/8 (1840)
+	1841   => '1302042',            # Mariage Kergloff 3 E 106/13/9 (1841)
+	1842   => '1302043',            # Mariage Kergloff 3 E 106/13/10 (1842)
+    },
+
+    '3E106_0014' => {			# Mariage Kergloff 3 E 106 14   1843-1852
+	1843   => '1302045',            # Mariage Kergloff 3 E 106/14/1 (1843)
+	1844   => '1302046',            # Mariage Kergloff 3 E 106/14/2 (1844)
+	1845   => '1302047',            # Mariage Kergloff 3 E 106/14/3 (1845)
+	1846   => '1302048',            # Mariage Kergloff 3 E 106/14/4 (1846)
+	1847   => '1302049',            # Mariage Kergloff 3 E 106/14/5 (1847)
+	1848   => '1302050',            # Mariage Kergloff 3 E 106/14/6 (1848)
+	1849   => '1302051',            # Mariage Kergloff 3 E 106/14/7 (1849)
+	1850   => '1302052',            # Mariage Kergloff 3 E 106/14/8 (1850)
+	1851   => '1302053',            # Mariage Kergloff 3 E 106/14/9 (1851)
+	1852   => '1302054',            # Mariage Kergloff 3 E 106/14/10 (1852)
+    },
+
+    '3E106_0015' => {			# Mariage Kergloff 3 E 106 15   1853-1862
+	1853   => '1302056',            # Mariage Kergloff 3 E 106/15/1 (1853)
+	1854   => '1302057',            # Mariage Kergloff 3 E 106/15/2 (1854)
+	1855   => '1302058',            # Mariage Kergloff 3 E 106/15/3 (1855)
+	1856   => '1302059',            # Mariage Kergloff 3 E 106/15/4 (1856)
+	1857   => '1302060',            # Mariage Kergloff 3 E 106/15/5 (1857)
+	1858   => '1302061',            # Mariage Kergloff 3 E 106/15/6 (1858)
+	1859   => '1302062',            # Mariage Kergloff 3 E 106/15/7 (1859)
+	1860   => '1302063',            # Mariage Kergloff 3 E 106/15/8 (1860)
+	1861   => '1302064',            # Mariage Kergloff 3 E 106/15/9 (1861)
+	1862   => '1302065',            # Mariage Kergloff 3 E 106/15/10 (1862)
+    },
+
+    '3E106_0016' => {			# Mariage Kergloff 3 E 106 16   1863-1869
+	1863   => '1302067',            # Mariage Kergloff 3 E 106/16/1 (1863)
+	1864   => '1302068',            # Mariage Kergloff 3 E 106/16/2 (1864)
+	1865   => '1302069',            # Mariage Kergloff 3 E 106/16/3 (1865)
+	1866   => '1302070',            # Mariage Kergloff 3 E 106/16/4 (1866)
+	1867   => '1302071',            # Mariage Kergloff 3 E 106/16/5 (1867)
+	1868   => '1302072',            # Mariage Kergloff 3 E 106/16/6 (1868)
+	1869   => '1302073',            # Mariage Kergloff 3 E 106/16/7 (1869)
+    },
+
+    '3E106_0017' => {			# Mariage Kergloff 3 E 106 17   1870-1887
+	1870   => '1302075',            # Mariage Kergloff 3 E 106/17/1 (1870)
+	1871   => '1302076',            # Mariage Kergloff 3 E 106/17/2 (1871)
+	1872   => '1302077',            # Mariage Kergloff 3 E 106/17/3 (1872)
+	1873   => '1302078',            # Mariage Kergloff 3 E 106/17/4 (1873)
+	1874   => '1302079',            # Mariage Kergloff 3 E 106/17/5 (1874)
+	1875   => '1302080',            # Mariage Kergloff 3 E 106/17/6 (1875)
+	1876   => '1302081',            # Mariage Kergloff 3 E 106/17/7 (1876)
+	1877   => '1302082',            # Mariage Kergloff 3 E 106/17/8 (1877)
+	1878   => '1302083',            # Mariage Kergloff 3 E 106/17/9 (1878)
+	1879   => '1302084',            # Mariage Kergloff 3 E 106/17/10 (1879)
+	1880   => '1302085',            # Mariage Kergloff 3 E 106/17/11 (1880)
+	1881   => '1302086',            # Mariage Kergloff 3 E 106/17/12 (1881)
+	1882   => '1302087',            # Mariage Kergloff 3 E 106/17/13 (1882)
+	1883   => '1302088',            # Mariage Kergloff 3 E 106/17/14 (1883)
+	1884   => '1302089',            # Mariage Kergloff 3 E 106/17/15 (1884)
+	1885   => '1302090',            # Mariage Kergloff 3 E 106/17/16 (1885)
+	1886   => '1302091',            # Mariage Kergloff 3 E 106/17/17 (1886)
+	1887   => '1302092',            # Mariage Kergloff 3 E 106/17/18 (1887)
+    },
+
     '3E106_0018' => {			# Décès Kergloff 3 E 106 18   1793-1813
 	'AN02' => '1302147',            # Décès Kergloff 3 E 106/18/1 (1793 - an II)
 	'AN03' => '1302148',            # Décès Kergloff 3 E 106/18/2 (an III)
@@ -726,6 +839,25 @@ my %convert = (
 	1901   => '1302261',            # Décès Kergloff 3 E 106/26/17 (1901)
     },
 
+    '3E106_0027' => {			# Mariage Kergloff 3 E 106 27   1888-1903
+	1888   => '1302094',            # Mariage Kergloff 3 E 106/27/1 (1888)
+	1889   => '1302095',            # Mariage Kergloff 3 E 106/27/2 (1889)
+	1890   => '1302096',            # Mariage Kergloff 3 E 106/27/3 (1890)
+	1891   => '1302097',            # Mariage Kergloff 3 E 106/27/4 (1891)
+	1892   => '1302098',            # Mariage Kergloff 3 E 106/27/5 (1892)
+	1893   => '1302099',            # Mariage Kergloff 3 E 106/27/6 (1893)
+	1894   => '1302100',            # Mariage Kergloff 3 E 106/27/7 (1894)
+	1895   => '1302101',            # Mariage Kergloff 3 E 106/27/8 (1895)
+	1896   => '1302102',            # Mariage Kergloff 3 E 106/27/9 (1896)
+	1897   => '1302103',            # Mariage Kergloff 3 E 106/27/10 (1897)
+	1898   => '1302104',            # Mariage Kergloff 3 E 106/27/11 (1898)
+	1899   => '1302105',            # Mariage Kergloff 3 E 106/27/12 (1899)
+	1900   => '1302106',            # Mariage Kergloff 3 E 106/27/13 (1900)
+	1901   => '1302107',            # Mariage Kergloff 3 E 106/27/14 (1901)
+	1902   => '1302108',            # Mariage Kergloff 3 E 106/27/15 (1902)
+	1903   => '1302109',            # Mariage Kergloff 3 E 106/27/16 (1903)
+    },
+
     '3E106_0028' => {			# Naissance Kergloff 3 E 106 28   1897-1908
 	1897 => '1301951',              # Naissance Kergloff 3 E 106/28/1 (1897)
 	1898 => '1301952',              # Naissance Kergloff 3 E 106/28/2 (1898)
@@ -763,6 +895,34 @@ my %convert = (
         1923 => '1301979',              # Naissance Kergloff 3 E 106/30/3 (1923)
         1924 => '1301980',              # Naissance Kergloff 3 E 106/30/4 (1924)
         1925 => '1301981',              # Naissance Kergloff 3 E 106/30/5 (1925)
+    },
+
+    '3E106_0031' => {			# Mariage Kergloff 3 E 106 31   1904-1917
+	1904   => '1302111',            # Mariage Kergloff 3 E 106/31/1 (1904)
+	1905   => '1302112',            # Mariage Kergloff 3 E 106/31/2 (1905)
+	1906   => '1302113',            # Mariage Kergloff 3 E 106/31/3 (1906)
+	1907   => '1302114',            # Mariage Kergloff 3 E 106/31/4 (1907)
+	1908   => '1302115',            # Mariage Kergloff 3 E 106/31/5 (1908)
+	1909   => '1302116',            # Mariage Kergloff 3 E 106/31/6 (1909)
+	1910   => '1302117',            # Mariage Kergloff 3 E 106/31/7 (1910)
+	1911   => '1302118',            # Mariage Kergloff 3 E 106/31/8 (1911)
+	1912   => '1302119',            # Mariage Kergloff 3 E 106/31/9 (1912)
+	1913   => '1302120',            # Mariage Kergloff 3 E 106/31/10 (1913)
+	1914   => '1302121',            # Mariage Kergloff 3 E 106/31/11 (1914)
+	1915   => '1302122',            # Mariage Kergloff 3 E 106/31/12 (1915)
+	1916   => '1302123',            # Mariage Kergloff 3 E 106/31/13 (1916)
+	1917   => '1302124',            # Mariage Kergloff 3 E 106/31/14 (1917)
+    },
+
+    '3E106_0032' => {			# Mariage Kergloff 3 E 106 32   1918-1925
+	1918   => '1302126',            # Mariage Kergloff 3 E 106/32/1 (1918)
+	1919   => '1302127',            # Mariage Kergloff 3 E 106/32/2 (1919)
+	1920   => '1302128',            # Mariage Kergloff 3 E 106/32/3 (1920)
+	1921   => '1302129',            # Mariage Kergloff 3 E 106/32/4 (1921)
+	1922   => '1302130',            # Mariage Kergloff 3 E 106/32/5 (1922)
+	1923   => '1302131',            # Mariage Kergloff 3 E 106/32/6 (1923)
+	1924   => '1302132',            # Mariage Kergloff 3 E 106/32/7 (1924)
+	1925   => '1302133',            # Mariage Kergloff 3 E 106/32/8 (1925)
     },
 
     '3E106_0033' => {			# Décès Kergloff 3 E 106 33   1902-1916
