@@ -1,3 +1,4 @@
+builtin
 HTML::TableExtract
 HTTP::Status
 Mojo::DOM
