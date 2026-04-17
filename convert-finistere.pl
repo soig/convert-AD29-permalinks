@@ -1325,6 +1325,8 @@ foreach my $arg (@ARGV) {
 sub process {
     my ($url) = @_;
     local $_ = $url;
+    # Normalize some URLs:
+    s!&amp;!&!g;
     ## before last "/"
     #my ($id) = m!([^/]*)/[^/]*$!;
     # after last "/" (more complete ID + extract image name); accept an optional "/" before "?img="
