@@ -326,7 +326,7 @@ my %convert = (
         1822 => '1277208',              # Naissance Cléden-Poher 3 E 42/12/20 (1822)
     },
 
-    '3E42_0013' => {                    # Naissance Cléden-Poher 3 E 42 13   1823-1832
+    '3E042_0013' => {                   # Naissance Cléden-Poher 3 E 42 13   1823-1832
         1823 => '1277210',              # Naissance Cléden-Poher 3 E 42/13/1 (1823)
         1824 => '1277211',              # Naissance Cléden-Poher 3 E 42/13/2 (1824)
         1825 => '1277212',              # Naissance Cléden-Poher 3 E 42/13/3 (1825)
@@ -339,7 +339,7 @@ my %convert = (
         1832 => '1277219',              # Naissance Cléden-Poher 3 E 42/13/10 (1832)
     },
 
-    '3E42_0014' => {                    # Naissance Cléden-Poher 3 E 42 14   1833-1842
+    '3E042_0014' => {                   # Naissance Cléden-Poher 3 E 42 14   1833-1842
         1833 => '1277221',              # Naissance Cléden-Poher 3 E 42/14/1 (1833)
         1834 => '1277222',              # Naissance Cléden-Poher 3 E 42/14/2 (1834)
         1835 => '1277223',              # Naissance Cléden-Poher 3 E 42/14/3 (1835)
@@ -352,7 +352,7 @@ my %convert = (
         1842 => '1277230',              # Naissance Cléden-Poher 3 E 42/14/10 (1842)
     },
 
-    '3E42_0015' => {                    # Naissance Cléden-Poher 3 E 42 15   1843-1852
+    '3E042_0015' => {                   # Naissance Cléden-Poher 3 E 42 15   1843-1852
         1843 => '1277232',              # Naissance Cléden-Poher 3 E 42/15/1 (1843)
         1844 => '1277233',              # Naissance Cléden-Poher 3 E 42/15/2 (1844)
         1845 => '1277234',              # Naissance Cléden-Poher 3 E 42/15/3 (1845)
@@ -366,7 +366,7 @@ my %convert = (
         1853 => '1277243',              # Naissance Cléden-Poher 3 E 42/16/1 (1853)
     },
 
-    '3E42_0016' => {                    # Naissance Cléden-Poher 3 E 42 16   1853-1862
+    '3E042_0016' => {                   # Naissance Cléden-Poher 3 E 42 16   1853-1862
         1853 => '1277243',              # Naissance Cléden-Poher 3 E 42/16/1 (1853)
         1854 => '1277244',              # Naissance Cléden-Poher 3 E 42/16/2 (1854)
         1855 => '1277245',              # Naissance Cléden-Poher 3 E 42/16/3 (1855)
@@ -379,7 +379,7 @@ my %convert = (
         1862 => '1277252',              # Naissance Cléden-Poher 3 E 42/16/10 (1862)
     },
 
-    '3E42_0017' => {                    # Naissance Cléden-Poher 3 E 42 17   1863-1869
+    '3E042_0017' => {                   # Naissance Cléden-Poher 3 E 42 17   1863-1869
         1863 => '1277254',              # Naissance Cléden-Poher 3 E 42/17/1 (1863)
         1864 => '1277255',              # Naissance Cléden-Poher 3 E 42/17/2 (1864)
         1865 => '1277256',              # Naissance Cléden-Poher 3 E 42/17/3 (1865)
@@ -389,7 +389,7 @@ my %convert = (
         1869 => '1277260',              # Naissance Cléden-Poher 3 E 42/17/7 (1869)
     },
 
-    '3E42_0018' => {                    # Naissance Cléden-Poher 3 E 42 18   1870-1880
+    '3E042_0018' => {                   # Naissance Cléden-Poher 3 E 42 18   1870-1880
         1870 => '1277262',              # Naissance Cléden-Poher 3 E 42/18/1 (1870)
         1871 => '1277263',              # Naissance Cléden-Poher 3 E 42/18/2 (1871)
         1872 => '1277264',              # Naissance Cléden-Poher 3 E 42/18/3 (1872)
@@ -403,7 +403,7 @@ my %convert = (
         1880 => '1277272',              # Naissance Cléden-Poher 3 E 42/18/11 (1880)
     },
 
-    '3E42_0019' => {                    # Naissance Cléden-Poher 3 E 42 19   1881-1891
+    '3E042_0019' => {                   # Naissance Cléden-Poher 3 E 42 19   1881-1891
         1881 => '1277274',              # Naissance Cléden-Poher 3 E 42/19/1 (1881)
         1882 => '1277275',              # Naissance Cléden-Poher 3 E 42/19/2 (1882)
         1883 => '1277276',              # Naissance Cléden-Poher 3 E 42/19/3 (1883)
@@ -551,7 +551,7 @@ my %convert = (
         1895 => '1277600',              # Décès Cléden-Poher 3 E 42/36/13 (1895)
     },
 
-    '3E42_0037' => {                    # Naissance Cléden-Poher 3 E 42 37   1892-1904
+    '3E042_0037' => {                   # Naissance Cléden-Poher 3 E 42 37   1892-1904
         1892 => '1277286',              # Naissance Cléden-Poher 3 E 42/37/1 (1892)
         1893 => '1277287',              # Naissance Cléden-Poher 3 E 42/37/2 (1893)
         1894 => '1277288',              # Naissance Cléden-Poher 3 E 42/37/3 (1894)
@@ -567,7 +567,7 @@ my %convert = (
         1904 => '1277299',              # Naissance Cléden-Poher 3 E 42/40/1 (1904)
     },
 
-    '3E42_0039' => {                    # Décès Cléden-Poher 3 E 42 39   1896-1909
+    '3E042_0039' => {                   # Décès Cléden-Poher 3 E 42 39   1896-1909
         1896 => '1277602',              # Décès Cléden-Poher 3 E 42/39/1 (1896)
         1897 => '1277603',              # Décès Cléden-Poher 3 E 42/39/2 (1897)
         1898 => '1277604',              # Décès Cléden-Poher 3 E 42/39/3 (1898)
@@ -584,7 +584,7 @@ my %convert = (
         1909 => '1277615',              # Décès Cléden-Poher 3 E 42/39/14 (1909)
     },
 
-    '3E42_0040' => {                    # Naissance Cléden-Poher 3 E 42 40   1904-1913
+    '3E042_0040' => {                   # Naissance Cléden-Poher 3 E 42 40   1904-1913
         1904 => '1277299',              # Naissance Cléden-Poher 3 E 42/40/1 (1904)
         1905 => '1277300',              # Naissance Cléden-Poher 3 E 42/40/2 (1905)
         1906 => '1277301',              # Naissance Cléden-Poher 3 E 42/40/3 (1906)
@@ -597,7 +597,7 @@ my %convert = (
         1913 => '1277308',              # Naissance Cléden-Poher 3 E 42/40/10 (1913)
     },
 
-    '3E42_0041' => {                    # Naissance Cléden-Poher 3 E 42 41   1914-1923
+    '3E042_0041' => {                   # Naissance Cléden-Poher 3 E 42 41   1914-1923
         1914 => '1277310',              # Naissance Cléden-Poher 3 E 42/41/1 (1914)
         1915 => '1277311',              # Naissance Cléden-Poher 3 E 42/41/2 (1915)
         1916 => '1277312',              # Naissance Cléden-Poher 3 E 42/41/3 (1916)
@@ -610,13 +610,13 @@ my %convert = (
         1923 => '1277319',              # Naissance Cléden-Poher 3 E 42/41/10 (1923)
     },
 
-    '3E42_0042' => {                    # Naissance Cléden-Poher 3 E 42 42   1924-1936
+    '3E042_0042' => {                   # Naissance Cléden-Poher 3 E 42 42   1924-1936
 	# Only 1924-1925 were online
         1924 => '1277321',              # Naissance Cléden-Poher 3 E 42/42/1 (1924)
         1925 => '1277322',              # Naissance Cléden-Poher 3 E 42/42/2 (1925)
     },
 
-    '3E42_0045' => {                    # Décès Cléden-Poher 3 E 42 45   1910-1921
+    '3E042_0045' => {                   # Décès Cléden-Poher 3 E 42 45   1910-1921
         1910 => '1277617',              # Décès Cléden-Poher 3 E 42/45/1 (1910)
         1911 => '1277618',              # Décès Cléden-Poher 3 E 42/45/2 (1911)
         1912 => '1277619',              # Décès Cléden-Poher 3 E 42/45/3 (1912)
@@ -632,7 +632,7 @@ my %convert = (
     },
 
     # I'm not sure that the old site offered events betweeen 1925 & 1936?
-    '3E42_0046' => {                    # Décès Cléden-Poher 3 E 42 46   1922-1936
+    '3E042_0046' => {                   # Décès Cléden-Poher 3 E 42 46   1922-1936
         1922 => '1277630',              # Décès Cléden-Poher 3 E 42/46/1 (1922)
         1923 => '1277631',              # Décès Cléden-Poher 3 E 42/46/2 (1923)
         1924 => '1277632',              # Décès Cléden-Poher 3 E 42/46/3 (1924)
