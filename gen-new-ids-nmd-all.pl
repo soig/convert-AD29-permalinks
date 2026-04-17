@@ -1,6 +1,6 @@
 #!/bin/perl
 # Wrapper for emitting all in once for one commune : all births, mariages & deaths, grouped by register
-# FIXME : collect all data in a hash before outputing at once at the end? (less manual formating after)
+# FIXME : collect all data in a hash before outputing at once at the end? (less manual formating after) => done in gen-new-ids-nmd-all2.pl
 # FIXME: add options to select only N, M or D?
 
 my ($ville, $md5) = @ARGV;
