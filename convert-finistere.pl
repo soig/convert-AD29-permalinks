@@ -36,6 +36,23 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 my %convert = (
     # Collection communale:
     '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
+    '1029EDEPOT_001' => '644418.1465136', # 1029 E-dépôt 1 (Baptêmes et mariages (1783-1786, 1790-1792). Sépultures (1789-1792). Naissances (1793-an VI, an VIII-1820).)
+    # NMD Carhaix
+    '1024EDEPOT_018' => '1464972',            # Registre registre paroissial baptême mariage sépulture Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 18 (1788-1793.)
+    '1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
+    '1024EDEPOT_020' => '1464977',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 20 (1822-1841.)
+    '1024EDEPOT_021' => '1464978',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 21 (1842-1861.)
+    '1024EDEPOT_022' => '1464979',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 22 (1862-1876.)
+    '1024EDEPOT_024' => '1464982',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 24 (an II - 1821.)
+    '1024EDEPOT_025' => '1464983',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 25 (1822-1852.)
+    '1024EDEPOT_026' => '1464984',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 26 (1853-1877.)
+    '1024EDEPOT_027' => '1464985',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 27 (1878-1892.)
+    '1024EDEPOT_028' => '1464987',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 28 (1793 - an X.)
+    '1024EDEPOT_029' => '1464988',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 29 (an XI - 1821.)
+    '1024EDEPOT_030' => '1464989',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 30 (1822-1843.)
+    '1024EDEPOT_031' => '1464990',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 31 (1844-1860.)
+    '1024EDEPOT_032' => '1464991',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 32 (1861-1876.)
+    '1024EDEPOT_033' => '1464992',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 33 (1877-1892.)
 
     # Registre matricule:
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
@@ -101,7 +118,176 @@ my %convert = (
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
     # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer
 
+    # NMD Carhaix
+    '3E037_0041' => {			# Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 41   1886-1894
+	1886   => '1275559',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/1 (1886)
+	1887   => '1275560',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/2 (1887)
+	1888   => '1275561',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/3 (1888)
+	1889   => '1275562',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/4 (1889)
+	1890   => '1275563',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/5 (1890)
+	1891   => '1275564',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/6 (1891)
+	1892   => '1275565',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/7 (1892)
+	1893   => '1275566',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/8 (1893)
+	1894   => '1275567',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/9 (1894)
+    },
 
+    '3E037_0042' => {			# Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 42   1888-1896
+	1888   => '1275709',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/1 (1888)
+	1889   => '1275710',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/2 (1889)
+	1890   => '1275711',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/3 (1890)
+	1891   => '1275712',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/4 (1891)
+	1892   => '1275713',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/5 (1892)
+	1893   => '1275714',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/6 (1893)
+	1894   => '1275715',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/7 (1894)
+	1895   => '1275716',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/8 (1895)
+	1896   => '1275717',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/42/9 (1896)
+    },
+
+    '3E037_0043' => {			# Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 43   1895-1903
+	1895   => '1275569',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/1 (1895)
+	1896   => '1275570',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/2 (1896)
+	1897   => '1275571',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/3 (1897)
+	1898   => '1275572',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/4 (1898)
+	1899   => '1275573',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/5 (1899)
+	1900   => '1275574',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/6 (1900)
+	1901   => '1275575',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/7 (1901)
+	1902   => '1275576',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/8 (1902)
+	1903   => '1275577',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/43/9 (1903)
+    },
+
+    '3E037_0044' => {			# Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 44   1892-1903
+	1892   => '1275639',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/1 (1892)
+	1893   => '1275640',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/2 (1893)
+	1894   => '1275641',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/3 (1894)
+	1895   => '1275642',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/4 (1895)
+	1896   => '1275643',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/5 (1896)
+	1897   => '1275644',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/6 (1897)
+	1898   => '1275645',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/7 (1898)
+	1899   => '1275646',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/8 (1899)
+	1900   => '1275647',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/9 (1900)
+	1901   => '1275648',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/10 (1901)
+	1902   => '1275649',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/11 (1902)
+	1903   => '1275650',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/44/12 (1903)
+    },
+
+    '3E037_0045' => {			# Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 45   1897-1905
+	1897   => '1275719',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/1 (1897)
+	1898   => '1275720',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/2 (1898)
+	1899   => '1275721',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/3 (1899)
+	1900   => '1275722',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/4 (1900)
+	1901   => '1275723',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/5 (1901)
+	1902   => '1275724',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/6 (1902)
+	1903   => '1275725',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/7 (1903)
+	1904   => '1275726',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/8 (1904)
+	1905   => '1275727',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/45/9 (1905)
+    },
+
+    '3E037_0046' => {			# Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 46   1904-1911
+	1904   => '1275579',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/1 (1904)
+	1905   => '1275580',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/2 (1905)
+	1906   => '1275581',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/3 (1906)
+	1907   => '1275582',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/4 (1907)
+	1908   => '1275583',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/5 (1908)
+	1909   => '1275584',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/6 (1909)
+	1910   => '1275585',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/7 (1910)
+	1911   => '1275586',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/46/8 (1911)
+    },
+
+    '3E037_0047' => {			# Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 47   1912-1919
+	1912   => '1275588',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/1 (1912)
+	1913   => '1275589',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/2 (1913)
+	1914   => '1275590',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/3 (1914)
+	1915   => '1275591',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/4 (1915)
+	1916   => '1275592',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/5 (1916)
+	1917   => '1275593',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/6 (1917)
+	1918   => '1275594',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/7 (1918)
+	1919   => '1275595',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/47/8 (1919)
+    },
+
+    '3E037_0048' => {			# Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 48   1920-1925
+	1920   => '1275597',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/48/1 (1920)
+	1921   => '1275598',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/48/2 (1921)
+	1922   => '1275599',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/48/3 (1922)
+	1923   => '1275600',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/48/4 (1923)
+	1924   => '1275601',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/48/5 (1924)
+	1925   => '1275602',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/48/6 (1925)
+    },
+
+    '3E037_0050' => {			# Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 50   1904-1913
+	1904   => '1275652',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/1 (1904)
+	1905   => '1275653',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/2 (1905)
+	1906   => '1275654',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/3 (1906)
+	1907   => '1275655',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/4 (1907)
+	1908   => '1275656',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/5 (1908)
+	1909   => '1275657',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/6 (1909)
+	1910   => '1275658',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/7 (1910)
+	1911   => '1275659',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/8 (1911)
+	1912   => '1275660',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/9 (1912)
+	1913   => '1275661',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/50/10 (1913)
+    },
+
+    '3E037_0051' => {			# Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 51   1914-1923
+	1914   => '1275663',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/1 (1914)
+	1915   => '1275664',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/2 (1915)
+	1916   => '1275665',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/3 (1916)
+	1917   => '1275666',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/4 (1917)
+	1918   => '1275667',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/5 (1918)
+	1919   => '1275668',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/6 (1919)
+	1920   => '1275669',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/7 (1920)
+	1921   => '1275670',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/8 (1921)
+	1922   => '1275671',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/9 (1922)
+	1923   => '1275672',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/51/10 (1923)
+    },
+
+    '3E037_0052' => {			# Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 52   1924-1925
+	1924   => '1275674',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/52/1 (1924)
+	1925   => '1275675',            # Mariage Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/52/2 (1925)
+    },
+
+    '3E037_0053' => {			# Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 53   1906-1913
+	1906   => '1275729',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/1 (1906)
+	1907   => '1275730',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/2 (1907)
+	1908   => '1275731',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/3 (1908)
+	1909   => '1275732',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/4 (1909)
+	1910   => '1275733',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/5 (1910)
+	1911   => '1275734',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/6 (1911)
+	1912   => '1275735',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/7 (1912)
+	1913   => '1275736',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/53/8 (1913)
+    },
+
+    '3E037_0054' => {			# Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 54   1914-1920
+	1914   => '1275738',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/1 (1914)
+	1915   => '1275739',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/2 (1915)
+	1916   => '1275740',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/3 (1916)
+	1917   => '1275741',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/4 (1917)
+	1918   => '1275742',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/5 (1918)
+	1919   => '1275743',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/6 (1919)
+	1920   => '1275744',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/54/7 (1920)
+    },
+
+    '3E037_0055' => {			# Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 55   1921-1928
+	1921   => '1275746',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/1 (1921)
+	1922   => '1275747',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/2 (1922)
+	1923   => '1275748',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/3 (1923)
+	1924   => '1275749',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/4 (1924)
+	1925   => '1275750',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/5 (1925)
+	1926   => '1275751',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/6 (1926)
+	1927   => '1275752',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/7 (1927)
+	1928   => '1275753',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/55/8 (1928)
+    },
+
+    '3E037_0056' => {			# Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 56   1929-1936
+	1929   => '1275755',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/1 (1929)
+	1930   => '1275756',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/2 (1930)
+	1931   => '1275757',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/3 (1931)
+	1932   => '1275758',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/4 (1932)
+	1933   => '1275759',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/5 (1933)
+	1934   => '1275760',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/6 (1934)
+	1935   => '1275761',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/7 (1935)
+	1936   => '1275762',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/8 (1936)
+    },
+
+    # NMD Cleden-Poher
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Cléden-Poher%20(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[]=Naissance&type=etatcivil
     '3E042_0011' => {		        # Naissances Cleden-Poher  3 E 42 11		1793 - an X
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
