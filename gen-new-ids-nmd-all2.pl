@@ -112,6 +112,22 @@ END {
     unlink($filename);
 }
 
+my %conv_cal_republicain = (
+    '1793 - an II' => 'AN02',
+    'an III' => 'AN03',
+    'an IV' => 'AN04',
+    'an IX' => 'AN09',
+    'an V' => 'AN05',
+    'an VI' => 'AN06',
+    'an VII' => 'AN07',
+    'an VIII' => 'AN08',
+    'an X' => 'AN10',
+    'an XI' => 'AN11',
+    'an XII' => 'AN12',
+    'an XIII' => 'AN13',
+    'an XIV - 1806' => 'AN14',
+    );
+
 my $url = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=%s|&REch_commune_Md5=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&type=etatcivil&pagination_25";
 my (%results, %pretty);
 foreach my $type (qw(Naissance Mariage Décès)) {
@@ -147,21 +163,6 @@ foreach my $id (sort keys %results) {
 # Generate the table for converting old permalinks to new ones
 
 # From the old AD29 permalinks I'd in my tree:
-my %conv_cal_republicain = (
-    '1793 - an II' => 'AN02',
-    'an III' => 'AN03',
-    'an IV' => 'AN04',
-    'an IX' => 'AN09',
-    'an V' => 'AN05',
-    'an VI' => 'AN06',
-    'an VII' => 'AN07',
-    'an VIII' => 'AN08',
-    'an X' => 'AN10',
-    'an XI' => 'AN11',
-    'an XII' => 'AN12',
-    'an XIII' => 'AN13',
-    'an XIV - 1806' => 'AN14',
-    );
 
 sub process {
     my ($url) = @_;
