@@ -39,11 +39,11 @@ my %convert = (
     '1029EDEPOT_001' => '644418.1465136', # 1029 E-dépôt 1 (Baptêmes et mariages (1783-1786, 1790-1792). Sépultures (1789-1792). Naissances (1793-an VI, an VIII-1820).)
     # NMD Carhaix
     '1024EDEPOT_018' => '1464972',            # Registre registre paroissial baptême mariage sépulture Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 18 (1788-1793.)
-    '1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
+    #'1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
     '1024EDEPOT_020' => '1464977',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 20 (1822-1841.)
     '1024EDEPOT_021' => '1464978',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 21 (1842-1861.)
     '1024EDEPOT_022' => '1464979',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 22 (1862-1876.)
-    '1024EDEPOT_024' => '1464982',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 24 (an II - 1821.)
+    #'1024EDEPOT_024' => '1464982',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 24 (an II - 1821.)
     '1024EDEPOT_025' => '1464983',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 25 (1822-1852.)
     '1024EDEPOT_026' => '1464984',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 26 (1853-1877.)
     '1024EDEPOT_027' => '1464985',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 27 (1878-1892.)
@@ -90,7 +90,17 @@ my %convert = (
     '3E037_0009' => '652183.1275544',	# Sép Carhaix  3 E 37/9		1754-1766
     '3E037_0010' => '652184.1275545',	# Sép Carhaix  3 E 37/10	1767-1780
     '3E037_0011' => '652185.1275546',	# Sép Carhaix  3 E 37/11	1781-1792
-    #'3E037_0012' => '',			# Naissances Carhaix  3 E 37/12	1793-an X	Pas numérisé
+    # FIXME: pas un simple renommage, il faudrait également changer les références aux vues dans les notes associées, par ex la vue 187/201 devient 187/431:
+    # "Lors de la préparation de la migration vers notre nouveau moteur de recherche, nous nous sommes aperçus qu’il y avait une erreur d’affectation de certains lots numérisés pour Carhaix et Morlaix.
+    # Une partie de ces lots avaient été microfilmés, il y a longtemps, à partir d’originaux empruntés en mairie.
+    # Lors de la numérisation de ces microfilms, et leur publication en 2022, cette information avait été omise, et les lots correspondants avaient été raccrochés, à tort, aux collections départementales « 3 E » de ces deux communes.
+    # Ceci explique pourquoi vous ne retrouvez pas en cotation « 3 E » certains lots de Carhaix. Il faut regarder côté collection communale « E Dépôt », aux dates équivalentes.
+    # Et même chose pour Morlaix, donc."
+    '3E037_0012' => '1464976',			# Naissances Carhaix  3 E 37/12	1793-an X => '1024 E DEPOT 19 - 1793-1821' maintenant (plages d'années plus grande)
+    '3E037_0022' => '1464982',			# Mariages Carhaix    3 E 37/22	1793-an X => '1024 E DEPOT 19 - 1793-1821' maintenant (201 images précedemment, 431 maintenant)
+    # => remplacé par "1024 E DEPOT 24 - an II - 1821. | an II-1821" qui contient les mariages (mais 431 images au lieu de 201).
+    # Les références sont bonne, par ex je retrouve le même mariage anciennement vue 187/201 sur la vue 431.
+    # Et vue 202/431 on voit "1802-1803 Mariages an 11" donc il semble que deux lots d'images aient été aggloméré en un seul.
 
     '3E042_0001' => '652429.1277165',	# BMS Cleden-Poher 3 E 42 1	1694-1712
     '3E042_0002' => '652430.1277166',	# BMS Cleden-Poher 3 E 42 2	1713-1730
