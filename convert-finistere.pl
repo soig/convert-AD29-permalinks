@@ -119,6 +119,7 @@ my %convert = (
     '3E212_0003' => '658572.1332283',	# BM  Plonéis  3 E 212 3	1775-1792
 
     '3E212_0004' => '658573.1332285',	# Sép Plonéis  3 E 212 4	1749-1792
+    '3E234_0003' => '659572.1340590',	# BM Plouguer  3 E 234 3        1750-28 février 1793
     '3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4
     '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
 
@@ -1150,7 +1151,499 @@ my %convert = (
 	1924   => '1302286',            # Décès Kergloff 3 E 106/34/8 (1924)
 	1925   => '1302287',            # Décès Kergloff 3 E 106/34/9 (1925)
 	# years 1926-1936 never were online with old server
-},
+    },
+
+    # Plouguer
+    '3E234_0005' => {			# Naissance Plouguer 3 E 234 5   AN02-1812
+	'AN02' => '1340595',            # Naissance Plouguer 3 E 234/5/1 (an II)
+	'AN03' => '1340596',            # Naissance Plouguer 3 E 234/5/2 (an III)
+	'AN04' => '1340597',            # Naissance Plouguer 3 E 234/5/3 (an IV)
+	'AN05' => '1340598',            # Naissance Plouguer 3 E 234/5/4 (an V)
+	'AN06' => '1340599',            # Naissance Plouguer 3 E 234/5/5 (an VI)
+	'AN07' => '1340600',            # Naissance Plouguer 3 E 234/5/6 (an VII)
+	'AN08' => '1340601',            # Naissance Plouguer 3 E 234/5/7 (an VIII)
+	'AN09' => '1340602',            # Naissance Plouguer 3 E 234/5/8 (an IX)
+	'AN10' => '1340603',            # Naissance Plouguer 3 E 234/5/9 (an X)
+	'AN11' => '1340604',            # Naissance Plouguer 3 E 234/5/10 (an XI)
+	'AN12' => '1340605',            # Naissance Plouguer 3 E 234/5/11 (an XII)
+	'AN13' => '1340606',            # Naissance Plouguer 3 E 234/5/12 (an XIII)
+	'AN14' => '1340607',            # Naissance Plouguer 3 E 234/5/13 (an XIV - 1806)
+	1807   => '1340608',            # Naissance Plouguer 3 E 234/5/14 (1807)
+	1808   => '1340609',            # Naissance Plouguer 3 E 234/5/15 (1808)
+	1809   => '1340610',            # Naissance Plouguer 3 E 234/5/16 (1809)
+	1810   => '1340611',            # Naissance Plouguer 3 E 234/5/17 (1810)
+	1811   => '1340612',            # Naissance Plouguer 3 E 234/5/18 (1811)
+	1812   => '1340613',            # Naissance Plouguer 3 E 234/5/19 (1812)
+    },
+
+    '3E234_0006' => {			# Naissance Plouguer 3 E 234 6   1813-1832
+	1813   => '1340615',            # Naissance Plouguer 3 E 234/6/1 (1813)
+	1814   => '1340616',            # Naissance Plouguer 3 E 234/6/2 (1814)
+	1815   => '1340617',            # Naissance Plouguer 3 E 234/6/3 (1815)
+	1816   => '1340618',            # Naissance Plouguer 3 E 234/6/4 (1816)
+	1817   => '1340619',            # Naissance Plouguer 3 E 234/6/5 (1817)
+	1818   => '1340620',            # Naissance Plouguer 3 E 234/6/6 (1818)
+	1819   => '1340621',            # Naissance Plouguer 3 E 234/6/7 (1819)
+	1823   => '1340625',            # Naissance Plouguer 3 E 234/6/11 (1823)
+	1824   => '1340626',            # Naissance Plouguer 3 E 234/6/12 (1824)
+	1825   => '1340627',            # Naissance Plouguer 3 E 234/6/13 (1825)
+	1826   => '1340628',            # Naissance Plouguer 3 E 234/6/14 (1826)
+	1827   => '1340629',            # Naissance Plouguer 3 E 234/6/15 (1827)
+	1828   => '1340630',            # Naissance Plouguer 3 E 234/6/16 (1828)
+	1829   => '1340631',            # Naissance Plouguer 3 E 234/6/17 (1829)
+	1830   => '1340632',            # Naissance Plouguer 3 E 234/6/18 (1830)
+	1831   => '1340633',            # Naissance Plouguer 3 E 234/6/19 (1831)
+	1832   => '1340634',            # Naissance Plouguer 3 E 234/6/20 (1832)
+    },
+
+    '3E234_0007' => {			# Naissance Plouguer 3 E 234 7   1833-1842
+	1833   => '1340636',            # Naissance Plouguer 3 E 234/7/1 (1833)
+	1834   => '1340637',            # Naissance Plouguer 3 E 234/7/2 (1834)
+	1835   => '1340638',            # Naissance Plouguer 3 E 234/7/3 (1835)
+	1836   => '1340639',            # Naissance Plouguer 3 E 234/7/4 (1836)
+	1837   => '1340640',            # Naissance Plouguer 3 E 234/7/5 (1837)
+	1838   => '1340641',            # Naissance Plouguer 3 E 234/7/6 (1838)
+	1839   => '1340642',            # Naissance Plouguer 3 E 234/7/7 (1839)
+	1840   => '1340643',            # Naissance Plouguer 3 E 234/7/8 (1840)
+	1841   => '1340644',            # Naissance Plouguer 3 E 234/7/9 (1841)
+	1842   => '1340645',            # Naissance Plouguer 3 E 234/7/10 (1842)
+    },
+
+    '3E234_0008' => {			# Naissance Plouguer 3 E 234 8   1843-1852
+	1843   => '1340647',            # Naissance Plouguer 3 E 234/8/1 (1843)
+	1844   => '1340648',            # Naissance Plouguer 3 E 234/8/2 (1844)
+	1845   => '1340649',            # Naissance Plouguer 3 E 234/8/3 (1845)
+	1846   => '1340650',            # Naissance Plouguer 3 E 234/8/4 (1846)
+	1847   => '1340651',            # Naissance Plouguer 3 E 234/8/5 (1847)
+	1848   => '1340652',            # Naissance Plouguer 3 E 234/8/6 (1848)
+	1849   => '1340653',            # Naissance Plouguer 3 E 234/8/7 (1849)
+	1850   => '1340654',            # Naissance Plouguer 3 E 234/8/8 (1850)
+	1851   => '1340655',            # Naissance Plouguer 3 E 234/8/9 (1851)
+	1852   => '1340656',            # Naissance Plouguer 3 E 234/8/10 (1852)
+    },
+
+    '3E234_0009' => {			# Naissance Plouguer 3 E 234 9   1853-1862
+	1853   => '1340658',            # Naissance Plouguer 3 E 234/9/1 (1853)
+	1854   => '1340659',            # Naissance Plouguer 3 E 234/9/2 (1854)
+	1855   => '1340660',            # Naissance Plouguer 3 E 234/9/3 (1855)
+	1856   => '1340661',            # Naissance Plouguer 3 E 234/9/4 (1856)
+	1857   => '1340662',            # Naissance Plouguer 3 E 234/9/5 (1857)
+	1858   => '1340663',            # Naissance Plouguer 3 E 234/9/6 (1858)
+	1859   => '1340664',            # Naissance Plouguer 3 E 234/9/7 (1859)
+	1860   => '1340665',            # Naissance Plouguer 3 E 234/9/8 (1860)
+	1861   => '1340666',            # Naissance Plouguer 3 E 234/9/9 (1861)
+	1862   => '1340667',            # Naissance Plouguer 3 E 234/9/10 (1862)
+    },
+
+    '3E234_0010' => {			# Naissance Plouguer 3 E 234 10   1863-1869
+	1863   => '1340669',            # Naissance Plouguer 3 E 234/10/1 (1863)
+	1864   => '1340670',            # Naissance Plouguer 3 E 234/10/2 (1864)
+	1865   => '1340671',            # Naissance Plouguer 3 E 234/10/3 (1865)
+	1866   => '1340672',            # Naissance Plouguer 3 E 234/10/4 (1866)
+	1867   => '1340673',            # Naissance Plouguer 3 E 234/10/5 (1867)
+	1868   => '1340674',            # Naissance Plouguer 3 E 234/10/6 (1868)
+	1869   => '1340675',            # Naissance Plouguer 3 E 234/10/7 (1869)
+    },
+
+    '3E234_0011' => {			# Mariage promesse de mariage Plouguer 3 E 234 11   AN02-1811
+	'AN02' => '1340749',            # Mariage promesse de mariage Plouguer 3 E 234/11/1 (an II)
+	'AN03' => '1340750',            # Mariage promesse de mariage Plouguer 3 E 234/11/2 (an III)
+	'AN04' => '1340751',            # Mariage promesse de mariage Plouguer 3 E 234/11/3 (an IV)
+	'AN05' => '1340752',            # Mariage promesse de mariage Plouguer 3 E 234/11/4 (an V)
+	'AN06' => '1340753',            # Mariage promesse de mariage Plouguer 3 E 234/11/5 (an VI)
+	'AN07' => '1340754',            # Mariage promesse de mariage Plouguer 3 E 234/11/6 (an VII (contient uniquement des promesses de mariages))
+	'AN08' => '1340755',            # Mariage promesse de mariage Plouguer 3 E 234/11/7 (an VIII (contient uniquement des promesses de mariages))
+	'AN09' => '1340756',            # Mariage promesse de mariage Plouguer 3 E 234/11/8 (an IX)
+	'AN10' => '1340757',            # Mariage promesse de mariage Plouguer 3 E 234/11/9 (an X)
+	'AN11' => '1340758',            # Mariage promesse de mariage Plouguer 3 E 234/11/10 (an XI)
+	'AN12' => '1340759',            # Mariage promesse de mariage Plouguer 3 E 234/11/11 (an XII)
+	'AN13' => '1340760',            # Mariage promesse de mariage Plouguer 3 E 234/11/12 (an XIII)
+	'AN14' => '1340761',            # Mariage promesse de mariage Plouguer 3 E 234/11/13 (an XIV - 1806)
+	1807   => '1340762',            # Mariage promesse de mariage Plouguer 3 E 234/11/14 (1807)
+	1808   => '1340763',            # Mariage promesse de mariage Plouguer 3 E 234/11/15 (1808)
+	1809   => '1340764',            # Mariage promesse de mariage Plouguer 3 E 234/11/16 (1809)
+	1810   => '1340765',            # Mariage promesse de mariage Plouguer 3 E 234/11/17 (1810)
+	1811   => '1340766',            # Mariage promesse de mariage Plouguer 3 E 234/11/18 (1811)
+    },
+
+    '3E234_0012' => {			# Mariage Plouguer 3 E 234 12   1813-1831
+	1813   => '1340769',            # Mariage Plouguer 3 E 234/12/1 (1813)
+	1814   => '1340770',            # Mariage Plouguer 3 E 234/12/2 (1814)
+	1815   => '1340771',            # Mariage Plouguer 3 E 234/12/3 (1815)
+	1816   => '1340772',            # Mariage Plouguer 3 E 234/12/4 (1816)
+	1817   => '1340773',            # Mariage Plouguer 3 E 234/12/5 (1817)
+	1818   => '1340774',            # Mariage Plouguer 3 E 234/12/6 (1818)
+	1819   => '1340775',            # Mariage Plouguer 3 E 234/12/7 (1819)
+	1820   => '1340776',            # Mariage Plouguer 3 E 234/12/8 (1820)
+	1821   => '1340777',            # Mariage Plouguer 3 E 234/12/9 (1821)
+	1822   => '1340778',            # Mariage Plouguer 3 E 234/12/10 (1822)
+	1823   => '1340779',            # Mariage Plouguer 3 E 234/12/11 (1823)
+	1824   => '1340780',            # Mariage Plouguer 3 E 234/12/12 (1824)
+	1825   => '1340781',            # Mariage Plouguer 3 E 234/12/13 (1825)
+	1826   => '1340782',            # Mariage Plouguer 3 E 234/12/14 (1826)
+	1827   => '1340783',            # Mariage Plouguer 3 E 234/12/15 (1827)
+	1828   => '1340784',            # Mariage Plouguer 3 E 234/12/16 (1828)
+	1829   => '1340785',            # Mariage Plouguer 3 E 234/12/17 (1829)
+	1830   => '1340786',            # Mariage Plouguer 3 E 234/12/18 (1830)
+	1831   => '1340787',            # Mariage Plouguer 3 E 234/12/19 (1831)
+    },
+
+    '3E234_0013' => {			# Mariage Plouguer 3 E 234 13   1833-1842
+	1833   => '1340790',            # Mariage Plouguer 3 E 234/13/1 (1833)
+	1834   => '1340791',            # Mariage Plouguer 3 E 234/13/2 (1834)
+	1835   => '1340792',            # Mariage Plouguer 3 E 234/13/3 (1835)
+	1836   => '1340793',            # Mariage Plouguer 3 E 234/13/4 (1836)
+	1837   => '1340794',            # Mariage Plouguer 3 E 234/13/5 (1837)
+	1838   => '1340795',            # Mariage Plouguer 3 E 234/13/6 (1838)
+	1839   => '1340796',            # Mariage Plouguer 3 E 234/13/7 (1839)
+	1840   => '1340797',            # Mariage Plouguer 3 E 234/13/8 (1840)
+	1841   => '1340798',            # Mariage Plouguer 3 E 234/13/9 (1841)
+	1842   => '1340799',            # Mariage Plouguer 3 E 234/13/10 (1842)
+    },
+
+    '3E234_0014' => {			# Mariage Plouguer 3 E 234 14   1843-1852
+	1843   => '1340801',            # Mariage Plouguer 3 E 234/14/1 (1843)
+	1844   => '1340802',            # Mariage Plouguer 3 E 234/14/2 (1844)
+	1845   => '1340803',            # Mariage Plouguer 3 E 234/14/3 (1845)
+	1846   => '1340804',            # Mariage Plouguer 3 E 234/14/4 (1846)
+	1847   => '1340805',            # Mariage Plouguer 3 E 234/14/5 (1847)
+	1848   => '1340806',            # Mariage Plouguer 3 E 234/14/6 (1848)
+	1849   => '1340807',            # Mariage Plouguer 3 E 234/14/7 (1849)
+	1850   => '1340808',            # Mariage Plouguer 3 E 234/14/8 (1850)
+	1851   => '1340809',            # Mariage Plouguer 3 E 234/14/9 (1851)
+	1852   => '1340810',            # Mariage Plouguer 3 E 234/14/10 (1852)
+    },
+
+    '3E234_0015' => {			# Mariage Plouguer 3 E 234 15   1853-1862
+	1853   => '1340812',            # Mariage Plouguer 3 E 234/15/1 (1853)
+	1854   => '1340813',            # Mariage Plouguer 3 E 234/15/2 (1854)
+	1855   => '1340814',            # Mariage Plouguer 3 E 234/15/3 (1855)
+	1856   => '1340815',            # Mariage Plouguer 3 E 234/15/4 (1856)
+	1857   => '1340816',            # Mariage Plouguer 3 E 234/15/5 (1857)
+	1858   => '1340817',            # Mariage Plouguer 3 E 234/15/6 (1858)
+	1859   => '1340818',            # Mariage Plouguer 3 E 234/15/7 (1859)
+	1860   => '1340819',            # Mariage Plouguer 3 E 234/15/8 (1860)
+	1861   => '1340820',            # Mariage Plouguer 3 E 234/15/9 (1861)
+	1862   => '1340821',            # Mariage Plouguer 3 E 234/15/10 (1862)
+    },
+
+    '3E234_0016' => {			# Mariage Plouguer 3 E 234 16   1863-1869
+	1863   => '1340823',            # Mariage Plouguer 3 E 234/16/1 (1863)
+	1864   => '1340824',            # Mariage Plouguer 3 E 234/16/2 (1864)
+	1865   => '1340825',            # Mariage Plouguer 3 E 234/16/3 (1865)
+	1866   => '1340826',            # Mariage Plouguer 3 E 234/16/4 (1866)
+	1867   => '1340827',            # Mariage Plouguer 3 E 234/16/5 (1867)
+	1868   => '1340828',            # Mariage Plouguer 3 E 234/16/6 (1868)
+	1869   => '1340829',            # Mariage Plouguer 3 E 234/16/7 (1869)
+    },
+
+    '3E234_0017' => {			# Mariage Plouguer 3 E 234 17   1870-1884
+	1870   => '1340831',            # Mariage Plouguer 3 E 234/17/1 (1870)
+	1871   => '1340832',            # Mariage Plouguer 3 E 234/17/2 (1871)
+	1872   => '1340833',            # Mariage Plouguer 3 E 234/17/3 (1872)
+	1873   => '1340834',            # Mariage Plouguer 3 E 234/17/4 (1873)
+	1874   => '1340835',            # Mariage Plouguer 3 E 234/17/5 (1874)
+	1875   => '1340836',            # Mariage Plouguer 3 E 234/17/6 (1875)
+	1876   => '1340837',            # Mariage Plouguer 3 E 234/17/7 (1876)
+	1877   => '1340838',            # Mariage Plouguer 3 E 234/17/8 (1877)
+	1878   => '1340839',            # Mariage Plouguer 3 E 234/17/9 (1878)
+	1879   => '1340840',            # Mariage Plouguer 3 E 234/17/10 (1879)
+	1880   => '1340841',            # Mariage Plouguer 3 E 234/17/11 (1880)
+	1881   => '1340842',            # Mariage Plouguer 3 E 234/17/12 (1881)
+	1882   => '1340843',            # Mariage Plouguer 3 E 234/17/13 (1882)
+	1883   => '1340844',            # Mariage Plouguer 3 E 234/17/14 (1883)
+	1884   => '1340845',            # Mariage Plouguer 3 E 234/17/15 (1884)
+    },
+
+    '3E234_0018' => {			# Décès Plouguer 3 E 234 18   AN02-1812
+	'AN02' => '1340903',            # Décès Plouguer 3 E 234/18/1 (an II)
+	'AN03' => '1340904',            # Décès Plouguer 3 E 234/18/2 (an III)
+	'AN04' => '1340905',            # Décès Plouguer 3 E 234/18/3 (an IV)
+	'AN05' => '1340906',            # Décès Plouguer 3 E 234/18/4 (an V)
+	'AN06' => '1340907',            # Décès Plouguer 3 E 234/18/5 (an VI)
+	'AN07' => '1340908',            # Décès Plouguer 3 E 234/18/6 (an VII)
+	'AN08' => '1340909',            # Décès Plouguer 3 E 234/18/7 (an VIII)
+	'AN09' => '1340910',            # Décès Plouguer 3 E 234/18/8 (an IX)
+	'AN10' => '1340911',            # Décès Plouguer 3 E 234/18/9 (an X)
+	'AN11' => '1340912',            # Décès Plouguer 3 E 234/18/10 (an XI)
+	'AN12' => '1340913',            # Décès Plouguer 3 E 234/18/11 (an XII)
+	'AN13' => '1340914',            # Décès Plouguer 3 E 234/18/12 (an XIII)
+	'AN14' => '1340915',            # Décès Plouguer 3 E 234/18/13 (an XIV - 1806)
+	1807   => '1340916',            # Décès Plouguer 3 E 234/18/14 (1807)
+	1808   => '1340917',            # Décès Plouguer 3 E 234/18/15 (1808)
+	1809   => '1340918',            # Décès Plouguer 3 E 234/18/16 (1809)
+	1810   => '1340919',            # Décès Plouguer 3 E 234/18/17 (1810)
+	1811   => '1340920',            # Décès Plouguer 3 E 234/18/18 (1811)
+	1812   => '1340921',            # Décès Plouguer 3 E 234/18/19 (1812)
+    },
+
+    '3E234_0019' => {			# Décès Plouguer 3 E 234 19   1813-1832
+	1813   => '1340923',            # Décès Plouguer 3 E 234/19/1 (1813)
+	1814   => '1340924',            # Décès Plouguer 3 E 234/19/2 (1814)
+	1815   => '1340925',            # Décès Plouguer 3 E 234/19/3 (1815)
+	1816   => '1340926',            # Décès Plouguer 3 E 234/19/4 (1816)
+	1817   => '1340927',            # Décès Plouguer 3 E 234/19/5 (1817)
+	1818   => '1340928',            # Décès Plouguer 3 E 234/19/6 (1818)
+	1819   => '1340929',            # Décès Plouguer 3 E 234/19/7 (1819)
+	1823   => '1340933',            # Décès Plouguer 3 E 234/19/11 (1823)
+	1824   => '1340934',            # Décès Plouguer 3 E 234/19/12 (1824)
+	1825   => '1340935',            # Décès Plouguer 3 E 234/19/13 (1825)
+	1826   => '1340936',            # Décès Plouguer 3 E 234/19/14 (1826)
+	1827   => '1340937',            # Décès Plouguer 3 E 234/19/15 (1827)
+	1828   => '1340938',            # Décès Plouguer 3 E 234/19/16 (1828)
+	1829   => '1340939',            # Décès Plouguer 3 E 234/19/17 (1829)
+	1830   => '1340940',            # Décès Plouguer 3 E 234/19/18 (1830)
+	1831   => '1340941',            # Décès Plouguer 3 E 234/19/19 (1831)
+	1832   => '1340942',            # Décès Plouguer 3 E 234/19/20 (1832)
+    },
+
+    '3E234_0020' => {			# Décès Plouguer 3 E 234 20   1833-1842
+	1833   => '1340944',            # Décès Plouguer 3 E 234/20/1 (1833)
+	1834   => '1340945',            # Décès Plouguer 3 E 234/20/2 (1834)
+	1835   => '1340946',            # Décès Plouguer 3 E 234/20/3 (1835)
+	1836   => '1340947',            # Décès Plouguer 3 E 234/20/4 (1836)
+	1837   => '1340948',            # Décès Plouguer 3 E 234/20/5 (1837)
+	1838   => '1340949',            # Décès Plouguer 3 E 234/20/6 (1838)
+	1839   => '1340950',            # Décès Plouguer 3 E 234/20/7 (1839)
+	1840   => '1340951',            # Décès Plouguer 3 E 234/20/8 (1840)
+	1841   => '1340952',            # Décès Plouguer 3 E 234/20/9 (1841)
+	1842   => '1340953',            # Décès Plouguer 3 E 234/20/10 (1842)
+    },
+
+    '3E234_0021' => {			# Décès Plouguer 3 E 234 21   1843-1852
+	1843   => '1340955',            # Décès Plouguer 3 E 234/21/1 (1843)
+	1844   => '1340956',            # Décès Plouguer 3 E 234/21/2 (1844)
+	1845   => '1340957',            # Décès Plouguer 3 E 234/21/3 (1845)
+	1846   => '1340958',            # Décès Plouguer 3 E 234/21/4 (1846)
+	1847   => '1340959',            # Décès Plouguer 3 E 234/21/5 (1847)
+	1848   => '1340960',            # Décès Plouguer 3 E 234/21/6 (1848)
+	1849   => '1340961',            # Décès Plouguer 3 E 234/21/7 (1849)
+	1850   => '1340962',            # Décès Plouguer 3 E 234/21/8 (1850)
+	1851   => '1340963',            # Décès Plouguer 3 E 234/21/9 (1851)
+	1852   => '1340964',            # Décès Plouguer 3 E 234/21/10 (1852)
+    },
+
+    '3E234_0022' => {			# Décès Plouguer 3 E 234 22   1853-1862
+	1853   => '1340966',            # Décès Plouguer 3 E 234/22/1 (1853)
+	1854   => '1340967',            # Décès Plouguer 3 E 234/22/2 (1854)
+	1855   => '1340968',            # Décès Plouguer 3 E 234/22/3 (1855)
+	1856   => '1340969',            # Décès Plouguer 3 E 234/22/4 (1856)
+	1857   => '1340970',            # Décès Plouguer 3 E 234/22/5 (1857)
+	1858   => '1340971',            # Décès Plouguer 3 E 234/22/6 (1858)
+	1859   => '1340972',            # Décès Plouguer 3 E 234/22/7 (1859)
+	1860   => '1340973',            # Décès Plouguer 3 E 234/22/8 (1860)
+	1861   => '1340974',            # Décès Plouguer 3 E 234/22/9 (1861)
+	1862   => '1340975',            # Décès Plouguer 3 E 234/22/10 (1862)
+    },
+
+    '3E234_0023' => {			# Décès Plouguer 3 E 234 23   1863-1869
+	1863   => '1340977',            # Décès Plouguer 3 E 234/23/1 (1863)
+	1864   => '1340978',            # Décès Plouguer 3 E 234/23/2 (1864)
+	1865   => '1340979',            # Décès Plouguer 3 E 234/23/3 (1865)
+	1866   => '1340980',            # Décès Plouguer 3 E 234/23/4 (1866)
+	1867   => '1340981',            # Décès Plouguer 3 E 234/23/5 (1867)
+	1868   => '1340982',            # Décès Plouguer 3 E 234/23/6 (1868)
+	1869   => '1340983',            # Décès Plouguer 3 E 234/23/7 (1869)
+    },
+
+    '3E234_0024' => {			# Naissance Plouguer 3 E 234 24   1870-1888
+	1870   => '1340677',            # Naissance Plouguer 3 E 234/24/1 (1870)
+	1871   => '1340678',            # Naissance Plouguer 3 E 234/24/2 (1871)
+	1872   => '1340679',            # Naissance Plouguer 3 E 234/24/3 (1872)
+	1873   => '1340680',            # Naissance Plouguer 3 E 234/24/4 (1873)
+	1874   => '1340681',            # Naissance Plouguer 3 E 234/24/5 (1874)
+	1875   => '1340682',            # Naissance Plouguer 3 E 234/24/6 (1875)
+	1876   => '1340683',            # Naissance Plouguer 3 E 234/24/7 (1876)
+	1877   => '1340684',            # Naissance Plouguer 3 E 234/24/8 (1877)
+	1878   => '1340685',            # Naissance Plouguer 3 E 234/24/9 (1878)
+	1879   => '1340686',            # Naissance Plouguer 3 E 234/24/10 (1879)
+	1880   => '1340687',            # Naissance Plouguer 3 E 234/24/11 (1880)
+	1881   => '1340688',            # Naissance Plouguer 3 E 234/24/12 (1881)
+	1882   => '1340689',            # Naissance Plouguer 3 E 234/24/13 (1882)
+	1883   => '1340690',            # Naissance Plouguer 3 E 234/24/14 (1883)
+	1884   => '1340691',            # Naissance Plouguer 3 E 234/24/15 (1884)
+	1885   => '1340692',            # Naissance Plouguer 3 E 234/24/16 (1885)
+	1886   => '1340693',            # Naissance Plouguer 3 E 234/24/17 (1886)
+	1887   => '1340694',            # Naissance Plouguer 3 E 234/24/18 (1887)
+	1888   => '1340695',            # Naissance Plouguer 3 E 234/24/19 (1888)
+    },
+
+    '3E234_0025' => {			# Mariage Plouguer 3 E 234 25   1885-1900
+	1885   => '1340847',            # Mariage Plouguer 3 E 234/25/1 (1885)
+	1886   => '1340848',            # Mariage Plouguer 3 E 234/25/2 (1886)
+	1887   => '1340849',            # Mariage Plouguer 3 E 234/25/3 (1887)
+	1888   => '1340850',            # Mariage Plouguer 3 E 234/25/4 (1888)
+	1889   => '1340851',            # Mariage Plouguer 3 E 234/25/5 (1889)
+	1890   => '1340852',            # Mariage Plouguer 3 E 234/25/6 (1890)
+	1891   => '1340853',            # Mariage Plouguer 3 E 234/25/7 (1891)
+	1892   => '1340854',            # Mariage Plouguer 3 E 234/25/8 (1892)
+	1893   => '1340855',            # Mariage Plouguer 3 E 234/25/9 (1893)
+	1894   => '1340856',            # Mariage Plouguer 3 E 234/25/10 (1894)
+	1895   => '1340857',            # Mariage Plouguer 3 E 234/25/11 (1895)
+	1896   => '1340858',            # Mariage Plouguer 3 E 234/25/12 (1896)
+	1897   => '1340859',            # Mariage Plouguer 3 E 234/25/13 (1897)
+	1898   => '1340860',            # Mariage Plouguer 3 E 234/25/14 (1898)
+	1899   => '1340861',            # Mariage Plouguer 3 E 234/25/15 (1899)
+	1900   => '1340862',            # Mariage Plouguer 3 E 234/25/16 (1900)
+    },
+
+    '3E234_0026' => {			# Décès Plouguer 3 E 234 26   1870-1886
+	1870   => '1340985',            # Décès Plouguer 3 E 234/26/1 (1870)
+	1871   => '1340986',            # Décès Plouguer 3 E 234/26/2 (1871)
+	1872   => '1340987',            # Décès Plouguer 3 E 234/26/3 (1872)
+	1873   => '1340988',            # Décès Plouguer 3 E 234/26/4 (1873)
+	1874   => '1340989',            # Décès Plouguer 3 E 234/26/5 (1874)
+	1875   => '1340990',            # Décès Plouguer 3 E 234/26/6 (1875)
+	1876   => '1340991',            # Décès Plouguer 3 E 234/26/7 (1876)
+	1877   => '1340992',            # Décès Plouguer 3 E 234/26/8 (1877)
+	1878   => '1340993',            # Décès Plouguer 3 E 234/26/9 (1878)
+	1879   => '1340994',            # Décès Plouguer 3 E 234/26/10 (1879)
+	1880   => '1340995',            # Décès Plouguer 3 E 234/26/11 (1880)
+	1881   => '1340996',            # Décès Plouguer 3 E 234/26/12 (1881)
+	1882   => '1340997',            # Décès Plouguer 3 E 234/26/13 (1882)
+	1883   => '1340998',            # Décès Plouguer 3 E 234/26/14 (1883)
+	1884   => '1340999',            # Décès Plouguer 3 E 234/26/15 (1884)
+	1885   => '1341000',            # Décès Plouguer 3 E 234/26/16 (1885)
+	1886   => '1341001',            # Décès Plouguer 3 E 234/26/17 (1886)
+    },
+
+    '3E234_0027' => {			# Décès Plouguer 3 E 234 27   1887-1900
+	1887   => '1341003',            # Décès Plouguer 3 E 234/27/1 (1887)
+	1888   => '1341004',            # Décès Plouguer 3 E 234/27/2 (1888)
+	1889   => '1341005',            # Décès Plouguer 3 E 234/27/3 (1889)
+	1890   => '1341006',            # Décès Plouguer 3 E 234/27/4 (1890)
+	1891   => '1341007',            # Décès Plouguer 3 E 234/27/5 (1891)
+	1892   => '1341008',            # Décès Plouguer 3 E 234/27/6 (1892)
+	1893   => '1341009',            # Décès Plouguer 3 E 234/27/7 (1893)
+	1894   => '1341010',            # Décès Plouguer 3 E 234/27/8 (1894)
+	1895   => '1341011',            # Décès Plouguer 3 E 234/27/9 (1895)
+	1896   => '1341012',            # Décès Plouguer 3 E 234/27/10 (1896)
+	1897   => '1341013',            # Décès Plouguer 3 E 234/27/11 (1897)
+	1898   => '1341014',            # Décès Plouguer 3 E 234/27/12 (1898)
+	1899   => '1341015',            # Décès Plouguer 3 E 234/27/13 (1899)
+	1900   => '1341016',            # Décès Plouguer 3 E 234/27/14 (1900)
+    },
+
+    '3E234_0028' => {			# Naissance Plouguer 3 E 234 28   1889-1904
+	1889   => '1340697',            # Naissance Plouguer 3 E 234/28/1 (1889)
+	1890   => '1340698',            # Naissance Plouguer 3 E 234/28/2 (1890)
+	1891   => '1340699',            # Naissance Plouguer 3 E 234/28/3 (1891)
+	1892   => '1340700',            # Naissance Plouguer 3 E 234/28/4 (1892)
+	1893   => '1340701',            # Naissance Plouguer 3 E 234/28/5 (1893)
+	1894   => '1340702',            # Naissance Plouguer 3 E 234/28/6 (1894)
+	1895   => '1340703',            # Naissance Plouguer 3 E 234/28/7 (1895)
+	1896   => '1340704',            # Naissance Plouguer 3 E 234/28/8 (1896)
+	1897   => '1340705',            # Naissance Plouguer 3 E 234/28/9 (1897)
+	1898   => '1340706',            # Naissance Plouguer 3 E 234/28/10 (1898)
+	1899   => '1340707',            # Naissance Plouguer 3 E 234/28/11 (1899)
+	1900   => '1340708',            # Naissance Plouguer 3 E 234/28/12 (1900)
+	1901   => '1340709',            # Naissance Plouguer 3 E 234/28/13 (1901)
+	1902   => '1340710',            # Naissance Plouguer 3 E 234/28/14 (1902)
+	1903   => '1340711',            # Naissance Plouguer 3 E 234/28/15 (1903)
+	1904   => '1340712',            # Naissance Plouguer 3 E 234/28/16 (1904)
+    },
+
+    '3E234_0029' => {			# Naissance Plouguer 3 E 234 29   1905-1919
+	1905   => '1340714',            # Naissance Plouguer 3 E 234/29/1 (1905)
+	1906   => '1340715',            # Naissance Plouguer 3 E 234/29/2 (1906)
+	1907   => '1340716',            # Naissance Plouguer 3 E 234/29/3 (1907)
+	1908   => '1340717',            # Naissance Plouguer 3 E 234/29/4 (1908)
+	1909   => '1340718',            # Naissance Plouguer 3 E 234/29/5 (1909)
+	1910   => '1340719',            # Naissance Plouguer 3 E 234/29/6 (1910)
+	1911   => '1340720',            # Naissance Plouguer 3 E 234/29/7 (1911)
+	1912   => '1340721',            # Naissance Plouguer 3 E 234/29/8 (1912)
+	1913   => '1340722',            # Naissance Plouguer 3 E 234/29/9 (1913)
+	1914   => '1340723',            # Naissance Plouguer 3 E 234/29/10 (1914)
+	1915   => '1340724',            # Naissance Plouguer 3 E 234/29/11 (1915)
+	1916   => '1340725',            # Naissance Plouguer 3 E 234/29/12 (1916)
+	1917   => '1340726',            # Naissance Plouguer 3 E 234/29/13 (1917)
+	1918   => '1340727',            # Naissance Plouguer 3 E 234/29/14 (1918)
+	1919   => '1340728',            # Naissance Plouguer 3 E 234/29/15 (1919)
+    },
+
+    '3E234_0030' => {			# Naissance Plouguer 3 E 234 30   1920-1925
+	1920   => '1340730',            # Naissance Plouguer 3 E 234/30/1 (1920)
+	1921   => '1340731',            # Naissance Plouguer 3 E 234/30/2 (1921)
+	1922   => '1340732',            # Naissance Plouguer 3 E 234/30/3 (1922)
+	1923   => '1340733',            # Naissance Plouguer 3 E 234/30/4 (1923)
+	1924   => '1340734',            # Naissance Plouguer 3 E 234/30/5 (1924)
+	1925   => '1340735',            # Naissance Plouguer 3 E 234/30/6 (1925)
+    },
+
+    '3E234_0031' => {			# Mariage Plouguer 3 E 234 31   1901-1917
+	1901   => '1340864',            # Mariage Plouguer 3 E 234/31/1 (1901)
+	1902   => '1340865',            # Mariage Plouguer 3 E 234/31/2 (1902)
+	1903   => '1340866',            # Mariage Plouguer 3 E 234/31/3 (1903)
+	1904   => '1340867',            # Mariage Plouguer 3 E 234/31/4 (1904)
+	1905   => '1340868',            # Mariage Plouguer 3 E 234/31/5 (1905)
+	1906   => '1340869',            # Mariage Plouguer 3 E 234/31/6 (1906)
+	1907   => '1340870',            # Mariage Plouguer 3 E 234/31/7 (1907)
+	1908   => '1340871',            # Mariage Plouguer 3 E 234/31/8 (1908)
+	1909   => '1340872',            # Mariage Plouguer 3 E 234/31/9 (1909)
+	1910   => '1340873',            # Mariage Plouguer 3 E 234/31/10 (1910)
+	1911   => '1340874',            # Mariage Plouguer 3 E 234/31/11 (1911)
+	1912   => '1340875',            # Mariage Plouguer 3 E 234/31/12 (1912)
+	1913   => '1340876',            # Mariage Plouguer 3 E 234/31/13 (1913)
+	1914   => '1340877',            # Mariage Plouguer 3 E 234/31/14 (1914)
+	1915   => '1340878',            # Mariage Plouguer 3 E 234/31/15 (1915)
+	1916   => '1340879',            # Mariage Plouguer 3 E 234/31/16 (1916)
+	1917   => '1340880',            # Mariage Plouguer 3 E 234/31/17 (1917)
+    },
+
+    '3E234_0032' => {			# Mariage Plouguer 3 E 234 32   1918-1925
+	1918   => '1340882',            # Mariage Plouguer 3 E 234/32/1 (1918)
+	1919   => '1340883',            # Mariage Plouguer 3 E 234/32/2 (1919)
+	1920   => '1340884',            # Mariage Plouguer 3 E 234/32/3 (1920)
+	1921   => '1340885',            # Mariage Plouguer 3 E 234/32/4 (1921)
+	1922   => '1340886',            # Mariage Plouguer 3 E 234/32/5 (1922)
+	1923   => '1340887',            # Mariage Plouguer 3 E 234/32/6 (1923)
+	1924   => '1340888',            # Mariage Plouguer 3 E 234/32/7 (1924)
+	1925   => '1340889',            # Mariage Plouguer 3 E 234/32/8 (1925)
+    },
+
+    '3E234_0033' => {			# Décès Plouguer 3 E 234 33   1901-1915
+	1901   => '1341018',            # Décès Plouguer 3 E 234/33/1 (1901)
+	1902   => '1341019',            # Décès Plouguer 3 E 234/33/2 (1902)
+	1903   => '1341020',            # Décès Plouguer 3 E 234/33/3 (1903)
+	1904   => '1341021',            # Décès Plouguer 3 E 234/33/4 (1904)
+	1905   => '1341022',            # Décès Plouguer 3 E 234/33/5 (1905)
+	1906   => '1341023',            # Décès Plouguer 3 E 234/33/6 (1906)
+	1907   => '1341024',            # Décès Plouguer 3 E 234/33/7 (1907)
+	1908   => '1341025',            # Décès Plouguer 3 E 234/33/8 (1908)
+	1909   => '1341026',            # Décès Plouguer 3 E 234/33/9 (1909)
+	1910   => '1341027',            # Décès Plouguer 3 E 234/33/10 (1910)
+	1911   => '1341028',            # Décès Plouguer 3 E 234/33/11 (1911)
+	1912   => '1341029',            # Décès Plouguer 3 E 234/33/12 (1912)
+	1913   => '1341030',            # Décès Plouguer 3 E 234/33/13 (1913)
+	1914   => '1341031',            # Décès Plouguer 3 E 234/33/14 (1914)
+	1915   => '1341032',            # Décès Plouguer 3 E 234/33/15 (1915)
+    },
+
+    '3E234_0034' => {			# Décès Plouguer 3 E 234 34   1916-1936
+	1916   => '1341034',            # Décès Plouguer 3 E 234/34/1 (1916)
+	1917   => '1341035',            # Décès Plouguer 3 E 234/34/2 (1917)
+	1918   => '1341036',            # Décès Plouguer 3 E 234/34/3 (1918)
+	1919   => '1341037',            # Décès Plouguer 3 E 234/34/4 (1919)
+	1920   => '1341038',            # Décès Plouguer 3 E 234/34/5 (1920)
+	1921   => '1341039',            # Décès Plouguer 3 E 234/34/6 (1921)
+	1922   => '1341040',            # Décès Plouguer 3 E 234/34/7 (1922)
+	1923   => '1341041',            # Décès Plouguer 3 E 234/34/8 (1923)
+	1924   => '1341042',            # Décès Plouguer 3 E 234/34/9 (1924)
+	1925   => '1341043',            # Décès Plouguer 3 E 234/34/10 (1925)
+	1926   => '1341044',            # Décès Plouguer 3 E 234/34/11 (1926)
+	1927   => '1341045',            # Décès Plouguer 3 E 234/34/12 (1927)
+	1928   => '1341046',            # Décès Plouguer 3 E 234/34/13 (1928)
+	1929   => '1341047',            # Décès Plouguer 3 E 234/34/14 (1929)
+	1930   => '1341048',            # Décès Plouguer 3 E 234/34/15 (1930)
+	1931   => '1341049',            # Décès Plouguer 3 E 234/34/16 (1931)
+	1932   => '1341050',            # Décès Plouguer 3 E 234/34/17 (1932)
+	1933   => '1341051',            # Décès Plouguer 3 E 234/34/18 (1933)
+	1934   => '1341052',            # Décès Plouguer 3 E 234/34/19 (1934)
+	1935   => '1341053',            # Décès Plouguer 3 E 234/34/20 (1935)
+	1936   => '1341054',            # Décès Plouguer 3 E 234/34/21 (1936)
+    },
+
+    # Spezet
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
