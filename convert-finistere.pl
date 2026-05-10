@@ -661,6 +661,515 @@ my %convert = (
         1936 => '1277644',              # Décès Cléden-Poher 3 E 42/46/15 (1936)
     },
 
+    # Elliant
+    '3E064_0006' => {			# Naissance Elliant 3 E 64 6   AN02-AN10
+	'AN02' => '1285736',            # Naissance Elliant 3 E 64/6/1 (1793 - an II)
+	'AN03' => '1285737',            # Naissance Elliant 3 E 64/6/2 (An III)
+	'AN04' => '1285738',            # Naissance Elliant 3 E 64/6/3 (An IV)
+	'AN05' => '1285739',            # Naissance Elliant 3 E 64/6/4 (An V)
+	'AN06' => '1285740',            # Naissance Elliant 3 E 64/6/5 (An VI)
+	'AN07' => '1285741',            # Naissance Elliant 3 E 64/6/6 (An VII)
+	'AN08' => '1285742',            # Naissance Elliant 3 E 64/6/7 (An VIII)
+	'AN09' => '1285743',            # Naissance Elliant 3 E 64/6/8 (An IX)
+	'AN10' => '1285744',            # Naissance Elliant 3 E 64/6/9 (An X)
+    },
+
+    '3E064_0007' => {			# Naissance Elliant 3 E 64 7   AN12-1812
+	'AN11' => '1285746',            # Naissance Elliant 3 E 64/7/1 (An XI)
+	'AN12' => '1285747',            # Naissance Elliant 3 E 64/7/2 (An XII)
+	'AN13' => '1285748',            # Naissance Elliant 3 E 64/7/3 (An XIII)
+	'AN14' => '1285749',            # Naissance Elliant 3 E 64/7/4 (An XIV - 1806)
+	1807   => '1285750',            # Naissance Elliant 3 E 64/7/5 (1807)
+	1808   => '1285751',            # Naissance Elliant 3 E 64/7/6 (1808)
+	1809   => '1285752',            # Naissance Elliant 3 E 64/7/7 (1809)
+	1810   => '1285753',            # Naissance Elliant 3 E 64/7/8 (1810)
+	1811   => '1285754',            # Naissance Elliant 3 E 64/7/9 (1811)
+	1812   => '1285755',            # Naissance Elliant 3 E 64/7/10 (1812)
+    },
+
+    '3E064_0008' => {			# Naissance Elliant 3 E 64 8   1813-1816
+	1813   => '1285757',            # Naissance Elliant 3 E 64/8/1 (1813)
+	1814   => '1285758',            # Naissance Elliant 3 E 64/8/2 (1814)
+	1815   => '1285759',            # Naissance Elliant 3 E 64/8/3 (1815)
+	1816   => '1285760',            # Naissance Elliant 3 E 64/8/4 (1816)
+    },
+
+    '3E064_0009' => {			# Naissance Elliant 3 E 64 9   1823-1832
+	1823   => '1285768',            # Naissance Elliant 3 E 64/9/1 (1823)
+	1824   => '1285769',            # Naissance Elliant 3 E 64/9/2 (1824)
+	1825   => '1285770',            # Naissance Elliant 3 E 64/9/3 (1825)
+	1826   => '1285771',            # Naissance Elliant 3 E 64/9/4 (1826)
+	1827   => '1285772',            # Naissance Elliant 3 E 64/9/5 (1827)
+	1828   => '1285773',            # Naissance Elliant 3 E 64/9/6 (1828)
+	1829   => '1285774',            # Naissance Elliant 3 E 64/9/7 (1829)
+	1830   => '1285775',            # Naissance Elliant 3 E 64/9/8 (1830)
+	1831   => '1285776',            # Naissance Elliant 3 E 64/9/9 (1831)
+	1832   => '1285777',            # Naissance Elliant 3 E 64/9/10 (1832)
+    },
+
+    '3E064_0010' => {			# Naissance Elliant 3 E 64 10   1833-1842
+	1833   => '1285779',            # Naissance Elliant 3 E 64/10/1 (1833)
+	1834   => '1285780',            # Naissance Elliant 3 E 64/10/2 (1834)
+	1835   => '1285781',            # Naissance Elliant 3 E 64/10/3 (1835)
+	1836   => '1285782',            # Naissance Elliant 3 E 64/10/4 (1836)
+	1837   => '1285783',            # Naissance Elliant 3 E 64/10/5 (1837)
+	1838   => '1285784',            # Naissance Elliant 3 E 64/10/6 (1838)
+	1839   => '1285785',            # Naissance Elliant 3 E 64/10/7 (1839)
+	1840   => '1285786',            # Naissance Elliant 3 E 64/10/8 (1840)
+	1841   => '1285787',            # Naissance Elliant 3 E 64/10/9 (1841)
+	1842   => '1285788',            # Naissance Elliant 3 E 64/10/10 (1842)
+    },
+
+    '3E064_0011' => {			# Naissance Elliant 3 E 64 11   1843-1858
+	1843   => '1285790',            # Naissance Elliant 3 E 64/11/1 (1843)
+	1844   => '1285791',            # Naissance Elliant 3 E 64/11/2 (1844)
+	1845   => '1285792',            # Naissance Elliant 3 E 64/11/3 (1845)
+	1846   => '1285793',            # Naissance Elliant 3 E 64/11/4 (1846)
+	1847   => '1285794',            # Naissance Elliant 3 E 64/11/5 (1847)
+	1848   => '1285795',            # Naissance Elliant 3 E 64/11/6 (1848)
+	1849   => '1285796',            # Naissance Elliant 3 E 64/11/7 (1849)
+	1850   => '1285797',            # Naissance Elliant 3 E 64/11/8 (1850)
+	1851   => '1285798',            # Naissance Elliant 3 E 64/11/9 (1851)
+	1852   => '1285799',            # Naissance Elliant 3 E 64/11/10 (1852)
+	1853   => '1285800',            # Naissance Elliant 3 E 64/11/11 (1853)
+	1854   => '1285801',            # Naissance Elliant 3 E 64/11/12 (1854)
+	1855   => '1285802',            # Naissance Elliant 3 E 64/11/13 (1855)
+	1856   => '1285803',            # Naissance Elliant 3 E 64/11/14 (1856)
+	1857   => '1285804',            # Naissance Elliant 3 E 64/11/15 (1857)
+	1858   => '1285805',            # Naissance Elliant 3 E 64/11/16 (1858)
+    },
+
+    '3E064_0012' => {			# Naissance Elliant 3 E 64 12   1859-1869
+	1859   => '1285807',            # Naissance Elliant 3 E 64/12/1 (1859)
+	1860   => '1285808',            # Naissance Elliant 3 E 64/12/2 (1860)
+	1861   => '1285809',            # Naissance Elliant 3 E 64/12/3 (1861)
+	1862   => '1285810',            # Naissance Elliant 3 E 64/12/4 (1862)
+	1863   => '1285811',            # Naissance Elliant 3 E 64/12/5 (1863)
+	1864   => '1285812',            # Naissance Elliant 3 E 64/12/6 (1864)
+	1865   => '1285813',            # Naissance Elliant 3 E 64/12/7 (1865)
+	1866   => '1285814',            # Naissance Elliant 3 E 64/12/8 (1866)
+	1867   => '1285815',            # Naissance Elliant 3 E 64/12/9 (1867)
+	1868   => '1285816',            # Naissance Elliant 3 E 64/12/10 (1868)
+	1869   => '1285817',            # Naissance Elliant 3 E 64/12/11 (1869)
+    },
+
+    '3E064_0013' => {			# Naissance Elliant 3 E 64 13   1870-1877
+	1870   => '1285819',            # Naissance Elliant 3 E 64/13/1 (1870)
+	1871   => '1285820',            # Naissance Elliant 3 E 64/13/2 (1871)
+	1872   => '1285821',            # Naissance Elliant 3 E 64/13/3 (1872)
+	1873   => '1285822',            # Naissance Elliant 3 E 64/13/4 (1873)
+	1874   => '1285823',            # Naissance Elliant 3 E 64/13/5 (1874)
+	1875   => '1285824',            # Naissance Elliant 3 E 64/13/6 (1875)
+	1876   => '1285825',            # Naissance Elliant 3 E 64/13/7 (1876)
+	1877   => '1285826',            # Naissance Elliant 3 E 64/13/8 (1877)
+    },
+
+    '3E064_0014' => {			# Naissance Elliant 3 E 64 14   1878-1887
+	1878   => '1285828',            # Naissance Elliant 3 E 64/14/1 (1878)
+	1879   => '1285829',            # Naissance Elliant 3 E 64/14/2 (1879)
+	1880   => '1285830',            # Naissance Elliant 3 E 64/14/3 (1880)
+	1881   => '1285831',            # Naissance Elliant 3 E 64/14/4 (1881)
+	1882   => '1285832',            # Naissance Elliant 3 E 64/14/5 (1882)
+	1883   => '1285833',            # Naissance Elliant 3 E 64/14/6 (1883)
+	1884   => '1285834',            # Naissance Elliant 3 E 64/14/7 (1884)
+	1885   => '1285835',            # Naissance Elliant 3 E 64/14/8 (1885)
+	1886   => '1285836',            # Naissance Elliant 3 E 64/14/9 (1886)
+	1887   => '1285837',            # Naissance Elliant 3 E 64/14/10 (1887)
+    },
+
+    '3E064_0015' => {			# Mariage Elliant 3 E 64 15   AN02-AN10
+	'AN02' => '1285905',            # Mariage Elliant 3 E 64/15/1 (1793 - an II)
+	'AN03' => '1285906',            # Mariage Elliant 3 E 64/15/2 (An III)
+	'AN04' => '1285907',            # Mariage Elliant 3 E 64/15/3 (An IV)
+	'AN05' => '1285908',            # Mariage Elliant 3 E 64/15/4 (An V)
+	'AN06' => '1285909',            # Mariage Elliant 3 E 64/15/5 (An VI)
+	'AN07' => '1285910',            # Mariage Elliant 3 E 64/15/6 (An VII)
+	'AN08' => '1285911',            # Mariage Elliant 3 E 64/15/7 (An VIII)
+	'AN09' => '1285912',            # Mariage Elliant 3 E 64/15/8 (An IX)
+	'AN10' => '1285913',            # Mariage Elliant 3 E 64/15/9 (An X)
+    },
+
+    '3E064_0016' => {			# Mariage Elliant 3 E 64 16   AN11-1809
+	'AN11' => '1285915',            # Mariage Elliant 3 E 64/16/1 (An XI)
+	'AN12' => '1285916',            # Mariage Elliant 3 E 64/16/2 (An XII)
+	'AN13' => '1285917',            # Mariage Elliant 3 E 64/16/3 (An XIII)
+	'AN14' => '1285918',            # Mariage Elliant 3 E 64/16/4 (An XIV - 1806)
+	1807   => '1285919',            # Mariage Elliant 3 E 64/16/5 (1807)
+	1808   => '1285920',            # Mariage Elliant 3 E 64/16/6 (1808)
+	1809   => '1285921',            # Mariage Elliant 3 E 64/16/7 (1809)
+    },
+
+    '3E064_0017' => {			# Mariage Elliant 3 E 64 17   1813-1822
+	1813   => '1285926',            # Mariage Elliant 3 E 64/17/1 (1813)
+	1814   => '1285927',            # Mariage Elliant 3 E 64/17/2 (1814)
+	1815   => '1285928',            # Mariage Elliant 3 E 64/17/3 (1815)
+	1816   => '1285929',            # Mariage Elliant 3 E 64/17/4 (1816)
+	1817   => '1285930',            # Mariage Elliant 3 E 64/17/5 (1817)
+	1818   => '1285931',            # Mariage Elliant 3 E 64/17/6 (1818)
+	1819   => '1285932',            # Mariage Elliant 3 E 64/17/7 (1819)
+	1820   => '1285933',            # Mariage Elliant 3 E 64/17/8 (1820)
+	1821   => '1285934',            # Mariage Elliant 3 E 64/17/9 (1821)
+	1822   => '1285935',            # Mariage Elliant 3 E 64/17/10 (1822)
+    },
+
+    '3E064_0018' => {			# Mariage Elliant 3 E 64 18   1823-1839
+	1823   => '1285937',            # Mariage Elliant 3 E 64/18/1 (1823)
+	1824   => '1285938',            # Mariage Elliant 3 E 64/18/2 (1824)
+	1825   => '1285939',            # Mariage Elliant 3 E 64/18/3 (1825)
+	1826   => '1285940',            # Mariage Elliant 3 E 64/18/4 (1826)
+	1827   => '1285941',            # Mariage Elliant 3 E 64/18/5 (1827)
+	1828   => '1285942',            # Mariage Elliant 3 E 64/18/6 (1828)
+	1829   => '1285943',            # Mariage Elliant 3 E 64/18/7 (1829)
+	1833   => '1285947',            # Mariage Elliant 3 E 64/18/11 (1833)
+	1834   => '1285948',            # Mariage Elliant 3 E 64/18/12 (1834)
+	1835   => '1285949',            # Mariage Elliant 3 E 64/18/13 (1835)
+	1836   => '1285950',            # Mariage Elliant 3 E 64/18/14 (1836)
+	1837   => '1285951',            # Mariage Elliant 3 E 64/18/15 (1837)
+	1838   => '1285952',            # Mariage Elliant 3 E 64/18/16 (1838)
+	1839   => '1285953',            # Mariage Elliant 3 E 64/18/17 (1839)
+    },
+
+    '3E064_0019' => {			# Mariage Elliant 3 E 64 19   1840-1852
+	1840   => '1285955',            # Mariage Elliant 3 E 64/19/1 (1840)
+	1841   => '1285956',            # Mariage Elliant 3 E 64/19/2 (1841)
+	1842   => '1285957',            # Mariage Elliant 3 E 64/19/3 (1842)
+	1843   => '1285958',            # Mariage Elliant 3 E 64/19/4 (1843)
+	1844   => '1285959',            # Mariage Elliant 3 E 64/19/5 (1844)
+	1845   => '1285960',            # Mariage Elliant 3 E 64/19/6 (1845)
+	1846   => '1285961',            # Mariage Elliant 3 E 64/19/7 (1846)
+	1847   => '1285962',            # Mariage Elliant 3 E 64/19/8 (1847)
+	1848   => '1285963',            # Mariage Elliant 3 E 64/19/9 (1848)
+	1849   => '1285964',            # Mariage Elliant 3 E 64/19/10 (1849)
+	1850   => '1285965',            # Mariage Elliant 3 E 64/19/11 (1850)
+	1851   => '1285966',            # Mariage Elliant 3 E 64/19/12 (1851)
+	1852   => '1285967',            # Mariage Elliant 3 E 64/19/13 (1852)
+    },
+
+    '3E064_0020' => {			# Mariage Elliant 3 E 64 20   1853-1862
+	1853   => '1285969',            # Mariage Elliant 3 E 64/20/1 (1853)
+	1854   => '1285970',            # Mariage Elliant 3 E 64/20/2 (1854)
+	1855   => '1285971',            # Mariage Elliant 3 E 64/20/3 (1855)
+	1856   => '1285972',            # Mariage Elliant 3 E 64/20/4 (1856)
+	1857   => '1285973',            # Mariage Elliant 3 E 64/20/5 (1857)
+	1858   => '1285974',            # Mariage Elliant 3 E 64/20/6 (1858)
+	1859   => '1285975',            # Mariage Elliant 3 E 64/20/7 (1859)
+	1860   => '1285976',            # Mariage Elliant 3 E 64/20/8 (1860)
+	1861   => '1285977',            # Mariage Elliant 3 E 64/20/9 (1861)
+	1862   => '1285978',            # Mariage Elliant 3 E 64/20/10 (1862)
+    },
+
+    '3E064_0021' => {			# Mariage Elliant 3 E 64 21   1863-1869
+	1863   => '1285980',            # Mariage Elliant 3 E 64/21/1 (1863)
+	1864   => '1285981',            # Mariage Elliant 3 E 64/21/2 (1864)
+	1865   => '1285982',            # Mariage Elliant 3 E 64/21/3 (1865)
+	1866   => '1285983',            # Mariage Elliant 3 E 64/21/4 (1866)
+	1867   => '1285984',            # Mariage Elliant 3 E 64/21/5 (1867)
+	1868   => '1285985',            # Mariage Elliant 3 E 64/21/6 (1868)
+	1869   => '1285986',            # Mariage Elliant 3 E 64/21/7 (1869)
+    },
+
+    '3E064_0022' => {			# Mariage Elliant 3 E 64 22   1870-1881
+	1870   => '1285988',            # Mariage Elliant 3 E 64/22/1 (1870)
+	1871   => '1285989',            # Mariage Elliant 3 E 64/22/2 (1871)
+	1872   => '1285990',            # Mariage Elliant 3 E 64/22/3 (1872)
+	1873   => '1285991',            # Mariage Elliant 3 E 64/22/4 (1873)
+	1874   => '1285992',            # Mariage Elliant 3 E 64/22/5 (1874)
+	1875   => '1285993',            # Mariage Elliant 3 E 64/22/6 (1875)
+	1876   => '1285994',            # Mariage Elliant 3 E 64/22/7 (1876)
+	1877   => '1285995',            # Mariage Elliant 3 E 64/22/8 (1877)
+	1878   => '1285996',            # Mariage Elliant 3 E 64/22/9 (1878)
+	1879   => '1285997',            # Mariage Elliant 3 E 64/22/10 (1879)
+	1880   => '1285998',            # Mariage Elliant 3 E 64/22/11 (1880)
+	1881   => '1285999',            # Mariage Elliant 3 E 64/22/12 (1881)
+    },
+
+    '3E064_0023' => {			# Mariage Elliant 3 E 64 23   1882-1894
+	1882   => '1286001',            # Mariage Elliant 3 E 64/23/1 (1882)
+	1883   => '1286002',            # Mariage Elliant 3 E 64/23/2 (1883)
+	1884   => '1286003',            # Mariage Elliant 3 E 64/23/3 (1884)
+	1885   => '1286004',            # Mariage Elliant 3 E 64/23/4 (1885)
+	1886   => '1286005',            # Mariage Elliant 3 E 64/23/5 (1886)
+	1887   => '1286006',            # Mariage Elliant 3 E 64/23/6 (1887)
+	1888   => '1286007',            # Mariage Elliant 3 E 64/23/7 (1888)
+	1889   => '1286008',            # Mariage Elliant 3 E 64/23/8 (1889)
+	1890   => '1286009',            # Mariage Elliant 3 E 64/23/9 (1890)
+	1891   => '1286010',            # Mariage Elliant 3 E 64/23/10 (1891)
+	1892   => '1286011',            # Mariage Elliant 3 E 64/23/11 (1892)
+	1893   => '1286012',            # Mariage Elliant 3 E 64/23/12 (1893)
+	1894   => '1286013',            # Mariage Elliant 3 E 64/23/13 (1894)
+    },
+
+    '3E064_0024' => {			# Décès Elliant 3 E 64 24   AN02-AN10
+	'AN02' => '1286072',            # Décès Elliant 3 E 64/24/1 (1793 - an II)
+	'AN03' => '1286073',            # Décès Elliant 3 E 64/24/2 (An III)
+	'AN04' => '1286074',            # Décès Elliant 3 E 64/24/3 (An IV)
+	'AN05' => '1286075',            # Décès Elliant 3 E 64/24/4 (An V)
+	'AN06' => '1286076',            # Décès Elliant 3 E 64/24/5 (An VI)
+	'AN07' => '1286077',            # Décès Elliant 3 E 64/24/6 (An VII)
+	'AN08' => '1286078',            # Décès Elliant 3 E 64/24/7 (An VIII)
+	'AN09' => '1286079',            # Décès Elliant 3 E 64/24/8 (An IX)
+	'AN10' => '1286080',            # Décès Elliant 3 E 64/24/9 (An X)
+    },
+
+    '3E064_0025' => {			# Décès Elliant 3 E 64 25   AN12-1817
+	'AN11' => '1286082',            # Décès Elliant 3 E 64/25/1 (An XI)
+	'AN12' => '1286083',            # Décès Elliant 3 E 64/25/2 (An XII)
+	'AN13' => '1286084',            # Décès Elliant 3 E 64/25/3 (An XIII)
+	'AN14' => '1286085',            # Décès Elliant 3 E 64/25/4 (An XIV - 1806)
+	1807   => '1286086',            # Décès Elliant 3 E 64/25/5 (1807)
+	1808   => '1286087',            # Décès Elliant 3 E 64/25/6 (1808)
+	1809   => '1286088',            # Décès Elliant 3 E 64/25/7 (1809)
+	1810   => '1286089',            # Décès Elliant 3 E 64/25/8 (1810)
+	1811   => '1286090',            # Décès Elliant 3 E 64/25/9 (1811)
+	1812   => '1286091',            # Décès Elliant 3 E 64/25/10 (1812)
+	1813   => '1286092',            # Décès Elliant 3 E 64/25/11 (1813)
+	1814   => '1286093',            # Décès Elliant 3 E 64/25/12 (1814)
+	1815   => '1286094',            # Décès Elliant 3 E 64/25/13 (1815)
+	1816   => '1286095',            # Décès Elliant 3 E 64/25/14 (1816)
+	1817   => '1286096',            # Décès Elliant 3 E 64/25/15 (1817)
+    },
+
+    '3E064_0026' => {			# Décès Elliant 3 E 64 26   1823-1832
+	1823   => '1286103',            # Décès Elliant 3 E 64/26/5 (1823)
+	1824   => '1286104',            # Décès Elliant 3 E 64/26/6 (1824)
+	1825   => '1286105',            # Décès Elliant 3 E 64/26/7 (1825)
+	1826   => '1286106',            # Décès Elliant 3 E 64/26/8 (1826)
+	1827   => '1286107',            # Décès Elliant 3 E 64/26/9 (1827)
+	1828   => '1286108',            # Décès Elliant 3 E 64/26/10 (1828)
+	1829   => '1286109',            # Décès Elliant 3 E 64/26/11 (1829)
+	1830   => '1286110',            # Décès Elliant 3 E 64/26/12 (1830)
+	1831   => '1286111',            # Décès Elliant 3 E 64/26/13 (1831)
+	1832   => '1286112',            # Décès Elliant 3 E 64/26/14 (1832)
+    },
+
+    '3E064_0027' => {			# Décès Elliant 3 E 64 27   1833-1842
+	1833   => '1286114',            # Décès Elliant 3 E 64/27/1 (1833)
+	1834   => '1286115',            # Décès Elliant 3 E 64/27/2 (1834)
+	1835   => '1286116',            # Décès Elliant 3 E 64/27/3 (1835)
+	1836   => '1286117',            # Décès Elliant 3 E 64/27/4 (1836)
+	1837   => '1286118',            # Décès Elliant 3 E 64/27/5 (1837)
+	1838   => '1286119',            # Décès Elliant 3 E 64/27/6 (1838)
+	1839   => '1286120',            # Décès Elliant 3 E 64/27/7 (1839)
+	1840   => '1286121',            # Décès Elliant 3 E 64/27/8 (1840)
+	1841   => '1286122',            # Décès Elliant 3 E 64/27/9 (1841)
+	1842   => '1286123',            # Décès Elliant 3 E 64/27/10 (1842)
+    },
+
+    '3E064_0028' => {			# Décès Elliant 3 E 64 28   1843-1852
+	1843   => '1286125',            # Décès Elliant 3 E 64/28/1 (1843)
+	1844   => '1286126',            # Décès Elliant 3 E 64/28/2 (1844)
+	1845   => '1286127',            # Décès Elliant 3 E 64/28/3 (1845)
+	1846   => '1286128',            # Décès Elliant 3 E 64/28/4 (1846)
+	1847   => '1286129',            # Décès Elliant 3 E 64/28/5 (1847)
+	1848   => '1286130',            # Décès Elliant 3 E 64/28/6 (1848)
+	1849   => '1286131',            # Décès Elliant 3 E 64/28/7 (1849)
+	1850   => '1286132',            # Décès Elliant 3 E 64/28/8 (1850)
+	1851   => '1286133',            # Décès Elliant 3 E 64/28/9 (1851)
+	1852   => '1286134',            # Décès Elliant 3 E 64/28/10 (1852)
+    },
+
+    '3E064_0029' => {			# Décès Elliant 3 E 64 29   1853-1862
+	1853   => '1286136',            # Décès Elliant 3 E 64/29/1 (1853)
+	1854   => '1286137',            # Décès Elliant 3 E 64/29/2 (1854)
+	1855   => '1286138',            # Décès Elliant 3 E 64/29/3 (1855)
+	1856   => '1286139',            # Décès Elliant 3 E 64/29/4 (1856)
+	1857   => '1286140',            # Décès Elliant 3 E 64/29/5 (1857)
+	1858   => '1286141',            # Décès Elliant 3 E 64/29/6 (1858)
+	1859   => '1286142',            # Décès Elliant 3 E 64/29/7 (1859)
+	1860   => '1286143',            # Décès Elliant 3 E 64/29/8 (1860)
+	1861   => '1286144',            # Décès Elliant 3 E 64/29/9 (1861)
+	1862   => '1286145',            # Décès Elliant 3 E 64/29/10 (1862)
+    },
+
+    '3E064_0030' => {			# Décès Elliant 3 E 64 30   1863-1869
+	1863   => '1286147',            # Décès Elliant 3 E 64/30/1 (1863)
+	1864   => '1286148',            # Décès Elliant 3 E 64/30/2 (1864)
+	1865   => '1286149',            # Décès Elliant 3 E 64/30/3 (1865)
+	1866   => '1286150',            # Décès Elliant 3 E 64/30/4 (1866)
+	1867   => '1286151',            # Décès Elliant 3 E 64/30/5 (1867)
+	1868   => '1286152',            # Décès Elliant 3 E 64/30/6 (1868)
+	1869   => '1286153',            # Décès Elliant 3 E 64/30/7 (1869)
+    },
+
+    '3E064_0031' => {			# Décès Elliant 3 E 64 31   1870-1880
+	1870   => '1286155',            # Décès Elliant 3 E 64/31/1 (1870)
+	1871   => '1286156',            # Décès Elliant 3 E 64/31/2 (1871)
+	1872   => '1286157',            # Décès Elliant 3 E 64/31/3 (1872)
+	1873   => '1286158',            # Décès Elliant 3 E 64/31/4 (1873)
+	1874   => '1286159',            # Décès Elliant 3 E 64/31/5 (1874)
+	1875   => '1286160',            # Décès Elliant 3 E 64/31/6 (1875)
+	1876   => '1286161',            # Décès Elliant 3 E 64/31/7 (1876)
+	1877   => '1286162',            # Décès Elliant 3 E 64/31/8 (1877)
+	1878   => '1286163',            # Décès Elliant 3 E 64/31/9 (1878)
+	1879   => '1286164',            # Décès Elliant 3 E 64/31/10 (1879)
+	1880   => '1286165',            # Décès Elliant 3 E 64/31/11 (1880)
+    },
+
+    '3E064_0032' => {			# Décès Elliant 3 E 64 32   1881-1893
+	1881   => '1286167',            # Décès Elliant 3 E 64/32/1 (1881)
+	1882   => '1286168',            # Décès Elliant 3 E 64/32/2 (1882)
+	1883   => '1286169',            # Décès Elliant 3 E 64/32/3 (1883)
+	1884   => '1286170',            # Décès Elliant 3 E 64/32/4 (1884)
+	1885   => '1286171',            # Décès Elliant 3 E 64/32/5 (1885)
+	1886   => '1286172',            # Décès Elliant 3 E 64/32/6 (1886)
+	1887   => '1286173',            # Décès Elliant 3 E 64/32/7 (1887)
+	1888   => '1286174',            # Décès Elliant 3 E 64/32/8 (1888)
+	1889   => '1286175',            # Décès Elliant 3 E 64/32/9 (1889)
+	1890   => '1286176',            # Décès Elliant 3 E 64/32/10 (1890)
+	1891   => '1286177',            # Décès Elliant 3 E 64/32/11 (1891)
+	1892   => '1286178',            # Décès Elliant 3 E 64/32/12 (1892)
+	1893   => '1286179',            # Décès Elliant 3 E 64/32/13 (1893)
+    },
+
+    '3E064_0033' => {			# Naissance Elliant 3 E 64 33   1888-1895
+	1888   => '1285839',            # Naissance Elliant 3 E 64/33/1 (1888)
+	1889   => '1285840',            # Naissance Elliant 3 E 64/33/2 (1889)
+	1890   => '1285841',            # Naissance Elliant 3 E 64/33/3 (1890)
+	1891   => '1285842',            # Naissance Elliant 3 E 64/33/4 (1891)
+	1892   => '1285843',            # Naissance Elliant 3 E 64/33/5 (1892)
+	1893   => '1285844',            # Naissance Elliant 3 E 64/33/6 (1893)
+	1894   => '1285845',            # Naissance Elliant 3 E 64/33/7 (1894)
+	1895   => '1285846',            # Naissance Elliant 3 E 64/33/8 (1895)
+    },
+
+    '3E064_0034' => {			# Naissance Elliant 3 E 64 34   1896-1902
+	1896   => '1285848',            # Naissance Elliant 3 E 64/34/1 (1896)
+	1897   => '1285849',            # Naissance Elliant 3 E 64/34/2 (1897)
+	1898   => '1285850',            # Naissance Elliant 3 E 64/34/3 (1898)
+	1899   => '1285851',            # Naissance Elliant 3 E 64/34/4 (1899)
+	1900   => '1285852',            # Naissance Elliant 3 E 64/34/5 (1900)
+	1901   => '1285853',            # Naissance Elliant 3 E 64/34/6 (1901)
+	1902   => '1285854',            # Naissance Elliant 3 E 64/34/7 (1902)
+    },
+
+    '3E064_0035' => {			# Mariage Elliant 3 E 64 35   1895-1906
+	1895   => '1286015',            # Mariage Elliant 3 E 64/35/1 (1895)
+	1896   => '1286016',            # Mariage Elliant 3 E 64/35/2 (1896)
+	1897   => '1286017',            # Mariage Elliant 3 E 64/35/3 (1897)
+	1898   => '1286018',            # Mariage Elliant 3 E 64/35/4 (1898)
+	1899   => '1286019',            # Mariage Elliant 3 E 64/35/5 (1899)
+	1900   => '1286020',            # Mariage Elliant 3 E 64/35/6 (1900)
+	1901   => '1286021',            # Mariage Elliant 3 E 64/35/7 (1901)
+	1902   => '1286022',            # Mariage Elliant 3 E 64/35/8 (1902)
+	1903   => '1286023',            # Mariage Elliant 3 E 64/35/9 (1903)
+	1904   => '1286024',            # Mariage Elliant 3 E 64/35/10 (1904)
+	1905   => '1286025',            # Mariage Elliant 3 E 64/35/11 (1905)
+	1906   => '1286026',            # Mariage Elliant 3 E 64/35/12 (1906)
+    },
+
+    '3E064_0036' => {			# Décès Elliant 3 E 64 36   1894-1904
+	1894   => '1286181',            # Décès Elliant 3 E 64/36/1 (1894)
+	1895   => '1286182',            # Décès Elliant 3 E 64/36/2 (1895)
+	1896   => '1286183',            # Décès Elliant 3 E 64/36/3 (1896)
+	1897   => '1286184',            # Décès Elliant 3 E 64/36/4 (1897)
+	1898   => '1286185',            # Décès Elliant 3 E 64/36/5 (1898)
+	1899   => '1286186',            # Décès Elliant 3 E 64/36/6 (1899)
+	1900   => '1286187',            # Décès Elliant 3 E 64/36/7 (1900)
+	1901   => '1286188',            # Décès Elliant 3 E 64/36/8 (1901)
+	1902   => '1286189',            # Décès Elliant 3 E 64/36/9 (1902)
+	1903   => '1286190',            # Décès Elliant 3 E 64/36/10 (1903)
+	1904   => '1286191',            # Décès Elliant 3 E 64/36/11 (1904)
+    },
+
+    '3E064_0037' => {			# Naissance Elliant 3 E 64 37   1903-1909
+	1903   => '1285856',            # Naissance Elliant 3 E 64/37/1 (1903)
+	1904   => '1285857',            # Naissance Elliant 3 E 64/37/2 (1904)
+	1905   => '1285858',            # Naissance Elliant 3 E 64/37/3 (1905)
+	1906   => '1285859',            # Naissance Elliant 3 E 64/37/4 (1906)
+	1907   => '1285860',            # Naissance Elliant 3 E 64/37/5 (1907)
+	1908   => '1285861',            # Naissance Elliant 3 E 64/37/6 (1908)
+	1909   => '1285862',            # Naissance Elliant 3 E 64/37/7 (1909)
+    },
+
+    '3E064_0038' => {			# Décès Elliant 3 E 64 38   1905-1915
+	1905   => '1286193',            # Décès Elliant 3 E 64/38/1 (1905)
+	1906   => '1286194',            # Décès Elliant 3 E 64/38/2 (1906)
+	1907   => '1286195',            # Décès Elliant 3 E 64/38/3 (1907)
+	1908   => '1286196',            # Décès Elliant 3 E 64/38/4 (1908)
+	1909   => '1286197',            # Décès Elliant 3 E 64/38/5 (1909)
+	1910   => '1286198',            # Décès Elliant 3 E 64/38/6 (1910)
+	1911   => '1286199',            # Décès Elliant 3 E 64/38/7 (1911)
+	1912   => '1286200',            # Décès Elliant 3 E 64/38/8 (1912)
+	1913   => '1286201',            # Décès Elliant 3 E 64/38/9 (1913)
+	1914   => '1286202',            # Décès Elliant 3 E 64/38/10 (1914)
+	1915   => '1286203',            # Décès Elliant 3 E 64/38/11 (1915)
+    },
+
+    '3E064_0039' => {			# Naissance Elliant 3 E 64 39   1910-1917
+	1910   => '1285864',            # Naissance Elliant 3 E 64/39/1 (1910)
+	1911   => '1285865',            # Naissance Elliant 3 E 64/39/2 (1911)
+	1912   => '1285866',            # Naissance Elliant 3 E 64/39/3 (1912)
+	1913   => '1285867',            # Naissance Elliant 3 E 64/39/4 (1913)
+	1914   => '1285868',            # Naissance Elliant 3 E 64/39/5 (1914)
+	1915   => '1285869',            # Naissance Elliant 3 E 64/39/6 (1915)
+	1916   => '1285870',            # Naissance Elliant 3 E 64/39/7 (1916)
+	1917   => '1285871',            # Naissance Elliant 3 E 64/39/8 (1917)
+    },
+
+    '3E064_0040' => {			# Naissance Elliant 3 E 64 40   1918-1925
+	1918   => '1285873',            # Naissance Elliant 3 E 64/40/1 (1918)
+	1919   => '1285874',            # Naissance Elliant 3 E 64/40/2 (1919)
+	1920   => '1285875',            # Naissance Elliant 3 E 64/40/3 (1920)
+	1921   => '1285876',            # Naissance Elliant 3 E 64/40/4 (1921)
+	1922   => '1285877',            # Naissance Elliant 3 E 64/40/5 (1922)
+	1923   => '1285878',            # Naissance Elliant 3 E 64/40/6 (1923)
+	1924   => '1285879',            # Naissance Elliant 3 E 64/40/7 (1924)
+	1925   => '1285880',            # Naissance Elliant 3 E 64/40/8 (1925)
+    },
+
+    '3E064_0042' => {			# Mariage Elliant 3 E 64 42   1907-1918
+	1907   => '1286028',            # Mariage Elliant 3 E 64/42/1 (1907)
+	1908   => '1286029',            # Mariage Elliant 3 E 64/42/2 (1908)
+	1909   => '1286030',            # Mariage Elliant 3 E 64/42/3 (1909)
+	1910   => '1286031',            # Mariage Elliant 3 E 64/42/4 (1910)
+	1911   => '1286032',            # Mariage Elliant 3 E 64/42/5 (1911)
+	1912   => '1286033',            # Mariage Elliant 3 E 64/42/6 (1912)
+	1913   => '1286034',            # Mariage Elliant 3 E 64/42/7 (1913)
+	1914   => '1286035',            # Mariage Elliant 3 E 64/42/8 (1914)
+	1915   => '1286036',            # Mariage Elliant 3 E 64/42/9 (1915)
+	1916   => '1286037',            # Mariage Elliant 3 E 64/42/10 (1916)
+	1917   => '1286038',            # Mariage Elliant 3 E 64/42/11 (1917)
+	1918   => '1286039',            # Mariage Elliant 3 E 64/42/12 (1918)
+    },
+
+    '3E064_0043' => {			# Mariage Elliant 3 E 64 43   1919-1925
+	1919   => '1286041',            # Mariage Elliant 3 E 64/43/1 (1919)
+	1920   => '1286042',            # Mariage Elliant 3 E 64/43/2 (1920)
+	1921   => '1286043',            # Mariage Elliant 3 E 64/43/3 (1921)
+	1922   => '1286044',            # Mariage Elliant 3 E 64/43/4 (1922)
+	1923   => '1286045',            # Mariage Elliant 3 E 64/43/5 (1923)
+	1924   => '1286046',            # Mariage Elliant 3 E 64/43/6 (1924)
+	1925   => '1286047',            # Mariage Elliant 3 E 64/43/7 (1925)
+    },
+
+    '3E064_0045' => {			# Décès Elliant 3 E 64 45   1916-1923
+	1916   => '1286205',            # Décès Elliant 3 E 64/45/1 (1916)
+	1917   => '1286206',            # Décès Elliant 3 E 64/45/2 (1917)
+	1918   => '1286207',            # Décès Elliant 3 E 64/45/3 (1918)
+	1919   => '1286208',            # Décès Elliant 3 E 64/45/4 (1919)
+	1920   => '1286209',            # Décès Elliant 3 E 64/45/5 (1920)
+	1921   => '1286210',            # Décès Elliant 3 E 64/45/6 (1921)
+	1922   => '1286211',            # Décès Elliant 3 E 64/45/7 (1922)
+	1923   => '1286212',            # Décès Elliant 3 E 64/45/8 (1923)
+    },
+
+    '3E064_0046' => {			# Décès Elliant 3 E 64 46   1924-1936
+	1924   => '1286214',            # Décès Elliant 3 E 64/46/1 (1924)
+	1925   => '1286215',            # Décès Elliant 3 E 64/46/2 (1925)
+	1926   => '1286216',            # Décès Elliant 3 E 64/46/3 (1926)
+	1927   => '1286217',            # Décès Elliant 3 E 64/46/4 (1927)
+	1928   => '1286218',            # Décès Elliant 3 E 64/46/5 (1928)
+	1929   => '1286219',            # Décès Elliant 3 E 64/46/6 (1929)
+	1930   => '1286220',            # Décès Elliant 3 E 64/46/7 (1930)
+	1931   => '1286221',            # Décès Elliant 3 E 64/46/8 (1931)
+	1932   => '1286222',            # Décès Elliant 3 E 64/46/9 (1932)
+	1933   => '1286223',            # Décès Elliant 3 E 64/46/10 (1933)
+	1934   => '1286224',            # Décès Elliant 3 E 64/46/11 (1934)
+	1935   => '1286225',            # Décès Elliant 3 E 64/46/12 (1935)
+	1936   => '1286226',            # Décès Elliant 3 E 64/46/13 (1936)
+    },
+
+
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Kergloff+%28Finist%C3%A8re%29%7C&REch_commune_Md5=b514c4417f09b16bf87e6d3adcf13473%7C&Rech_typologie%5B0%5D=Naissance&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil
 
     '3E106_0004' => {                   # Naissance Kergloff 3 E 106 4   1793-1810
