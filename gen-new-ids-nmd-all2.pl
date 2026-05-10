@@ -252,14 +252,14 @@ sub process {
 	my ($ark) = $link =~ m!/ark:/72506/([^/]+)/!;
 	my $mainID;
 	# The web site returns different types of IDs :-(
-	if ($id =~ /^3 E \d+ \d+/) { # eg: "3 E 37 21"
+	if ($id =~ /^\d E \d+ \d+/) { # eg: "3 E 37 21"
 	    $mainID = format_3E($id);
 	} elsif ($id =~ /^(\d+) E DEPOT \d+|^(\d+) E-dépôt \d+/) { # eg: "1024 E DEPOT 28" or "1029 E-dépôt 1"
 	    # We'll create a subhash but it's special case to manually
 	    # remove from subhash, those needs to be included at the
 	    # top of the main hash in convert-finistere.pl
 	    $mainID = ($1 || $2) . " E DEPOT";
-	} elsif ($id =~ m!^(3 E \d+/\d+)/\d+!) { # eg: 3 E 37/41/7
+	} elsif ($id =~ m!^(\d E \d+/\d+)/\d+!) { # eg: 3 E 37/41/7
 	    $mainID = format_3E($1);
 	    $mainID =~ s!/! !;
 	} else {
