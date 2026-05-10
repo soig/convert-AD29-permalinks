@@ -108,6 +108,13 @@ Il suffit maintenant de le passer en argument au script :
 Le résultat est dans le fichier texte dont il suffit de rajouter le contenu dans `convert-finistere.pl` (de préférence en gardant les côtes triées).
 
 
+### Comment rajouter tous les tables décennales de la commune
+
+Un générateur spécialisé est utilisé pour les TD :
+
+```
+./gen-new-ids-td.pl Kergloff > TD.Kergloff
+
 ## Limitations :
 
 Lors du passage au nouveau site, ils se sont rendu comptes que certains registres étaient mal côtés. Ces registres ont donc été renommés et re-côtés.
