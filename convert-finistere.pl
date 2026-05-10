@@ -10025,6 +10025,23 @@ my %convert = (
     '5E_0157_004_03' => '1131633',            # Table décennale Motreff 5 E 157/4/3 (1953-1962)
     '5E_0157_004_04' => '1131634',            # Table décennale Motreff 5 E 157/4/4 (1963-1972)
 
+    # TD Plouguer
+    '5E_0200_001_01' => '1132300',            # Table décennale Plouguer 5 E 200/1/1 (An XI-1812)
+    '5E_0200_001_02' => '1132301',            # Table décennale Plouguer 5 E 200/1/2 (1813-1822)
+    '5E_0200_001_03' => '1132302',            # Table décennale Plouguer 5 E 200/1/3 (1823-1832)
+    '5E_0200_001_04' => '1132303',            # Table décennale Plouguer 5 E 200/1/4 (1833-1842)
+    '5E_0200_001_05' => '1132304',            # Table décennale Plouguer 5 E 200/1/5 (1843-1852)
+    '5E_0200_001_06' => '1132305',            # Table décennale Plouguer 5 E 200/1/6 (1853-1862)
+    '5E_0200_001_07' => '1132306',            # Table décennale Plouguer 5 E 200/1/7 (1863-1872)
+    '5E_0200_002_01' => '1132308',            # Table décennale Plouguer 5 E 200/2/1 (1873-1882)
+    '5E_0200_002_02' => '1132309',            # Table décennale Plouguer 5 E 200/2/2 (1883-1892)
+    '5E_0200_002_03' => '1132310',            # Table décennale Plouguer 5 E 200/2/3 (1893-1902)
+    '5E_0200_002_04' => '1132311',            # Table décennale Plouguer 5 E 200/2/4 (1903-1912)
+    '5E_0200_002_05' => '1132312',            # Table décennale Plouguer 5 E 200/2/5 (1913-1922)
+    '5E_0200_002_06' => '1132313',            # Table décennale Plouguer 5 E 200/2/6 (1923-1932)
+    '5E_0200_002_07' => '1132314',            # Table décennale Plouguer 5 E 200/2/7 (1933-1942)
+    '5E_0200_002_08' => '1132315',            # Table décennale Plouguer 5 E 200/2/8 (1943-1952)
+
     # TD Saint-Hernin
     '5E_0258_001_01' => '1133266',            # Table décennale Saint-Hernin 5 E 258/1/1 (An XI-1812)
     '5E_0258_001_02' => '1133267',            # Table décennale Saint-Hernin 5 E 258/1/2 (1813-1822)
