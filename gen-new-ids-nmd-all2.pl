@@ -147,10 +147,6 @@ foreach my $id (sort keys %results) {
     my %subhash = %{$results{$id}};
     print sprintf("    '$id' => {			# $pretty{$id}   %s-%s\n", min(keys %subhash), max(keys %subhash));
     foreach my $year (sort keys %subhash) {
-	my $link = $subhash{$year};
-	($link) = $link =~ m!<a href="(/ark[^"]*)"!;
-	# emit quotes if republican years, else just add 2 spaces for padding if numerical:
-	#eg: "	1917 => '1373293',		# Naissances Spezet  3 E 348 49 1	1917"
 	print $subhash{$year};
     }
     # Close hash:
