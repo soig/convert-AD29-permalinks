@@ -60,7 +60,7 @@ diff -u G.gramps{.orig,} | vim -
 Si vous avez bien fait votre travail, vous avez le lien, le numéro de vue et le nom du registre :
 Exemple d'un mariage du 1702-11-21 à Carhaix :
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E037/3E037_0002/?img=FRAD029_3E037_02_0159.jpg
-** dans cette URL, il faut noter l'ancien identifiant, ici **3E037_0002**
+  * dans cette URL, il faut noter l'ancien identifiant, ici **3E037_0002**
 * "Acte vue 199/363 en haut à droite"
 * "BMS Carhaix - 1690-1714"
 
