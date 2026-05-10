@@ -25,6 +25,7 @@ my %villes = (
     'Plouguer' => 'f96ae4a1741a2ec286a159cf90e26788%7C',
     'Saint-Hernin' => '4253319ee371d0a987f959bf9da20d89',
     'Saint-Quijeau' => 'bc506da005d12c0c478dd344c3a35314',
+    'Scaër' => '9c354717cc7a5c14e68227d48522db2a',
     'Spézet' => 'b6713734e42457b28f4773f547444ce7',
     "Tourc'h" => '4bf1ee125457d932f80806b7da556577',
     'Tourch' => '6e5e559fd968f5b9686bd78989889cf2',
