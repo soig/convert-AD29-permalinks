@@ -57,6 +57,7 @@ my %convert = (
     '1027EDEPOT_012' => '1465024',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 12 (Sépultures)
     '1027EDEPOT_003' => '644405.1465026',     # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance table des baptêmes table des naissances Châteauneuf-du-Faou 1027 E-dépôt 3 (Tables des baptêmes, tables des naissances, tables décennales)
     '1027EDEPOT_013' => '1465028',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 13 (Tables décennales)
+    '1040 E DEPOT' => '1465702',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Concarneau 1040 E DEPOT 9 (Tables décennales)
 
     # Registre matricule:
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
@@ -1379,6 +1380,200 @@ my %convert = (
         1935 => '1277643',              # Décès Cléden-Poher 3 E 42/46/14 (1935)
         1936 => '1277644',              # Décès Cléden-Poher 3 E 42/46/15 (1936)
     },
+
+    # Concarneau
+    '3E053_0011' => '652901.1281444',   # Naissance Concarneau 3 E 53 11 (1793-an X)
+    '3E053_0012' => '652902.1281445',   # Naissance Concarneau 3 E 53 12 (An XI-1812)
+    '3E053_0013' => '652903.1281446',   # Naissance Concarneau 3 E 53 13 (1813-1822)
+    '3E053_0014' => '652904.1281447',   # Naissance Concarneau 3 E 53 14 (1823-1832)
+    '3E053_0015' => '652905.1281448',   # Naissance Concarneau 3 E 53 15 (1833-1842)
+    '3E053_0016' => '652906.1281449',   # Naissance Concarneau 3 E 53 16 (1843-1852)
+    '3E053_0017' => '652907.1281450',   # Naissance Concarneau 3 E 53 17 (1853-1862)
+    '3E053_0018' => '652908.1281451',   # Naissance Concarneau 3 E 53 18 (1863-1869)
+    '3E053_0019' => '652909.1281452',   # Naissance Concarneau 3 E 53 19 (1870-1875)
+    '3E053_0020' => '652910.1281453',   # Naissance Concarneau 3 E 53 20 (1876-1881)
+    '3E053_0021' => '652911.1281454',   # Naissance Concarneau 3 E 53 21 (1882-1885)
+    '3E053_0022' => '652912.1281455',   # Naissance Concarneau 3 E 53 22 (1886-1889)
+    '3E053_0023' => '652913.1281456',   # Naissance Concarneau 3 E 53 23 (1890-1894)
+    '3E053_0024' => '652914.1281514',   # Mariage Concarneau 3 E 53 24 (1793-an X)
+    '3E053_0025' => '652915.1281515',   # Mariage Concarneau 3 E 53 25 (An XI-1812)
+    '3E053_0026' => '652916.1281516',   # Mariage Concarneau 3 E 53 26 (1813-1821)
+    '3E053_0027' => '652917.1281517',   # Mariage Concarneau 3 E 53 27 (1822-1832)
+    '3E053_0028' => '652918.1281518',   # Mariage Concarneau 3 E 53 28 (1833-1842)
+    '3E053_0029' => '652919.1281519',   # Mariage Concarneau 3 E 53 29 (1843-1852)
+    '3E053_0030' => '652920.1281520',   # Mariage Concarneau 3 E 53 30 (1853-1862)
+    '3E053_0031' => '652921.1281521',   # Mariage Concarneau 3 E 53 31 (1863-1869)
+    '3E053_0032' => '652922.1281522',   # Mariage Concarneau 3 E 53 32 (1870-1878)
+    '3E053_0033' => '652923.1281523',   # Mariage Concarneau 3 E 53 33 (1879-1885)
+    '3E053_0034' => '652924.1281524',   # Mariage Concarneau 3 E 53 34 (1886-1890)
+    '3E053_0035' => '652925.1281587',   # Décès Concarneau 3 E 53 35 (1793-an X)
+    '3E053_0036' => '652926.1281588',   # Décès Concarneau 3 E 53 36 (An XI-1811)
+    '3E053_0037' => '652927.1281589',   # Décès Concarneau 3 E 53 37 (1812-1822)
+    '3E053_0038' => '652928.1281590',   # Décès Concarneau 3 E 53 38 (1823-1832)
+    '3E053_0039' => '652929.1281591',   # Décès Concarneau 3 E 53 39 (1833-1842)
+    '3E053_0040' => '652930.1281592',   # Décès Concarneau 3 E 53 40 (1843-1852)
+    '3E053_0041' => '652931.1281593',   # Décès Concarneau 3 E 53 41 (1853-1862)
+    '3E053_0042' => '652932.1281594',   # Décès Concarneau 3 E 53 42 (1863-1869)
+    '3E053_0043' => '652933.1281595',   # Décès Concarneau 3 E 53 43 (1870-1877)
+    '3E053_0044' => '652934.1281596',   # Décès Concarneau 3 E 53 44 (1878-1883)
+    '3E053_0045' => '652935.1281597',   # Décès Concarneau 3 E 53 45 (1884-1887)
+    '3E053_0046' => '652936.1281598',   # Décès Concarneau 3 E 53 46 (1888-1892)
+    '3E053_0047' => '652937.1281457',   # Naissance Concarneau 3 E 53 47 (1895-1898)
+    '3E053_0048' => '652938.1281525',   # Mariage Concarneau 3 E 53 48 (1891-1896)
+    '3E053_0049' => '652939.1281599',   # Décès Concarneau 3 E 53 49 (1893-1896)
+    '3E053_0050' => {			# Naissance Concarneau 3 E 53 50   1899-1902
+	1899   => '1281459',            # Naissance Concarneau 3 E 53/50/1 (1899)
+	1900   => '1281460',            # Naissance Concarneau 3 E 53/50/2 (1900)
+	1901   => '1281461',            # Naissance Concarneau 3 E 53/50/3 (1901)
+	1902   => '1281462',            # Naissance Concarneau 3 E 53/50/4 (1902)
+    },
+
+    '3E053_0051' => {			# Naissance Concarneau 3 E 53 51   1903-1906
+	1903   => '1281464',            # Naissance Concarneau 3 E 53/51/1 (1903)
+	1904   => '1281465',            # Naissance Concarneau 3 E 53/51/2 (1904)
+	1905   => '1281466',            # Naissance Concarneau 3 E 53/51/3 (1905)
+	1906   => '1281467',            # Naissance Concarneau 3 E 53/51/4 (1906)
+    },
+
+    '3E053_0052' => {			# Mariage Concarneau 3 E 53 52   1897-1901
+	1897   => '1281527',            # Mariage Concarneau 3 E 53/52/1 (1897)
+	1898   => '1281528',            # Mariage Concarneau 3 E 53/52/2 (1898)
+	1899   => '1281529',            # Mariage Concarneau 3 E 53/52/3 (1899)
+	1900   => '1281530',            # Mariage Concarneau 3 E 53/52/4 (1900)
+	1901   => '1281531',            # Mariage Concarneau 3 E 53/52/5 (1901)
+    },
+
+    '3E053_0053' => {			# Mariage Concarneau 3 E 53 53   1902-1906
+	1902   => '1281533',            # Mariage Concarneau 3 E 53/53/1 (1902)
+	1903   => '1281534',            # Mariage Concarneau 3 E 53/53/2 (1903)
+	1904   => '1281535',            # Mariage Concarneau 3 E 53/53/3 (1904)
+	1905   => '1281536',            # Mariage Concarneau 3 E 53/53/4 (1905)
+	1906   => '1281537',            # Mariage Concarneau 3 E 53/53/5 (1906)
+    },
+
+    '3E053_0054' => {			# Décès Concarneau 3 E 53 54   1897-1901
+	1897   => '1281601',            # Décès Concarneau 3 E 53/54/1 (1897)
+	1898   => '1281602',            # Décès Concarneau 3 E 53/54/2 (1898)
+	1899   => '1281603',            # Décès Concarneau 3 E 53/54/3 (1899)
+	1900   => '1281604',            # Décès Concarneau 3 E 53/54/4 (1900)
+	1901   => '1281605',            # Décès Concarneau 3 E 53/54/5 (1901)
+    },
+
+    '3E053_0055' => {			# Décès Concarneau 3 E 53 55   1902-1907
+	1902   => '1281607',            # Décès Concarneau 3 E 53/55/1 (1902)
+	1903   => '1281608',            # Décès Concarneau 3 E 53/55/2 (1903)
+	1904   => '1281609',            # Décès Concarneau 3 E 53/55/3 (1904)
+	1905   => '1281610',            # Décès Concarneau 3 E 53/55/4 (1905)
+	1906   => '1281611',            # Décès Concarneau 3 E 53/55/5 (1906)
+	1907   => '1281612',            # Décès Concarneau 3 E 53/55/6 (1907)
+    },
+
+    '3E053_0056' => {			# Naissance Concarneau 3 E 53 56   1907-1910
+	1907   => '1281469',            # Naissance Concarneau 3 E 53/56/1 (1907)
+	1908   => '1281470',            # Naissance Concarneau 3 E 53/56/2 (1908)
+	1909   => '1281471',            # Naissance Concarneau 3 E 53/56/3 (1909)
+	1910   => '1281472',            # Naissance Concarneau 3 E 53/56/4 (1910)
+    },
+
+    '3E053_0057' => {			# Mariage Concarneau 3 E 53 57   1907-1910
+	1907   => '1281539',            # Mariage Concarneau 3 E 53/57/1 (1907)
+	1908   => '1281540',            # Mariage Concarneau 3 E 53/57/2 (1908)
+	1909   => '1281541',            # Mariage Concarneau 3 E 53/57/3 (1909)
+	1910   => '1281542',            # Mariage Concarneau 3 E 53/57/4 (1910)
+    },
+
+    '3E053_0058' => {			# Naissance Concarneau 3 E 53 58   1911-1915
+	1911   => '1281474',            # Naissance Concarneau 3 E 53/58/1 (1911)
+	1912   => '1281475',            # Naissance Concarneau 3 E 53/58/2 (1912)
+	1913   => '1281476',            # Naissance Concarneau 3 E 53/58/3 (1913)
+	1914   => '1281477',            # Naissance Concarneau 3 E 53/58/4 (1914)
+	1915   => '1281478',            # Naissance Concarneau 3 E 53/58/5 (1915)
+    },
+
+    '3E053_0059' => {			# Naissance Concarneau 3 E 53 59   1916-1921
+	1916   => '1281480',            # Naissance Concarneau 3 E 53/59/1 (1916)
+	1917   => '1281481',            # Naissance Concarneau 3 E 53/59/2 (1917)
+	1918   => '1281482',            # Naissance Concarneau 3 E 53/59/3 (1918)
+	1919   => '1281483',            # Naissance Concarneau 3 E 53/59/4 (1919)
+	1920   => '1281484',            # Naissance Concarneau 3 E 53/59/5 (1920)
+	1921   => '1281485',            # Naissance Concarneau 3 E 53/59/6 (1921)
+    },
+
+    '3E053_0060' => {			# Naissance Concarneau 3 E 53 60   1922-1925
+	1922   => '1281487',            # Naissance Concarneau 3 E 53/60/1 (1922)
+	1923   => '1281488',            # Naissance Concarneau 3 E 53/60/2 (1923)
+	1924   => '1281489',            # Naissance Concarneau 3 E 53/60/3 (1924)
+	1925   => '1281490',            # Naissance Concarneau 3 E 53/60/4 (1925)
+    },
+
+    '3E053_0062' => {			# Mariage Concarneau 3 E 53 62   1911-1916
+	1911   => '1281544',            # Mariage Concarneau 3 E 53/62/1 (1911)
+	1912   => '1281545',            # Mariage Concarneau 3 E 53/62/2 (1912)
+	1913   => '1281546',            # Mariage Concarneau 3 E 53/62/3 (1913)
+	1914   => '1281547',            # Mariage Concarneau 3 E 53/62/4 (1914)
+	1915   => '1281548',            # Mariage Concarneau 3 E 53/62/5 (1915)
+	1916   => '1281549',            # Mariage Concarneau 3 E 53/62/6 (1916)
+    },
+
+    '3E053_0063' => {			# Mariage Concarneau 3 E 53 63   1917-1920
+	1917   => '1281551',            # Mariage Concarneau 3 E 53/63/1 (1917)
+	1918   => '1281552',            # Mariage Concarneau 3 E 53/63/2 (1918)
+	1919   => '1281553',            # Mariage Concarneau 3 E 53/63/3 (1919)
+	1920   => '1281554',            # Mariage Concarneau 3 E 53/63/4 (1920)
+    },
+
+    '3E053_0064' => {			# Mariage Concarneau 3 E 53 64   1921-1925
+	1921   => '1281556',            # Mariage Concarneau 3 E 53/64/1 (1921)
+	1922   => '1281557',            # Mariage Concarneau 3 E 53/64/2 (1922)
+	1923   => '1281558',            # Mariage Concarneau 3 E 53/64/3 (1923)
+	1924   => '1281559',            # Mariage Concarneau 3 E 53/64/4 (1924)
+	1925   => '1281560',            # Mariage Concarneau 3 E 53/64/5 (1925)
+    },
+
+    '3E053_0067' => {			# Décès Concarneau 3 E 53 67   1908-1913
+	1908   => '1281614',            # Décès Concarneau 3 E 53/67/1 (1908)
+	1909   => '1281615',            # Décès Concarneau 3 E 53/67/2 (1909)
+	1910   => '1281616',            # Décès Concarneau 3 E 53/67/3 (1910)
+	1911   => '1281617',            # Décès Concarneau 3 E 53/67/4 (1911)
+	1912   => '1281618',            # Décès Concarneau 3 E 53/67/5 (1912)
+	1913   => '1281619',            # Décès Concarneau 3 E 53/67/6 (1913)
+    },
+
+    '3E053_0068' => {			# Décès Concarneau 3 E 53 68   1914-1918
+	1914   => '1281621',            # Décès Concarneau 3 E 53/68/1 (1914)
+	1915   => '1281622',            # Décès Concarneau 3 E 53/68/2 (1915)
+	1916   => '1281623',            # Décès Concarneau 3 E 53/68/3 (1916)
+	1917   => '1281624',            # Décès Concarneau 3 E 53/68/4 (1917)
+	1918   => '1281625',            # Décès Concarneau 3 E 53/68/5 (1918)
+    },
+
+    '3E053_0069' => {			# Décès Concarneau 3 E 53 69   1919-1922
+	1919   => '1281627',            # Décès Concarneau 3 E 53/69/1 (1919)
+	1920   => '1281628',            # Décès Concarneau 3 E 53/69/2 (1920)
+	1921   => '1281629',            # Décès Concarneau 3 E 53/69/3 (1921)
+	1922   => '1281630',            # Décès Concarneau 3 E 53/69/4 (1922)
+    },
+
+    '3E053_0070' => {			# Décès Concarneau 3 E 53 70   1923-1929
+	1923   => '1281632',            # Décès Concarneau 3 E 53/70/1 (1923)
+	1924   => '1281633',            # Décès Concarneau 3 E 53/70/2 (1924)
+	1925   => '1281634',            # Décès Concarneau 3 E 53/70/3 (1925)
+	1926   => '1281635',            # Décès Concarneau 3 E 53/70/4 (1926)
+	1927   => '1281636',            # Décès Concarneau 3 E 53/70/5 (1927)
+	1928   => '1281637',            # Décès Concarneau 3 E 53/70/6 (1928)
+	1929   => '1281638',            # Décès Concarneau 3 E 53/70/7 (1929)
+    },
+
+    '3E053_0071' => {			# Décès Concarneau 3 E 53 71   1930-1936
+	1930   => '1281640',            # Décès Concarneau 3 E 53/71/1 (1930)
+	1931   => '1281641',            # Décès Concarneau 3 E 53/71/2 (1931)
+	1932   => '1281642',            # Décès Concarneau 3 E 53/71/3 (1932)
+	1933   => '1281643',            # Décès Concarneau 3 E 53/71/4 (1933)
+	1934   => '1281644',            # Décès Concarneau 3 E 53/71/5 (1934)
+	1935   => '1281645',            # Décès Concarneau 3 E 53/71/6 (1935)
+	1936   => '1281646',            # Décès Concarneau 3 E 53/71/7 (1936)
+    },
+
 
     # Elliant
     '3E064_0006' => {			# Naissance Elliant 3 E 64 6   AN02-AN10
