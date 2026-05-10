@@ -4607,6 +4607,183 @@ my %convert = (
 	1936   => '1324791',            # Décès Motreff 3 E 189/34/16 (1936)
     },
 
+    # Plonévez-du-Faou
+    '3E214_0009' => '658669.1333278',   # Naissance Plonévez-du-Faou 3 E 214 9 (1793-an X)
+    '3E214_0010' => '658670.1333279',   # Naissance Plonévez-du-Faou 3 E 214 10 (An XI-1812)
+    '3E214_0011' => '658671.1333280',   # Naissance Plonévez-du-Faou 3 E 214 11 (1813-1822)
+    '3E214_0012' => '658672.1333281',   # Naissance Plonévez-du-Faou 3 E 214 12 (1823-1832)
+    '3E214_0013' => '658673.1333282',   # Naissance Plonévez-du-Faou 3 E 214 13 (1833-1842)
+    '3E214_0014' => '658674.1333283',   # Naissance Plonévez-du-Faou 3 E 214 14 (1843-1852)
+    '3E214_0015' => '658675.1333284',   # Naissance Plonévez-du-Faou 3 E 214 15 (1853-1862)
+    '3E214_0016' => '658676.1333285',   # Naissance Plonévez-du-Faou 3 E 214 16 (1863-1869)
+    '3E214_0017' => '658677.1333286',   # Naissance Plonévez-du-Faou 3 E 214 17 (1870-1875)
+    '3E214_0018' => '658678.1333287',   # Naissance Plonévez-du-Faou 3 E 214 18 (1876-1881)
+    '3E214_0019' => '658679.1333288',   # Naissance Plonévez-du-Faou 3 E 214 19 (1882-1888)
+    '3E214_0020' => '658680.1333347',   # Mariage promesse de mariage Plonévez-du-Faou 3 E 214 20 (1793-an X)
+    '3E214_0021' => '658681.1333348',   # Mariage Plonévez-du-Faou 3 E 214 21 (An XI-1812)
+    '3E214_0022' => '658682.1333349',   # Mariage Plonévez-du-Faou 3 E 214 22 (1813-1822)
+    '3E214_0023' => '658683.1333350',   # Mariage Plonévez-du-Faou 3 E 214 23 (1823-1832)
+    '3E214_0024' => '658684.1333351',   # Mariage Plonévez-du-Faou 3 E 214 24 (1833-1842)
+    '3E214_0025' => '658685.1333352',   # Mariage Plonévez-du-Faou 3 E 214 25 (1843-1852)
+    '3E214_0026' => '658686.1333353',   # Mariage Plonévez-du-Faou 3 E 214 26 (1853-1862)
+    '3E214_0027' => '658687.1333354',   # Mariage Plonévez-du-Faou 3 E 214 27 (1863-1869)
+    '3E214_0028' => '658688.1333355',   # Mariage Plonévez-du-Faou 3 E 214 28 (1870-1879)
+    '3E214_0029' => '658689.1333356',   # Mariage Plonévez-du-Faou 3 E 214 29 (1880-1891)
+    '3E214_0030' => '658690.1333418',   # Décès Plonévez-du-Faou 3 E 214 30 (1793-an X)
+    '3E214_0031' => '658691.1333419',   # Décès Plonévez-du-Faou 3 E 214 31 (An XI-1812)
+    '3E214_0032' => '658692.1333420',   # Décès Plonévez-du-Faou 3 E 214 32 (1813-1822)
+    '3E214_0033' => '658693.1333421',   # Décès Plonévez-du-Faou 3 E 214 33 (1823-1832)
+    '3E214_0034' => '658694.1333422',   # Décès Plonévez-du-Faou 3 E 214 34 (1833-1842)
+    '3E214_0035' => '658695.1333423',   # Décès Plonévez-du-Faou 3 E 214 35 (1843-1852)
+    '3E214_0036' => '658696.1333424',   # Décès Plonévez-du-Faou 3 E 214 36 (1853-1862)
+    '3E214_0037' => '658697.1333425',   # Décès Plonévez-du-Faou 3 E 214 37 (1863-1869)
+    '3E214_0038' => '658698.1333426',   # Décès Plonévez-du-Faou 3 E 214 38 (1870-1878)
+    '3E214_0039' => '658699.1333427',   # Décès Plonévez-du-Faou 3 E 214 39 (1879-1887)
+    '3E214_0040' => '658700.1333289',   # Naissance Plonévez-du-Faou 3 E 214 40 (1889-1895)
+    '3E214_0041' => '658701.1333428',   # Décès Plonévez-du-Faou 3 E 214 41 (1888-1897)
+    '3E214_0042' => {			# Naissance Plonévez-du-Faou 3 E 214 42   1896-1902
+	1896   => '1333291',            # Naissance Plonévez-du-Faou 3 E 214/42/1 (1896)
+	1897   => '1333292',            # Naissance Plonévez-du-Faou 3 E 214/42/2 (1897)
+	1898   => '1333293',            # Naissance Plonévez-du-Faou 3 E 214/42/3 (1898)
+	1899   => '1333294',            # Naissance Plonévez-du-Faou 3 E 214/42/4 (1899)
+	1900   => '1333295',            # Naissance Plonévez-du-Faou 3 E 214/42/5 (1900)
+	1901   => '1333296',            # Naissance Plonévez-du-Faou 3 E 214/42/6 (1901)
+	1902   => '1333297',            # Naissance Plonévez-du-Faou 3 E 214/42/7 (1902)
+    },
+
+    '3E214_0043' => {			# Mariage Plonévez-du-Faou 3 E 214 43   1892-1902
+	1892   => '1333358',            # Mariage Plonévez-du-Faou 3 E 214/43/1 (1892)
+	1893   => '1333359',            # Mariage Plonévez-du-Faou 3 E 214/43/2 (1893)
+	1894   => '1333360',            # Mariage Plonévez-du-Faou 3 E 214/43/3 (1894)
+	1895   => '1333361',            # Mariage Plonévez-du-Faou 3 E 214/43/4 (1895)
+	1896   => '1333362',            # Mariage Plonévez-du-Faou 3 E 214/43/5 (1896)
+	1897   => '1333363',            # Mariage Plonévez-du-Faou 3 E 214/43/6 (1897)
+	1898   => '1333364',            # Mariage Plonévez-du-Faou 3 E 214/43/7 (1898)
+	1899   => '1333365',            # Mariage Plonévez-du-Faou 3 E 214/43/8 (1899)
+	1900   => '1333366',            # Mariage Plonévez-du-Faou 3 E 214/43/9 (1900)
+	1901   => '1333367',            # Mariage Plonévez-du-Faou 3 E 214/43/10 (1901)
+	1902   => '1333368',            # Mariage Plonévez-du-Faou 3 E 214/43/11 (1902)
+    },
+
+    '3E214_0044' => {			# Décès Plonévez-du-Faou 3 E 214 44   1898-1907
+	1898   => '1333430',            # Décès Plonévez-du-Faou 3 E 214/44/1 (1898)
+	1899   => '1333431',            # Décès Plonévez-du-Faou 3 E 214/44/2 (1899)
+	1900   => '1333432',            # Décès Plonévez-du-Faou 3 E 214/44/3 (1900)
+	1901   => '1333433',            # Décès Plonévez-du-Faou 3 E 214/44/4 (1901)
+	1902   => '1333434',            # Décès Plonévez-du-Faou 3 E 214/44/5 (1902)
+	1903   => '1333435',            # Décès Plonévez-du-Faou 3 E 214/44/6 (1903)
+	1904   => '1333436',            # Décès Plonévez-du-Faou 3 E 214/44/7 (1904)
+	1905   => '1333437',            # Décès Plonévez-du-Faou 3 E 214/44/8 (1905)
+	1906   => '1333438',            # Décès Plonévez-du-Faou 3 E 214/44/9 (1906)
+	1907   => '1333439',            # Décès Plonévez-du-Faou 3 E 214/44/10 (1907)
+    },
+
+    '3E214_0045' => {			# Naissance Plonévez-du-Faou 3 E 214 45   1903-1908
+	1903   => '1333299',            # Naissance Plonévez-du-Faou 3 E 214/45/1 (1903)
+	1904   => '1333300',            # Naissance Plonévez-du-Faou 3 E 214/45/2 (1904)
+	1905   => '1333301',            # Naissance Plonévez-du-Faou 3 E 214/45/3 (1905)
+	1906   => '1333302',            # Naissance Plonévez-du-Faou 3 E 214/45/4 (1906)
+	1907   => '1333303',            # Naissance Plonévez-du-Faou 3 E 214/45/5 (1907)
+	1908   => '1333304',            # Naissance Plonévez-du-Faou 3 E 214/45/6 (1908)
+    },
+
+    '3E214_0046' => {			# Mariage Plonévez-du-Faou 3 E 214 46   1903-1910
+	1903   => '1333370',            # Mariage Plonévez-du-Faou 3 E 214/46/1 (1903)
+	1904   => '1333371',            # Mariage Plonévez-du-Faou 3 E 214/46/2 (1904)
+	1905   => '1333372',            # Mariage Plonévez-du-Faou 3 E 214/46/3 (1905)
+	1906   => '1333373',            # Mariage Plonévez-du-Faou 3 E 214/46/4 (1906)
+	1907   => '1333374',            # Mariage Plonévez-du-Faou 3 E 214/46/5 (1907)
+	1908   => '1333375',            # Mariage Plonévez-du-Faou 3 E 214/46/6 (1908)
+	1909   => '1333376',            # Mariage Plonévez-du-Faou 3 E 214/46/7 (1909)
+	1910   => '1333377',            # Mariage Plonévez-du-Faou 3 E 214/46/8 (1910)
+    },
+
+    '3E214_0047' => {			# Naissance Plonévez-du-Faou 3 E 214 47   1909-1913
+	1909   => '1333306',            # Naissance Plonévez-du-Faou 3 E 214/47/1 (1909)
+	1910   => '1333307',            # Naissance Plonévez-du-Faou 3 E 214/47/2 (1910)
+	1911   => '1333308',            # Naissance Plonévez-du-Faou 3 E 214/47/3 (1911)
+	1912   => '1333309',            # Naissance Plonévez-du-Faou 3 E 214/47/4 (1912)
+	1913   => '1333310',            # Naissance Plonévez-du-Faou 3 E 214/47/5 (1913)
+    },
+
+    '3E214_0048' => {			# Naissance Plonévez-du-Faou 3 E 214 48   1914-1920
+	1914   => '1333312',            # Naissance Plonévez-du-Faou 3 E 214/48/1 (1914)
+	1915   => '1333313',            # Naissance Plonévez-du-Faou 3 E 214/48/2 (1915)
+	1916   => '1333314',            # Naissance Plonévez-du-Faou 3 E 214/48/3 (1916)
+	1917   => '1333315',            # Naissance Plonévez-du-Faou 3 E 214/48/4 (1917)
+	1918   => '1333316',            # Naissance Plonévez-du-Faou 3 E 214/48/5 (1918)
+	1919   => '1333317',            # Naissance Plonévez-du-Faou 3 E 214/48/6 (1919)
+	1920   => '1333318',            # Naissance Plonévez-du-Faou 3 E 214/48/7 (1920)
+    },
+
+    '3E214_0049' => {			# Naissance Plonévez-du-Faou 3 E 214 49   1921-1925
+	1921   => '1333320',            # Naissance Plonévez-du-Faou 3 E 214/49/1 (1921)
+	1922   => '1333321',            # Naissance Plonévez-du-Faou 3 E 214/49/2 (1922)
+	1923   => '1333322',            # Naissance Plonévez-du-Faou 3 E 214/49/3 (1923)
+	1924   => '1333323',            # Naissance Plonévez-du-Faou 3 E 214/49/4 (1924)
+	1925   => '1333324',            # Naissance Plonévez-du-Faou 3 E 214/49/5 (1925)
+    },
+
+    '3E214_0051' => {			# Mariage Plonévez-du-Faou 3 E 214 51   1911-1918
+	1911   => '1333379',            # Mariage Plonévez-du-Faou 3 E 214/51/1 (1911)
+	1912   => '1333380',            # Mariage Plonévez-du-Faou 3 E 214/51/2 (1912)
+	1913   => '1333381',            # Mariage Plonévez-du-Faou 3 E 214/51/3 (1913)
+	1914   => '1333382',            # Mariage Plonévez-du-Faou 3 E 214/51/4 (1914)
+	1915   => '1333383',            # Mariage Plonévez-du-Faou 3 E 214/51/5 (1915)
+	1916   => '1333384',            # Mariage Plonévez-du-Faou 3 E 214/51/6 (1916)
+	1917   => '1333385',            # Mariage Plonévez-du-Faou 3 E 214/51/7 (1917)
+	1918   => '1333386',            # Mariage Plonévez-du-Faou 3 E 214/51/8 (1918)
+    },
+
+    '3E214_0052' => {			# Mariage Plonévez-du-Faou 3 E 214 52   1919-1925
+	1919   => '1333388',            # Mariage Plonévez-du-Faou 3 E 214/52/1 (1919)
+	1920   => '1333389',            # Mariage Plonévez-du-Faou 3 E 214/52/2 (1920)
+	1921   => '1333390',            # Mariage Plonévez-du-Faou 3 E 214/52/3 (1921)
+	1922   => '1333391',            # Mariage Plonévez-du-Faou 3 E 214/52/4 (1922)
+	1923   => '1333392',            # Mariage Plonévez-du-Faou 3 E 214/52/5 (1923)
+	1924   => '1333393',            # Mariage Plonévez-du-Faou 3 E 214/52/6 (1924)
+	1925   => '1333394',            # Mariage Plonévez-du-Faou 3 E 214/52/7 (1925)
+    },
+
+    '3E214_0054' => {			# Décès Plonévez-du-Faou 3 E 214 54   1908-1916
+	1908   => '1333441',            # Décès Plonévez-du-Faou 3 E 214/54/1 (1908)
+	1909   => '1333442',            # Décès Plonévez-du-Faou 3 E 214/54/2 (1909)
+	1910   => '1333443',            # Décès Plonévez-du-Faou 3 E 214/54/3 (1910)
+	1911   => '1333444',            # Décès Plonévez-du-Faou 3 E 214/54/4 (1911)
+	1912   => '1333445',            # Décès Plonévez-du-Faou 3 E 214/54/5 (1912)
+	1913   => '1333446',            # Décès Plonévez-du-Faou 3 E 214/54/6 (1913)
+	1914   => '1333447',            # Décès Plonévez-du-Faou 3 E 214/54/7 (1914)
+	1915   => '1333448',            # Décès Plonévez-du-Faou 3 E 214/54/8 (1915)
+	1916   => '1333449',            # Décès Plonévez-du-Faou 3 E 214/54/9 (1916)
+    },
+
+    '3E214_0055' => {			# Décès Plonévez-du-Faou 3 E 214 55   1917-1924
+	1917   => '1333451',            # Décès Plonévez-du-Faou 3 E 214/55/1 (1917)
+	1918   => '1333452',            # Décès Plonévez-du-Faou 3 E 214/55/2 (1918)
+	1919   => '1333453',            # Décès Plonévez-du-Faou 3 E 214/55/3 (1919)
+	1920   => '1333454',            # Décès Plonévez-du-Faou 3 E 214/55/4 (1920)
+	1921   => '1333455',            # Décès Plonévez-du-Faou 3 E 214/55/5 (1921)
+	1922   => '1333456',            # Décès Plonévez-du-Faou 3 E 214/55/6 (1922)
+	1923   => '1333457',            # Décès Plonévez-du-Faou 3 E 214/55/7 (1923)
+	1924   => '1333458',            # Décès Plonévez-du-Faou 3 E 214/55/8 (1924)
+    },
+
+    '3E214_0056' => {			# Décès Plonévez-du-Faou 3 E 214 56   1925-1936
+	1925   => '1333460',            # Décès Plonévez-du-Faou 3 E 214/56/1 (1925)
+	1926   => '1333461',            # Décès Plonévez-du-Faou 3 E 214/56/2 (1926)
+	1927   => '1333462',            # Décès Plonévez-du-Faou 3 E 214/56/3 (1927)
+	1928   => '1333463',            # Décès Plonévez-du-Faou 3 E 214/56/4 (1928)
+	1929   => '1333464',            # Décès Plonévez-du-Faou 3 E 214/56/5 (1929)
+	1930   => '1333465',            # Décès Plonévez-du-Faou 3 E 214/56/6 (1930)
+	1931   => '1333466',            # Décès Plonévez-du-Faou 3 E 214/56/7 (1931)
+	1932   => '1333467',            # Décès Plonévez-du-Faou 3 E 214/56/8 (1932)
+	1933   => '1333468',            # Décès Plonévez-du-Faou 3 E 214/56/9 (1933)
+	1934   => '1333469',            # Décès Plonévez-du-Faou 3 E 214/56/10 (1934)
+	1935   => '1333470',            # Décès Plonévez-du-Faou 3 E 214/56/11 (1935)
+	1936   => '1333471',            # Décès Plonévez-du-Faou 3 E 214/56/12 (1936)
+    },
+
+
     # Plouguer
     '3E234_0005' => {			# Naissance Plouguer 3 E 234 5   AN02-1812
 	'AN02' => '1340595',            # Naissance Plouguer 3 E 234/5/1 (an II)
