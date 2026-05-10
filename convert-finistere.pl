@@ -6100,6 +6100,469 @@ my %convert = (
 	1936   => '1634825',            # Décès Saint-Hernin 3 E 309/36/15 (1936)
     },
 
+
+    # Saint-Thurien
+    '3E335_0002' => {			# Naissance Saint-Thurien 3 E 335 2   AN02-1812
+	'AN02' => '1369589',            # Naissance Saint-Thurien 3 E 335/2/1 (1793 - an II)
+	'AN03' => '1369590',            # Naissance Saint-Thurien 3 E 335/2/2 (an III)
+	'AN04' => '1369591',            # Naissance Saint-Thurien 3 E 335/2/3 (an IV)
+	'AN05' => '1369592',            # Naissance Saint-Thurien 3 E 335/2/4 (an V)
+	'AN06' => '1369593',            # Naissance Saint-Thurien 3 E 335/2/5 (an VI)
+	'AN07' => '1369594',            # Naissance Saint-Thurien 3 E 335/2/6 (an VII)
+	'AN08' => '1369595',            # Naissance Saint-Thurien 3 E 335/2/7 (an VIII)
+	'AN09' => '1369596',            # Naissance Saint-Thurien 3 E 335/2/8 (an IX)
+	'AN10' => '1369597',            # Naissance Saint-Thurien 3 E 335/2/9 (an X)
+	'AN11' => '1369598',            # Naissance Saint-Thurien 3 E 335/2/10 (an XI)
+	'AN12' => '1369599',            # Naissance Saint-Thurien 3 E 335/2/11 (an XII)
+	'AN13' => '1369600',            # Naissance Saint-Thurien 3 E 335/2/12 (an XIII)
+	'AN14' => '1369601',            # Naissance Saint-Thurien 3 E 335/2/13 (an XIV - 1806)
+	1807   => '1369602',            # Naissance Saint-Thurien 3 E 335/2/14 (1807)
+	1808   => '1369603',            # Naissance Saint-Thurien 3 E 335/2/15 (1808)
+	1809   => '1369604',            # Naissance Saint-Thurien 3 E 335/2/16 (1809)
+	1810   => '1369605',            # Naissance Saint-Thurien 3 E 335/2/17 (1810)
+	1811   => '1369606',            # Naissance Saint-Thurien 3 E 335/2/18 (1811)
+	1812   => '1369607',            # Naissance Saint-Thurien 3 E 335/2/19 (1812)
+    },
+
+    '3E335_0003' => '1369609',            # Naissance Saint-Thurien 3 E 335/3/1 (1813)
+    '3E335_0004' => {			# Naissance Saint-Thurien 3 E 335 4   1823-1832
+	1823   => '1369620',            # Naissance Saint-Thurien 3 E 335/4/1 (1823)
+	1824   => '1369621',            # Naissance Saint-Thurien 3 E 335/4/2 (1824)
+	1825   => '1369622',            # Naissance Saint-Thurien 3 E 335/4/3 (1825)
+	1826   => '1369623',            # Naissance Saint-Thurien 3 E 335/4/4 (1826)
+	1827   => '1369624',            # Naissance Saint-Thurien 3 E 335/4/5 (1827)
+	1828   => '1369625',            # Naissance Saint-Thurien 3 E 335/4/6 (1828)
+	1829   => '1369626',            # Naissance Saint-Thurien 3 E 335/4/7 (1829)
+	1830   => '1369627',            # Naissance Saint-Thurien 3 E 335/4/8 (1830)
+	1831   => '1369628',            # Naissance Saint-Thurien 3 E 335/4/9 (1831)
+	1832   => '1369629',            # Naissance Saint-Thurien 3 E 335/4/10 (1832)
+    },
+
+    '3E335_0005' => {			# Naissance Saint-Thurien 3 E 335 5   1833-1842
+	1833   => '1369631',            # Naissance Saint-Thurien 3 E 335/5/1 (1833)
+	1834   => '1369632',            # Naissance Saint-Thurien 3 E 335/5/2 (1834)
+	1835   => '1369633',            # Naissance Saint-Thurien 3 E 335/5/3 (1835)
+	1836   => '1369634',            # Naissance Saint-Thurien 3 E 335/5/4 (1836)
+	1837   => '1369635',            # Naissance Saint-Thurien 3 E 335/5/5 (1837)
+	1838   => '1369636',            # Naissance Saint-Thurien 3 E 335/5/6 (1838)
+	1839   => '1369637',            # Naissance Saint-Thurien 3 E 335/5/7 (1839)
+	1840   => '1369638',            # Naissance Saint-Thurien 3 E 335/5/8 (1840)
+	1841   => '1369639',            # Naissance Saint-Thurien 3 E 335/5/9 (1841)
+	1842   => '1369640',            # Naissance Saint-Thurien 3 E 335/5/10 (1842)
+    },
+
+    '3E335_0006' => {			# Naissance Saint-Thurien 3 E 335 6   1843-1852
+	1843   => '1369642',            # Naissance Saint-Thurien 3 E 335/6/1 (1843)
+	1844   => '1369643',            # Naissance Saint-Thurien 3 E 335/6/2 (1844)
+	1845   => '1369644',            # Naissance Saint-Thurien 3 E 335/6/3 (1845)
+	1846   => '1369645',            # Naissance Saint-Thurien 3 E 335/6/4 (1846)
+	1847   => '1369646',            # Naissance Saint-Thurien 3 E 335/6/5 (1847)
+	1848   => '1369647',            # Naissance Saint-Thurien 3 E 335/6/6 (1848)
+	1849   => '1369648',            # Naissance Saint-Thurien 3 E 335/6/7 (1849)
+	1850   => '1369649',            # Naissance Saint-Thurien 3 E 335/6/8 (1850)
+	1851   => '1369650',            # Naissance Saint-Thurien 3 E 335/6/9 (1851)
+	1852   => '1369651',            # Naissance Saint-Thurien 3 E 335/6/10 (1852)
+    },
+
+    '3E335_0007' => {			# Naissance Saint-Thurien 3 E 335 7   1853-1862
+	1853   => '1369653',            # Naissance Saint-Thurien 3 E 335/7/1 (1853)
+	1854   => '1369654',            # Naissance Saint-Thurien 3 E 335/7/2 (1854)
+	1855   => '1369655',            # Naissance Saint-Thurien 3 E 335/7/3 (1855)
+	1856   => '1369656',            # Naissance Saint-Thurien 3 E 335/7/4 (1856)
+	1857   => '1369657',            # Naissance Saint-Thurien 3 E 335/7/5 (1857)
+	1858   => '1369658',            # Naissance Saint-Thurien 3 E 335/7/6 (1858)
+	1859   => '1369659',            # Naissance Saint-Thurien 3 E 335/7/7 (1859)
+	1860   => '1369660',            # Naissance Saint-Thurien 3 E 335/7/8 (1860)
+	1861   => '1369661',            # Naissance Saint-Thurien 3 E 335/7/9 (1861)
+	1862   => '1369662',            # Naissance Saint-Thurien 3 E 335/7/10 (1862)
+    },
+
+    '3E335_0008' => {			# Naissance Saint-Thurien 3 E 335 8   1863-1869
+	1863   => '1369664',            # Naissance Saint-Thurien 3 E 335/8/1 (1863)
+	1864   => '1369665',            # Naissance Saint-Thurien 3 E 335/8/2 (1864)
+	1865   => '1369666',            # Naissance Saint-Thurien 3 E 335/8/3 (1865)
+	1866   => '1369667',            # Naissance Saint-Thurien 3 E 335/8/4 (1866)
+	1867   => '1369668',            # Naissance Saint-Thurien 3 E 335/8/5 (1867)
+	1868   => '1369669',            # Naissance Saint-Thurien 3 E 335/8/6 (1868)
+	1869   => '1369670',            # Naissance Saint-Thurien 3 E 335/8/7 (1869)
+    },
+
+    '3E335_0009' => {			# Naissance Saint-Thurien 3 E 335 9   1870-1885
+	1870   => '1369672',            # Naissance Saint-Thurien 3 E 335/9/1 (1870)
+	1871   => '1369673',            # Naissance Saint-Thurien 3 E 335/9/2 (1871)
+	1872   => '1369674',            # Naissance Saint-Thurien 3 E 335/9/3 (1872)
+	1873   => '1369675',            # Naissance Saint-Thurien 3 E 335/9/4 (1873)
+	1874   => '1369676',            # Naissance Saint-Thurien 3 E 335/9/5 (1874)
+	1875   => '1369677',            # Naissance Saint-Thurien 3 E 335/9/6 (1875)
+	1876   => '1369678',            # Naissance Saint-Thurien 3 E 335/9/7 (1876)
+	1877   => '1369679',            # Naissance Saint-Thurien 3 E 335/9/8 (1877)
+	1878   => '1369680',            # Naissance Saint-Thurien 3 E 335/9/9 (1878)
+	1879   => '1369681',            # Naissance Saint-Thurien 3 E 335/9/10 (1879)
+	1880   => '1369682',            # Naissance Saint-Thurien 3 E 335/9/11 (1880)
+	1881   => '1369683',            # Naissance Saint-Thurien 3 E 335/9/12 (1881)
+	1882   => '1369684',            # Naissance Saint-Thurien 3 E 335/9/13 (1882)
+	1883   => '1369685',            # Naissance Saint-Thurien 3 E 335/9/14 (1883)
+	1884   => '1369686',            # Naissance Saint-Thurien 3 E 335/9/15 (1884)
+	1885   => '1369687',            # Naissance Saint-Thurien 3 E 335/9/16 (1885)
+    },
+
+    '3E335_0010' => {			# Mariage promesse de mariage Saint-Thurien 3 E 335 10   AN02-1808
+	'AN02' => '1369745',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/1 (1793 - an II)
+	'AN03' => '1369746',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/2 (an III)
+	'AN04' => '1369747',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/3 (an IV)
+	'AN05' => '1369748',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/4 (an V)
+	'AN07' => '1369749',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/5 (an VII)
+	'AN09' => '1369750',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/6 (an IX)
+	'AN10' => '1369751',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/7 (an X)
+	'AN11' => '1369752',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/8 (an XI)
+	'AN12' => '1369753',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/9 (an XII)
+	'AN13' => '1369754',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/10 (an XIII)
+	'AN14' => '1369755',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/11 (an XIV - 1806)
+	1807   => '1369756',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/12 (1807)
+	1808   => '1369757',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/13 (1808)
+    },
+
+    '3E335_0011' => {			# Mariage Saint-Thurien 3 E 335 11   1813-1822
+	1813   => '1369763',            # Mariage Saint-Thurien 3 E 335/11/1 (1813)
+	1814   => '1369764',            # Mariage Saint-Thurien 3 E 335/11/2 (1814)
+	1815   => '1369765',            # Mariage Saint-Thurien 3 E 335/11/3 (1815)
+	1816   => '1369766',            # Mariage Saint-Thurien 3 E 335/11/4 (1816)
+	1817   => '1369767',            # Mariage Saint-Thurien 3 E 335/11/5 (1817)
+	1818   => '1369768',            # Mariage Saint-Thurien 3 E 335/11/6 (1818)
+	1819   => '1369769',            # Mariage Saint-Thurien 3 E 335/11/7 (1819)
+	1820   => '1369770',            # Mariage Saint-Thurien 3 E 335/11/8 (1820)
+	1821   => '1369771',            # Mariage Saint-Thurien 3 E 335/11/9 (1821)
+	1822   => '1369772',            # Mariage Saint-Thurien 3 E 335/11/10 (1822)
+    },
+
+    '3E335_0012' => {			# Mariage Saint-Thurien 3 E 335 12   1823-1825
+	1823   => '1369774',            # Mariage Saint-Thurien 3 E 335/12/1 (1823)
+	1824   => '1369775',            # Mariage Saint-Thurien 3 E 335/12/2 (1824)
+	1825   => '1369776',            # Mariage Saint-Thurien 3 E 335/12/3 (1825)
+    },
+
+    '3E335_0013' => {			# Mariage Saint-Thurien 3 E 335 13   1833-1842
+	1833   => '1369785',            # Mariage Saint-Thurien 3 E 335/13/1 (1833)
+	1834   => '1369786',            # Mariage Saint-Thurien 3 E 335/13/2 (1834)
+	1835   => '1369787',            # Mariage Saint-Thurien 3 E 335/13/3 (1835)
+	1836   => '1369788',            # Mariage Saint-Thurien 3 E 335/13/4 (1836)
+	1837   => '1369789',            # Mariage Saint-Thurien 3 E 335/13/5 (1837)
+	1838   => '1369790',            # Mariage Saint-Thurien 3 E 335/13/6 (1838)
+	1839   => '1369791',            # Mariage Saint-Thurien 3 E 335/13/7 (1839)
+	1840   => '1369792',            # Mariage Saint-Thurien 3 E 335/13/8 (1840)
+	1841   => '1369793',            # Mariage Saint-Thurien 3 E 335/13/9 (1841)
+	1842   => '1369794',            # Mariage Saint-Thurien 3 E 335/13/10 (1842)
+    },
+
+    '3E335_0014' => {			# Mariage Saint-Thurien 3 E 335 14   1843-1852
+	1843   => '1369796',            # Mariage Saint-Thurien 3 E 335/14/1 (1843)
+	1844   => '1369797',            # Mariage Saint-Thurien 3 E 335/14/2 (1844)
+	1845   => '1369798',            # Mariage Saint-Thurien 3 E 335/14/3 (1845)
+	1846   => '1369799',            # Mariage Saint-Thurien 3 E 335/14/4 (1846)
+	1847   => '1369800',            # Mariage Saint-Thurien 3 E 335/14/5 (1847)
+	1848   => '1369801',            # Mariage Saint-Thurien 3 E 335/14/6 (1848)
+	1849   => '1369802',            # Mariage Saint-Thurien 3 E 335/14/7 (1849)
+	1850   => '1369803',            # Mariage Saint-Thurien 3 E 335/14/8 (1850)
+	1851   => '1369804',            # Mariage Saint-Thurien 3 E 335/14/9 (1851)
+	1852   => '1369805',            # Mariage Saint-Thurien 3 E 335/14/10 (1852)
+    },
+
+    '3E335_0015' => {			# Mariage Saint-Thurien 3 E 335 15   1853-1862
+	1853   => '1369807',            # Mariage Saint-Thurien 3 E 335/15/1 (1853)
+	1854   => '1369808',            # Mariage Saint-Thurien 3 E 335/15/2 (1854)
+	1855   => '1369809',            # Mariage Saint-Thurien 3 E 335/15/3 (1855)
+	1856   => '1369810',            # Mariage Saint-Thurien 3 E 335/15/4 (1856)
+	1857   => '1369811',            # Mariage Saint-Thurien 3 E 335/15/5 (1857)
+	1858   => '1369812',            # Mariage Saint-Thurien 3 E 335/15/6 (1858)
+	1859   => '1369813',            # Mariage Saint-Thurien 3 E 335/15/7 (1859)
+	1860   => '1369814',            # Mariage Saint-Thurien 3 E 335/15/8 (1860)
+	1861   => '1369815',            # Mariage Saint-Thurien 3 E 335/15/9 (1861)
+	1862   => '1369816',            # Mariage Saint-Thurien 3 E 335/15/10 (1862)
+    },
+
+    '3E335_0016' => {			# Mariage Saint-Thurien 3 E 335 16   1863-1869
+	1863   => '1369818',            # Mariage Saint-Thurien 3 E 335/16/1 (1863)
+	1864   => '1369819',            # Mariage Saint-Thurien 3 E 335/16/2 (1864)
+	1865   => '1369820',            # Mariage Saint-Thurien 3 E 335/16/3 (1865)
+	1866   => '1369821',            # Mariage Saint-Thurien 3 E 335/16/4 (1866)
+	1867   => '1369822',            # Mariage Saint-Thurien 3 E 335/16/5 (1867)
+	1868   => '1369823',            # Mariage Saint-Thurien 3 E 335/16/6 (1868)
+	1869   => '1369824',            # Mariage Saint-Thurien 3 E 335/16/7 (1869)
+    },
+
+    '3E335_0017' => {			# Mariage Saint-Thurien 3 E 335 17   1870-1888
+	1870   => '1369826',            # Mariage Saint-Thurien 3 E 335/17/1 (1870)
+	1871   => '1369827',            # Mariage Saint-Thurien 3 E 335/17/2 (1871)
+	1872   => '1369828',            # Mariage Saint-Thurien 3 E 335/17/3 (1872)
+	1873   => '1369829',            # Mariage Saint-Thurien 3 E 335/17/4 (1873)
+	1874   => '1369830',            # Mariage Saint-Thurien 3 E 335/17/5 (1874)
+	1875   => '1369831',            # Mariage Saint-Thurien 3 E 335/17/6 (1875)
+	1876   => '1369832',            # Mariage Saint-Thurien 3 E 335/17/7 (1876)
+	1877   => '1369833',            # Mariage Saint-Thurien 3 E 335/17/8 (1877)
+	1878   => '1369834',            # Mariage Saint-Thurien 3 E 335/17/9 (1878)
+	1879   => '1369835',            # Mariage Saint-Thurien 3 E 335/17/10 (1879)
+	1880   => '1369836',            # Mariage Saint-Thurien 3 E 335/17/11 (1880)
+	1881   => '1369837',            # Mariage Saint-Thurien 3 E 335/17/12 (1881)
+	1882   => '1369838',            # Mariage Saint-Thurien 3 E 335/17/13 (1882)
+	1888   => '1369844',            # Mariage Saint-Thurien 3 E 335/17/19 (1888)
+    },
+
+    '3E335_0018' => {			# Décès Saint-Thurien 3 E 335 18   AN02-1812
+	'AN02' => '1369898',            # Décès Saint-Thurien 3 E 335/18/1 (1793 - an II)
+	'AN03' => '1369899',            # Décès Saint-Thurien 3 E 335/18/2 (an III)
+	'AN04' => '1369900',            # Décès Saint-Thurien 3 E 335/18/3 (an IV)
+	'AN05' => '1369901',            # Décès Saint-Thurien 3 E 335/18/4 (an V)
+	'AN06' => '1369902',            # Décès Saint-Thurien 3 E 335/18/5 (an VI)
+	'AN07' => '1369903',            # Décès Saint-Thurien 3 E 335/18/6 (an VII)
+	'AN08' => '1369904',            # Décès Saint-Thurien 3 E 335/18/7 (an VIII)
+	'AN09' => '1369905',            # Décès Saint-Thurien 3 E 335/18/8 (an IX)
+	'AN10' => '1369906',            # Décès Saint-Thurien 3 E 335/18/9 (an X)
+	'AN11' => '1369907',            # Décès Saint-Thurien 3 E 335/18/10 (an XI)
+	'AN12' => '1369908',            # Décès Saint-Thurien 3 E 335/18/11 (an XII)
+	'AN13' => '1369909',            # Décès Saint-Thurien 3 E 335/18/12 (an XIII)
+	'AN14' => '1369910',            # Décès Saint-Thurien 3 E 335/18/13 (an XIV - 1806)
+	1807   => '1369911',            # Décès Saint-Thurien 3 E 335/18/14 (1807)
+	1808   => '1369912',            # Décès Saint-Thurien 3 E 335/18/15 (1808)
+	1809   => '1369913',            # Décès Saint-Thurien 3 E 335/18/16 (1809)
+	1810   => '1369914',            # Décès Saint-Thurien 3 E 335/18/17 (1810)
+	1811   => '1369915',            # Décès Saint-Thurien 3 E 335/18/18 (1811)
+	1812   => '1369916',            # Décès Saint-Thurien 3 E 335/18/19 (1812)
+    },
+
+    '3E335_0019' => '1369918',            # Décès Saint-Thurien 3 E 335/19/1 (1813)
+    '3E335_0020' => {			# Décès Saint-Thurien 3 E 335 20   1823-1832
+	1823   => '1369929',            # Décès Saint-Thurien 3 E 335/20/1 (1823)
+	1824   => '1369930',            # Décès Saint-Thurien 3 E 335/20/2 (1824)
+	1825   => '1369931',            # Décès Saint-Thurien 3 E 335/20/3 (1825)
+	1826   => '1369932',            # Décès Saint-Thurien 3 E 335/20/4 (1826)
+	1827   => '1369933',            # Décès Saint-Thurien 3 E 335/20/5 (1827)
+	1828   => '1369934',            # Décès Saint-Thurien 3 E 335/20/6 (1828)
+	1829   => '1369935',            # Décès Saint-Thurien 3 E 335/20/7 (1829)
+	1830   => '1369936',            # Décès Saint-Thurien 3 E 335/20/8 (1830)
+	1831   => '1369937',            # Décès Saint-Thurien 3 E 335/20/9 (1831)
+	1832   => '1369938',            # Décès Saint-Thurien 3 E 335/20/10 (1832)
+    },
+
+    '3E335_0021' => {			# Décès Saint-Thurien 3 E 335 21   1833-1842
+	1833   => '1369940',            # Décès Saint-Thurien 3 E 335/21/1 (1833)
+	1834   => '1369941',            # Décès Saint-Thurien 3 E 335/21/2 (1834)
+	1835   => '1369942',            # Décès Saint-Thurien 3 E 335/21/3 (1835)
+	1836   => '1369943',            # Décès Saint-Thurien 3 E 335/21/4 (1836)
+	1837   => '1369944',            # Décès Saint-Thurien 3 E 335/21/5 (1837)
+	1838   => '1369945',            # Décès Saint-Thurien 3 E 335/21/6 (1838)
+	1839   => '1369946',            # Décès Saint-Thurien 3 E 335/21/7 (1839)
+	1840   => '1369947',            # Décès Saint-Thurien 3 E 335/21/8 (1840)
+	1841   => '1369948',            # Décès Saint-Thurien 3 E 335/21/9 (1841)
+	1842   => '1369949',            # Décès Saint-Thurien 3 E 335/21/10 (1842)
+    },
+
+    '3E335_0022' => {			# Décès Saint-Thurien 3 E 335 22   1843-1852
+	1843   => '1369951',            # Décès Saint-Thurien 3 E 335/22/1 (1843)
+	1844   => '1369952',            # Décès Saint-Thurien 3 E 335/22/2 (1844)
+	1845   => '1369953',            # Décès Saint-Thurien 3 E 335/22/3 (1845)
+	1846   => '1369954',            # Décès Saint-Thurien 3 E 335/22/4 (1846)
+	1847   => '1369955',            # Décès Saint-Thurien 3 E 335/22/5 (1847)
+	1848   => '1369956',            # Décès Saint-Thurien 3 E 335/22/6 (1848)
+	1849   => '1369957',            # Décès Saint-Thurien 3 E 335/22/7 (1849)
+	1850   => '1369958',            # Décès Saint-Thurien 3 E 335/22/8 (1850)
+	1851   => '1369959',            # Décès Saint-Thurien 3 E 335/22/9 (1851)
+	1852   => '1369960',            # Décès Saint-Thurien 3 E 335/22/10 (1852)
+    },
+
+    '3E335_0023' => {			# Décès Saint-Thurien 3 E 335 23   1853-1862
+	1853   => '1369962',            # Décès Saint-Thurien 3 E 335/23/1 (1853)
+	1854   => '1369963',            # Décès Saint-Thurien 3 E 335/23/2 (1854)
+	1855   => '1369964',            # Décès Saint-Thurien 3 E 335/23/3 (1855)
+	1856   => '1369965',            # Décès Saint-Thurien 3 E 335/23/4 (1856)
+	1857   => '1369966',            # Décès Saint-Thurien 3 E 335/23/5 (1857)
+	1858   => '1369967',            # Décès Saint-Thurien 3 E 335/23/6 (1858)
+	1859   => '1369968',            # Décès Saint-Thurien 3 E 335/23/7 (1859)
+	1860   => '1369969',            # Décès Saint-Thurien 3 E 335/23/8 (1860)
+	1861   => '1369970',            # Décès Saint-Thurien 3 E 335/23/9 (1861)
+	1862   => '1369971',            # Décès Saint-Thurien 3 E 335/23/10 (1862)
+    },
+
+    '3E335_0024' => {			# Décès Saint-Thurien 3 E 335 24   1863-1869
+	1863   => '1369973',            # Décès Saint-Thurien 3 E 335/24/1 (1863)
+	1864   => '1369974',            # Décès Saint-Thurien 3 E 335/24/2 (1864)
+	1865   => '1369975',            # Décès Saint-Thurien 3 E 335/24/3 (1865)
+	1866   => '1369976',            # Décès Saint-Thurien 3 E 335/24/4 (1866)
+	1867   => '1369977',            # Décès Saint-Thurien 3 E 335/24/5 (1867)
+	1868   => '1369978',            # Décès Saint-Thurien 3 E 335/24/6 (1868)
+	1869   => '1369979',            # Décès Saint-Thurien 3 E 335/24/7 (1869)
+    },
+
+    '3E335_0025' => {			# Décès Saint-Thurien 3 E 335 25   1870-1887
+	1870   => '1369981',            # Décès Saint-Thurien 3 E 335/25/1 (1870)
+	1871   => '1369982',            # Décès Saint-Thurien 3 E 335/25/2 (1871)
+	1872   => '1369983',            # Décès Saint-Thurien 3 E 335/25/3 (1872)
+	1873   => '1369984',            # Décès Saint-Thurien 3 E 335/25/4 (1873)
+	1874   => '1369985',            # Décès Saint-Thurien 3 E 335/25/5 (1874)
+	1875   => '1369986',            # Décès Saint-Thurien 3 E 335/25/6 (1875)
+	1876   => '1369987',            # Décès Saint-Thurien 3 E 335/25/7 (1876)
+	1877   => '1369988',            # Décès Saint-Thurien 3 E 335/25/8 (1877)
+	1878   => '1369989',            # Décès Saint-Thurien 3 E 335/25/9 (1878)
+	1879   => '1369990',            # Décès Saint-Thurien 3 E 335/25/10 (1879)
+	1880   => '1369991',            # Décès Saint-Thurien 3 E 335/25/11 (1880)
+	1881   => '1369992',            # Décès Saint-Thurien 3 E 335/25/12 (1881)
+	1882   => '1369993',            # Décès Saint-Thurien 3 E 335/25/13 (1882)
+	1883   => '1369994',            # Décès Saint-Thurien 3 E 335/25/14 (1883)
+	1884   => '1369995',            # Décès Saint-Thurien 3 E 335/25/15 (1884)
+	1885   => '1369996',            # Décès Saint-Thurien 3 E 335/25/16 (1885)
+	1886   => '1369997',            # Décès Saint-Thurien 3 E 335/25/17 (1886)
+	1887   => '1369998',            # Décès Saint-Thurien 3 E 335/25/18 (1887)
+    },
+
+    '3E335_0026' => {			# Naissance Saint-Thurien 3 E 335 26   1886-1898
+	1886   => '1369689',            # Naissance Saint-Thurien 3 E 335/26/1 (1886)
+	1887   => '1369690',            # Naissance Saint-Thurien 3 E 335/26/2 (1887)
+	1888   => '1369691',            # Naissance Saint-Thurien 3 E 335/26/3 (1888)
+	1889   => '1369692',            # Naissance Saint-Thurien 3 E 335/26/4 (1889)
+	1890   => '1369693',            # Naissance Saint-Thurien 3 E 335/26/5 (1890)
+	1892   => '1369695',            # Naissance Saint-Thurien 3 E 335/26/7 (1892)
+	1893   => '1369696',            # Naissance Saint-Thurien 3 E 335/26/8 (1893)
+	1894   => '1369697',            # Naissance Saint-Thurien 3 E 335/26/9 (1894)
+	1895   => '1369698',            # Naissance Saint-Thurien 3 E 335/26/10 (1895)
+	1896   => '1369699',            # Naissance Saint-Thurien 3 E 335/26/11 (1896)
+	1897   => '1369700',            # Naissance Saint-Thurien 3 E 335/26/12 (1897)
+	1898   => '1369701',            # Naissance Saint-Thurien 3 E 335/26/13 (1898)
+    },
+
+    '3E335_0027' => {			# Mariage Saint-Thurien 3 E 335 27   1889-1906
+	1889   => '1369846',            # Mariage Saint-Thurien 3 E 335/27/1 (1889)
+	1890   => '1369847',            # Mariage Saint-Thurien 3 E 335/27/2 (1890)
+	1891   => '1369848',            # Mariage Saint-Thurien 3 E 335/27/3 (1891)
+	1892   => '1369849',            # Mariage Saint-Thurien 3 E 335/27/4 (1892)
+	1893   => '1369850',            # Mariage Saint-Thurien 3 E 335/27/5 (1893)
+	1894   => '1369851',            # Mariage Saint-Thurien 3 E 335/27/6 (1894)
+	1895   => '1369852',            # Mariage Saint-Thurien 3 E 335/27/7 (1895)
+	1896   => '1369853',            # Mariage Saint-Thurien 3 E 335/27/8 (1896)
+	1897   => '1369854',            # Mariage Saint-Thurien 3 E 335/27/9 (1897)
+	1898   => '1369855',            # Mariage Saint-Thurien 3 E 335/27/10 (1898)
+	1899   => '1369856',            # Mariage Saint-Thurien 3 E 335/27/11 (1899)
+	1904   => '1369861',            # Mariage Saint-Thurien 3 E 335/27/16 (1904)
+	1905   => '1369862',            # Mariage Saint-Thurien 3 E 335/27/17 (1905)
+	1906   => '1369863',            # Mariage Saint-Thurien 3 E 335/27/18 (1906)
+    },
+
+    '3E335_0028' => {			# Décès Saint-Thurien 3 E 335 28   1888-1904
+	1888   => '1370000',            # Décès Saint-Thurien 3 E 335/28/1 (1888)
+	1889   => '1370001',            # Décès Saint-Thurien 3 E 335/28/2 (1889)
+	1890   => '1370002',            # Décès Saint-Thurien 3 E 335/28/3 (1890)
+	1891   => '1370003',            # Décès Saint-Thurien 3 E 335/28/4 (1891)
+	1892   => '1370004',            # Décès Saint-Thurien 3 E 335/28/5 (1892)
+	1893   => '1370005',            # Décès Saint-Thurien 3 E 335/28/6 (1893)
+	1894   => '1370006',            # Décès Saint-Thurien 3 E 335/28/7 (1894)
+	1896   => '1370008',            # Décès Saint-Thurien 3 E 335/28/9 (1896)
+	1897   => '1370009',            # Décès Saint-Thurien 3 E 335/28/10 (1897)
+	1898   => '1370010',            # Décès Saint-Thurien 3 E 335/28/11 (1898)
+	1899   => '1370011',            # Décès Saint-Thurien 3 E 335/28/12 (1899)
+	1900   => '1370012',            # Décès Saint-Thurien 3 E 335/28/13 (1900)
+	1901   => '1370013',            # Décès Saint-Thurien 3 E 335/28/14 (1901)
+	1902   => '1370014',            # Décès Saint-Thurien 3 E 335/28/15 (1902)
+	1903   => '1370015',            # Décès Saint-Thurien 3 E 335/28/16 (1903)
+	1904   => '1370016',            # Décès Saint-Thurien 3 E 335/28/17 (1904)
+    },
+
+    '3E335_0029' => {			# Naissance Saint-Thurien 3 E 335 29   1899-1910
+	1899   => '1369703',            # Naissance Saint-Thurien 3 E 335/29/1 (1899)
+	1900   => '1369704',            # Naissance Saint-Thurien 3 E 335/29/2 (1900)
+	1901   => '1369705',            # Naissance Saint-Thurien 3 E 335/29/3 (1901)
+	1902   => '1369706',            # Naissance Saint-Thurien 3 E 335/29/4 (1902)
+	1903   => '1369707',            # Naissance Saint-Thurien 3 E 335/29/5 (1903)
+	1904   => '1369708',            # Naissance Saint-Thurien 3 E 335/29/6 (1904)
+	1905   => '1369709',            # Naissance Saint-Thurien 3 E 335/29/7 (1905)
+	1906   => '1369710',            # Naissance Saint-Thurien 3 E 335/29/8 (1906)
+	1907   => '1369711',            # Naissance Saint-Thurien 3 E 335/29/9 (1907)
+	1908   => '1369712',            # Naissance Saint-Thurien 3 E 335/29/10 (1908)
+	1909   => '1369713',            # Naissance Saint-Thurien 3 E 335/29/11 (1909)
+	1910   => '1369714',            # Naissance Saint-Thurien 3 E 335/29/12 (1910)
+    },
+
+    '3E335_0030' => {			# Naissance Saint-Thurien 3 E 335 30   1911-1921
+	1911   => '1369716',            # Naissance Saint-Thurien 3 E 335/30/1 (1911)
+	1912   => '1369717',            # Naissance Saint-Thurien 3 E 335/30/2 (1912)
+	1913   => '1369718',            # Naissance Saint-Thurien 3 E 335/30/3 (1913)
+	1914   => '1369719',            # Naissance Saint-Thurien 3 E 335/30/4 (1914)
+	1915   => '1369720',            # Naissance Saint-Thurien 3 E 335/30/5 (1915)
+	1916   => '1369721',            # Naissance Saint-Thurien 3 E 335/30/6 (1916)
+	1917   => '1369722',            # Naissance Saint-Thurien 3 E 335/30/7 (1917)
+	1918   => '1369723',            # Naissance Saint-Thurien 3 E 335/30/8 (1918)
+	1919   => '1369724',            # Naissance Saint-Thurien 3 E 335/30/9 (1919)
+	1920   => '1369725',            # Naissance Saint-Thurien 3 E 335/30/10 (1920)
+	1921   => '1369726',            # Naissance Saint-Thurien 3 E 335/30/11 (1921)
+    },
+
+    '3E335_0031' => {			# Naissance Saint-Thurien 3 E 335 31   1922-1925
+	1922   => '1369728',            # Naissance Saint-Thurien 3 E 335/31/1 (1922)
+	1923   => '1369729',            # Naissance Saint-Thurien 3 E 335/31/2 (1923)
+	1924   => '1369730',            # Naissance Saint-Thurien 3 E 335/31/3 (1924)
+	1925   => '1369731',            # Naissance Saint-Thurien 3 E 335/31/4 (1925)
+    },
+
+    '3E335_0032' => {			# Mariage Saint-Thurien 3 E 335 32   1907-1921
+	1907   => '1369865',            # Mariage Saint-Thurien 3 E 335/32/1 (1907)
+	1908   => '1369866',            # Mariage Saint-Thurien 3 E 335/32/2 (1908)
+	1909   => '1369867',            # Mariage Saint-Thurien 3 E 335/32/3 (1909)
+	1910   => '1369868',            # Mariage Saint-Thurien 3 E 335/32/4 (1910)
+	1911   => '1369869',            # Mariage Saint-Thurien 3 E 335/32/5 (1911)
+	1912   => '1369870',            # Mariage Saint-Thurien 3 E 335/32/6 (1912)
+	1913   => '1369871',            # Mariage Saint-Thurien 3 E 335/32/7 (1913)
+	1914   => '1369872',            # Mariage Saint-Thurien 3 E 335/32/8 (1914)
+	1915   => '1369873',            # Mariage Saint-Thurien 3 E 335/32/9 (1915)
+	1916   => '1369874',            # Mariage Saint-Thurien 3 E 335/32/10 (1916)
+	1917   => '1369875',            # Mariage Saint-Thurien 3 E 335/32/11 (1917)
+	1918   => '1369876',            # Mariage Saint-Thurien 3 E 335/32/12 (1918)
+	1919   => '1369877',            # Mariage Saint-Thurien 3 E 335/32/13 (1919)
+	1920   => '1369878',            # Mariage Saint-Thurien 3 E 335/32/14 (1920)
+	1921   => '1369879',            # Mariage Saint-Thurien 3 E 335/32/15 (1921)
+    },
+
+    '3E335_0033' => {			# Mariage Saint-Thurien 3 E 335 33   1922-1925
+	1922   => '1369881',            # Mariage Saint-Thurien 3 E 335/33/1 (1922)
+	1923   => '1369882',            # Mariage Saint-Thurien 3 E 335/33/2 (1923)
+	1924   => '1369883',            # Mariage Saint-Thurien 3 E 335/33/3 (1924)
+	1925   => '1369884',            # Mariage Saint-Thurien 3 E 335/33/4 (1925)
+    },
+
+    '3E335_0034' => {			# Décès Saint-Thurien 3 E 335 34   1905-1919
+	1905   => '1370018',            # Décès Saint-Thurien 3 E 335/34/1 (1905)
+	1906   => '1370019',            # Décès Saint-Thurien 3 E 335/34/2 (1906)
+	1907   => '1370020',            # Décès Saint-Thurien 3 E 335/34/3 (1907)
+	1908   => '1370021',            # Décès Saint-Thurien 3 E 335/34/4 (1908)
+	1909   => '1370022',            # Décès Saint-Thurien 3 E 335/34/5 (1909)
+	1910   => '1370023',            # Décès Saint-Thurien 3 E 335/34/6 (1910)
+	1911   => '1370024',            # Décès Saint-Thurien 3 E 335/34/7 (1911)
+	1912   => '1370025',            # Décès Saint-Thurien 3 E 335/34/8 (1912)
+	1913   => '1370026',            # Décès Saint-Thurien 3 E 335/34/9 (1913)
+	1914   => '1370027',            # Décès Saint-Thurien 3 E 335/34/10 (1914)
+	1915   => '1370028',            # Décès Saint-Thurien 3 E 335/34/11 (1915)
+	1916   => '1370029',            # Décès Saint-Thurien 3 E 335/34/12 (1916)
+	1917   => '1370030',            # Décès Saint-Thurien 3 E 335/34/13 (1917)
+	1918   => '1370031',            # Décès Saint-Thurien 3 E 335/34/14 (1918)
+	1919   => '1370032',            # Décès Saint-Thurien 3 E 335/34/15 (1919)
+    },
+
+    '3E335_0035' => {			# Décès Saint-Thurien 3 E 335 35   1920-1936
+	1920   => '1370034',            # Décès Saint-Thurien 3 E 335/35/1 (1920)
+	1921   => '1370035',            # Décès Saint-Thurien 3 E 335/35/2 (1921)
+	1922   => '1370036',            # Décès Saint-Thurien 3 E 335/35/3 (1922)
+	1923   => '1370037',            # Décès Saint-Thurien 3 E 335/35/4 (1923)
+	1924   => '1370038',            # Décès Saint-Thurien 3 E 335/35/5 (1924)
+	1925   => '1370039',            # Décès Saint-Thurien 3 E 335/35/6 (1925)
+	1926   => '1370040',            # Décès Saint-Thurien 3 E 335/35/7 (1926)
+	1927   => '1370041',            # Décès Saint-Thurien 3 E 335/35/8 (1927)
+	1928   => '1370042',            # Décès Saint-Thurien 3 E 335/35/9 (1928)
+	1929   => '1370043',            # Décès Saint-Thurien 3 E 335/35/10 (1929)
+	1930   => '1370044',            # Décès Saint-Thurien 3 E 335/35/11 (1930)
+	1931   => '1370045',            # Décès Saint-Thurien 3 E 335/35/12 (1931)
+	1932   => '1370046',            # Décès Saint-Thurien 3 E 335/35/13 (1932)
+	1933   => '1370047',            # Décès Saint-Thurien 3 E 335/35/14 (1933)
+	1934   => '1370048',            # Décès Saint-Thurien 3 E 335/35/15 (1934)
+	1935   => '1370049',            # Décès Saint-Thurien 3 E 335/35/16 (1935)
+	1936   => '1370050',            # Décès Saint-Thurien 3 E 335/35/17 (1936)
+    },
+
     # Scaër
     '3E344_0013' => {			# Naissance Scaër 3 E 344 13   AN 2 - AN 10
 	'AN02' => '1371660',            # Naissance Scaër 3 E 344/13/1 (1793 - an II)
