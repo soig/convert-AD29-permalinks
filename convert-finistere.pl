@@ -899,7 +899,9 @@ my %convert = (
 	'AN09' => '1302154',            # Décès Kergloff 3 E 106/18/8 (an IX)
 	'AN10' => '1302155',            # Décès Kergloff 3 E 106/18/9 (an X)
 	'AN11' => '1302156',            # Décès Kergloff 3 E 106/18/10 (an XI)
-	# FIXME: hole
+	'AN12' => '1302157',            # Décès Kergloff 3 E 106/18/11 (an XII)
+	'AN13' => '1302158',            # Décès Kergloff 3 E 106/18/12 (an XIII)
+	'AN14' => '1302159',            # Décès Kergloff 3 E 106/18/13 (an XIV - 1806)
 	1807   => '1302160',            # Décès Kergloff 3 E 106/18/14 (1807)
 	1808   => '1302161',            # Décès Kergloff 3 E 106/18/15 (1808)
 	1809   => '1302162',            # Décès Kergloff 3 E 106/18/16 (1809)
