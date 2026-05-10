@@ -58,6 +58,8 @@ my %convert = (
     '1027EDEPOT_003' => '644405.1465026',     # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance table des baptêmes table des naissances Châteauneuf-du-Faou 1027 E-dépôt 3 (Tables des baptêmes, tables des naissances, tables décennales)
     '1027EDEPOT_013' => '1465028',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 13 (Tables décennales)
     '1040 E DEPOT' => '1465702',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Concarneau 1040 E DEPOT 9 (Tables décennales)
+    '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
+    '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
     '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
 
     # Registre matricule:
@@ -3319,6 +3321,476 @@ my %convert = (
 	1935   => '1303276',            # Décès Kernével 3 E 109/47/15 (1935)
 	1936   => '1303277',            # Décès Kernével 3 E 109/47/16 (1936)
     },
+
+    # Landeleau
+    '3E122_0006' => {			# Naissance Landeleau 3 E 122 6   AN14-1809
+	'AN02' => '1307141',            # Naissance Landeleau 3 E 122/6/1 (1793-1er thermidor an II)
+	# An 3-5 to be doble checked:
+	'AN03' => '1307142',            # Naissance Landeleau 3 E 122/6/2 (19 frimaire-25 fructidor an III)
+	'AN04' => '1307143',            # Naissance Landeleau 3 E 122/6/3 (an IV-12 messidor an V)
+	'AN05' => '1307144',            # Naissance Landeleau 3 E 122/6/4 (18 messidor-3 thermidor an V)
+	'AN06' => '1307145',            # Naissance Landeleau 3 E 122/6/5 (an VI)
+	'AN07' => '1307146',            # Naissance Landeleau 3 E 122/6/6 (an VII)
+	'AN08' => '1307147',            # Naissance Landeleau 3 E 122/6/7 (an VIII)
+	'AN09' => '1307148',            # Naissance Landeleau 3 E 122/6/8 (an IX)
+	'AN10' => '1307149',            # Naissance Landeleau 3 E 122/6/9 (an X)
+	'AN11' => '1307150',            # Naissance Landeleau 3 E 122/6/10 (an XI)
+	'AN12' => '1307151',            # Naissance Landeleau 3 E 122/6/11 (an XII)
+	'AN13' => '1307152',            # Naissance Landeleau 3 E 122/6/12 (an XIII)
+	'AN14' => '1307153',            # Naissance Landeleau 3 E 122/6/13 (an XIV - 1806)
+	1807   => '1307154',            # Naissance Landeleau 3 E 122/6/14 (1807)
+	1808   => '1307155',            # Naissance Landeleau 3 E 122/6/15 (1808)
+	1809   => '1307156',            # Naissance Landeleau 3 E 122/6/16 (1809)
+    },
+
+    '3E122_0007' => {			# Naissance Landeleau 3 E 122 7   1823-1832
+	1823   => '1307171',            # Naissance Landeleau 3 E 122/7/10 (1823)
+	1824   => '1307172',            # Naissance Landeleau 3 E 122/7/11 (1824)
+	1825   => '1307173',            # Naissance Landeleau 3 E 122/7/12 (1825)
+	1826   => '1307174',            # Naissance Landeleau 3 E 122/7/13 (1826)
+	1827   => '1307175',            # Naissance Landeleau 3 E 122/7/14 (1827)
+	1828   => '1307176',            # Naissance Landeleau 3 E 122/7/15 (1828)
+	1829   => '1307177',            # Naissance Landeleau 3 E 122/7/16 (1829)
+	1830   => '1307178',            # Naissance Landeleau 3 E 122/7/17 (1830)
+	1831   => '1307179',            # Naissance Landeleau 3 E 122/7/18 (1831)
+	1832   => '1307180',            # Naissance Landeleau 3 E 122/7/19 (1832)
+    },
+
+    '3E122_0008' => {			# Naissance Landeleau 3 E 122 8   1833-1842
+	1833   => '1307182',            # Naissance Landeleau 3 E 122/8/1 (1833)
+	1834   => '1307183',            # Naissance Landeleau 3 E 122/8/2 (1834)
+	1835   => '1307184',            # Naissance Landeleau 3 E 122/8/3 (1835)
+	1836   => '1307185',            # Naissance Landeleau 3 E 122/8/4 (1836)
+	1837   => '1307186',            # Naissance Landeleau 3 E 122/8/5 (1837)
+	1838   => '1307187',            # Naissance Landeleau 3 E 122/8/6 (1838)
+	1839   => '1307188',            # Naissance Landeleau 3 E 122/8/7 (1839)
+	1840   => '1307189',            # Naissance Landeleau 3 E 122/8/8 (1840)
+	1841   => '1307190',            # Naissance Landeleau 3 E 122/8/9 (1841)
+	1842   => '1307191',            # Naissance Landeleau 3 E 122/8/10 (1842)
+    },
+
+    '3E122_0009' => {			# Naissance Landeleau 3 E 122 9   1843-1852
+	1843   => '1307193',            # Naissance Landeleau 3 E 122/9/1 (1843)
+	1844   => '1307194',            # Naissance Landeleau 3 E 122/9/2 (1844)
+	1845   => '1307195',            # Naissance Landeleau 3 E 122/9/3 (1845)
+	1846   => '1307196',            # Naissance Landeleau 3 E 122/9/4 (1846)
+	1847   => '1307197',            # Naissance Landeleau 3 E 122/9/5 (1847)
+	1848   => '1307198',            # Naissance Landeleau 3 E 122/9/6 (1848)
+	1849   => '1307199',            # Naissance Landeleau 3 E 122/9/7 (1849)
+	1850   => '1307200',            # Naissance Landeleau 3 E 122/9/8 (1850)
+	1851   => '1307201',            # Naissance Landeleau 3 E 122/9/9 (1851)
+	1852   => '1307202',            # Naissance Landeleau 3 E 122/9/10 (1852)
+    },
+
+    '3E122_0010' => {			# Naissance Landeleau 3 E 122 10   1853-1862
+	1853   => '1307204',            # Naissance Landeleau 3 E 122/10/1 (1853)
+	1854   => '1307205',            # Naissance Landeleau 3 E 122/10/2 (1854)
+	1855   => '1307206',            # Naissance Landeleau 3 E 122/10/3 (1855)
+	1856   => '1307207',            # Naissance Landeleau 3 E 122/10/4 (1856)
+	1857   => '1307208',            # Naissance Landeleau 3 E 122/10/5 (1857)
+	1858   => '1307209',            # Naissance Landeleau 3 E 122/10/6 (1858)
+	1859   => '1307210',            # Naissance Landeleau 3 E 122/10/7 (1859)
+	1860   => '1307211',            # Naissance Landeleau 3 E 122/10/8 (1860)
+	1861   => '1307212',            # Naissance Landeleau 3 E 122/10/9 (1861)
+	1862   => '1307213',            # Naissance Landeleau 3 E 122/10/10 (1862)
+    },
+
+    '3E122_0011' => {			# Naissance Landeleau 3 E 122 11   1863-1869
+	1863   => '1307215',            # Naissance Landeleau 3 E 122/11/1 (1863)
+	1864   => '1307216',            # Naissance Landeleau 3 E 122/11/2 (1864)
+	1865   => '1307217',            # Naissance Landeleau 3 E 122/11/3 (1865)
+	1866   => '1307218',            # Naissance Landeleau 3 E 122/11/4 (1866)
+	1867   => '1307219',            # Naissance Landeleau 3 E 122/11/5 (1867)
+	1868   => '1307220',            # Naissance Landeleau 3 E 122/11/6 (1868)
+	1869   => '1307221',            # Naissance Landeleau 3 E 122/11/7 (1869)
+    },
+
+    '3E122_0012' => {			# Naissance Landeleau 3 E 122 12   1870-1883
+	1870   => '1307223',            # Naissance Landeleau 3 E 122/12/1 (1870)
+	1871   => '1307224',            # Naissance Landeleau 3 E 122/12/2 (1871)
+	1872   => '1307225',            # Naissance Landeleau 3 E 122/12/3 (1872)
+	1873   => '1307226',            # Naissance Landeleau 3 E 122/12/4 (1873)
+	1874   => '1307227',            # Naissance Landeleau 3 E 122/12/5 (1874)
+	1875   => '1307228',            # Naissance Landeleau 3 E 122/12/6 (1875)
+	1876   => '1307229',            # Naissance Landeleau 3 E 122/12/7 (1876)
+	1877   => '1307230',            # Naissance Landeleau 3 E 122/12/8 (1877)
+	1878   => '1307231',            # Naissance Landeleau 3 E 122/12/9 (1878)
+	1879   => '1307232',            # Naissance Landeleau 3 E 122/12/10 (1879)
+	1880   => '1307233',            # Naissance Landeleau 3 E 122/12/11 (1880)
+	1881   => '1307234',            # Naissance Landeleau 3 E 122/12/12 (1881)
+	1882   => '1307235',            # Naissance Landeleau 3 E 122/12/13 (1882)
+	1883   => '1307236',            # Naissance Landeleau 3 E 122/12/14 (1883)
+    },
+
+    '3E122_0013' => {			# Naissance Landeleau 3 E 122 13   1884-1894
+	1884   => '1307238',            # Naissance Landeleau 3 E 122/13/1 (1884)
+	1885   => '1307239',            # Naissance Landeleau 3 E 122/13/2 (1885)
+	1886   => '1307240',            # Naissance Landeleau 3 E 122/13/3 (1886)
+	1887   => '1307241',            # Naissance Landeleau 3 E 122/13/4 (1887)
+	1888   => '1307242',            # Naissance Landeleau 3 E 122/13/5 (1888)
+	1889   => '1307243',            # Naissance Landeleau 3 E 122/13/6 (1889)
+	1890   => '1307244',            # Naissance Landeleau 3 E 122/13/7 (1890)
+	1891   => '1307245',            # Naissance Landeleau 3 E 122/13/8 (1891)
+	1892   => '1307246',            # Naissance Landeleau 3 E 122/13/9 (1892)
+	1893   => '1307247',            # Naissance Landeleau 3 E 122/13/10 (1893)
+	1894   => '1307248',            # Naissance Landeleau 3 E 122/13/11 (1894)
+    },
+
+    '3E122_0014' => {			# Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122 14   AN12-1811
+	'17 nivôse an III-25 vendémiaire an IV' => '1307297',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/2 (17 nivôse an III-25 vendémiaire an IV)
+	1807   => '1307307',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/12 (1807)
+	1808   => '1307308',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/13 (1808)
+	1809   => '1307309',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/14 (1809)
+	1810   => '1307310',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/15 (1810)
+	1811   => '1307311',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/16 (1811)
+	'29 thermidor an V' => '1307299',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/4 (29 thermidor an V)
+	'8 brumaire an IV-12 messidor an V (contient des publications de mariages)' => '1307298',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/3 (8 brumaire an IV-12 messidor an V (contient des publications de mariages))
+	'AN06' => '1307300',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/5 (an VI)
+	'AN10' => '1307302',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/7 (an X)
+	'AN11' => '1307303',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/8 (an XI)
+	'AN12' => '1307304',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/9 (an XII)
+	'AN13' => '1307305',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/10 (an XIII)
+	'AN14' => '1307306',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/11 (an XIV - 1806)
+	'Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III' => '1307296',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/1 (Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III)
+	'an IX (contient des promesses de mariages)' => '1307301',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/6 (an IX (contient des promesses de mariages))
+    },
+
+    '3E122_0015' => {			# Mariage Landeleau 3 E 122 15   1813-1827
+	1813   => '1307314',            # Mariage Landeleau 3 E 122/15/1 (1813)
+	1814   => '1307315',            # Mariage Landeleau 3 E 122/15/2 (1814)
+	1815   => '1307316',            # Mariage Landeleau 3 E 122/15/3 (1815)
+	1816   => '1307317',            # Mariage Landeleau 3 E 122/15/4 (1816)
+	1817   => '1307318',            # Mariage Landeleau 3 E 122/15/5 (1817)
+	1818   => '1307319',            # Mariage Landeleau 3 E 122/15/6 (1818)
+	1819   => '1307320',            # Mariage Landeleau 3 E 122/15/7 (1819)
+	1820   => '1307321',            # Mariage Landeleau 3 E 122/15/8 (1820)
+	1821   => '1307322',            # Mariage Landeleau 3 E 122/15/9 (1821)
+	1822   => '1307323',            # Mariage Landeleau 3 E 122/15/10 (1822)
+	1823   => '1307324',            # Mariage Landeleau 3 E 122/15/11 (1823)
+	1824   => '1307325',            # Mariage Landeleau 3 E 122/15/12 (1824)
+	1825   => '1307326',            # Mariage Landeleau 3 E 122/15/13 (1825)
+	1826   => '1307327',            # Mariage Landeleau 3 E 122/15/14 (1826)
+	1827   => '1307328',            # Mariage Landeleau 3 E 122/15/15 (1827)
+    },
+
+    '3E122_0016' => {			# Mariage Landeleau 3 E 122 16   1833-1842
+	1833   => '1307335',            # Mariage Landeleau 3 E 122/16/1 (1833)
+	1834   => '1307336',            # Mariage Landeleau 3 E 122/16/2 (1834)
+	1835   => '1307337',            # Mariage Landeleau 3 E 122/16/3 (1835)
+	1836   => '1307338',            # Mariage Landeleau 3 E 122/16/4 (1836)
+	1837   => '1307339',            # Mariage Landeleau 3 E 122/16/5 (1837)
+	1838   => '1307340',            # Mariage Landeleau 3 E 122/16/6 (1838)
+	1839   => '1307341',            # Mariage Landeleau 3 E 122/16/7 (1839)
+	1840   => '1307342',            # Mariage Landeleau 3 E 122/16/8 (1840)
+	1841   => '1307343',            # Mariage Landeleau 3 E 122/16/9 (1841)
+	1842   => '1307344',            # Mariage Landeleau 3 E 122/16/10 (1842)
+    },
+
+    '3E122_0017' => {			# Mariage Landeleau 3 E 122 17   1843-1852
+	1843   => '1307346',            # Mariage Landeleau 3 E 122/17/1 (1843)
+	1844   => '1307347',            # Mariage Landeleau 3 E 122/17/2 (1844)
+	1845   => '1307348',            # Mariage Landeleau 3 E 122/17/3 (1845)
+	1846   => '1307349',            # Mariage Landeleau 3 E 122/17/4 (1846)
+	1847   => '1307350',            # Mariage Landeleau 3 E 122/17/5 (1847)
+	1848   => '1307351',            # Mariage Landeleau 3 E 122/17/6 (1848)
+	1849   => '1307352',            # Mariage Landeleau 3 E 122/17/7 (1849)
+	1850   => '1307353',            # Mariage Landeleau 3 E 122/17/8 (1850)
+	1851   => '1307354',            # Mariage Landeleau 3 E 122/17/9 (1851)
+	1852   => '1307355',            # Mariage Landeleau 3 E 122/17/10 (1852)
+    },
+
+    '3E122_0018' => {			# Mariage Landeleau 3 E 122 18   1853-1862
+	1853   => '1307357',            # Mariage Landeleau 3 E 122/18/1 (1853)
+	1854   => '1307358',            # Mariage Landeleau 3 E 122/18/2 (1854)
+	1855   => '1307359',            # Mariage Landeleau 3 E 122/18/3 (1855)
+	1856   => '1307360',            # Mariage Landeleau 3 E 122/18/4 (1856)
+	1857   => '1307361',            # Mariage Landeleau 3 E 122/18/5 (1857)
+	1858   => '1307362',            # Mariage Landeleau 3 E 122/18/6 (1858)
+	1859   => '1307363',            # Mariage Landeleau 3 E 122/18/7 (1859)
+	1860   => '1307364',            # Mariage Landeleau 3 E 122/18/8 (1860)
+	1861   => '1307365',            # Mariage Landeleau 3 E 122/18/9 (1861)
+	1862   => '1307366',            # Mariage Landeleau 3 E 122/18/10 (1862)
+    },
+
+    '3E122_0019' => {			# Mariage Landeleau 3 E 122 19   1863-1869
+	1863   => '1307368',            # Mariage Landeleau 3 E 122/19/1 (1863)
+	1864   => '1307369',            # Mariage Landeleau 3 E 122/19/2 (1864)
+	1865   => '1307370',            # Mariage Landeleau 3 E 122/19/3 (1865)
+	1866   => '1307371',            # Mariage Landeleau 3 E 122/19/4 (1866)
+	1867   => '1307372',            # Mariage Landeleau 3 E 122/19/5 (1867)
+	1868   => '1307373',            # Mariage Landeleau 3 E 122/19/6 (1868)
+	1869   => '1307374',            # Mariage Landeleau 3 E 122/19/7 (1869)
+    },
+
+    '3E122_0020' => {			# Mariage Landeleau 3 E 122 20   1870-1884
+	1870   => '1307376',            # Mariage Landeleau 3 E 122/20/1 (1870)
+	1871   => '1307377',            # Mariage Landeleau 3 E 122/20/2 (1871)
+	1872   => '1307378',            # Mariage Landeleau 3 E 122/20/3 (1872)
+	1873   => '1307379',            # Mariage Landeleau 3 E 122/20/4 (1873)
+	1874   => '1307380',            # Mariage Landeleau 3 E 122/20/5 (1874)
+	1875   => '1307381',            # Mariage Landeleau 3 E 122/20/6 (1875)
+	1876   => '1307382',            # Mariage Landeleau 3 E 122/20/7 (1876)
+	1877   => '1307383',            # Mariage Landeleau 3 E 122/20/8 (1877)
+	1878   => '1307384',            # Mariage Landeleau 3 E 122/20/9 (1878)
+	1879   => '1307385',            # Mariage Landeleau 3 E 122/20/10 (1879)
+	1880   => '1307386',            # Mariage Landeleau 3 E 122/20/11 (1880)
+	1881   => '1307387',            # Mariage Landeleau 3 E 122/20/12 (1881)
+	1882   => '1307388',            # Mariage Landeleau 3 E 122/20/13 (1882)
+	1883   => '1307389',            # Mariage Landeleau 3 E 122/20/14 (1883)
+	1884   => '1307390',            # Mariage Landeleau 3 E 122/20/15 (1884)
+    },
+
+    '3E122_0021' => {			# Décès Landeleau 3 E 122 21   AN12-1812
+	'1793-21 frimaire an III' => '1307447',            # Décès Landeleau 3 E 122/21/1 (1793-21 frimaire an III)
+	1807   => '1307460',            # Décès Landeleau 3 E 122/21/14 (1807)
+	1808   => '1307461',            # Décès Landeleau 3 E 122/21/15 (1808)
+	1809   => '1307462',            # Décès Landeleau 3 E 122/21/16 (1809)
+	1810   => '1307463',            # Décès Landeleau 3 E 122/21/17 (1810)
+	1811   => '1307464',            # Décès Landeleau 3 E 122/21/18 (1811)
+	1812   => '1307465',            # Décès Landeleau 3 E 122/21/19 (1812)
+	'AN06' => '1307451',            # Décès Landeleau 3 E 122/21/5 (an VI)
+	'AN07' => '1307452',            # Décès Landeleau 3 E 122/21/6 (an VII)
+	'AN08' => '1307453',            # Décès Landeleau 3 E 122/21/7 (an VIII)
+	'AN09' => '1307454',            # Décès Landeleau 3 E 122/21/8 (an IX)
+	'AN10' => '1307455',            # Décès Landeleau 3 E 122/21/9 (an X)
+	'AN11' => '1307456',            # Décès Landeleau 3 E 122/21/10 (an XI)
+	'AN12' => '1307457',            # Décès Landeleau 3 E 122/21/11 (an XII)
+	'AN13' => '1307458',            # Décès Landeleau 3 E 122/21/12 (an XIII)
+	'AN14' => '1307459',            # Décès Landeleau 3 E 122/21/13 (an XIV - 1806)
+	'an IV-15 messidor an V' => '1307449',            # Décès Landeleau 3 E 122/21/3 (an IV-15 messidor an V)
+    },
+
+    '3E122_0022' => {			# Décès Landeleau 3 E 122 22   1813-1832
+	1813   => '1307467',            # Décès Landeleau 3 E 122/22/1 (1813)
+	1814   => '1307468',            # Décès Landeleau 3 E 122/22/2 (1814)
+	1815   => '1307469',            # Décès Landeleau 3 E 122/22/3 (1815)
+	1816   => '1307470',            # Décès Landeleau 3 E 122/22/4 (1816)
+	1823   => '1307477',            # Décès Landeleau 3 E 122/22/11 (1823)
+	1824   => '1307478',            # Décès Landeleau 3 E 122/22/12 (1824)
+	1825   => '1307479',            # Décès Landeleau 3 E 122/22/13 (1825)
+	1826   => '1307480',            # Décès Landeleau 3 E 122/22/14 (1826)
+	1827   => '1307481',            # Décès Landeleau 3 E 122/22/15 (1827)
+	1828   => '1307482',            # Décès Landeleau 3 E 122/22/16 (1828)
+	1829   => '1307483',            # Décès Landeleau 3 E 122/22/17 (1829)
+	1830   => '1307484',            # Décès Landeleau 3 E 122/22/18 (1830)
+	1831   => '1307485',            # Décès Landeleau 3 E 122/22/19 (1831)
+	1832   => '1307486',            # Décès Landeleau 3 E 122/22/20 (1832)
+    },
+
+    '3E122_0023' => {			# Décès Landeleau 3 E 122 23   1833-1842
+	1833   => '1307488',            # Décès Landeleau 3 E 122/23/1 (1833)
+	1834   => '1307489',            # Décès Landeleau 3 E 122/23/2 (1834)
+	1835   => '1307490',            # Décès Landeleau 3 E 122/23/3 (1835)
+	1836   => '1307491',            # Décès Landeleau 3 E 122/23/4 (1836)
+	1837   => '1307492',            # Décès Landeleau 3 E 122/23/5 (1837)
+	1838   => '1307493',            # Décès Landeleau 3 E 122/23/6 (1838)
+	1839   => '1307494',            # Décès Landeleau 3 E 122/23/7 (1839)
+	1840   => '1307495',            # Décès Landeleau 3 E 122/23/8 (1840)
+	1841   => '1307496',            # Décès Landeleau 3 E 122/23/9 (1841)
+	1842   => '1307497',            # Décès Landeleau 3 E 122/23/10 (1842)
+    },
+
+    '3E122_0024' => {			# Décès Landeleau 3 E 122 24   1843-1852
+	1843   => '1307499',            # Décès Landeleau 3 E 122/24/1 (1843)
+	1844   => '1307500',            # Décès Landeleau 3 E 122/24/2 (1844)
+	1845   => '1307501',            # Décès Landeleau 3 E 122/24/3 (1845)
+	1846   => '1307502',            # Décès Landeleau 3 E 122/24/4 (1846)
+	1847   => '1307503',            # Décès Landeleau 3 E 122/24/5 (1847)
+	1848   => '1307504',            # Décès Landeleau 3 E 122/24/6 (1848)
+	1849   => '1307505',            # Décès Landeleau 3 E 122/24/7 (1849)
+	1850   => '1307506',            # Décès Landeleau 3 E 122/24/8 (1850)
+	1851   => '1307507',            # Décès Landeleau 3 E 122/24/9 (1851)
+	1852   => '1307508',            # Décès Landeleau 3 E 122/24/10 (1852)
+    },
+
+    '3E122_0025' => {			# Décès Landeleau 3 E 122 25   1853-1862
+	1853   => '1307510',            # Décès Landeleau 3 E 122/25/1 (1853)
+	1854   => '1307511',            # Décès Landeleau 3 E 122/25/2 (1854)
+	1855   => '1307512',            # Décès Landeleau 3 E 122/25/3 (1855)
+	1856   => '1307513',            # Décès Landeleau 3 E 122/25/4 (1856)
+	1857   => '1307514',            # Décès Landeleau 3 E 122/25/5 (1857)
+	1858   => '1307515',            # Décès Landeleau 3 E 122/25/6 (1858)
+	1859   => '1307516',            # Décès Landeleau 3 E 122/25/7 (1859)
+	1860   => '1307517',            # Décès Landeleau 3 E 122/25/8 (1860)
+	1861   => '1307518',            # Décès Landeleau 3 E 122/25/9 (1861)
+	1862   => '1307519',            # Décès Landeleau 3 E 122/25/10 (1862)
+    },
+
+    '3E122_0026' => {			# Décès Landeleau 3 E 122 26   1863-1869
+	1863   => '1307521',            # Décès Landeleau 3 E 122/26/1 (1863)
+	1864   => '1307522',            # Décès Landeleau 3 E 122/26/2 (1864)
+	1865   => '1307523',            # Décès Landeleau 3 E 122/26/3 (1865)
+	1866   => '1307524',            # Décès Landeleau 3 E 122/26/4 (1866)
+	1867   => '1307525',            # Décès Landeleau 3 E 122/26/5 (1867)
+	1868   => '1307526',            # Décès Landeleau 3 E 122/26/6 (1868)
+	1869   => '1307527',            # Décès Landeleau 3 E 122/26/7 (1869)
+    },
+
+    '3E122_0027' => {			# Décès Landeleau 3 E 122 27   1870-1886
+	1870   => '1307529',            # Décès Landeleau 3 E 122/27/1 (1870)
+	1871   => '1307530',            # Décès Landeleau 3 E 122/27/2 (1871)
+	1872   => '1307531',            # Décès Landeleau 3 E 122/27/3 (1872)
+	1873   => '1307532',            # Décès Landeleau 3 E 122/27/4 (1873)
+	1874   => '1307533',            # Décès Landeleau 3 E 122/27/5 (1874)
+	1875   => '1307534',            # Décès Landeleau 3 E 122/27/6 (1875)
+	1876   => '1307535',            # Décès Landeleau 3 E 122/27/7 (1876)
+	1877   => '1307536',            # Décès Landeleau 3 E 122/27/8 (1877)
+	1878   => '1307537',            # Décès Landeleau 3 E 122/27/9 (1878)
+	1879   => '1307538',            # Décès Landeleau 3 E 122/27/10 (1879)
+	1880   => '1307539',            # Décès Landeleau 3 E 122/27/11 (1880)
+	1881   => '1307540',            # Décès Landeleau 3 E 122/27/12 (1881)
+	1882   => '1307541',            # Décès Landeleau 3 E 122/27/13 (1882)
+	1883   => '1307542',            # Décès Landeleau 3 E 122/27/14 (1883)
+	1884   => '1307543',            # Décès Landeleau 3 E 122/27/15 (1884)
+	1885   => '1307544',            # Décès Landeleau 3 E 122/27/16 (1885)
+	1886   => '1307545',            # Décès Landeleau 3 E 122/27/17 (1886)
+    },
+
+    '3E122_0028' => {			# Naissance Landeleau 3 E 122 28   1895-1906
+	1895   => '1307250',            # Naissance Landeleau 3 E 122/28/1 (1895)
+	1896   => '1307251',            # Naissance Landeleau 3 E 122/28/2 (1896)
+	1897   => '1307252',            # Naissance Landeleau 3 E 122/28/3 (1897)
+	1898   => '1307253',            # Naissance Landeleau 3 E 122/28/4 (1898)
+	1899   => '1307254',            # Naissance Landeleau 3 E 122/28/5 (1899)
+	1900   => '1307255',            # Naissance Landeleau 3 E 122/28/6 (1900)
+	1901   => '1307256',            # Naissance Landeleau 3 E 122/28/7 (1901)
+	1902   => '1307257',            # Naissance Landeleau 3 E 122/28/8 (1902)
+	1903   => '1307258',            # Naissance Landeleau 3 E 122/28/9 (1903)
+	1904   => '1307259',            # Naissance Landeleau 3 E 122/28/10 (1904)
+	1905   => '1307260',            # Naissance Landeleau 3 E 122/28/11 (1905)
+	1906   => '1307261',            # Naissance Landeleau 3 E 122/28/12 (1906)
+    },
+
+    '3E122_0029' => {			# Mariage Landeleau 3 E 122 29   1888-1902
+	1888   => '1307395',            # Mariage Landeleau 3 E 122/29/3 (1888)
+	1889   => '1307396',            # Mariage Landeleau 3 E 122/29/4 (1889)
+	1890   => '1307397',            # Mariage Landeleau 3 E 122/29/5 (1890)
+	1891   => '1307398',            # Mariage Landeleau 3 E 122/29/6 (1891)
+	1892   => '1307399',            # Mariage Landeleau 3 E 122/29/7 (1892)
+	1893   => '1307400',            # Mariage Landeleau 3 E 122/29/8 (1893)
+	1894   => '1307401',            # Mariage Landeleau 3 E 122/29/9 (1894)
+	1895   => '1307402',            # Mariage Landeleau 3 E 122/29/10 (1895)
+	1896   => '1307403',            # Mariage Landeleau 3 E 122/29/11 (1896)
+	1897   => '1307404',            # Mariage Landeleau 3 E 122/29/12 (1897)
+	1898   => '1307405',            # Mariage Landeleau 3 E 122/29/13 (1898)
+	1899   => '1307406',            # Mariage Landeleau 3 E 122/29/14 (1899)
+	1900   => '1307407',            # Mariage Landeleau 3 E 122/29/15 (1900)
+	1901   => '1307408',            # Mariage Landeleau 3 E 122/29/16 (1901)
+	1902   => '1307409',            # Mariage Landeleau 3 E 122/29/17 (1902)
+    },
+
+    '3E122_0030' => {			# Décès Landeleau 3 E 122 30   1887-1903
+	1887   => '1307547',            # Décès Landeleau 3 E 122/30/1 (1887)
+	1888   => '1307548',            # Décès Landeleau 3 E 122/30/2 (1888)
+	1889   => '1307549',            # Décès Landeleau 3 E 122/30/3 (1889)
+	1890   => '1307550',            # Décès Landeleau 3 E 122/30/4 (1890)
+	1891   => '1307551',            # Décès Landeleau 3 E 122/30/5 (1891)
+	1892   => '1307552',            # Décès Landeleau 3 E 122/30/6 (1892)
+	1893   => '1307553',            # Décès Landeleau 3 E 122/30/7 (1893)
+	1894   => '1307554',            # Décès Landeleau 3 E 122/30/8 (1894)
+	1895   => '1307555',            # Décès Landeleau 3 E 122/30/9 (1895)
+	1896   => '1307556',            # Décès Landeleau 3 E 122/30/10 (1896)
+	1897   => '1307557',            # Décès Landeleau 3 E 122/30/11 (1897)
+	1898   => '1307558',            # Décès Landeleau 3 E 122/30/12 (1898)
+	1899   => '1307559',            # Décès Landeleau 3 E 122/30/13 (1899)
+	1900   => '1307560',            # Décès Landeleau 3 E 122/30/14 (1900)
+	1901   => '1307561',            # Décès Landeleau 3 E 122/30/15 (1901)
+	1902   => '1307562',            # Décès Landeleau 3 E 122/30/16 (1902)
+	1903   => '1307563',            # Décès Landeleau 3 E 122/30/17 (1903)
+    },
+
+    '3E122_0031' => {			# Naissance Landeleau 3 E 122 31   1907-1921
+	1907   => '1307263',            # Naissance Landeleau 3 E 122/31/1 (1907)
+	1908   => '1307264',            # Naissance Landeleau 3 E 122/31/2 (1908)
+	1909   => '1307265',            # Naissance Landeleau 3 E 122/31/3 (1909)
+	1910   => '1307266',            # Naissance Landeleau 3 E 122/31/4 (1910)
+	1911   => '1307267',            # Naissance Landeleau 3 E 122/31/5 (1911)
+	1912   => '1307268',            # Naissance Landeleau 3 E 122/31/6 (1912)
+	1913   => '1307269',            # Naissance Landeleau 3 E 122/31/7 (1913)
+	1914   => '1307270',            # Naissance Landeleau 3 E 122/31/8 (1914)
+	1915   => '1307271',            # Naissance Landeleau 3 E 122/31/9 (1915)
+	1916   => '1307272',            # Naissance Landeleau 3 E 122/31/10 (1916)
+	1917   => '1307273',            # Naissance Landeleau 3 E 122/31/11 (1917)
+	1918   => '1307274',            # Naissance Landeleau 3 E 122/31/12 (1918)
+	1919   => '1307275',            # Naissance Landeleau 3 E 122/31/13 (1919)
+	1920   => '1307276',            # Naissance Landeleau 3 E 122/31/14 (1920)
+	1921   => '1307277',            # Naissance Landeleau 3 E 122/31/15 (1921)
+    },
+
+    '3E122_0032' => {			# Naissance Landeleau 3 E 122 32   1922-1925
+	1922   => '1307279',            # Naissance Landeleau 3 E 122/32/1 (1922)
+	1923   => '1307280',            # Naissance Landeleau 3 E 122/32/2 (1923)
+	1924   => '1307281',            # Naissance Landeleau 3 E 122/32/3 (1924)
+	1925   => '1307282',            # Naissance Landeleau 3 E 122/32/4 (1925)
+    },
+
+    '3E122_0033' => {			# Mariage Landeleau 3 E 122 33   1903-1918
+	1903   => '1307411',            # Mariage Landeleau 3 E 122/33/1 (1903)
+	1904   => '1307412',            # Mariage Landeleau 3 E 122/33/2 (1904)
+	1905   => '1307413',            # Mariage Landeleau 3 E 122/33/3 (1905)
+	1906   => '1307414',            # Mariage Landeleau 3 E 122/33/4 (1906)
+	1907   => '1307415',            # Mariage Landeleau 3 E 122/33/5 (1907)
+	1908   => '1307416',            # Mariage Landeleau 3 E 122/33/6 (1908)
+	1909   => '1307417',            # Mariage Landeleau 3 E 122/33/7 (1909)
+	1910   => '1307418',            # Mariage Landeleau 3 E 122/33/8 (1910)
+	1911   => '1307419',            # Mariage Landeleau 3 E 122/33/9 (1911)
+	1913   => '1307420',            # Mariage Landeleau 3 E 122/33/10 (1913)
+	1914   => '1307421',            # Mariage Landeleau 3 E 122/33/11 (1914)
+	1915   => '1307422',            # Mariage Landeleau 3 E 122/33/12 (1915)
+	1916   => '1307423',            # Mariage Landeleau 3 E 122/33/13 (1916)
+	1917   => '1307424',            # Mariage Landeleau 3 E 122/33/14 (1917)
+	1918   => '1307425',            # Mariage Landeleau 3 E 122/33/15 (1918)
+    },
+
+    '3E122_0034' => {			# Mariage Landeleau 3 E 122 34   1919-1925
+	1919   => '1307427',            # Mariage Landeleau 3 E 122/34/1 (1919)
+	1920   => '1307428',            # Mariage Landeleau 3 E 122/34/2 (1920)
+	1921   => '1307429',            # Mariage Landeleau 3 E 122/34/3 (1921)
+	1922   => '1307430',            # Mariage Landeleau 3 E 122/34/4 (1922)
+	1923   => '1307431',            # Mariage Landeleau 3 E 122/34/5 (1923)
+	1924   => '1307432',            # Mariage Landeleau 3 E 122/34/6 (1924)
+	1925   => '1307433',            # Mariage Landeleau 3 E 122/34/7 (1925)
+    },
+
+    '3E122_0035' => {			# Décès Landeleau 3 E 122 35   1904-1919
+	1904   => '1307565',            # Décès Landeleau 3 E 122/35/1 (1904)
+	1905   => '1307566',            # Décès Landeleau 3 E 122/35/2 (1905)
+	1906   => '1307567',            # Décès Landeleau 3 E 122/35/3 (1906)
+	1907   => '1307568',            # Décès Landeleau 3 E 122/35/4 (1907)
+	1908   => '1307569',            # Décès Landeleau 3 E 122/35/5 (1908)
+	1909   => '1307570',            # Décès Landeleau 3 E 122/35/6 (1909)
+	1910   => '1307571',            # Décès Landeleau 3 E 122/35/7 (1910)
+	1911   => '1307572',            # Décès Landeleau 3 E 122/35/8 (1911)
+	1912   => '1307573',            # Décès Landeleau 3 E 122/35/9 (1912)
+	1913   => '1307574',            # Décès Landeleau 3 E 122/35/10 (1913)
+	1914   => '1307575',            # Décès Landeleau 3 E 122/35/11 (1914)
+	1915   => '1307576',            # Décès Landeleau 3 E 122/35/12 (1915)
+	1916   => '1307577',            # Décès Landeleau 3 E 122/35/13 (1916)
+	1917   => '1307578',            # Décès Landeleau 3 E 122/35/14 (1917)
+	1918   => '1307579',            # Décès Landeleau 3 E 122/35/15 (1918)
+	1919   => '1307580',            # Décès Landeleau 3 E 122/35/16 (1919)
+    },
+
+    '3E122_0036' => {			# Décès Landeleau 3 E 122 36   1920-1936
+	1920   => '1307582',            # Décès Landeleau 3 E 122/36/1 (1920)
+	1921   => '1307583',            # Décès Landeleau 3 E 122/36/2 (1921)
+	1922   => '1307584',            # Décès Landeleau 3 E 122/36/3 (1922)
+	1923   => '1307585',            # Décès Landeleau 3 E 122/36/4 (1923)
+	1924   => '1307586',            # Décès Landeleau 3 E 122/36/5 (1924)
+	1925   => '1307587',            # Décès Landeleau 3 E 122/36/6 (1925)
+	1926   => '1307588',            # Décès Landeleau 3 E 122/36/7 (1926)
+	1927   => '1307589',            # Décès Landeleau 3 E 122/36/8 (1927)
+	1928   => '1307590',            # Décès Landeleau 3 E 122/36/9 (1928)
+	1929   => '1307591',            # Décès Landeleau 3 E 122/36/10 (1929)
+	1930   => '1307592',            # Décès Landeleau 3 E 122/36/11 (1930)
+	1931   => '1307593',            # Décès Landeleau 3 E 122/36/12 (1931)
+	1932   => '1307594',            # Décès Landeleau 3 E 122/36/13 (1932)
+	1933   => '1307595',            # Décès Landeleau 3 E 122/36/14 (1933)
+	1934   => '1307596',            # Décès Landeleau 3 E 122/36/15 (1934)
+	1935   => '1307597',            # Décès Landeleau 3 E 122/36/16 (1935)
+	1936   => '1307598',            # Décès Landeleau 3 E 122/36/17 (1936)
+    },
+
 
     # Laz
     '3E148_0006' => '656328.1314145',   # Naissance Laz 3 E 148 6 (1793-1812)
