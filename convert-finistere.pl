@@ -9950,7 +9950,24 @@ my %convert = (
     # Tables décennales :
     # TD Kergloff
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau?REch_commune_Libel=Kergloff+%28Finistère%29%7C&REch_commune_Md5=b514c4417f09b16bf87e6d3adcf13473%7C&Rech_typologie%5B0%5D=Table+d%C3%A9cennale&type=etatcivil
-    '5E_0092_002_02' => '1130530',
+    '5E_0092_001_01' => '1130521',            # Table décennale Kergloff 5 E 92/1/1 (An XI-1812)
+    '5E_0092_001_02' => '1130522',            # Table décennale Kergloff 5 E 92/1/2 (1813-1822)
+    '5E_0092_001_03' => '1130523',            # Table décennale Kergloff 5 E 92/1/3 (1823-1832)
+    '5E_0092_001_04' => '1130524',            # Table décennale Kergloff 5 E 92/1/4 (1833-1842)
+    '5E_0092_001_05' => '1130525',            # Table décennale Kergloff 5 E 92/1/5 (1843-1852)
+    '5E_0092_001_06' => '1130526',            # Table décennale Kergloff 5 E 92/1/6 (1853-1862)
+    '5E_0092_001_07' => '1130527',            # Table décennale Kergloff 5 E 92/1/7 (1863-1872)
+    '5E_0092_002_01' => '1130529',            # Table décennale Kergloff 5 E 92/2/1 (1873-1882)
+    '5E_0092_002_02' => '1130530',            # Table décennale Kergloff 5 E 92/2/2 (1883-1892)
+    '5E_0092_002_03' => '1130531',            # Table décennale Kergloff 5 E 92/2/3 (1893-1902)
+    '5E_0092_003_01' => '1130533',            # Table décennale Kergloff 5 E 92/3/1 (1903-1912)
+    '5E_0092_003_02' => '1130534',            # Table décennale Kergloff 5 E 92/3/2 (1913-1922)
+    '5E_0092_003_03' => '1130535',            # Table décennale Kergloff 5 E 92/3/3 (1923-1932)
+    '5E_0092_004_01' => '1130537',            # Table décennale Kergloff 5 E 92/4/1 (1933-1942)
+    '5E_0092_004_02' => '1130538',            # Table décennale Kergloff 5 E 92/4/2 (1943-1952)
+    '5E_0092_004_03' => '1130539',            # Table décennale Kergloff 5 E 92/4/3 (1953-1962)
+    '5E_0092_004_04' => '1130540',            # Table décennale Kergloff 5 E 92/4/4 (1963-1972)
+
     '5E_0283_001_01' => '1133694',	# TD Scaer
     '5E_0287_002_08' => '1133798',	# TD Spezet
     '5E_0241_006_03' => '1132985',	# TD Quimperlé
