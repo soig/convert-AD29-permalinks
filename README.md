@@ -18,6 +18,22 @@ Ce script génère la 2e URL à partir de l'ancien permalien car :
 * c'est plus logique, on obtient la même URL qu'avec le bouton "permalien"
 * il est impossible de générer la 1e URL car il manque le numéro de vue
 
+## Limitations :
+
+Lors du passage au nouveau site, ils se sont rendu comptes que certains registres étaient mal côtés. Ces registres ont donc été renommés et re-côtés.
+```
+"Lors de la préparation de la migration vers notre nouveau moteur de recherche, nous nous sommes aperçus qu’il y avait une erreur d’affectation de certains lots numérisés pour Carhaix et Morlaix.
+Une partie de ces lots avaient été microfilmés, il y a longtemps, à partir d’originaux empruntés en mairie.
+Lors de la numérisation de ces microfilms, et leur publication en 2022, cette information avait été omise, et les lots correspondants avaient été raccrochés, à tort, aux collections départementales « 3 E » deces deux communes.
+Ceci explique pourquoi vous ne retrouvez pas en cotation « 3 E » certains lots de Carhaix. Il faut regarder côté collection communale « E Dépôt », aux dates équivalentes.
+Et même chose pour Morlaix, donc."
+```
+Il vous faudra donc manuellement corriger la côte du registre source.
+
+De plus, deux lots d'images ont souvent été agglomérés.
+Les registres qui m'intéressent étaient dans le 1er lot mais à tester d'anciens permaliens sur le 2e lot. Les liens sont probablement bons mais à vérifier.
+Dans tous les cas le numéro de vue est à corriger (par ex: la vue "187/201" devient "187/431")
+
 ## Examples :
 
 Tables décennales de Quimperlé 1933-1972 :
