@@ -145,6 +145,13 @@ use MDK::Common; use Data::Dumper; output("dump.pm", Data::Dumper->Dump([ \%pret
 foreach my $id (sort keys %results) {
     # print hash opening with comment:
     my %subhash = %{$results{$id}};
+    my $nb = scalar keys %subhash;
+    if ($nb == 1) {
+	my ($str) = values %subhash;
+	$str =~ s/.* => //;
+	print "    '$id' => $str";
+	next;
+    }
     print sprintf("    '$id' => {			# $pretty{$id}   %s-%s\n", min(keys %subhash), max(keys %subhash));
     foreach my $year (sort keys %subhash) {
 	print $subhash{$year};
