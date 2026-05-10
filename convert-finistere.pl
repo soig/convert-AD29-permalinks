@@ -1643,6 +1643,169 @@ my %convert = (
 	1936   => '1341054',            # Décès Plouguer 3 E 234/34/21 (1936)
     },
 
+    # Saint-Hernin
+    '3E309_0006' => '1040260.1634658',  # Naissance Saint-Hernin 3 E 309 6 (1793-1812)
+    '3E309_0007' => '1040261.1634659',  # Naissance Saint-Hernin 3 E 309 7 (1813-1832)
+    '3E309_0008' => '1040452.1634660',  # Naissance Saint-Hernin 3 E 309 8 (1833-1842)
+    '3E309_0009' => '1040453.1634661',  # Naissance Saint-Hernin 3 E 309 9 (1843-1852)
+    '3E309_0010' => '1040454.1634662',  # Naissance Saint-Hernin 3 E 309 10 (1853-1862)
+    '3E309_0011' => '1040455.1634663',  # Naissance Saint-Hernin 3 E 309 11 (1863-1869)
+    '3E309_0012' => '1040456.1634664',  # Naissance Saint-Hernin 3 E 309 12 (1870-1885)
+    '3E309_0013' => '1040457.1634708',  # Mariage promesse de mariage publication de mariage Saint-Hernin 3 E 309 13 (1793-1812)
+    '3E309_0014' => '1040458.1634709',  # Mariage Saint-Hernin 3 E 309 14 (1813-1832)
+    '3E309_0015' => '1040459.1634710',  # Mariage Saint-Hernin 3 E 309 15 (1833-1842)
+    '3E309_0016' => '1040460.1634711',  # Mariage Saint-Hernin 3 E 309 16 (1843-1852)
+    '3E309_0017' => '1040461.1634712',  # Mariage Saint-Hernin 3 E 309 17 (1853-1862)
+    '3E309_0018' => '1040462.1634713',  # Mariage Saint-Hernin 3 E 309 18 (1863-1869)
+    '3E309_0019' => '1040463.1634714',  # Mariage Saint-Hernin 3 E 309 19 (1870-1887)
+    '3E309_0020' => '1040464.1634768',  # Décès Saint-Hernin 3 E 309 20 (1793-1812)
+    '3E309_0021' => '1040465.1634769',  # Décès Saint-Hernin 3 E 309 21 (1813-1832)
+    '3E309_0022' => '1040466.1634770',  # Décès Saint-Hernin 3 E 309 22 (1833-1842)
+    '3E309_0023' => '1040467.1634771',  # Décès Saint-Hernin 3 E 309 23 (1843-1852)
+    '3E309_0024' => '1040468.1634772',  # Décès Saint-Hernin 3 E 309 24 (1853-1862)
+    '3E309_0025' => '1040469.1634773',  # Décès Saint-Hernin 3 E 309 25 (1863-1869)
+    '3E309_0026' => '1040470.1634774',  # Décès Saint-Hernin 3 E 309 26 (1870-1888)
+    '3E309_0027' => '1040471.1634665',  # Naissance Saint-Hernin 3 E 309 27 (1886-1898)
+    '3E309_0028' => {			# Mariage Saint-Hernin 3 E 309 28   1888-1904
+	1888   => '1634716',            # Mariage Saint-Hernin 3 E 309/28/1 (1888)
+	1889   => '1634717',            # Mariage Saint-Hernin 3 E 309/28/2 (1889)
+	1890   => '1634718',            # Mariage Saint-Hernin 3 E 309/28/3 (1890)
+	1891   => '1634719',            # Mariage Saint-Hernin 3 E 309/28/4 (1891)
+	1892   => '1634720',            # Mariage Saint-Hernin 3 E 309/28/5 (1892)
+	1893   => '1634721',            # Mariage Saint-Hernin 3 E 309/28/6 (1893)
+	1894   => '1634722',            # Mariage Saint-Hernin 3 E 309/28/7 (1894)
+	1895   => '1634723',            # Mariage Saint-Hernin 3 E 309/28/8 (1895)
+	1896   => '1634724',            # Mariage Saint-Hernin 3 E 309/28/9 (1896)
+	1897   => '1634725',            # Mariage Saint-Hernin 3 E 309/28/10 (1897)
+	1898   => '1634726',            # Mariage Saint-Hernin 3 E 309/28/11 (1898)
+	1899   => '1634727',            # Mariage Saint-Hernin 3 E 309/28/12 (1899)
+	1900   => '1634728',            # Mariage Saint-Hernin 3 E 309/28/13 (1900)
+	1901   => '1634729',            # Mariage Saint-Hernin 3 E 309/28/14 (1901)
+	1902   => '1634730',            # Mariage Saint-Hernin 3 E 309/28/15 (1902)
+	1903   => '1634731',            # Mariage Saint-Hernin 3 E 309/28/16 (1903)
+	1904   => '1634732',            # Mariage Saint-Hernin 3 E 309/28/17 (1904)
+    },
+
+    '3E309_0029' => {			# Décès Saint-Hernin 3 E 309 29   1889-1906
+	1889   => '1634776',            # Décès Saint-Hernin 3 E 309/29/1 (1889)
+	1890   => '1634777',            # Décès Saint-Hernin 3 E 309/29/2 (1890)
+	1891   => '1634778',            # Décès Saint-Hernin 3 E 309/29/3 (1891)
+	1892   => '1634779',            # Décès Saint-Hernin 3 E 309/29/4 (1892)
+	1893   => '1634780',            # Décès Saint-Hernin 3 E 309/29/5 (1893)
+	1894   => '1634781',            # Décès Saint-Hernin 3 E 309/29/6 (1894)
+	1895   => '1634782',            # Décès Saint-Hernin 3 E 309/29/7 (1895)
+	1896   => '1634783',            # Décès Saint-Hernin 3 E 309/29/8 (1896)
+	1897   => '1634784',            # Décès Saint-Hernin 3 E 309/29/9 (1897)
+	1898   => '1634785',            # Décès Saint-Hernin 3 E 309/29/10 (1898)
+	1899   => '1634786',            # Décès Saint-Hernin 3 E 309/29/11 (1899)
+	1900   => '1634787',            # Décès Saint-Hernin 3 E 309/29/12 (1900)
+	1901   => '1634788',            # Décès Saint-Hernin 3 E 309/29/13 (1901)
+	1902   => '1634789',            # Décès Saint-Hernin 3 E 309/29/14 (1902)
+	1903   => '1634790',            # Décès Saint-Hernin 3 E 309/29/15 (1903)
+	1904   => '1634791',            # Décès Saint-Hernin 3 E 309/29/16 (1904)
+	1905   => '1634792',            # Décès Saint-Hernin 3 E 309/29/17 (1905)
+	1906   => '1634793',            # Décès Saint-Hernin 3 E 309/29/18 (1906)
+    },
+
+    '3E309_0030' => {			# Naissance Saint-Hernin 3 E 309 30   1899-1909
+	1899   => '1634667',            # Naissance Saint-Hernin 3 E 309/30/1 (1899)
+	1900   => '1634668',            # Naissance Saint-Hernin 3 E 309/30/2 (1900)
+	1901   => '1634669',            # Naissance Saint-Hernin 3 E 309/30/3 (1901)
+	1902   => '1634670',            # Naissance Saint-Hernin 3 E 309/30/4 (1902)
+	1903   => '1634671',            # Naissance Saint-Hernin 3 E 309/30/5 (1903)
+	1904   => '1634672',            # Naissance Saint-Hernin 3 E 309/30/6 (1904)
+	1905   => '1634673',            # Naissance Saint-Hernin 3 E 309/30/7 (1905)
+	1906   => '1634674',            # Naissance Saint-Hernin 3 E 309/30/8 (1906)
+	1907   => '1634675',            # Naissance Saint-Hernin 3 E 309/30/9 (1907)
+	1908   => '1634676',            # Naissance Saint-Hernin 3 E 309/30/10 (1908)
+	1909   => '1634677',            # Naissance Saint-Hernin 3 E 309/30/11 (1909)
+    },
+
+    '3E309_0031' => {			# Naissance Saint-Hernin 3 E 309 31   1910-1921
+	1910   => '1634679',            # Naissance Saint-Hernin 3 E 309/31/1 (1910)
+	1911   => '1634680',            # Naissance Saint-Hernin 3 E 309/31/2 (1911)
+	1912   => '1634681',            # Naissance Saint-Hernin 3 E 309/31/3 (1912)
+	1913   => '1634682',            # Naissance Saint-Hernin 3 E 309/31/4 (1913)
+	1914   => '1634683',            # Naissance Saint-Hernin 3 E 309/31/5 (1914)
+	1915   => '1634684',            # Naissance Saint-Hernin 3 E 309/31/6 (1915)
+	1916   => '1634685',            # Naissance Saint-Hernin 3 E 309/31/7 (1916)
+	1917   => '1634686',            # Naissance Saint-Hernin 3 E 309/31/8 (1917)
+	1918   => '1634687',            # Naissance Saint-Hernin 3 E 309/31/9 (1918)
+	1919   => '1634688',            # Naissance Saint-Hernin 3 E 309/31/10 (1919)
+	1920   => '1634689',            # Naissance Saint-Hernin 3 E 309/31/11 (1920)
+	1921   => '1634690',            # Naissance Saint-Hernin 3 E 309/31/12 (1921)
+    },
+
+    '3E309_0032' => {			# Naissance Saint-Hernin 3 E 309 32   1922-1925
+	1922   => '1634692',            # Naissance Saint-Hernin 3 E 309/32/1 (1922)
+	1923   => '1634693',            # Naissance Saint-Hernin 3 E 309/32/2 (1923)
+	1924   => '1634694',            # Naissance Saint-Hernin 3 E 309/32/3 (1924)
+	1925   => '1634695',            # Naissance Saint-Hernin 3 E 309/32/4 (1925)
+    },
+
+    '3E309_0033' => {			# Mariage Saint-Hernin 3 E 309 33   1905-1919
+	1905   => '1634734',            # Mariage Saint-Hernin 3 E 309/33/1 (1905)
+	1906   => '1634735',            # Mariage Saint-Hernin 3 E 309/33/2 (1906)
+	1907   => '1634736',            # Mariage Saint-Hernin 3 E 309/33/3 (1907)
+	1908   => '1634737',            # Mariage Saint-Hernin 3 E 309/33/4 (1908)
+	1909   => '1634738',            # Mariage Saint-Hernin 3 E 309/33/5 (1909)
+	1910   => '1634739',            # Mariage Saint-Hernin 3 E 309/33/6 (1910)
+	1911   => '1634740',            # Mariage Saint-Hernin 3 E 309/33/7 (1911)
+	1912   => '1634741',            # Mariage Saint-Hernin 3 E 309/33/8 (1912)
+	1913   => '1634742',            # Mariage Saint-Hernin 3 E 309/33/9 (1913)
+	1914   => '1634743',            # Mariage Saint-Hernin 3 E 309/33/10 (1914)
+	1915   => '1634744',            # Mariage Saint-Hernin 3 E 309/33/11 (1915)
+	1916   => '1634745',            # Mariage Saint-Hernin 3 E 309/33/12 (1916)
+	1917   => '1634746',            # Mariage Saint-Hernin 3 E 309/33/13 (1917)
+	1918   => '1634747',            # Mariage Saint-Hernin 3 E 309/33/14 (1918)
+	1919   => '1634748',            # Mariage Saint-Hernin 3 E 309/33/15 (1919)
+    },
+
+    '3E309_0034' => {			# Mariage Saint-Hernin 3 E 309 34   1920-1925
+	1920   => '1634750',            # Mariage Saint-Hernin 3 E 309/34/1 (1920)
+	1921   => '1634751',            # Mariage Saint-Hernin 3 E 309/34/2 (1921)
+	1922   => '1634752',            # Mariage Saint-Hernin 3 E 309/34/3 (1922)
+	1923   => '1634753',            # Mariage Saint-Hernin 3 E 309/34/4 (1923)
+	1924   => '1634754',            # Mariage Saint-Hernin 3 E 309/34/5 (1924)
+	1925   => '1634755',            # Mariage Saint-Hernin 3 E 309/34/6 (1925)
+    },
+
+    '3E309_0035' => {			# Décès Saint-Hernin 3 E 309 35   1907-1921
+	1907   => '1634795',            # Décès Saint-Hernin 3 E 309/35/1 (1907)
+	1908   => '1634796',            # Décès Saint-Hernin 3 E 309/35/2 (1908)
+	1909   => '1634797',            # Décès Saint-Hernin 3 E 309/35/3 (1909)
+	1910   => '1634798',            # Décès Saint-Hernin 3 E 309/35/4 (1910)
+	1911   => '1634799',            # Décès Saint-Hernin 3 E 309/35/5 (1911)
+	1912   => '1634800',            # Décès Saint-Hernin 3 E 309/35/6 (1912)
+	1913   => '1634801',            # Décès Saint-Hernin 3 E 309/35/7 (1913)
+	1914   => '1634802',            # Décès Saint-Hernin 3 E 309/35/8 (1914)
+	1915   => '1634803',            # Décès Saint-Hernin 3 E 309/35/9 (1915)
+	1916   => '1634804',            # Décès Saint-Hernin 3 E 309/35/10 (1916)
+	1917   => '1634805',            # Décès Saint-Hernin 3 E 309/35/11 (1917)
+	1918   => '1634806',            # Décès Saint-Hernin 3 E 309/35/12 (1918)
+	1919   => '1634807',            # Décès Saint-Hernin 3 E 309/35/13 (1919)
+	1920   => '1634808',            # Décès Saint-Hernin 3 E 309/35/14 (1920)
+	1921   => '1634809',            # Décès Saint-Hernin 3 E 309/35/15 (1921)
+    },
+
+    '3E309_0036' => {			# Décès Saint-Hernin 3 E 309 36   1922-1936
+	1922   => '1634811',            # Décès Saint-Hernin 3 E 309/36/1 (1922)
+	1923   => '1634812',            # Décès Saint-Hernin 3 E 309/36/2 (1923)
+	1924   => '1634813',            # Décès Saint-Hernin 3 E 309/36/3 (1924)
+	1925   => '1634814',            # Décès Saint-Hernin 3 E 309/36/4 (1925)
+	1926   => '1634815',            # Décès Saint-Hernin 3 E 309/36/5 (1926)
+	1927   => '1634816',            # Décès Saint-Hernin 3 E 309/36/6 (1927)
+	1928   => '1634817',            # Décès Saint-Hernin 3 E 309/36/7 (1928)
+	1929   => '1634818',            # Décès Saint-Hernin 3 E 309/36/8 (1929)
+	1930   => '1634819',            # Décès Saint-Hernin 3 E 309/36/9 (1930)
+	1931   => '1634820',            # Décès Saint-Hernin 3 E 309/36/10 (1931)
+	1932   => '1634821',            # Décès Saint-Hernin 3 E 309/36/11 (1932)
+	1933   => '1634822',            # Décès Saint-Hernin 3 E 309/36/12 (1933)
+	1934   => '1634823',            # Décès Saint-Hernin 3 E 309/36/13 (1934)
+	1935   => '1634824',            # Décès Saint-Hernin 3 E 309/36/14 (1935)
+	1936   => '1634825',            # Décès Saint-Hernin 3 E 309/36/15 (1936)
+    },
+
     # Spezet
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
