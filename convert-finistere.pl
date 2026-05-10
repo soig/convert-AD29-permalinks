@@ -7771,13 +7771,23 @@ my %convert = (
 	1919   => '1634748',            # Mariage Saint-Hernin 3 E 309/33/15 (1919)
     },
 
-    '3E309_0034' => {			# Mariage Saint-Hernin 3 E 309 34   1920-1925
+    '3E309_0034' => {			# Mariage Saint-Hernin 3 E 309 34   1920-1936
 	1920   => '1634750',            # Mariage Saint-Hernin 3 E 309/34/1 (1920)
 	1921   => '1634751',            # Mariage Saint-Hernin 3 E 309/34/2 (1921)
 	1922   => '1634752',            # Mariage Saint-Hernin 3 E 309/34/3 (1922)
 	1923   => '1634753',            # Mariage Saint-Hernin 3 E 309/34/4 (1923)
 	1924   => '1634754',            # Mariage Saint-Hernin 3 E 309/34/5 (1924)
 	1925   => '1634755',            # Mariage Saint-Hernin 3 E 309/34/6 (1925)
+	1926   => '1634756',            # Mariage Saint-Hernin 3 E 309/34/7 (1926)
+	1927   => '1634757',            # Mariage Saint-Hernin 3 E 309/34/8 (1927)
+	1928   => '1634758',            # Mariage Saint-Hernin 3 E 309/34/9 (1928)
+	1929   => '1634759',            # Mariage Saint-Hernin 3 E 309/34/10 (1929)
+	1930   => '1634760',            # Mariage Saint-Hernin 3 E 309/34/11 (1930)
+	1931   => '1634761',            # Mariage Saint-Hernin 3 E 309/34/12 (1931)
+	1932   => '1634762',            # Mariage Saint-Hernin 3 E 309/34/13 (1932)
+	1933   => '1634763',            # Mariage Saint-Hernin 3 E 309/34/14 (1933)
+	1934   => '1634764',            # Mariage Saint-Hernin 3 E 309/34/15 (1934)
+	1935   => '1634765',            # Mariage Saint-Hernin 3 E 309/34/16 (1935)
     },
 
     '3E309_0035' => {			# Décès Saint-Hernin 3 E 309 35   1907-1921
