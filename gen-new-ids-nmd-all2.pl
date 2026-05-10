@@ -194,7 +194,7 @@ foreach my $type (qw(Naissance Mariage Décès)) {
     }
 }
 
-use MDK::Common; use Data::Dumper; output("dump.pm", Data::Dumper->Dump([ \%pretty, \%results ], [ qw(pretty results) ]));
+use Data::Dumper; output("dump.pm", Data::Dumper->Dump([ \%pretty, \%results ], [ qw(pretty results) ]));
 
 # Output all:
 foreach my $id (sort keys %results) {
@@ -294,3 +294,8 @@ sub format_3E {
     $id =~ s!/! !g;
     sprintf("%s%s%03d_%04d", split(' ', $id)); # Ideally to doble check in old tree!
 }
+
+# From MDK::Common:
+sub min  { my $n = shift; $_ < $n and $n = $_ foreach @_; $n }
+sub max  { my $n = shift; $_ > $n and $n = $_ foreach @_; $n }
+sub output { my $f = shift; open(my $F, ">$f") or die "output in file $f failed: $!\n"; print $F $_ foreach @_; 1 }
