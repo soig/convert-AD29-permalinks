@@ -15,17 +15,35 @@ my ($ville, $md5) = @ARGV;
 
 # MD5SUM comes from the "REch_commune_Md5=" when doing a request on https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?
 my %villes = (
+    'Bannalec' => 'dcf2206f47407a1bf48605e0bb530622',
+    'Beuzec-Conq' => '0d0d4f67092f7818c9848de6895d9e3e',
     'Carhaix' => 'f9e985cbb1445d7e1f082868b76e19e9',
     'Cléden-Poher' => '5be72e6a952159ab5ea609ce32073fcc',
     'Châteauneuf-du-Faou' => 'c4e561615bc60b9006dd2126a0a34a81',
+    'Concarneau' => '138f8fa29371880cfddd91bd286d4bd5',
+    'Elliant' => '64b3c3ec77773f58f3967ca255acb1c6',
+    'Fouesnant' => '810c361c96ad6fb8548ba3a6cbfc1f30',
     'Kergloff' => 'b514c4417f09b16bf87e6d3adcf13473',
+    'Kernével' => 'e5a954d46ea1c9ecd8a89c955023f326',
+    'Landeleau' => 'cb35595a1cd1f1870791fe496ae679d6',
+    'Laz' => '9e65506ecf84c23dc0dae3c751b28bbd',
     'Le Moustoir' => 'bd1776d155d280f985d30f73b87b2530',
     #'Le+Moustoir' => 'bd1776d155d280f985d30f73b87b2530', # commented out due to sanity check
+    'Leuhan' => 'eb2f0726cae4778ee9538ef597db7f92',
+    'Locmaria-Berrien' => '4c09c40124360cd6314ab2759a1c79ac',
+    'Locmaria-an-Hent' => 'b5a5509cbc217d7767e65f5628e760c5',
     'Motreff' => '4c3ae13cbf62a5e72b9c034018a6a467',
     'Plonéis' => 'c2e2fc6c89a009fcc699e9d615eae31d',
+    'Plonévez-du-Faou' => '3dd456aaae4fef02b19832b0e3daeb8f',
     'Plouguer' => 'f96ae4a1741a2ec286a159cf90e26788%7C',
+    'Poullaouen' => 'fe51e2fc610856ad9d8aeb573f8452d4',
+    'Quéménéven' => 'a594ce426ea4fa1b88fd6ebed913202e',
+    'Rosnoën' => 'b8fb689b18cbf17a533ac9835b7f5c97',
+    'Saint-Goazec' => '0a844f426cd1fac6871d300fee00f491',
     'Saint-Hernin' => '4253319ee371d0a987f959bf9da20d89',
     'Saint-Quijeau' => 'bc506da005d12c0c478dd344c3a35314',
+    'Saint-Thurien' => '6f370d60e404cff523ade007336a076a',
+    'Saint-Yvi' => 'd3390a4cb3c1a6bafc609604d7071491',
     'Scaër' => '9c354717cc7a5c14e68227d48522db2a',
     'Spézet' => 'b6713734e42457b28f4773f547444ce7',
     "Tourc'h" => '4bf1ee125457d932f80806b7da556577',
@@ -55,7 +73,10 @@ foreach my $key (keys %seen_keys) {
 
 # A cople special cases (usually when two towns were merged):
 my %special_towns = (
+    'Beuzec-Conq' => 'Beuzec-Conq (Concarneau, Finistère)',
     'Carhaix' => 'Carhaix%20(Carhaix-Plouguer,%20Finistère)',
+    'Kernével' => 'Kernével (Rosporden, Finistère)',
+    'Locmaria-an-Hent' => 'Locmaria-an-Hent (Saint-Yvi, Finistère)',
     'Plouguer' => 'Plouguer+%28Carhaix-Plouguer%2C+Finistère',
     'Saint-Quijeau' => 'Saint-Quijeau%20(Plouguer,%20Carhaix-Plouguer,%20Finistère)',
     'Le Moustoir' => 'Le%20Moustoir%20(Châteauneuf-du-Faou,%20Finistère)',
