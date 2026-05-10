@@ -168,6 +168,18 @@ my %conv_cal_republicain = (
     'an XII' => 'AN12',
     'an XIII' => 'AN13',
     'an XIV - 1806' => 'AN14',
+    'An III' => 'AN03',
+    'An IV' => 'AN04',
+    'An IX' => 'AN09',
+    'An V' => 'AN05',
+    'An VI' => 'AN06',
+    'An VII' => 'AN07',
+    'An VIII' => 'AN08',
+    'An X' => 'AN10',
+    'An XI' => 'AN11',
+    'An XII' => 'AN12',
+    'An XIII' => 'AN13',
+    'An XIV - 1806' => 'AN14',
     );
 
 my $url = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=%s|&REch_commune_Md5=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&type=etatcivil&pagination_25";
