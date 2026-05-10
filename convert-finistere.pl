@@ -61,6 +61,12 @@ my %convert = (
     '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
     '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
+    # Saint-Yvi
+    '1261EDEPOT_009' => '1480039',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 9 (Décès)
+    '1261EDEPOT_005' => '645681.1480034',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E-dépôt 5 (Décès)
+    '1261EDEPOT_008' => '1480038',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 8 (Mariages)
+    '1261EDEPOT_007' => '1480037',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 7 (Naissances)
+    '1261EDEPOT_004' => '645680.1480033',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E-dépôt 4 (Naissances, mariages)
 
     # Registre matricule:
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
@@ -6561,6 +6567,499 @@ my %convert = (
 	1934   => '1370048',            # Décès Saint-Thurien 3 E 335/35/15 (1934)
 	1935   => '1370049',            # Décès Saint-Thurien 3 E 335/35/16 (1935)
 	1936   => '1370050',            # Décès Saint-Thurien 3 E 335/35/17 (1936)
+    },
+
+    # Saint-Yvi
+    '3E339_0004' => {			# Naissance Saint-Yvi 3 E 339 4   AN02-AN02
+	'AN02' => '1370901',            # Naissance Saint-Yvi 3 E 339/4/1 (1793 - an II)
+	'AN03' => '1370902',            # Naissance Saint-Yvi 3 E 339/4/2 (an III)
+	'AN04' => '1370903',            # Naissance Saint-Yvi 3 E 339/4/3 (an IV)
+	'AN05' => '1370904',            # Naissance Saint-Yvi 3 E 339/4/4 (an V)
+	'AN06' => '1370905',            # Naissance Saint-Yvi 3 E 339/4/5 (an VI)
+	'AN07' => '1370906',            # Naissance Saint-Yvi 3 E 339/4/6 (an VII)
+	'AN08' => '1370907',            # Naissance Saint-Yvi 3 E 339/4/7 (an VIII)
+	'AN09' => '1370908',            # Naissance Saint-Yvi 3 E 339/4/8 (an IX)
+	'AN10' => '1370909',            # Naissance Saint-Yvi 3 E 339/4/9 (an X)
+    },
+
+    '3E339_0005' => {			# Naissance Saint-Yvi 3 E 339 5   AN11-1812
+	'AN11' => '1370911',            # Naissance Saint-Yvi 3 E 339/5/1 (an XI)
+	'AN12' => '1370912',            # Naissance Saint-Yvi 3 E 339/5/2 (an XII)
+	'AN13' => '1370913',            # Naissance Saint-Yvi 3 E 339/5/3 (an XIII)
+	'AN14' => '1370914',            # Naissance Saint-Yvi 3 E 339/5/4 (an XIV - 1806)
+	1807   => '1370915',            # Naissance Saint-Yvi 3 E 339/5/5 (1807)
+	1808   => '1370916',            # Naissance Saint-Yvi 3 E 339/5/6 (1808)
+	1809   => '1370917',            # Naissance Saint-Yvi 3 E 339/5/7 (1809)
+	1810   => '1370918',            # Naissance Saint-Yvi 3 E 339/5/8 (1810)
+	1811   => '1370919',            # Naissance Saint-Yvi 3 E 339/5/9 (1811)
+	1812   => '1370920',            # Naissance Saint-Yvi 3 E 339/5/10 (1812)
+    },
+
+    '3E339_0006' => {			# Naissance Saint-Yvi 3 E 339 6   1813-1815
+	1813   => '1370922',            # Naissance Saint-Yvi 3 E 339/6/1 (1813)
+	1814   => '1370923',            # Naissance Saint-Yvi 3 E 339/6/2 (1814)
+	1815   => '1370924',            # Naissance Saint-Yvi 3 E 339/6/3 (1815)
+    },
+
+    '3E339_0007' => {			# Naissance Saint-Yvi 3 E 339 7   1823-1832
+	1823   => '1370932',            # Naissance Saint-Yvi 3 E 339/7/1 (1823)
+	1824   => '1370933',            # Naissance Saint-Yvi 3 E 339/7/2 (1824)
+	1825   => '1370934',            # Naissance Saint-Yvi 3 E 339/7/3 (1825)
+	1826   => '1370935',            # Naissance Saint-Yvi 3 E 339/7/4 (1826)
+	1827   => '1370936',            # Naissance Saint-Yvi 3 E 339/7/5 (1827)
+	1828   => '1370937',            # Naissance Saint-Yvi 3 E 339/7/6 (1828)
+	1829   => '1370938',            # Naissance Saint-Yvi 3 E 339/7/7 (1829)
+	1830   => '1370939',            # Naissance Saint-Yvi 3 E 339/7/8 (1830)
+	1831   => '1370940',            # Naissance Saint-Yvi 3 E 339/7/9 (1831)
+	1832   => '1370941',            # Naissance Saint-Yvi 3 E 339/7/10 (1832)
+    },
+
+    '3E339_0008' => {			# Naissance Saint-Yvi 3 E 339 8   1833-1842
+	1833   => '1370943',            # Naissance Saint-Yvi 3 E 339/8/1 (1833)
+	1834   => '1370944',            # Naissance Saint-Yvi 3 E 339/8/2 (1834)
+	1835   => '1370945',            # Naissance Saint-Yvi 3 E 339/8/3 (1835)
+	1836   => '1370946',            # Naissance Saint-Yvi 3 E 339/8/4 (1836)
+	1837   => '1370947',            # Naissance Saint-Yvi 3 E 339/8/5 (1837)
+	1838   => '1370948',            # Naissance Saint-Yvi 3 E 339/8/6 (1838)
+	1839   => '1370949',            # Naissance Saint-Yvi 3 E 339/8/7 (1839)
+	1840   => '1370950',            # Naissance Saint-Yvi 3 E 339/8/8 (1840)
+	1841   => '1370951',            # Naissance Saint-Yvi 3 E 339/8/9 (1841)
+	1842   => '1370952',            # Naissance Saint-Yvi 3 E 339/8/10 (1842)
+    },
+
+    '3E339_0009' => {			# Naissance Saint-Yvi 3 E 339 9   1843-1852
+	1843   => '1370954',            # Naissance Saint-Yvi 3 E 339/9/1 (1843)
+	1844   => '1370955',            # Naissance Saint-Yvi 3 E 339/9/2 (1844)
+	1845   => '1370956',            # Naissance Saint-Yvi 3 E 339/9/3 (1845)
+	1846   => '1370957',            # Naissance Saint-Yvi 3 E 339/9/4 (1846)
+	1847   => '1370958',            # Naissance Saint-Yvi 3 E 339/9/5 (1847)
+	1848   => '1370959',            # Naissance Saint-Yvi 3 E 339/9/6 (1848)
+	1849   => '1370960',            # Naissance Saint-Yvi 3 E 339/9/7 (1849)
+	1850   => '1370961',            # Naissance Saint-Yvi 3 E 339/9/8 (1850)
+	1851   => '1370962',            # Naissance Saint-Yvi 3 E 339/9/9 (1851)
+	1852   => '1370963',            # Naissance Saint-Yvi 3 E 339/9/10 (1852)
+    },
+
+    '3E339_0010' => {			# Naissance Saint-Yvi 3 E 339 10   1853-1862
+	1853   => '1370965',            # Naissance Saint-Yvi 3 E 339/10/1 (1853)
+	1854   => '1370966',            # Naissance Saint-Yvi 3 E 339/10/2 (1854)
+	1855   => '1370967',            # Naissance Saint-Yvi 3 E 339/10/3 (1855)
+	1856   => '1370968',            # Naissance Saint-Yvi 3 E 339/10/4 (1856)
+	1857   => '1370969',            # Naissance Saint-Yvi 3 E 339/10/5 (1857)
+	1858   => '1370970',            # Naissance Saint-Yvi 3 E 339/10/6 (1858)
+	1859   => '1370971',            # Naissance Saint-Yvi 3 E 339/10/7 (1859)
+	1860   => '1370972',            # Naissance Saint-Yvi 3 E 339/10/8 (1860)
+	1861   => '1370973',            # Naissance Saint-Yvi 3 E 339/10/9 (1861)
+	1862   => '1370974',            # Naissance Saint-Yvi 3 E 339/10/10 (1862)
+    },
+
+    '3E339_0011' => {			# Naissance Saint-Yvi 3 E 339 11   1863-1869
+	1863   => '1370976',            # Naissance Saint-Yvi 3 E 339/11/1 (1863)
+	1864   => '1370977',            # Naissance Saint-Yvi 3 E 339/11/2 (1864)
+	1865   => '1370978',            # Naissance Saint-Yvi 3 E 339/11/3 (1865)
+	1866   => '1370979',            # Naissance Saint-Yvi 3 E 339/11/4 (1866)
+	1867   => '1370980',            # Naissance Saint-Yvi 3 E 339/11/5 (1867)
+	1868   => '1370981',            # Naissance Saint-Yvi 3 E 339/11/6 (1868)
+	1869   => '1370982',            # Naissance Saint-Yvi 3 E 339/11/7 (1869)
+    },
+
+    '3E339_0012' => {			# Naissance Saint-Yvi 3 E 339 12   1870-1883
+	1870   => '1370984',            # Naissance Saint-Yvi 3 E 339/12/1 (1870)
+	1871   => '1370985',            # Naissance Saint-Yvi 3 E 339/12/2 (1871)
+	1872   => '1370986',            # Naissance Saint-Yvi 3 E 339/12/3 (1872)
+	1873   => '1370987',            # Naissance Saint-Yvi 3 E 339/12/4 (1873)
+	1874   => '1370988',            # Naissance Saint-Yvi 3 E 339/12/5 (1874)
+	1875   => '1370989',            # Naissance Saint-Yvi 3 E 339/12/6 (1875)
+	1876   => '1370990',            # Naissance Saint-Yvi 3 E 339/12/7 (1876)
+	1877   => '1370991',            # Naissance Saint-Yvi 3 E 339/12/8 (1877)
+	1878   => '1370992',            # Naissance Saint-Yvi 3 E 339/12/9 (1878)
+	1879   => '1370993',            # Naissance Saint-Yvi 3 E 339/12/10 (1879)
+	1880   => '1370994',            # Naissance Saint-Yvi 3 E 339/12/11 (1880)
+	1881   => '1370995',            # Naissance Saint-Yvi 3 E 339/12/12 (1881)
+	1882   => '1370996',            # Naissance Saint-Yvi 3 E 339/12/13 (1882)
+	1883   => '1370997',            # Naissance Saint-Yvi 3 E 339/12/14 (1883)
+    },
+
+    '3E339_0013' => {			# Naissance Saint-Yvi 3 E 339 13   1884-1894
+	1884   => '1370999',            # Naissance Saint-Yvi 3 E 339/13/1 (1884)
+	1885   => '1371000',            # Naissance Saint-Yvi 3 E 339/13/2 (1885)
+	1886   => '1371001',            # Naissance Saint-Yvi 3 E 339/13/3 (1886)
+	1887   => '1371002',            # Naissance Saint-Yvi 3 E 339/13/4 (1887)
+	1888   => '1371003',            # Naissance Saint-Yvi 3 E 339/13/5 (1888)
+	1889   => '1371004',            # Naissance Saint-Yvi 3 E 339/13/6 (1889)
+	1890   => '1371005',            # Naissance Saint-Yvi 3 E 339/13/7 (1890)
+	1891   => '1371006',            # Naissance Saint-Yvi 3 E 339/13/8 (1891)
+	1892   => '1371007',            # Naissance Saint-Yvi 3 E 339/13/9 (1892)
+	1893   => '1371008',            # Naissance Saint-Yvi 3 E 339/13/10 (1893)
+	1894   => '1371009',            # Naissance Saint-Yvi 3 E 339/13/11 (1894)
+    },
+
+    '3E339_0014' => {			# Mariage Saint-Yvi 3 E 339 14   AN07-AN07
+	'AN02' => '1371057',            # Mariage Saint-Yvi 3 E 339/14/1 (1793 - an II)
+	'AN03' => '1371058',            # Mariage Saint-Yvi 3 E 339/14/2 (an III)
+	'AN04' => '1371059',            # Mariage Saint-Yvi 3 E 339/14/3 (an IV)
+	'AN05' => '1371060',            # Mariage Saint-Yvi 3 E 339/14/4 (an V)
+	'AN06' => '1371061',            # Mariage Saint-Yvi 3 E 339/14/5 (an VI)
+	'AN07' => '1371062',            # Mariage Saint-Yvi 3 E 339/14/6 (an VII)
+	'AN08' => '1371063',            # Mariage Saint-Yvi 3 E 339/14/7 (an VIII)
+	'AN09' => '1371064',            # Mariage Saint-Yvi 3 E 339/14/8 (an IX)
+	'AN10' => '1371065',            # Mariage Saint-Yvi 3 E 339/14/9 (an X)
+    },
+
+    '3E339_0015' => {			# Mariage Saint-Yvi 3 E 339 15   AN11-1808
+	'AN11' => '1371067',            # Mariage Saint-Yvi 3 E 339/15/1 (an XI)
+	'AN12' => '1371068',            # Mariage Saint-Yvi 3 E 339/15/2 (an XII)
+	'AN13' => '1371069',            # Mariage Saint-Yvi 3 E 339/15/3 (an XIII)
+	'AN14' => '1371070',            # Mariage Saint-Yvi 3 E 339/15/4 (an XIV - 1806)
+	1807   => '1371071',            # Mariage Saint-Yvi 3 E 339/15/5 (1807)
+	1808   => '1371072',            # Mariage Saint-Yvi 3 E 339/15/6 (1808)
+    },
+
+    '3E339_0016' => {			# Mariage Saint-Yvi 3 E 339 16   1813-1822
+	1813   => '1371078',            # Mariage Saint-Yvi 3 E 339/16/1 (1813)
+	1814   => '1371079',            # Mariage Saint-Yvi 3 E 339/16/2 (1814)
+	1815   => '1371080',            # Mariage Saint-Yvi 3 E 339/16/3 (1815)
+	1816   => '1371081',            # Mariage Saint-Yvi 3 E 339/16/4 (1816)
+	1817   => '1371082',            # Mariage Saint-Yvi 3 E 339/16/5 (1817)
+	1818   => '1371083',            # Mariage Saint-Yvi 3 E 339/16/6 (1818)
+	1819   => '1371084',            # Mariage Saint-Yvi 3 E 339/16/7 (1819)
+	1820   => '1371085',            # Mariage Saint-Yvi 3 E 339/16/8 (1820)
+	1822   => '1371086',            # Mariage Saint-Yvi 3 E 339/16/9 (1822)
+    },
+
+    '3E339_0017' => {			# Mariage Saint-Yvi 3 E 339 17   1823-1825
+	1823   => '1371088',            # Mariage Saint-Yvi 3 E 339/17/1 (1823)
+	1824   => '1371089',            # Mariage Saint-Yvi 3 E 339/17/2 (1824)
+	1825   => '1371090',            # Mariage Saint-Yvi 3 E 339/17/3 (1825)
+    },
+
+    '3E339_0018' => {			# Mariage Saint-Yvi 3 E 339 18   1833-1842
+	1833   => '1371099',            # Mariage Saint-Yvi 3 E 339/18/1 (1833)
+	1834   => '1371100',            # Mariage Saint-Yvi 3 E 339/18/2 (1834)
+	1835   => '1371101',            # Mariage Saint-Yvi 3 E 339/18/3 (1835)
+	1836   => '1371102',            # Mariage Saint-Yvi 3 E 339/18/4 (1836)
+	1837   => '1371103',            # Mariage Saint-Yvi 3 E 339/18/5 (1837)
+	1838   => '1371104',            # Mariage Saint-Yvi 3 E 339/18/6 (1838)
+	1839   => '1371105',            # Mariage Saint-Yvi 3 E 339/18/7 (1839)
+	1840   => '1371106',            # Mariage Saint-Yvi 3 E 339/18/8 (1840)
+	1841   => '1371107',            # Mariage Saint-Yvi 3 E 339/18/9 (1841)
+	1842   => '1371108',            # Mariage Saint-Yvi 3 E 339/18/10 (1842)
+    },
+
+    '3E339_0019' => {			# Mariage Saint-Yvi 3 E 339 19   1843-1852
+	1843   => '1371110',            # Mariage Saint-Yvi 3 E 339/19/1 (1843)
+	1844   => '1371111',            # Mariage Saint-Yvi 3 E 339/19/2 (1844)
+	1845   => '1371112',            # Mariage Saint-Yvi 3 E 339/19/3 (1845)
+	1846   => '1371113',            # Mariage Saint-Yvi 3 E 339/19/4 (1846)
+	1847   => '1371114',            # Mariage Saint-Yvi 3 E 339/19/5 (1847)
+	1848   => '1371115',            # Mariage Saint-Yvi 3 E 339/19/6 (1848)
+	1849   => '1371116',            # Mariage Saint-Yvi 3 E 339/19/7 (1849)
+	1850   => '1371117',            # Mariage Saint-Yvi 3 E 339/19/8 (1850)
+	1851   => '1371118',            # Mariage Saint-Yvi 3 E 339/19/9 (1851)
+	1852   => '1371119',            # Mariage Saint-Yvi 3 E 339/19/10 (1852)
+    },
+
+    '3E339_0020' => {			# Mariage Saint-Yvi 3 E 339 20   1853-1862
+	1853   => '1371121',            # Mariage Saint-Yvi 3 E 339/20/1 (1853)
+	1854   => '1371122',            # Mariage Saint-Yvi 3 E 339/20/2 (1854)
+	1855   => '1371123',            # Mariage Saint-Yvi 3 E 339/20/3 (1855)
+	1856   => '1371124',            # Mariage Saint-Yvi 3 E 339/20/4 (1856)
+	1857   => '1371125',            # Mariage Saint-Yvi 3 E 339/20/5 (1857)
+	1858   => '1371126',            # Mariage Saint-Yvi 3 E 339/20/6 (1858)
+	1859   => '1371127',            # Mariage Saint-Yvi 3 E 339/20/7 (1859)
+	1860   => '1371128',            # Mariage Saint-Yvi 3 E 339/20/8 (1860)
+	1861   => '1371129',            # Mariage Saint-Yvi 3 E 339/20/9 (1861)
+	1862   => '1371130',            # Mariage Saint-Yvi 3 E 339/20/10 (1862)
+    },
+
+    '3E339_0021' => {			# Mariage Saint-Yvi 3 E 339 21   1863-1869
+	1863   => '1371132',            # Mariage Saint-Yvi 3 E 339/21/1 (1863)
+	1864   => '1371133',            # Mariage Saint-Yvi 3 E 339/21/2 (1864)
+	1865   => '1371134',            # Mariage Saint-Yvi 3 E 339/21/3 (1865)
+	1866   => '1371135',            # Mariage Saint-Yvi 3 E 339/21/4 (1866)
+	1867   => '1371136',            # Mariage Saint-Yvi 3 E 339/21/5 (1867)
+	1868   => '1371137',            # Mariage Saint-Yvi 3 E 339/21/6 (1868)
+	1869   => '1371138',            # Mariage Saint-Yvi 3 E 339/21/7 (1869)
+    },
+
+    '3E339_0022' => {			# Mariage Saint-Yvi 3 E 339 22   1870-1885
+	1870   => '1371140',            # Mariage Saint-Yvi 3 E 339/22/1 (1870)
+	1871   => '1371141',            # Mariage Saint-Yvi 3 E 339/22/2 (1871)
+	1872   => '1371142',            # Mariage Saint-Yvi 3 E 339/22/3 (1872)
+	1873   => '1371143',            # Mariage Saint-Yvi 3 E 339/22/4 (1873)
+	1874   => '1371144',            # Mariage Saint-Yvi 3 E 339/22/5 (1874)
+	1875   => '1371145',            # Mariage Saint-Yvi 3 E 339/22/6 (1875)
+	1876   => '1371146',            # Mariage Saint-Yvi 3 E 339/22/7 (1876)
+	1877   => '1371147',            # Mariage Saint-Yvi 3 E 339/22/8 (1877)
+	1878   => '1371148',            # Mariage Saint-Yvi 3 E 339/22/9 (1878)
+	1879   => '1371149',            # Mariage Saint-Yvi 3 E 339/22/10 (1879)
+	1880   => '1371150',            # Mariage Saint-Yvi 3 E 339/22/11 (1880)
+	1881   => '1371151',            # Mariage Saint-Yvi 3 E 339/22/12 (1881)
+	1882   => '1371152',            # Mariage Saint-Yvi 3 E 339/22/13 (1882)
+	1883   => '1371153',            # Mariage Saint-Yvi 3 E 339/22/14 (1883)
+	1884   => '1371154',            # Mariage Saint-Yvi 3 E 339/22/15 (1884)
+	1885   => '1371155',            # Mariage Saint-Yvi 3 E 339/22/16 (1885)
+    },
+
+    '3E339_0023' => {			# Décès Saint-Yvi 3 E 339 23   AN07-AN07
+	'AN02' => '1371212',            # Décès Saint-Yvi 3 E 339/23/1 (1793 - an II)
+	'AN03' => '1371213',            # Décès Saint-Yvi 3 E 339/23/2 (an III)
+	'AN04' => '1371214',            # Décès Saint-Yvi 3 E 339/23/3 (an IV)
+	'AN05' => '1371215',            # Décès Saint-Yvi 3 E 339/23/4 (an V)
+	'AN06' => '1371216',            # Décès Saint-Yvi 3 E 339/23/5 (an VI)
+	'AN07' => '1371217',            # Décès Saint-Yvi 3 E 339/23/6 (an VII)
+	'AN08' => '1371218',            # Décès Saint-Yvi 3 E 339/23/7 (an VIII)
+	'AN09' => '1371219',            # Décès Saint-Yvi 3 E 339/23/8 (an IX)
+	'AN10' => '1371220',            # Décès Saint-Yvi 3 E 339/23/9 (an X)
+    },
+
+    '3E339_0024' => {			# Décès Saint-Yvi 3 E 339 24   AN11-1812
+	'AN11' => '1371222',            # Décès Saint-Yvi 3 E 339/24/1 (an XI)
+	'AN12' => '1371223',            # Décès Saint-Yvi 3 E 339/24/2 (an XII)
+	'AN13' => '1371224',            # Décès Saint-Yvi 3 E 339/24/3 (an XIII)
+	'AN14' => '1371225',            # Décès Saint-Yvi 3 E 339/24/4 (an XIV - 1806)
+	1807   => '1371226',            # Décès Saint-Yvi 3 E 339/24/5 (1807)
+	1808   => '1371227',            # Décès Saint-Yvi 3 E 339/24/6 (1808)
+	1809   => '1371228',            # Décès Saint-Yvi 3 E 339/24/7 (1809)
+	1810   => '1371229',            # Décès Saint-Yvi 3 E 339/24/8 (1810)
+	1811   => '1371230',            # Décès Saint-Yvi 3 E 339/24/9 (1811)
+	1812   => '1371231',            # Décès Saint-Yvi 3 E 339/24/10 (1812)
+    },
+
+    '3E339_0025' => {			# Décès Saint-Yvi 3 E 339 25   1813-1815
+	1813   => '1371233',            # Décès Saint-Yvi 3 E 339/25/1 (1813)
+	1814   => '1371234',            # Décès Saint-Yvi 3 E 339/25/2 (1814)
+	1815   => '1371235',            # Décès Saint-Yvi 3 E 339/25/3 (1815)
+    },
+
+    '3E339_0026' => {			# Décès Saint-Yvi 3 E 339 26   1823-1832
+	1823   => '1371244',            # Décès Saint-Yvi 3 E 339/26/1 (1823)
+	1824   => '1371245',            # Décès Saint-Yvi 3 E 339/26/2 (1824)
+	1825   => '1371246',            # Décès Saint-Yvi 3 E 339/26/3 (1825)
+	1826   => '1371247',            # Décès Saint-Yvi 3 E 339/26/4 (1826)
+	1827   => '1371248',            # Décès Saint-Yvi 3 E 339/26/5 (1827)
+	1828   => '1371249',            # Décès Saint-Yvi 3 E 339/26/6 (1828)
+	1829   => '1371250',            # Décès Saint-Yvi 3 E 339/26/7 (1829)
+	1830   => '1371251',            # Décès Saint-Yvi 3 E 339/26/8 (1830)
+	1831   => '1371252',            # Décès Saint-Yvi 3 E 339/26/9 (1831)
+	1832   => '1371253',            # Décès Saint-Yvi 3 E 339/26/10 (1832)
+    },
+
+    '3E339_0027' => {			# Décès Saint-Yvi 3 E 339 27   1833-1842
+	1833   => '1371255',            # Décès Saint-Yvi 3 E 339/27/1 (1833)
+	1834   => '1371256',            # Décès Saint-Yvi 3 E 339/27/2 (1834)
+	1835   => '1371257',            # Décès Saint-Yvi 3 E 339/27/3 (1835)
+	1836   => '1371258',            # Décès Saint-Yvi 3 E 339/27/4 (1836)
+	1837   => '1371259',            # Décès Saint-Yvi 3 E 339/27/5 (1837)
+	1838   => '1371260',            # Décès Saint-Yvi 3 E 339/27/6 (1838)
+	1839   => '1371261',            # Décès Saint-Yvi 3 E 339/27/7 (1839)
+	1840   => '1371262',            # Décès Saint-Yvi 3 E 339/27/8 (1840)
+	1841   => '1371263',            # Décès Saint-Yvi 3 E 339/27/9 (1841)
+	1842   => '1371264',            # Décès Saint-Yvi 3 E 339/27/10 (1842)
+    },
+
+    '3E339_0028' => {			# Décès Saint-Yvi 3 E 339 28   1843-1852
+	1843   => '1371266',            # Décès Saint-Yvi 3 E 339/28/1 (1843)
+	1844   => '1371267',            # Décès Saint-Yvi 3 E 339/28/2 (1844)
+	1845   => '1371268',            # Décès Saint-Yvi 3 E 339/28/3 (1845)
+	1846   => '1371269',            # Décès Saint-Yvi 3 E 339/28/4 (1846)
+	1847   => '1371270',            # Décès Saint-Yvi 3 E 339/28/5 (1847)
+	1848   => '1371271',            # Décès Saint-Yvi 3 E 339/28/6 (1848)
+	1849   => '1371272',            # Décès Saint-Yvi 3 E 339/28/7 (1849)
+	1850   => '1371273',            # Décès Saint-Yvi 3 E 339/28/8 (1850)
+	1851   => '1371274',            # Décès Saint-Yvi 3 E 339/28/9 (1851)
+	1852   => '1371275',            # Décès Saint-Yvi 3 E 339/28/10 (1852)
+    },
+
+    '3E339_0029' => {			# Décès Saint-Yvi 3 E 339 29   1853-1862
+	1853   => '1371277',            # Décès Saint-Yvi 3 E 339/29/1 (1853)
+	1854   => '1371278',            # Décès Saint-Yvi 3 E 339/29/2 (1854)
+	1855   => '1371279',            # Décès Saint-Yvi 3 E 339/29/3 (1855)
+	1856   => '1371280',            # Décès Saint-Yvi 3 E 339/29/4 (1856)
+	1857   => '1371281',            # Décès Saint-Yvi 3 E 339/29/5 (1857)
+	1858   => '1371282',            # Décès Saint-Yvi 3 E 339/29/6 (1858)
+	1859   => '1371283',            # Décès Saint-Yvi 3 E 339/29/7 (1859)
+	1860   => '1371284',            # Décès Saint-Yvi 3 E 339/29/8 (1860)
+	1861   => '1371285',            # Décès Saint-Yvi 3 E 339/29/9 (1861)
+	1862   => '1371286',            # Décès Saint-Yvi 3 E 339/29/10 (1862)
+    },
+
+    '3E339_0030' => {			# Décès Saint-Yvi 3 E 339 30   1863-1869
+	1863   => '1371288',            # Décès Saint-Yvi 3 E 339/30/1 (1863)
+	1864   => '1371289',            # Décès Saint-Yvi 3 E 339/30/2 (1864)
+	1865   => '1371290',            # Décès Saint-Yvi 3 E 339/30/3 (1865)
+	1866   => '1371291',            # Décès Saint-Yvi 3 E 339/30/4 (1866)
+	1867   => '1371292',            # Décès Saint-Yvi 3 E 339/30/5 (1867)
+	1868   => '1371293',            # Décès Saint-Yvi 3 E 339/30/6 (1868)
+	1869   => '1371294',            # Décès Saint-Yvi 3 E 339/30/7 (1869)
+    },
+
+    '3E339_0031' => {			# Décès Saint-Yvi 3 E 339 31   1870-1883
+	1870   => '1371296',            # Décès Saint-Yvi 3 E 339/31/1 (1870)
+	1871   => '1371297',            # Décès Saint-Yvi 3 E 339/31/2 (1871)
+	1872   => '1371298',            # Décès Saint-Yvi 3 E 339/31/3 (1872)
+	1873   => '1371299',            # Décès Saint-Yvi 3 E 339/31/4 (1873)
+	1874   => '1371300',            # Décès Saint-Yvi 3 E 339/31/5 (1874)
+	1875   => '1371301',            # Décès Saint-Yvi 3 E 339/31/6 (1875)
+	1876   => '1371302',            # Décès Saint-Yvi 3 E 339/31/7 (1876)
+	1877   => '1371303',            # Décès Saint-Yvi 3 E 339/31/8 (1877)
+	1878   => '1371304',            # Décès Saint-Yvi 3 E 339/31/9 (1878)
+	1879   => '1371305',            # Décès Saint-Yvi 3 E 339/31/10 (1879)
+	1880   => '1371306',            # Décès Saint-Yvi 3 E 339/31/11 (1880)
+	1881   => '1371307',            # Décès Saint-Yvi 3 E 339/31/12 (1881)
+	1882   => '1371308',            # Décès Saint-Yvi 3 E 339/31/13 (1882)
+	1883   => '1371309',            # Décès Saint-Yvi 3 E 339/31/14 (1883)
+    },
+
+    '3E339_0032' => {			# Décès Saint-Yvi 3 E 339 32   1884-1895
+	1884   => '1371311',            # Décès Saint-Yvi 3 E 339/32/1 (1884)
+	1885   => '1371312',            # Décès Saint-Yvi 3 E 339/32/2 (1885)
+	1886   => '1371313',            # Décès Saint-Yvi 3 E 339/32/3 (1886)
+	1887   => '1371314',            # Décès Saint-Yvi 3 E 339/32/4 (1887)
+	1888   => '1371315',            # Décès Saint-Yvi 3 E 339/32/5 (1888)
+	1889   => '1371316',            # Décès Saint-Yvi 3 E 339/32/6 (1889)
+	1890   => '1371317',            # Décès Saint-Yvi 3 E 339/32/7 (1890)
+	1891   => '1371318',            # Décès Saint-Yvi 3 E 339/32/8 (1891)
+	1892   => '1371319',            # Décès Saint-Yvi 3 E 339/32/9 (1892)
+	1893   => '1371320',            # Décès Saint-Yvi 3 E 339/32/10 (1893)
+	1894   => '1371321',            # Décès Saint-Yvi 3 E 339/32/11 (1894)
+	1895   => '1371322',            # Décès Saint-Yvi 3 E 339/32/12 (1895)
+    },
+
+    '3E339_0033' => {			# Mariage Saint-Yvi 3 E 339 33   1886-1903
+	1886   => '1371157',            # Mariage Saint-Yvi 3 E 339/33/1 (1886)
+	1887   => '1371158',            # Mariage Saint-Yvi 3 E 339/33/2 (1887)
+	1888   => '1371159',            # Mariage Saint-Yvi 3 E 339/33/3 (1888)
+	1889   => '1371160',            # Mariage Saint-Yvi 3 E 339/33/4 (1889)
+	1890   => '1371161',            # Mariage Saint-Yvi 3 E 339/33/5 (1890)
+	1891   => '1371162',            # Mariage Saint-Yvi 3 E 339/33/6 (1891)
+	1892   => '1371163',            # Mariage Saint-Yvi 3 E 339/33/7 (1892)
+	1893   => '1371164',            # Mariage Saint-Yvi 3 E 339/33/8 (1893)
+	1894   => '1371165',            # Mariage Saint-Yvi 3 E 339/33/9 (1894)
+	1895   => '1371166',            # Mariage Saint-Yvi 3 E 339/33/10 (1895)
+	1896   => '1371167',            # Mariage Saint-Yvi 3 E 339/33/11 (1896)
+	1897   => '1371168',            # Mariage Saint-Yvi 3 E 339/33/12 (1897)
+	1898   => '1371169',            # Mariage Saint-Yvi 3 E 339/33/13 (1898)
+	1899   => '1371170',            # Mariage Saint-Yvi 3 E 339/33/14 (1899)
+	1900   => '1371171',            # Mariage Saint-Yvi 3 E 339/33/15 (1900)
+	1901   => '1371172',            # Mariage Saint-Yvi 3 E 339/33/16 (1901)
+	1902   => '1371173',            # Mariage Saint-Yvi 3 E 339/33/17 (1902)
+	1903   => '1371174',            # Mariage Saint-Yvi 3 E 339/33/18 (1903)
+    },
+
+    '3E339_0034' => {			# Naissance Saint-Yvi 3 E 339 34   1895-1907
+	1895   => '1371011',            # Naissance Saint-Yvi 3 E 339/34/1 (1895)
+	1896   => '1371012',            # Naissance Saint-Yvi 3 E 339/34/2 (1896)
+	1897   => '1371013',            # Naissance Saint-Yvi 3 E 339/34/3 (1897)
+	1898   => '1371014',            # Naissance Saint-Yvi 3 E 339/34/4 (1898)
+	1899   => '1371015',            # Naissance Saint-Yvi 3 E 339/34/5 (1899)
+	1900   => '1371016',            # Naissance Saint-Yvi 3 E 339/34/6 (1900)
+	1901   => '1371017',            # Naissance Saint-Yvi 3 E 339/34/7 (1901)
+	1902   => '1371018',            # Naissance Saint-Yvi 3 E 339/34/8 (1902)
+	1903   => '1371019',            # Naissance Saint-Yvi 3 E 339/34/9 (1903)
+	1904   => '1371020',            # Naissance Saint-Yvi 3 E 339/34/10 (1904)
+	1905   => '1371021',            # Naissance Saint-Yvi 3 E 339/34/11 (1905)
+	1906   => '1371022',            # Naissance Saint-Yvi 3 E 339/34/12 (1906)
+	1907   => '1371023',            # Naissance Saint-Yvi 3 E 339/34/13 (1907)
+    },
+
+    '3E339_0035' => {			# Décès Saint-Yvi 3 E 339 35   1896-1913
+	1896   => '1371324',            # Décès Saint-Yvi 3 E 339/35/1 (1896)
+	1897   => '1371325',            # Décès Saint-Yvi 3 E 339/35/2 (1897)
+	1898   => '1371326',            # Décès Saint-Yvi 3 E 339/35/3 (1898)
+	1899   => '1371327',            # Décès Saint-Yvi 3 E 339/35/4 (1899)
+	1900   => '1371328',            # Décès Saint-Yvi 3 E 339/35/5 (1900)
+	1901   => '1371329',            # Décès Saint-Yvi 3 E 339/35/6 (1901)
+	1902   => '1371330',            # Décès Saint-Yvi 3 E 339/35/7 (1902)
+	1903   => '1371331',            # Décès Saint-Yvi 3 E 339/35/8 (1903)
+	1904   => '1371332',            # Décès Saint-Yvi 3 E 339/35/9 (1904)
+	1905   => '1371333',            # Décès Saint-Yvi 3 E 339/35/10 (1905)
+	1906   => '1371334',            # Décès Saint-Yvi 3 E 339/35/11 (1906)
+	1907   => '1371335',            # Décès Saint-Yvi 3 E 339/35/12 (1907)
+	1908   => '1371336',            # Décès Saint-Yvi 3 E 339/35/13 (1908)
+	1909   => '1371337',            # Décès Saint-Yvi 3 E 339/35/14 (1909)
+	1910   => '1371338',            # Décès Saint-Yvi 3 E 339/35/15 (1910)
+	1911   => '1371339',            # Décès Saint-Yvi 3 E 339/35/16 (1911)
+	1912   => '1371340',            # Décès Saint-Yvi 3 E 339/35/17 (1912)
+	1913   => '1371341',            # Décès Saint-Yvi 3 E 339/35/18 (1913)
+    },
+
+    '3E339_0036' => {			# Naissance Saint-Yvi 3 E 339 36   1908-1921
+	1908   => '1371025',            # Naissance Saint-Yvi 3 E 339/36/1 (1908)
+	1909   => '1371026',            # Naissance Saint-Yvi 3 E 339/36/2 (1909)
+	1910   => '1371027',            # Naissance Saint-Yvi 3 E 339/36/3 (1910)
+	1911   => '1371028',            # Naissance Saint-Yvi 3 E 339/36/4 (1911)
+	1912   => '1371029',            # Naissance Saint-Yvi 3 E 339/36/5 (1912)
+	1913   => '1371030',            # Naissance Saint-Yvi 3 E 339/36/6 (1913)
+	1914   => '1371031',            # Naissance Saint-Yvi 3 E 339/36/7 (1914)
+	1915   => '1371032',            # Naissance Saint-Yvi 3 E 339/36/8 (1915)
+	1916   => '1371033',            # Naissance Saint-Yvi 3 E 339/36/9 (1916)
+	1917   => '1371034',            # Naissance Saint-Yvi 3 E 339/36/10 (1917)
+	1918   => '1371035',            # Naissance Saint-Yvi 3 E 339/36/11 (1918)
+	1919   => '1371036',            # Naissance Saint-Yvi 3 E 339/36/12 (1919)
+	1920   => '1371037',            # Naissance Saint-Yvi 3 E 339/36/13 (1920)
+	1921   => '1371038',            # Naissance Saint-Yvi 3 E 339/36/14 (1921)
+    },
+
+    '3E339_0037' => {			# Naissance Saint-Yvi 3 E 339 37   1922-1925
+	1922   => '1371040',            # Naissance Saint-Yvi 3 E 339/37/1 (1922)
+	1923   => '1371041',            # Naissance Saint-Yvi 3 E 339/37/2 (1923)
+	1924   => '1371042',            # Naissance Saint-Yvi 3 E 339/37/3 (1924)
+	1925   => '1371043',            # Naissance Saint-Yvi 3 E 339/37/4 (1925)
+    },
+
+    '3E339_0038' => {			# Mariage Saint-Yvi 3 E 339 38   1904-1919
+	1904   => '1371176',            # Mariage Saint-Yvi 3 E 339/38/1 (1904)
+	1905   => '1371177',            # Mariage Saint-Yvi 3 E 339/38/2 (1905)
+	1906   => '1371178',            # Mariage Saint-Yvi 3 E 339/38/3 (1906)
+	1907   => '1371179',            # Mariage Saint-Yvi 3 E 339/38/4 (1907)
+	1908   => '1371180',            # Mariage Saint-Yvi 3 E 339/38/5 (1908)
+	1909   => '1371181',            # Mariage Saint-Yvi 3 E 339/38/6 (1909)
+	1910   => '1371182',            # Mariage Saint-Yvi 3 E 339/38/7 (1910)
+	1911   => '1371183',            # Mariage Saint-Yvi 3 E 339/38/8 (1911)
+	1912   => '1371184',            # Mariage Saint-Yvi 3 E 339/38/9 (1912)
+	1913   => '1371185',            # Mariage Saint-Yvi 3 E 339/38/10 (1913)
+	1914   => '1371186',            # Mariage Saint-Yvi 3 E 339/38/11 (1914)
+	1915   => '1371187',            # Mariage Saint-Yvi 3 E 339/38/12 (1915)
+	1916   => '1371188',            # Mariage Saint-Yvi 3 E 339/38/13 (1916)
+	1917   => '1371189',            # Mariage Saint-Yvi 3 E 339/38/14 (1917)
+	1918   => '1371190',            # Mariage Saint-Yvi 3 E 339/38/15 (1918)
+	1919   => '1371191',            # Mariage Saint-Yvi 3 E 339/38/16 (1919)
+    },
+
+    '3E339_0039' => {			# Mariage Saint-Yvi 3 E 339 39   1920-1925
+	1920   => '1371193',            # Mariage Saint-Yvi 3 E 339/39/1 (1920)
+	1921   => '1371194',            # Mariage Saint-Yvi 3 E 339/39/2 (1921)
+	1922   => '1371195',            # Mariage Saint-Yvi 3 E 339/39/3 (1922)
+	1923   => '1371196',            # Mariage Saint-Yvi 3 E 339/39/4 (1923)
+	1924   => '1371197',            # Mariage Saint-Yvi 3 E 339/39/5 (1924)
+	1925   => '1371198',            # Mariage Saint-Yvi 3 E 339/39/6 (1925)
+    },
+
+    '3E339_0040' => {			# Décès Saint-Yvi 3 E 339 40   1914-1936
+	1914   => '1371343',            # Décès Saint-Yvi 3 E 339/40/1 (1914)
+	1915   => '1371344',            # Décès Saint-Yvi 3 E 339/40/2 (1915)
+	1916   => '1371345',            # Décès Saint-Yvi 3 E 339/40/3 (1916)
+	1917   => '1371346',            # Décès Saint-Yvi 3 E 339/40/4 (1917)
+	1918   => '1371347',            # Décès Saint-Yvi 3 E 339/40/5 (1918)
+	1919   => '1371348',            # Décès Saint-Yvi 3 E 339/40/6 (1919)
+	1920   => '1371349',            # Décès Saint-Yvi 3 E 339/40/7 (1920)
+	1921   => '1371350',            # Décès Saint-Yvi 3 E 339/40/8 (1921)
+	1922   => '1371351',            # Décès Saint-Yvi 3 E 339/40/9 (1922)
+	1923   => '1371352',            # Décès Saint-Yvi 3 E 339/40/10 (1923)
+	1924   => '1371353',            # Décès Saint-Yvi 3 E 339/40/11 (1924)
+	1925   => '1371354',            # Décès Saint-Yvi 3 E 339/40/12 (1925)
+	1926   => '1371355',            # Décès Saint-Yvi 3 E 339/40/13 (1926)
+	1927   => '1371356',            # Décès Saint-Yvi 3 E 339/40/14 (1927)
+	1928   => '1371357',            # Décès Saint-Yvi 3 E 339/40/15 (1928)
+	1929   => '1371358',            # Décès Saint-Yvi 3 E 339/40/16 (1929)
+	1930   => '1371359',            # Décès Saint-Yvi 3 E 339/40/17 (1930)
+	1931   => '1371360',            # Décès Saint-Yvi 3 E 339/40/18 (1931)
+	1932   => '1371361',            # Décès Saint-Yvi 3 E 339/40/19 (1932)
+	1933   => '1371362',            # Décès Saint-Yvi 3 E 339/40/20 (1933)
+	1934   => '1371363',            # Décès Saint-Yvi 3 E 339/40/21 (1934)
+	1935   => '1371364',            # Décès Saint-Yvi 3 E 339/40/22 (1935)
+	1936   => '1371365',            # Décès Saint-Yvi 3 E 339/40/23 (1936)
     },
 
     # Scaër
