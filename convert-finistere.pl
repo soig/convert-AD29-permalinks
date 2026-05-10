@@ -67,6 +67,8 @@ my %convert = (
     '1261EDEPOT_008' => '1480038',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 8 (Mariages)
     '1261EDEPOT_007' => '1480037',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 7 (Naissances)
     '1261EDEPOT_004' => '645680.1480033',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E-dépôt 4 (Naissances, mariages)
+    '1270EDEPOT_003' => '1480813',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 3/1 (1793-an XI)
+    '1270EDEPOT_004' => '1480818',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 4/1 (Publications des bans (1793 -an IV). Mariages (1793-an III, an V-An XI))
 
     # Registre matricule:
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
@@ -9481,22 +9483,464 @@ my %convert = (
 	1929 => '1373306',
     },
 
+    # Tourc'h
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Tourch+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
-    '3E351_0010' => {			# Naissances Tourc'h 3 E 351 10	1870-1883
-	1870 => '1374392',		# Naissances Tourc'h 3 E 351/10/1	1870
-	1871 => '1374393',
-	1872 => '1374394',
-	1873 => '1374395',
-	1874 => '1374396',
-	1875 => '1374397',
-	1876 => '1374398',
-	1876 => '1374399',
-	1878 => '1374400',
-	1879 => '1374401',
-	1880 => '1374402',		# Naissances Tourc'h 3 E 351/10/11	1880
-	1881 =>	'1374403',		# Naissances Tourc'h 3 E 351/10/12	1881
-	1882 =>	'1374404',
-	1883 =>	'1374405',
+    '3E351_0003' => {			# Naissance Tourc'h 3 E 351 3   an II-1812
+	'AN02' => '1374309',            # Naissance Tourc'h 3 E 351/3/1 (an II)
+	'AN03' => '1374310',            # Naissance Tourc'h 3 E 351/3/2 (an III)
+	'AN04' => '1374311',            # Naissance Tourc'h 3 E 351/3/3 (an IV)
+	'AN05' => '1374312',            # Naissance Tourc'h 3 E 351/3/4 (an V)
+	'AN06' => '1374313',            # Naissance Tourc'h 3 E 351/3/5 (an VI)
+	'AN07' => '1374314',            # Naissance Tourc'h 3 E 351/3/6 (an VII)
+	'AN08' => '1374315',            # Naissance Tourc'h 3 E 351/3/7 (an VIII)
+	'AN09' => '1374316',            # Naissance Tourc'h 3 E 351/3/8 (an IX)
+	'AN10' => '1374317',            # Naissance Tourc'h 3 E 351/3/9 (an X)
+	'AN11' => '1374318',            # Naissance Tourc'h 3 E 351/3/10 (an XI)
+	'AN12' => '1374319',            # Naissance Tourc'h 3 E 351/3/11 (an XII)
+	'AN13' => '1374320',            # Naissance Tourc'h 3 E 351/3/12 (an XIII)
+	'AN14' => '1374321',            # Naissance Tourc'h 3 E 351/3/13 (an XIV - 1806)
+	1807   => '1374322',            # Naissance Tourc'h 3 E 351/3/14 (1807)
+	1808   => '1374323',            # Naissance Tourc'h 3 E 351/3/15 (1808)
+	1809   => '1374324',            # Naissance Tourc'h 3 E 351/3/16 (1809)
+	1810   => '1374325',            # Naissance Tourc'h 3 E 351/3/17 (1810)
+	1811   => '1374326',            # Naissance Tourc'h 3 E 351/3/18 (1811)
+	1812   => '1374327',            # Naissance Tourc'h 3 E 351/3/19 (1812)
+    },
+
+    '3E351_0005' => {			# Naissance Tourc'h 3 E 351 5   1823-1832
+	1823   => '1374340',            # Naissance Tourc'h 3 E 351/5/1 (1823)
+	1824   => '1374341',            # Naissance Tourc'h 3 E 351/5/2 (1824)
+	1825   => '1374342',            # Naissance Tourc'h 3 E 351/5/3 (1825)
+	1826   => '1374343',            # Naissance Tourc'h 3 E 351/5/4 (1826)
+	1827   => '1374344',            # Naissance Tourc'h 3 E 351/5/5 (1827)
+	1828   => '1374345',            # Naissance Tourc'h 3 E 351/5/6 (1828)
+	1829   => '1374346',            # Naissance Tourc'h 3 E 351/5/7 (1829)
+	1830   => '1374347',            # Naissance Tourc'h 3 E 351/5/8 (1830)
+	1831   => '1374348',            # Naissance Tourc'h 3 E 351/5/9 (1831)
+	1832   => '1374349',            # Naissance Tourc'h 3 E 351/5/10 (1832)
+    },
+
+    '3E351_0006' => {			# Naissance Tourc'h 3 E 351 6   1833-1842
+	1833   => '1374351',            # Naissance Tourc'h 3 E 351/6/1 (1833)
+	1834   => '1374352',            # Naissance Tourc'h 3 E 351/6/2 (1834)
+	1835   => '1374353',            # Naissance Tourc'h 3 E 351/6/3 (1835)
+	1836   => '1374354',            # Naissance Tourc'h 3 E 351/6/4 (1836)
+	1837   => '1374355',            # Naissance Tourc'h 3 E 351/6/5 (1837)
+	1838   => '1374356',            # Naissance Tourc'h 3 E 351/6/6 (1838)
+	1839   => '1374357',            # Naissance Tourc'h 3 E 351/6/7 (1839)
+	1840   => '1374358',            # Naissance Tourc'h 3 E 351/6/8 (1840)
+	1841   => '1374359',            # Naissance Tourc'h 3 E 351/6/9 (1841)
+	1842   => '1374360',            # Naissance Tourc'h 3 E 351/6/10 (1842)
+    },
+
+    '3E351_0007' => {			# Naissance Tourc'h 3 E 351 7   1843-1852
+	1843   => '1374362',            # Naissance Tourc'h 3 E 351/7/1 (1843)
+	1844   => '1374363',            # Naissance Tourc'h 3 E 351/7/2 (1844)
+	1845   => '1374364',            # Naissance Tourc'h 3 E 351/7/3 (1845)
+	1846   => '1374365',            # Naissance Tourc'h 3 E 351/7/4 (1846)
+	1847   => '1374366',            # Naissance Tourc'h 3 E 351/7/5 (1847)
+	1848   => '1374367',            # Naissance Tourc'h 3 E 351/7/6 (1848)
+	1849   => '1374368',            # Naissance Tourc'h 3 E 351/7/7 (1849)
+	1850   => '1374369',            # Naissance Tourc'h 3 E 351/7/8 (1850)
+	1851   => '1374370',            # Naissance Tourc'h 3 E 351/7/9 (1851)
+	1852   => '1374371',            # Naissance Tourc'h 3 E 351/7/10 (1852)
+    },
+
+    '3E351_0008' => {			# Naissance Tourc'h 3 E 351 8   1853-1862
+	1853   => '1374373',            # Naissance Tourc'h 3 E 351/8/1 (1853)
+	1854   => '1374374',            # Naissance Tourc'h 3 E 351/8/2 (1854)
+	1855   => '1374375',            # Naissance Tourc'h 3 E 351/8/3 (1855)
+	1856   => '1374376',            # Naissance Tourc'h 3 E 351/8/4 (1856)
+	1857   => '1374377',            # Naissance Tourc'h 3 E 351/8/5 (1857)
+	1858   => '1374378',            # Naissance Tourc'h 3 E 351/8/6 (1858)
+	1859   => '1374379',            # Naissance Tourc'h 3 E 351/8/7 (1859)
+	1860   => '1374380',            # Naissance Tourc'h 3 E 351/8/8 (1860)
+	1861   => '1374381',            # Naissance Tourc'h 3 E 351/8/9 (1861)
+	1862   => '1374382',            # Naissance Tourc'h 3 E 351/8/10 (1862)
+    },
+
+    '3E351_0009' => {			# Naissance Tourc'h 3 E 351 9   1863-1869
+	1863   => '1374384',            # Naissance Tourc'h 3 E 351/9/1 (1863)
+	1864   => '1374385',            # Naissance Tourc'h 3 E 351/9/2 (1864)
+	1865   => '1374386',            # Naissance Tourc'h 3 E 351/9/3 (1865)
+	1866   => '1374387',            # Naissance Tourc'h 3 E 351/9/4 (1866)
+	1867   => '1374388',            # Naissance Tourc'h 3 E 351/9/5 (1867)
+	1868   => '1374389',            # Naissance Tourc'h 3 E 351/9/6 (1868)
+	1869   => '1374390',            # Naissance Tourc'h 3 E 351/9/7 (1869)
+    },
+
+    '3E351_0010' => {			# Naissance Tourc'h 3 E 351 10   1870-1883
+	1870   => '1374392',            # Naissance Tourc'h 3 E 351/10/1 (1870)
+	1871   => '1374393',            # Naissance Tourc'h 3 E 351/10/2 (1871)
+	1872   => '1374394',            # Naissance Tourc'h 3 E 351/10/3 (1872)
+	1873   => '1374395',            # Naissance Tourc'h 3 E 351/10/4 (1873)
+	1874   => '1374396',            # Naissance Tourc'h 3 E 351/10/5 (1874)
+	1875   => '1374397',            # Naissance Tourc'h 3 E 351/10/6 (1875)
+	1876   => '1374398',            # Naissance Tourc'h 3 E 351/10/7 (1876)
+	1877   => '1374399',            # Naissance Tourc'h 3 E 351/10/8 (1877)
+	1878   => '1374400',            # Naissance Tourc'h 3 E 351/10/9 (1878)
+	1879   => '1374401',            # Naissance Tourc'h 3 E 351/10/10 (1879)
+	1880   => '1374402',            # Naissance Tourc'h 3 E 351/10/11 (1880)
+	1881   => '1374403',            # Naissance Tourc'h 3 E 351/10/12 (1881)
+	1882   => '1374404',            # Naissance Tourc'h 3 E 351/10/13 (1882)
+	1883   => '1374405',            # Naissance Tourc'h 3 E 351/10/14 (1883)
+    },
+
+    '3E351_0011' => {			# Mariage publication de mariage promesse de mariage Tourc'h 3 E 351 11   AN02-1793-an 11 (contient uniquement des publications de mariages)
+	'1793-an IV (contient uniquement des publications de mariages)' => '1374467',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/4 (1793-an IV (contient uniquement des publications de mariages))
+	'AN02' => '1374464',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/1 (1793 - an II)
+	'AN03' => '1374465',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/2 (an III)
+	'AN04' => '1374466',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/3 (an IV)
+	'AN05' => '1374468',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/5 (an V)
+	'AN06' => '1374469',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/6 (an VI (contient également des promesses de mariages))
+	'AN07' => '1374470',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/7 (an VII (contient également des promesses de mariages))
+	'AN08' => '1374471',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/8 (an VIII (contient également des promesses de mariages))
+	'AN09' => '1374472',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/9 (an IX)
+	'AN10' => '1374473',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/10 (an X)
+	'AN11' => '1374474',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/11 (an XI)
+    },
+
+    '3E351_0012' => {			# Mariage Tourc'h 3 E 351 12   1813-1822
+	1813   => '1374485',            # Mariage Tourc'h 3 E 351/12/1 (1813)
+	1814   => '1374486',            # Mariage Tourc'h 3 E 351/12/2 (1814)
+	1815   => '1374487',            # Mariage Tourc'h 3 E 351/12/3 (1815)
+	1816   => '1374488',            # Mariage Tourc'h 3 E 351/12/4 (1816)
+	1817   => '1374489',            # Mariage Tourc'h 3 E 351/12/5 (1817)
+	1818   => '1374490',            # Mariage Tourc'h 3 E 351/12/6 (1818)
+	1819   => '1374491',            # Mariage Tourc'h 3 E 351/12/7 (1819)
+	1820   => '1374492',            # Mariage Tourc'h 3 E 351/12/8 (1820)
+	1821   => '1374493',            # Mariage Tourc'h 3 E 351/12/9 (1821)
+	1822   => '1374494',            # Mariage Tourc'h 3 E 351/12/10 (1822)
+    },
+
+    '3E351_0013' => {			# Mariage Tourc'h 3 E 351 13   1823-1824
+	1823   => '1374496',            # Mariage Tourc'h 3 E 351/13/1 (1823)
+	1824   => '1374497',            # Mariage Tourc'h 3 E 351/13/2 (1824)
+    },
+
+    '3E351_0014' => {			# Mariage Tourc'h 3 E 351 14   1833-1842
+	1833   => '1374507',            # Mariage Tourc'h 3 E 351/14/1 (1833)
+	1834   => '1374508',            # Mariage Tourc'h 3 E 351/14/2 (1834)
+	1835   => '1374509',            # Mariage Tourc'h 3 E 351/14/3 (1835)
+	1836   => '1374510',            # Mariage Tourc'h 3 E 351/14/4 (1836)
+	1837   => '1374511',            # Mariage Tourc'h 3 E 351/14/5 (1837)
+	1838   => '1374512',            # Mariage Tourc'h 3 E 351/14/6 (1838)
+	1839   => '1374513',            # Mariage Tourc'h 3 E 351/14/7 (1839)
+	1840   => '1374514',            # Mariage Tourc'h 3 E 351/14/8 (1840)
+	1841   => '1374515',            # Mariage Tourc'h 3 E 351/14/9 (1841)
+	1842   => '1374516',            # Mariage Tourc'h 3 E 351/14/10 (1842)
+    },
+
+    '3E351_0015' => {			# Mariage Tourc'h 3 E 351 15   1843-1852
+	1843   => '1374518',            # Mariage Tourc'h 3 E 351/15/1 (1843)
+	1844   => '1374519',            # Mariage Tourc'h 3 E 351/15/2 (1844)
+	1845   => '1374520',            # Mariage Tourc'h 3 E 351/15/3 (1845)
+	1846   => '1374521',            # Mariage Tourc'h 3 E 351/15/4 (1846)
+	1847   => '1374522',            # Mariage Tourc'h 3 E 351/15/5 (1847)
+	1848   => '1374523',            # Mariage Tourc'h 3 E 351/15/6 (1848)
+	1849   => '1374524',            # Mariage Tourc'h 3 E 351/15/7 (1849)
+	1850   => '1374525',            # Mariage Tourc'h 3 E 351/15/8 (1850)
+	1851   => '1374526',            # Mariage Tourc'h 3 E 351/15/9 (1851)
+	1852   => '1374527',            # Mariage Tourc'h 3 E 351/15/10 (1852)
+    },
+
+    '3E351_0016' => {			# Mariage Tourc'h 3 E 351 16   1853-1862
+	1853   => '1374529',            # Mariage Tourc'h 3 E 351/16/1 (1853)
+	1854   => '1374530',            # Mariage Tourc'h 3 E 351/16/2 (1854)
+	1855   => '1374531',            # Mariage Tourc'h 3 E 351/16/3 (1855)
+	1856   => '1374532',            # Mariage Tourc'h 3 E 351/16/4 (1856)
+	1857   => '1374533',            # Mariage Tourc'h 3 E 351/16/5 (1857)
+	1858   => '1374534',            # Mariage Tourc'h 3 E 351/16/6 (1858)
+	1859   => '1374535',            # Mariage Tourc'h 3 E 351/16/7 (1859)
+	1860   => '1374536',            # Mariage Tourc'h 3 E 351/16/8 (1860)
+	1861   => '1374537',            # Mariage Tourc'h 3 E 351/16/9 (1861)
+	1862   => '1374538',            # Mariage Tourc'h 3 E 351/16/10 (1862)
+    },
+
+    '3E351_0017' => {			# Mariage Tourc'h 3 E 351 17   1863-1869
+	1863   => '1374540',            # Mariage Tourc'h 3 E 351/17/1 (1863)
+	1864   => '1374541',            # Mariage Tourc'h 3 E 351/17/2 (1864)
+	1865   => '1374542',            # Mariage Tourc'h 3 E 351/17/3 (1865)
+	1866   => '1374543',            # Mariage Tourc'h 3 E 351/17/4 (1866)
+	1867   => '1374544',            # Mariage Tourc'h 3 E 351/17/5 (1867)
+	1868   => '1374545',            # Mariage Tourc'h 3 E 351/17/6 (1868)
+	1869   => '1374546',            # Mariage Tourc'h 3 E 351/17/7 (1869)
+    },
+
+    '3E351_0018' => {			# Mariage Tourc'h 3 E 351 18   1870-1889
+	1870   => '1374548',            # Mariage Tourc'h 3 E 351/18/1 (1870)
+	1871   => '1374549',            # Mariage Tourc'h 3 E 351/18/2 (1871)
+	1872   => '1374550',            # Mariage Tourc'h 3 E 351/18/3 (1872)
+	1873   => '1374551',            # Mariage Tourc'h 3 E 351/18/4 (1873)
+	1874   => '1374552',            # Mariage Tourc'h 3 E 351/18/5 (1874)
+	1875   => '1374553',            # Mariage Tourc'h 3 E 351/18/6 (1875)
+	1876   => '1374554',            # Mariage Tourc'h 3 E 351/18/7 (1876)
+	1877   => '1374555',            # Mariage Tourc'h 3 E 351/18/8 (1877)
+	1878   => '1374556',            # Mariage Tourc'h 3 E 351/18/9 (1878)
+	1879   => '1374557',            # Mariage Tourc'h 3 E 351/18/10 (1879)
+	1880   => '1374558',            # Mariage Tourc'h 3 E 351/18/11 (1880)
+	1881   => '1374559',            # Mariage Tourc'h 3 E 351/18/12 (1881)
+	1882   => '1374560',            # Mariage Tourc'h 3 E 351/18/13 (1882)
+	1883   => '1374561',            # Mariage Tourc'h 3 E 351/18/14 (1883)
+	1884   => '1374562',            # Mariage Tourc'h 3 E 351/18/15 (1884)
+	1885   => '1374563',            # Mariage Tourc'h 3 E 351/18/16 (1885)
+	1888   => '1374566',            # Mariage Tourc'h 3 E 351/18/19 (1888)
+	1889   => '1374567',            # Mariage Tourc'h 3 E 351/18/20 (1889)
+    },
+
+    '3E351_0019' => {			# Décès Tourc'h 3 E 351 19   AN02-1812
+	'AN02' => '1374620',            # Décès Tourc'h 3 E 351/19/1 (1793 - an II)
+	'AN03' => '1374621',            # Décès Tourc'h 3 E 351/19/2 (an III)
+	'AN04' => '1374622',            # Décès Tourc'h 3 E 351/19/3 (an IV)
+	'AN05' => '1374623',            # Décès Tourc'h 3 E 351/19/4 (an V)
+	'AN06' => '1374624',            # Décès Tourc'h 3 E 351/19/5 (an VI)
+	'AN07' => '1374625',            # Décès Tourc'h 3 E 351/19/6 (an VII)
+	'AN08' => '1374626',            # Décès Tourc'h 3 E 351/19/7 (an VIII)
+	'AN09' => '1374627',            # Décès Tourc'h 3 E 351/19/8 (an IX)
+	'AN10' => '1374628',            # Décès Tourc'h 3 E 351/19/9 (an X)
+	'AN11' => '1374629',            # Décès Tourc'h 3 E 351/19/10 (an XI)
+	'AN12' => '1374630',            # Décès Tourc'h 3 E 351/19/11 (an XII)
+	'AN13' => '1374631',            # Décès Tourc'h 3 E 351/19/12 (an XIII)
+	'AN14' => '1374632',            # Décès Tourc'h 3 E 351/19/13 (an XIV - 1806)
+	1807   => '1374633',            # Décès Tourc'h 3 E 351/19/14 (1807)
+	1808   => '1374634',            # Décès Tourc'h 3 E 351/19/15 (1808)
+	1809   => '1374635',            # Décès Tourc'h 3 E 351/19/16 (1809)
+	1810   => '1374636',            # Décès Tourc'h 3 E 351/19/17 (1810)
+	1811   => '1374637',            # Décès Tourc'h 3 E 351/19/18 (1811)
+	1812   => '1374638',            # Décès Tourc'h 3 E 351/19/19 (1812)
+    },
+
+    '3E351_0021' => {			# Décès Tourc'h 3 E 351 21   1823-1832
+	1823   => '1374651',            # Décès Tourc'h 3 E 351/21/1 (1823)
+	1824   => '1374652',            # Décès Tourc'h 3 E 351/21/2 (1824)
+	1825   => '1374653',            # Décès Tourc'h 3 E 351/21/3 (1825)
+	1826   => '1374654',            # Décès Tourc'h 3 E 351/21/4 (1826)
+	1827   => '1374655',            # Décès Tourc'h 3 E 351/21/5 (1827)
+	1828   => '1374656',            # Décès Tourc'h 3 E 351/21/6 (1828)
+	1829   => '1374657',            # Décès Tourc'h 3 E 351/21/7 (1829)
+	1830   => '1374658',            # Décès Tourc'h 3 E 351/21/8 (1830)
+	1831   => '1374659',            # Décès Tourc'h 3 E 351/21/9 (1831)
+	1832   => '1374660',            # Décès Tourc'h 3 E 351/21/10 (1832)
+    },
+
+    '3E351_0022' => {			# Décès Tourc'h 3 E 351 22   1833-1842
+	1833   => '1374662',            # Décès Tourc'h 3 E 351/22/1 (1833)
+	1834   => '1374663',            # Décès Tourc'h 3 E 351/22/2 (1834)
+	1835   => '1374664',            # Décès Tourc'h 3 E 351/22/3 (1835)
+	1836   => '1374665',            # Décès Tourc'h 3 E 351/22/4 (1836)
+	1837   => '1374666',            # Décès Tourc'h 3 E 351/22/5 (1837)
+	1838   => '1374667',            # Décès Tourc'h 3 E 351/22/6 (1838)
+	1839   => '1374668',            # Décès Tourc'h 3 E 351/22/7 (1839)
+	1840   => '1374669',            # Décès Tourc'h 3 E 351/22/8 (1840)
+	1841   => '1374670',            # Décès Tourc'h 3 E 351/22/9 (1841)
+	1842   => '1374671',            # Décès Tourc'h 3 E 351/22/10 (1842)
+    },
+
+    '3E351_0023' => {			# Décès Tourc'h 3 E 351 23   1843-1852
+	1843   => '1374673',            # Décès Tourc'h 3 E 351/23/1 (1843)
+	1844   => '1374674',            # Décès Tourc'h 3 E 351/23/2 (1844)
+	1845   => '1374675',            # Décès Tourc'h 3 E 351/23/3 (1845)
+	1846   => '1374676',            # Décès Tourc'h 3 E 351/23/4 (1846)
+	1847   => '1374677',            # Décès Tourc'h 3 E 351/23/5 (1847)
+	1848   => '1374678',            # Décès Tourc'h 3 E 351/23/6 (1848)
+	1849   => '1374679',            # Décès Tourc'h 3 E 351/23/7 (1849)
+	1850   => '1374680',            # Décès Tourc'h 3 E 351/23/8 (1850)
+	1851   => '1374681',            # Décès Tourc'h 3 E 351/23/9 (1851)
+	1852   => '1374682',            # Décès Tourc'h 3 E 351/23/10 (1852)
+    },
+
+    '3E351_0024' => {			# Décès Tourc'h 3 E 351 24   1853-1862
+	1853   => '1374684',            # Décès Tourc'h 3 E 351/24/1 (1853)
+	1854   => '1374685',            # Décès Tourc'h 3 E 351/24/2 (1854)
+	1855   => '1374686',            # Décès Tourc'h 3 E 351/24/3 (1855)
+	1856   => '1374687',            # Décès Tourc'h 3 E 351/24/4 (1856)
+	1857   => '1374688',            # Décès Tourc'h 3 E 351/24/5 (1857)
+	1858   => '1374689',            # Décès Tourc'h 3 E 351/24/6 (1858)
+	1859   => '1374690',            # Décès Tourc'h 3 E 351/24/7 (1859)
+	1860   => '1374691',            # Décès Tourc'h 3 E 351/24/8 (1860)
+	1861   => '1374692',            # Décès Tourc'h 3 E 351/24/9 (1861)
+	1862   => '1374693',            # Décès Tourc'h 3 E 351/24/10 (1862)
+    },
+
+    '3E351_0025' => {			# Décès Tourc'h 3 E 351 25   1863-1869
+	1863   => '1374695',            # Décès Tourc'h 3 E 351/25/1 (1863)
+	1864   => '1374696',            # Décès Tourc'h 3 E 351/25/2 (1864)
+	1865   => '1374697',            # Décès Tourc'h 3 E 351/25/3 (1865)
+	1866   => '1374698',            # Décès Tourc'h 3 E 351/25/4 (1866)
+	1867   => '1374699',            # Décès Tourc'h 3 E 351/25/5 (1867)
+	1868   => '1374700',            # Décès Tourc'h 3 E 351/25/6 (1868)
+	1869   => '1374701',            # Décès Tourc'h 3 E 351/25/7 (1869)
+    },
+
+    '3E351_0026' => {			# Décès Tourc'h 3 E 351 26   1870-1889
+	1870   => '1374703',            # Décès Tourc'h 3 E 351/26/1 (1870)
+	1871   => '1374704',            # Décès Tourc'h 3 E 351/26/2 (1871)
+	1872   => '1374705',            # Décès Tourc'h 3 E 351/26/3 (1872)
+	1873   => '1374706',            # Décès Tourc'h 3 E 351/26/4 (1873)
+	1874   => '1374707',            # Décès Tourc'h 3 E 351/26/5 (1874)
+	1875   => '1374708',            # Décès Tourc'h 3 E 351/26/6 (1875)
+	1876   => '1374709',            # Décès Tourc'h 3 E 351/26/7 (1876)
+	1877   => '1374710',            # Décès Tourc'h 3 E 351/26/8 (1877)
+	1878   => '1374711',            # Décès Tourc'h 3 E 351/26/9 (1878)
+	1879   => '1374712',            # Décès Tourc'h 3 E 351/26/10 (1879)
+	1880   => '1374713',            # Décès Tourc'h 3 E 351/26/11 (1880)
+	1881   => '1374714',            # Décès Tourc'h 3 E 351/26/12 (1881)
+	1882   => '1374715',            # Décès Tourc'h 3 E 351/26/13 (1882)
+	1883   => '1374716',            # Décès Tourc'h 3 E 351/26/14 (1883)
+	1884   => '1374717',            # Décès Tourc'h 3 E 351/26/15 (1884)
+	1885   => '1374718',            # Décès Tourc'h 3 E 351/26/16 (1885)
+	1886   => '1374719',            # Décès Tourc'h 3 E 351/26/17 (1886)
+	1887   => '1374720',            # Décès Tourc'h 3 E 351/26/18 (1887)
+	1888   => '1374721',            # Décès Tourc'h 3 E 351/26/19 (1888)
+	1889   => '1374722',            # Décès Tourc'h 3 E 351/26/20 (1889)
+    },
+
+    '3E351_0027' => {			# Naissance Tourc'h 3 E 351 27   1884-1901
+	1884   => '1374407',            # Naissance Tourc'h 3 E 351/27/1 (1884)
+	1885   => '1374408',            # Naissance Tourc'h 3 E 351/27/2 (1885)
+	1886   => '1374409',            # Naissance Tourc'h 3 E 351/27/3 (1886)
+	1887   => '1374410',            # Naissance Tourc'h 3 E 351/27/4 (1887)
+	1888   => '1374411',            # Naissance Tourc'h 3 E 351/27/5 (1888)
+	1889   => '1374412',            # Naissance Tourc'h 3 E 351/27/6 (1889)
+	1890   => '1374413',            # Naissance Tourc'h 3 E 351/27/7 (1890)
+	1891   => '1374414',            # Naissance Tourc'h 3 E 351/27/8 (1891)
+	1892   => '1374415',            # Naissance Tourc'h 3 E 351/27/9 (1892)
+	1893   => '1374416',            # Naissance Tourc'h 3 E 351/27/10 (1893)
+	1894   => '1374417',            # Naissance Tourc'h 3 E 351/27/11 (1894)
+	1895   => '1374418',            # Naissance Tourc'h 3 E 351/27/12 (1895)
+	1896   => '1374419',            # Naissance Tourc'h 3 E 351/27/13 (1896)
+	1897   => '1374420',            # Naissance Tourc'h 3 E 351/27/14 (1897)
+	1898   => '1374421',            # Naissance Tourc'h 3 E 351/27/15 (1898)
+	1899   => '1374422',            # Naissance Tourc'h 3 E 351/27/16 (1899)
+	1900   => '1374423',            # Naissance Tourc'h 3 E 351/27/17 (1900)
+	1901   => '1374424',            # Naissance Tourc'h 3 E 351/27/18 (1901)
+    },
+
+    '3E351_0028' => {			# Mariage Tourc'h 3 E 351 28   1890-1908
+	1890   => '1374569',            # Mariage Tourc'h 3 E 351/28/1 (1890)
+	1891   => '1374570',            # Mariage Tourc'h 3 E 351/28/2 (1891)
+	1892   => '1374571',            # Mariage Tourc'h 3 E 351/28/3 (1892)
+	1893   => '1374572',            # Mariage Tourc'h 3 E 351/28/4 (1893)
+	1894   => '1374573',            # Mariage Tourc'h 3 E 351/28/5 (1894)
+	1895   => '1374574',            # Mariage Tourc'h 3 E 351/28/6 (1895)
+	1896   => '1374575',            # Mariage Tourc'h 3 E 351/28/7 (1896)
+	1897   => '1374576',            # Mariage Tourc'h 3 E 351/28/8 (1897)
+	1898   => '1374577',            # Mariage Tourc'h 3 E 351/28/9 (1898)
+	1899   => '1374578',            # Mariage Tourc'h 3 E 351/28/10 (1899)
+	1900   => '1374579',            # Mariage Tourc'h 3 E 351/28/11 (1900)
+	1901   => '1374580',            # Mariage Tourc'h 3 E 351/28/12 (1901)
+	1902   => '1374581',            # Mariage Tourc'h 3 E 351/28/13 (1902)
+	1904   => '1374583',            # Mariage Tourc'h 3 E 351/28/15 (1904)
+	1905   => '1374584',            # Mariage Tourc'h 3 E 351/28/16 (1905)
+	1906   => '1374585',            # Mariage Tourc'h 3 E 351/28/17 (1906)
+	1907   => '1374586',            # Mariage Tourc'h 3 E 351/28/18 (1907)
+	1908   => '1374587',            # Mariage Tourc'h 3 E 351/28/19 (1908)
+    },
+
+    '3E351_0029' => {			# Décès Tourc'h 3 E 351 29   1890-1913
+	1890   => '1374724',            # Décès Tourc'h 3 E 351/29/1 (1890)
+	1891   => '1374725',            # Décès Tourc'h 3 E 351/29/2 (1891)
+	1892   => '1374726',            # Décès Tourc'h 3 E 351/29/3 (1892)
+	1893   => '1374727',            # Décès Tourc'h 3 E 351/29/4 (1893)
+	1894   => '1374728',            # Décès Tourc'h 3 E 351/29/5 (1894)
+	1895   => '1374729',            # Décès Tourc'h 3 E 351/29/6 (1895)
+	1896   => '1374730',            # Décès Tourc'h 3 E 351/29/7 (1896)
+	1897   => '1374731',            # Décès Tourc'h 3 E 351/29/8 (1897)
+	1898   => '1374732',            # Décès Tourc'h 3 E 351/29/9 (1898)
+	1899   => '1374733',            # Décès Tourc'h 3 E 351/29/10 (1899)
+	1900   => '1374734',            # Décès Tourc'h 3 E 351/29/11 (1900)
+	1901   => '1374735',            # Décès Tourc'h 3 E 351/29/12 (1901)
+	1902   => '1374736',            # Décès Tourc'h 3 E 351/29/13 (1902)
+	1903   => '1374737',            # Décès Tourc'h 3 E 351/29/14 (1903)
+	1904   => '1374738',            # Décès Tourc'h 3 E 351/29/15 (1904)
+	1905   => '1374739',            # Décès Tourc'h 3 E 351/29/16 (1905)
+	1906   => '1374740',            # Décès Tourc'h 3 E 351/29/17 (1906)
+	1907   => '1374741',            # Décès Tourc'h 3 E 351/29/18 (1907)
+	1908   => '1374742',            # Décès Tourc'h 3 E 351/29/19 (1908)
+	1909   => '1374743',            # Décès Tourc'h 3 E 351/29/20 (1909)
+	1910   => '1374744',            # Décès Tourc'h 3 E 351/29/21 (1910)
+	1911   => '1374745',            # Décès Tourc'h 3 E 351/29/22 (1911)
+	1912   => '1374746',            # Décès Tourc'h 3 E 351/29/23 (1912)
+	1913   => '1374747',            # Décès Tourc'h 3 E 351/29/24 (1913)
+    },
+
+    '3E351_0030' => {			# Naissance Tourc'h 3 E 351 30   1902-1918
+	1902   => '1374426',            # Naissance Tourc'h 3 E 351/30/1 (1902)
+	1903   => '1374427',            # Naissance Tourc'h 3 E 351/30/2 (1903)
+	1904   => '1374428',            # Naissance Tourc'h 3 E 351/30/3 (1904)
+	1905   => '1374429',            # Naissance Tourc'h 3 E 351/30/4 (1905)
+	1906   => '1374430',            # Naissance Tourc'h 3 E 351/30/5 (1906)
+	1907   => '1374431',            # Naissance Tourc'h 3 E 351/30/6 (1907)
+	1908   => '1374432',            # Naissance Tourc'h 3 E 351/30/7 (1908)
+	1909   => '1374433',            # Naissance Tourc'h 3 E 351/30/8 (1909)
+	1910   => '1374434',            # Naissance Tourc'h 3 E 351/30/9 (1910)
+	1911   => '1374435',            # Naissance Tourc'h 3 E 351/30/10 (1911)
+	1912   => '1374436',            # Naissance Tourc'h 3 E 351/30/11 (1912)
+	1913   => '1374437',            # Naissance Tourc'h 3 E 351/30/12 (1913)
+	1914   => '1374438',            # Naissance Tourc'h 3 E 351/30/13 (1914)
+	1915   => '1374439',            # Naissance Tourc'h 3 E 351/30/14 (1915)
+	1916   => '1374440',            # Naissance Tourc'h 3 E 351/30/15 (1916)
+	1917   => '1374441',            # Naissance Tourc'h 3 E 351/30/16 (1917)
+	1918   => '1374442',            # Naissance Tourc'h 3 E 351/30/17 (1918)
+    },
+
+    '3E351_0031' => {			# Naissance Tourc'h 3 E 351 31   1919-1925
+	1919   => '1374444',            # Naissance Tourc'h 3 E 351/31/1 (1919)
+	1920   => '1374445',            # Naissance Tourc'h 3 E 351/31/2 (1920)
+	1921   => '1374446',            # Naissance Tourc'h 3 E 351/31/3 (1921)
+	1922   => '1374447',            # Naissance Tourc'h 3 E 351/31/4 (1922)
+	1923   => '1374448',            # Naissance Tourc'h 3 E 351/31/5 (1923)
+	1924   => '1374449',            # Naissance Tourc'h 3 E 351/31/6 (1924)
+	1925   => '1374450',            # Naissance Tourc'h 3 E 351/31/7 (1925)
+    },
+
+    '3E351_0032' => {			# Mariage Tourc'h 3 E 351 32   1909-1921
+	1909   => '1374589',            # Mariage Tourc'h 3 E 351/32/1 (1909)
+	1910   => '1374590',            # Mariage Tourc'h 3 E 351/32/2 (1910)
+	1911   => '1374591',            # Mariage Tourc'h 3 E 351/32/3 (1911)
+	1912   => '1374592',            # Mariage Tourc'h 3 E 351/32/4 (1912)
+	1913   => '1374593',            # Mariage Tourc'h 3 E 351/32/5 (1913)
+	1914   => '1374594',            # Mariage Tourc'h 3 E 351/32/6 (1914)
+	1915   => '1374595',            # Mariage Tourc'h 3 E 351/32/7 (1915)
+	1916   => '1374596',            # Mariage Tourc'h 3 E 351/32/8 (1916)
+	1917   => '1374597',            # Mariage Tourc'h 3 E 351/32/9 (1917)
+	1918   => '1374598',            # Mariage Tourc'h 3 E 351/32/10 (1918)
+	1919   => '1374599',            # Mariage Tourc'h 3 E 351/32/11 (1919)
+	1920   => '1374600',            # Mariage Tourc'h 3 E 351/32/12 (1920)
+	1921   => '1374601',            # Mariage Tourc'h 3 E 351/32/13 (1921)
+    },
+
+    '3E351_0033' => {			# Mariage Tourc'h 3 E 351 33   1922-1925
+	1922   => '1374603',            # Mariage Tourc'h 3 E 351/33/1 (1922)
+	1923   => '1374604',            # Mariage Tourc'h 3 E 351/33/2 (1923)
+	1924   => '1374605',            # Mariage Tourc'h 3 E 351/33/3 (1924)
+	1925   => '1374606',            # Mariage Tourc'h 3 E 351/33/4 (1925)
+    },
+
+    '3E351_0034' => {			# Décès Tourc'h 3 E 351 34   1914-1936
+	1914   => '1374749',            # Décès Tourc'h 3 E 351/34/1 (1914)
+	1915   => '1374750',            # Décès Tourc'h 3 E 351/34/2 (1915)
+	1916   => '1374751',            # Décès Tourc'h 3 E 351/34/3 (1916)
+	1917   => '1374752',            # Décès Tourc'h 3 E 351/34/4 (1917)
+	1918   => '1374753',            # Décès Tourc'h 3 E 351/34/5 (1918)
+	1919   => '1374754',            # Décès Tourc'h 3 E 351/34/6 (1919)
+	1920   => '1374755',            # Décès Tourc'h 3 E 351/34/7 (1920)
+	1921   => '1374756',            # Décès Tourc'h 3 E 351/34/8 (1921)
+	1922   => '1374757',            # Décès Tourc'h 3 E 351/34/9 (1922)
+	1923   => '1374758',            # Décès Tourc'h 3 E 351/34/10 (1923)
+	1924   => '1374759',            # Décès Tourc'h 3 E 351/34/11 (1924)
+	1925   => '1374760',            # Décès Tourc'h 3 E 351/34/12 (1925)
+	1926   => '1374761',            # Décès Tourc'h 3 E 351/34/13 (1926)
+	1927   => '1374762',            # Décès Tourc'h 3 E 351/34/14 (1927)
+	1928   => '1374763',            # Décès Tourc'h 3 E 351/34/15 (1928)
+	1929   => '1374764',            # Décès Tourc'h 3 E 351/34/16 (1929)
+	1930   => '1374765',            # Décès Tourc'h 3 E 351/34/17 (1930)
+	1931   => '1374766',            # Décès Tourc'h 3 E 351/34/18 (1931)
+	1932   => '1374767',            # Décès Tourc'h 3 E 351/34/19 (1932)
+	1933   => '1374768',            # Décès Tourc'h 3 E 351/34/20 (1933)
+	1934   => '1374769',            # Décès Tourc'h 3 E 351/34/21 (1934)
+	1935   => '1374770',            # Décès Tourc'h 3 E 351/34/22 (1935)
+	1936   => '1374771',            # Décès Tourc'h 3 E 351/34/23 (1936)
     },
 
     # Tables décennales :
