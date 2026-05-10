@@ -38,7 +38,7 @@ De plus, deux lots d'images ont souvent été agglomérés.
 Les registres qui m'intéressent étaient dans le 1er lot mais à tester d'anciens permaliens sur le 2e lot. Les liens sont probablement bons mais à vérifier.
 Dans tous les cas le numéro de vue est à corriger (par ex: la vue "187/201" devient "187/431")
 
-## Examples :
+## Exemples de nouvelle et d'ancienne adresses (différents cas que j'ai rencontré)
 
 Tables décennales de Quimperlé 1933-1972 :
 * Après : https://recherche.archives.finistere.fr/ark:/72506/1132985/img:FRAD029_5E_0241_006_03_000238
