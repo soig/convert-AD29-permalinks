@@ -53,6 +53,10 @@ my %convert = (
     '1024EDEPOT_031' => '1464990',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 31 (1844-1860.)
     '1024EDEPOT_032' => '1464991',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 32 (1861-1876.)
     '1024EDEPOT_033' => '1464992',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 33 (1877-1892.)
+    # Châteauneuf-du-Faou
+    '1027EDEPOT_012' => '1465024',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 12 (Sépultures)
+    '1027EDEPOT_003' => '644405.1465026',     # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance table des baptêmes table des naissances Châteauneuf-du-Faou 1027 E-dépôt 3 (Tables des baptêmes, tables des naissances, tables décennales)
+    '1027EDEPOT_013' => '1465028',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 13 (Tables décennales)
 
     # Registre matricule:
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
@@ -817,6 +821,201 @@ my %convert = (
 	1935   => '1275761',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/7 (1935)
 	1936   => '1275762',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/8 (1936)
     },
+
+    # Châteauneuf-du-Faou
+    '3E040_0011' => '652338.1276464',   # Naissance table des naissances table des mariages table des décès Châteauneuf-du-Faou 3 E 40 11 (1793-an X)
+    '3E040_0012' => '652339.1276465',   # Naissance Châteauneuf-du-Faou 3 E 40 12 (An XI-1812)
+    '3E040_0013' => '652340.1276466',   # Naissance Châteauneuf-du-Faou 3 E 40 13 (1813-1822)
+    '3E040_0014' => '652341.1276467',   # Naissance Châteauneuf-du-Faou 3 E 40 14 (1823-1832)
+    '3E040_0015' => '652342.1276468',   # Naissance Châteauneuf-du-Faou 3 E 40 15 (1833-1842)
+    '3E040_0016' => '652343.1276469',   # Naissance Châteauneuf-du-Faou 3 E 40 16 (1843-1852)
+    '3E040_0017' => '652344.1276470',   # Naissance Châteauneuf-du-Faou 3 E 40 17 (1853-1862)
+    '3E040_0018' => '652345.1276471',   # Naissance Châteauneuf-du-Faou 3 E 40 18 (1863-1869)
+    '3E040_0019' => '652346.1276472',   # Naissance Châteauneuf-du-Faou 3 E 40 19 (1870-1875)
+    '3E040_0020' => '652347.1276473',   # Naissance Châteauneuf-du-Faou 3 E 40 20 (1876-1882)
+    '3E040_0021' => '652348.1276474',   # Naissance Châteauneuf-du-Faou 3 E 40 21 (1883-1889)
+    '3E040_0022' => '652349.1276529',   # Mariage publication de mariage promesse de mariage Châteauneuf-du-Faou 3 E 40 22 (1793-an X)
+    '3E040_0023' => '652350.1276530',   # Mariage Châteauneuf-du-Faou 3 E 40 23 (An XI-1812)
+    '3E040_0024' => '652351.1276531',   # Mariage Châteauneuf-du-Faou 3 E 40 24 (1813-1822)
+    '3E040_0025' => '652352.1276532',   # Mariage Châteauneuf-du-Faou 3 E 40 25 (1823-1832)
+    '3E040_0026' => '652353.1276533',   # Mariage Châteauneuf-du-Faou 3 E 40 26 (1833-1842)
+    '3E040_0027' => '652354.1276534',   # Mariage Châteauneuf-du-Faou 3 E 40 27 (1843-1852)
+    '3E040_0028' => '652355.1276535',   # Mariage Châteauneuf-du-Faou 3 E 40 28 (1853-1862)
+    '3E040_0029' => '652356.1276536',   # Mariage Châteauneuf-du-Faou 3 E 40 29 (1863-1869)
+    '3E040_0030' => '652357.1276537',   # Mariage Châteauneuf-du-Faou 3 E 40 30 (1870-1879)
+    '3E040_0031' => '652358.1276538',   # Mariage Châteauneuf-du-Faou 3 E 40 31 (1880-1890)
+    '3E040_0032' => '652359.1276591',   # Décès Châteauneuf-du-Faou 3 E 40 32 (1793-an X)
+    '3E040_0033' => '652360.1276592',   # Décès Châteauneuf-du-Faou 3 E 40 33 (An XI-1812)
+    '3E040_0034' => '652361.1276593',   # Décès Châteauneuf-du-Faou 3 E 40 34 (1813-1822)
+    '3E040_0035' => '652362.1276594',   # Décès Châteauneuf-du-Faou 3 E 40 35 (1823-1832)
+    '3E040_0036' => '652363.1276595',   # Décès Châteauneuf-du-Faou 3 E 40 36 (1833-1842)
+    '3E040_0037' => '652364.1276596',   # Décès Châteauneuf-du-Faou 3 E 40 37 (1843-1852)
+    '3E040_0038' => '652365.1276597',   # Décès Châteauneuf-du-Faou 3 E 40 38 (1853-1862)
+    '3E040_0039' => '652366.1276598',   # Décès Châteauneuf-du-Faou 3 E 40 39 (1863-1869)
+    '3E040_0040' => '652367.1276599',   # Décès Châteauneuf-du-Faou 3 E 40 40 (1870-1877)
+    '3E040_0041' => '652368.1276600',   # Décès Châteauneuf-du-Faou 3 E 40 41 (1878-1887)
+    '3E040_0042' => {			# Naissance Châteauneuf-du-Faou 3 E 40 42   1890-1896
+	1890   => '1276476',            # Naissance Châteauneuf-du-Faou 3 E 40/42/1 (1890)
+	1891   => '1276477',            # Naissance Châteauneuf-du-Faou 3 E 40/42/2 (1891)
+	1892   => '1276478',            # Naissance Châteauneuf-du-Faou 3 E 40/42/3 (1892)
+	1893   => '1276479',            # Naissance Châteauneuf-du-Faou 3 E 40/42/4 (1893)
+	1894   => '1276480',            # Naissance Châteauneuf-du-Faou 3 E 40/42/5 (1894)
+	1895   => '1276481',            # Naissance Châteauneuf-du-Faou 3 E 40/42/6 (1895)
+	1896   => '1276482',            # Naissance Châteauneuf-du-Faou 3 E 40/42/7 (1896)
+    },
+
+    '3E040_0043' => {			# Mariage Châteauneuf-du-Faou 3 E 40 43   1891-1900
+	1891   => '1276540',            # Mariage Châteauneuf-du-Faou 3 E 40/43/1 (1891)
+	1892   => '1276541',            # Mariage Châteauneuf-du-Faou 3 E 40/43/2 (1892)
+	1893   => '1276542',            # Mariage Châteauneuf-du-Faou 3 E 40/43/3 (1893)
+	1894   => '1276543',            # Mariage Châteauneuf-du-Faou 3 E 40/43/4 (1894)
+	1895   => '1276544',            # Mariage Châteauneuf-du-Faou 3 E 40/43/5 (1895)
+	1896   => '1276545',            # Mariage Châteauneuf-du-Faou 3 E 40/43/6 (1896)
+	1897   => '1276546',            # Mariage Châteauneuf-du-Faou 3 E 40/43/7 (1897)
+	1898   => '1276547',            # Mariage Châteauneuf-du-Faou 3 E 40/43/8 (1898)
+	1899   => '1276548',            # Mariage Châteauneuf-du-Faou 3 E 40/43/9 (1899)
+	1900   => '1276549',            # Mariage Châteauneuf-du-Faou 3 E 40/43/10 (1900)
+    },
+
+    '3E040_0044' => {			# Décès Châteauneuf-du-Faou 3 E 40 44   1888-1897
+	1888   => '1276602',            # Décès Châteauneuf-du-Faou 3 E 40/44/1 (1888)
+	1889   => '1276603',            # Décès Châteauneuf-du-Faou 3 E 40/44/2 (1889)
+	1890   => '1276604',            # Décès Châteauneuf-du-Faou 3 E 40/44/3 (1890)
+	1891   => '1276605',            # Décès Châteauneuf-du-Faou 3 E 40/44/4 (1891)
+	1892   => '1276606',            # Décès Châteauneuf-du-Faou 3 E 40/44/5 (1892)
+	1893   => '1276607',            # Décès Châteauneuf-du-Faou 3 E 40/44/6 (1893)
+	1894   => '1276608',            # Décès Châteauneuf-du-Faou 3 E 40/44/7 (1894)
+	1895   => '1276609',            # Décès Châteauneuf-du-Faou 3 E 40/44/8 (1895)
+	1896   => '1276610',            # Décès Châteauneuf-du-Faou 3 E 40/44/9 (1896)
+	1897   => '1276611',            # Décès Châteauneuf-du-Faou 3 E 40/44/10 (1897)
+    },
+
+    '3E040_0045' => {			# Naissance Châteauneuf-du-Faou 3 E 40 45   1897-1903
+	1897   => '1276484',            # Naissance Châteauneuf-du-Faou 3 E 40/45/1 (1897)
+	1898   => '1276485',            # Naissance Châteauneuf-du-Faou 3 E 40/45/2 (1898)
+	1899   => '1276486',            # Naissance Châteauneuf-du-Faou 3 E 40/45/3 (1899)
+	1900   => '1276487',            # Naissance Châteauneuf-du-Faou 3 E 40/45/4 (1900)
+	1901   => '1276488',            # Naissance Châteauneuf-du-Faou 3 E 40/45/5 (1901)
+	1902   => '1276489',            # Naissance Châteauneuf-du-Faou 3 E 40/45/6 (1902)
+	1903   => '1276490',            # Naissance Châteauneuf-du-Faou 3 E 40/45/7 (1903)
+    },
+
+    '3E040_0046' => {			# Décès Châteauneuf-du-Faou 3 E 40 46   1898-1907
+	1898   => '1276613',            # Décès Châteauneuf-du-Faou 3 E 40/46/1 (1898)
+	1899   => '1276614',            # Décès Châteauneuf-du-Faou 3 E 40/46/2 (1899)
+	1900   => '1276615',            # Décès Châteauneuf-du-Faou 3 E 40/46/3 (1900)
+	1901   => '1276616',            # Décès Châteauneuf-du-Faou 3 E 40/46/4 (1901)
+	1902   => '1276617',            # Décès Châteauneuf-du-Faou 3 E 40/46/5 (1902)
+	1903   => '1276618',            # Décès Châteauneuf-du-Faou 3 E 40/46/6 (1903)
+	1904   => '1276619',            # Décès Châteauneuf-du-Faou 3 E 40/46/7 (1904)
+	1905   => '1276620',            # Décès Châteauneuf-du-Faou 3 E 40/46/8 (1905)
+	1906   => '1276621',            # Décès Châteauneuf-du-Faou 3 E 40/46/9 (1906)
+	1907   => '1276622',            # Décès Châteauneuf-du-Faou 3 E 40/46/10 (1907)
+    },
+
+    '3E040_0047' => {			# Mariage Châteauneuf-du-Faou 3 E 40 47   1901-1909
+	1901   => '1276551',            # Mariage Châteauneuf-du-Faou 3 E 40/47/1 (1901)
+	1902   => '1276552',            # Mariage Châteauneuf-du-Faou 3 E 40/47/2 (1902)
+	1903   => '1276553',            # Mariage Châteauneuf-du-Faou 3 E 40/47/3 (1903)
+	1904   => '1276554',            # Mariage Châteauneuf-du-Faou 3 E 40/47/4 (1904)
+	1905   => '1276555',            # Mariage Châteauneuf-du-Faou 3 E 40/47/5 (1905)
+	1906   => '1276556',            # Mariage Châteauneuf-du-Faou 3 E 40/47/6 (1906)
+	1907   => '1276557',            # Mariage Châteauneuf-du-Faou 3 E 40/47/7 (1907)
+	1908   => '1276558',            # Mariage Châteauneuf-du-Faou 3 E 40/47/8 (1908)
+	1909   => '1276559',            # Mariage Châteauneuf-du-Faou 3 E 40/47/9 (1909)
+    },
+
+    '3E040_0048' => {			# Naissance Châteauneuf-du-Faou 3 E 40 48   1904-1910
+	1904   => '1276492',            # Naissance Châteauneuf-du-Faou 3 E 40/48/1 (1904)
+	1905   => '1276493',            # Naissance Châteauneuf-du-Faou 3 E 40/48/2 (1905)
+	1906   => '1276494',            # Naissance Châteauneuf-du-Faou 3 E 40/48/3 (1906)
+	1907   => '1276495',            # Naissance Châteauneuf-du-Faou 3 E 40/48/4 (1907)
+	1908   => '1276496',            # Naissance Châteauneuf-du-Faou 3 E 40/48/5 (1908)
+	1909   => '1276497',            # Naissance Châteauneuf-du-Faou 3 E 40/48/6 (1909)
+	1910   => '1276498',            # Naissance Châteauneuf-du-Faou 3 E 40/48/7 (1910)
+    },
+
+    '3E040_0049' => {			# Naissance Châteauneuf-du-Faou 3 E 40 49   1911-1917
+	1911   => '1276500',            # Naissance Châteauneuf-du-Faou 3 E 40/49/1 (1911)
+	1912   => '1276501',            # Naissance Châteauneuf-du-Faou 3 E 40/49/2 (1912)
+	1913   => '1276502',            # Naissance Châteauneuf-du-Faou 3 E 40/49/3 (1913)
+	1914   => '1276503',            # Naissance Châteauneuf-du-Faou 3 E 40/49/4 (1914)
+	1915   => '1276504',            # Naissance Châteauneuf-du-Faou 3 E 40/49/5 (1915)
+	1916   => '1276505',            # Naissance Châteauneuf-du-Faou 3 E 40/49/6 (1916)
+	1917   => '1276506',            # Naissance Châteauneuf-du-Faou 3 E 40/49/7 (1917)
+    },
+
+    '3E040_0050' => {			# Naissance Châteauneuf-du-Faou 3 E 40 50   1918-1925
+	1918   => '1276508',            # Naissance Châteauneuf-du-Faou 3 E 40/50/1 (1918)
+	1919   => '1276509',            # Naissance Châteauneuf-du-Faou 3 E 40/50/2 (1919)
+	1920   => '1276510',            # Naissance Châteauneuf-du-Faou 3 E 40/50/3 (1920)
+	1921   => '1276511',            # Naissance Châteauneuf-du-Faou 3 E 40/50/4 (1921)
+	1922   => '1276512',            # Naissance Châteauneuf-du-Faou 3 E 40/50/5 (1922)
+	1923   => '1276513',            # Naissance Châteauneuf-du-Faou 3 E 40/50/6 (1923)
+	1924   => '1276514',            # Naissance Châteauneuf-du-Faou 3 E 40/50/7 (1924)
+	1925   => '1276515',            # Naissance Châteauneuf-du-Faou 3 E 40/50/8 (1925)
+    },
+
+    '3E040_0052' => {			# Mariage Châteauneuf-du-Faou 3 E 40 52   1910-1917
+	1910   => '1276561',            # Mariage Châteauneuf-du-Faou 3 E 40/52/1 (1910)
+	1911   => '1276562',            # Mariage Châteauneuf-du-Faou 3 E 40/52/2 (1911)
+	1912   => '1276563',            # Mariage Châteauneuf-du-Faou 3 E 40/52/3 (1912)
+	1913   => '1276564',            # Mariage Châteauneuf-du-Faou 3 E 40/52/4 (1913)
+	1914   => '1276565',            # Mariage Châteauneuf-du-Faou 3 E 40/52/5 (1914)
+	1915   => '1276566',            # Mariage Châteauneuf-du-Faou 3 E 40/52/6 (1915)
+	1916   => '1276567',            # Mariage Châteauneuf-du-Faou 3 E 40/52/7 (1916)
+	1917   => '1276568',            # Mariage Châteauneuf-du-Faou 3 E 40/52/8 (1917)
+    },
+
+    '3E040_0053' => {			# Mariage Châteauneuf-du-Faou 3 E 40 53   1918-1925
+	1918   => '1276570',            # Mariage Châteauneuf-du-Faou 3 E 40/53/1 (1918)
+	1919   => '1276571',            # Mariage Châteauneuf-du-Faou 3 E 40/53/2 (1919)
+	1920   => '1276572',            # Mariage Châteauneuf-du-Faou 3 E 40/53/3 (1920)
+	1921   => '1276573',            # Mariage Châteauneuf-du-Faou 3 E 40/53/4 (1921)
+	1922   => '1276574',            # Mariage Châteauneuf-du-Faou 3 E 40/53/5 (1922)
+	1923   => '1276575',            # Mariage Châteauneuf-du-Faou 3 E 40/53/6 (1923)
+	1924   => '1276576',            # Mariage Châteauneuf-du-Faou 3 E 40/53/7 (1924)
+	1925   => '1276577',            # Mariage Châteauneuf-du-Faou 3 E 40/53/8 (1925)
+    },
+
+    '3E040_0055' => {			# Décès Châteauneuf-du-Faou 3 E 40 55   1908-1917
+	1908   => '1276624',            # Décès Châteauneuf-du-Faou 3 E 40/55/1 (1908)
+	1909   => '1276625',            # Décès Châteauneuf-du-Faou 3 E 40/55/2 (1909)
+	1910   => '1276626',            # Décès Châteauneuf-du-Faou 3 E 40/55/3 (1910)
+	1911   => '1276627',            # Décès Châteauneuf-du-Faou 3 E 40/55/4 (1911)
+	1912   => '1276628',            # Décès Châteauneuf-du-Faou 3 E 40/55/5 (1912)
+	1913   => '1276629',            # Décès Châteauneuf-du-Faou 3 E 40/55/6 (1913)
+	1914   => '1276630',            # Décès Châteauneuf-du-Faou 3 E 40/55/7 (1914)
+	1915   => '1276631',            # Décès Châteauneuf-du-Faou 3 E 40/55/8 (1915)
+	1916   => '1276632',            # Décès Châteauneuf-du-Faou 3 E 40/55/9 (1916)
+	1917   => '1276633',            # Décès Châteauneuf-du-Faou 3 E 40/55/10 (1917)
+    },
+
+    '3E040_0056' => {			# Décès Châteauneuf-du-Faou 3 E 40 56   1918-1927
+	1918   => '1276635',            # Décès Châteauneuf-du-Faou 3 E 40/56/1 (1918)
+	1919   => '1276636',            # Décès Châteauneuf-du-Faou 3 E 40/56/2 (1919)
+	1920   => '1276637',            # Décès Châteauneuf-du-Faou 3 E 40/56/3 (1920)
+	1921   => '1276638',            # Décès Châteauneuf-du-Faou 3 E 40/56/4 (1921)
+	1922   => '1276639',            # Décès Châteauneuf-du-Faou 3 E 40/56/5 (1922)
+	1923   => '1276640',            # Décès Châteauneuf-du-Faou 3 E 40/56/6 (1923)
+	1924   => '1276641',            # Décès Châteauneuf-du-Faou 3 E 40/56/7 (1924)
+	1925   => '1276642',            # Décès Châteauneuf-du-Faou 3 E 40/56/8 (1925)
+	1926   => '1276643',            # Décès Châteauneuf-du-Faou 3 E 40/56/9 (1926)
+	1927   => '1276644',            # Décès Châteauneuf-du-Faou 3 E 40/56/10 (1927)
+    },
+
+    '3E040_0057' => {			# Décès Châteauneuf-du-Faou 3 E 40 57   1928-1936
+	1928   => '1276646',            # Décès Châteauneuf-du-Faou 3 E 40/57/1 (1928)
+	1929   => '1276647',            # Décès Châteauneuf-du-Faou 3 E 40/57/2 (1929)
+	1930   => '1276648',            # Décès Châteauneuf-du-Faou 3 E 40/57/3 (1930)
+	1931   => '1276649',            # Décès Châteauneuf-du-Faou 3 E 40/57/4 (1931)
+	1932   => '1276650',            # Décès Châteauneuf-du-Faou 3 E 40/57/5 (1932)
+	1933   => '1276651',            # Décès Châteauneuf-du-Faou 3 E 40/57/6 (1933)
+	1934   => '1276652',            # Décès Châteauneuf-du-Faou 3 E 40/57/7 (1934)
+	1935   => '1276653',            # Décès Châteauneuf-du-Faou 3 E 40/57/8 (1935)
+	1936   => '1276654',            # Décès Châteauneuf-du-Faou 3 E 40/57/9 (1936)
+    },
+
 
     # NMD Cleden-Poher
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Cléden-Poher%20(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[]=Naissance&type=etatcivil
