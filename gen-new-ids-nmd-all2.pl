@@ -13,6 +13,7 @@ use Scalar::Util qw(looks_like_number);
 
 my ($ville, $md5) = @ARGV;
 
+# MD5SUM comes from the "REch_commune_Md5=" when doing a request on https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?
 my %villes = (
     'Carhaix' => 'f9e985cbb1445d7e1f082868b76e19e9',
     'Cléden-Poher' => '5be72e6a952159ab5ea609ce32073fcc',
