@@ -1664,6 +1664,520 @@ my %convert = (
 	# years 1926-1936 never were online with old server
     },
 
+    # Kernével
+    '3E109_0006' => {			# Naissance Kernével 3 E 109 6   AN10-AN10
+	'AN02' => '1302796',            # Naissance Kernével 3 E 109/6/1 (1793 - an II)
+	'AN03' => '1302797',            # Naissance Kernével 3 E 109/6/2 (an III)
+	'AN04' => '1302798',            # Naissance Kernével 3 E 109/6/3 (an IV)
+	'AN05' => '1302799',            # Naissance Kernével 3 E 109/6/4 (an V)
+	'AN06' => '1302800',            # Naissance Kernével 3 E 109/6/5 (an VI)
+	'AN07' => '1302801',            # Naissance Kernével 3 E 109/6/6 (an VII)
+	'AN08' => '1302802',            # Naissance Kernével 3 E 109/6/7 (an VIII)
+	'AN09' => '1302803',            # Naissance Kernével 3 E 109/6/8 (an IX)
+	'AN10' => '1302804',            # Naissance Kernével 3 E 109/6/9 (an X)
+    },
+
+    '3E109_0007' => {			# Naissance Kernével 3 E 109 7   AN11-1812
+	'AN11' => '1302806',            # Naissance Kernével 3 E 109/7/1 (an XI)
+	'AN12' => '1302807',            # Naissance Kernével 3 E 109/7/2 (an XII)
+	'AN13' => '1302808',            # Naissance Kernével 3 E 109/7/3 (an XIII)
+	'AN14' => '1302809',            # Naissance Kernével 3 E 109/7/4 (an XIV - 1806)
+	1807   => '1302810',            # Naissance Kernével 3 E 109/7/5 (1807)
+	1808   => '1302811',            # Naissance Kernével 3 E 109/7/6 (1808)
+	1809   => '1302812',            # Naissance Kernével 3 E 109/7/7 (1809)
+	1810   => '1302813',            # Naissance Kernével 3 E 109/7/8 (1810)
+	1811   => '1302814',            # Naissance Kernével 3 E 109/7/9 (1811)
+	1812   => '1302815',            # Naissance Kernével 3 E 109/7/10 (1812)
+    },
+
+    '3E109_0008' => {			# Naissance Kernével 3 E 109 8   1813-1817
+	1813   => '1302817',            # Naissance Kernével 3 E 109/8/1 (1813)
+	1814   => '1302818',            # Naissance Kernével 3 E 109/8/2 (1814)
+	1815   => '1302819',            # Naissance Kernével 3 E 109/8/3 (1815)
+	1816   => '1302820',            # Naissance Kernével 3 E 109/8/4 (1816)
+	1817   => '1302821',            # Naissance Kernével 3 E 109/8/5 (1817)
+    },
+
+    '3E109_0009' => {			# Naissance Kernével 3 E 109 9   1823-1832
+	1823   => '1302828',            # Naissance Kernével 3 E 109/9/1 (1823)
+	1824   => '1302829',            # Naissance Kernével 3 E 109/9/2 (1824)
+	1825   => '1302830',            # Naissance Kernével 3 E 109/9/3 (1825)
+	1826   => '1302831',            # Naissance Kernével 3 E 109/9/4 (1826)
+	1827   => '1302832',            # Naissance Kernével 3 E 109/9/5 (1827)
+	1828   => '1302833',            # Naissance Kernével 3 E 109/9/6 (1828)
+	1829   => '1302834',            # Naissance Kernével 3 E 109/9/7 (1829)
+	1830   => '1302835',            # Naissance Kernével 3 E 109/9/8 (1830)
+	1831   => '1302836',            # Naissance Kernével 3 E 109/9/9 (1831)
+	1832   => '1302837',            # Naissance Kernével 3 E 109/9/10 (1832)
+    },
+
+    '3E109_0010' => {			# Naissance Kernével 3 E 109 10   1833-1842
+	1833   => '1302839',            # Naissance Kernével 3 E 109/10/1 (1833)
+	1834   => '1302840',            # Naissance Kernével 3 E 109/10/2 (1834)
+	1835   => '1302841',            # Naissance Kernével 3 E 109/10/3 (1835)
+	1836   => '1302842',            # Naissance Kernével 3 E 109/10/4 (1836)
+	1837   => '1302843',            # Naissance Kernével 3 E 109/10/5 (1837)
+	1838   => '1302844',            # Naissance Kernével 3 E 109/10/6 (1838)
+	1839   => '1302845',            # Naissance Kernével 3 E 109/10/7 (1839)
+	1840   => '1302846',            # Naissance Kernével 3 E 109/10/8 (1840)
+	1841   => '1302847',            # Naissance Kernével 3 E 109/10/9 (1841)
+	1842   => '1302848',            # Naissance Kernével 3 E 109/10/10 (1842)
+    },
+
+    '3E109_0011' => {			# Naissance Kernével 3 E 109 11   1843-1852
+	1843   => '1302850',            # Naissance Kernével 3 E 109/11/1 (1843)
+	1844   => '1302851',            # Naissance Kernével 3 E 109/11/2 (1844)
+	1845   => '1302852',            # Naissance Kernével 3 E 109/11/3 (1845)
+	1846   => '1302853',            # Naissance Kernével 3 E 109/11/4 (1846)
+	1847   => '1302854',            # Naissance Kernével 3 E 109/11/5 (1847)
+	1848   => '1302855',            # Naissance Kernével 3 E 109/11/6 (1848)
+	1849   => '1302856',            # Naissance Kernével 3 E 109/11/7 (1849)
+	1850   => '1302857',            # Naissance Kernével 3 E 109/11/8 (1850)
+	1851   => '1302858',            # Naissance Kernével 3 E 109/11/9 (1851)
+	1852   => '1302859',            # Naissance Kernével 3 E 109/11/10 (1852)
+    },
+
+    '3E109_0012' => {			# Naissance Kernével 3 E 109 12   1853-1862
+	1853   => '1302861',            # Naissance Kernével 3 E 109/12/1 (1853)
+	1854   => '1302862',            # Naissance Kernével 3 E 109/12/2 (1854)
+	1855   => '1302863',            # Naissance Kernével 3 E 109/12/3 (1855)
+	1856   => '1302864',            # Naissance Kernével 3 E 109/12/4 (1856)
+	1857   => '1302865',            # Naissance Kernével 3 E 109/12/5 (1857)
+	1858   => '1302866',            # Naissance Kernével 3 E 109/12/6 (1858)
+	1859   => '1302867',            # Naissance Kernével 3 E 109/12/7 (1859)
+	1860   => '1302868',            # Naissance Kernével 3 E 109/12/8 (1860)
+	1861   => '1302869',            # Naissance Kernével 3 E 109/12/9 (1861)
+	1862   => '1302870',            # Naissance Kernével 3 E 109/12/10 (1862)
+    },
+
+    '3E109_0013' => {			# Naissance Kernével 3 E 109 13   1863-1869
+	1863   => '1302872',            # Naissance Kernével 3 E 109/13/1 (1863)
+	1864   => '1302873',            # Naissance Kernével 3 E 109/13/2 (1864)
+	1865   => '1302874',            # Naissance Kernével 3 E 109/13/3 (1865)
+	1866   => '1302875',            # Naissance Kernével 3 E 109/13/4 (1866)
+	1867   => '1302876',            # Naissance Kernével 3 E 109/13/5 (1867)
+	1868   => '1302877',            # Naissance Kernével 3 E 109/13/6 (1868)
+	1869   => '1302878',            # Naissance Kernével 3 E 109/13/7 (1869)
+    },
+
+    '3E109_0014' => {			# Naissance Kernével 3 E 109 14   1870-1881
+	1870   => '1302880',            # Naissance Kernével 3 E 109/14/1 (1870)
+	1871   => '1302881',            # Naissance Kernével 3 E 109/14/2 (1871)
+	1872   => '1302882',            # Naissance Kernével 3 E 109/14/3 (1872)
+	1873   => '1302883',            # Naissance Kernével 3 E 109/14/4 (1873)
+	1874   => '1302884',            # Naissance Kernével 3 E 109/14/5 (1874)
+	1875   => '1302885',            # Naissance Kernével 3 E 109/14/6 (1875)
+	1876   => '1302886',            # Naissance Kernével 3 E 109/14/7 (1876)
+	1877   => '1302887',            # Naissance Kernével 3 E 109/14/8 (1877)
+	1878   => '1302888',            # Naissance Kernével 3 E 109/14/9 (1878)
+	1879   => '1302889',            # Naissance Kernével 3 E 109/14/10 (1879)
+	1880   => '1302890',            # Naissance Kernével 3 E 109/14/11 (1880)
+	1881   => '1302891',            # Naissance Kernével 3 E 109/14/12 (1881)
+    },
+
+    '3E109_0015' => {			# Naissance Kernével 3 E 109 15   1882-1890
+	1882   => '1302893',            # Naissance Kernével 3 E 109/15/1 (1882)
+	1883   => '1302894',            # Naissance Kernével 3 E 109/15/2 (1883)
+	1884   => '1302895',            # Naissance Kernével 3 E 109/15/3 (1884)
+	1885   => '1302896',            # Naissance Kernével 3 E 109/15/4 (1885)
+	1886   => '1302897',            # Naissance Kernével 3 E 109/15/5 (1886)
+	1887   => '1302898',            # Naissance Kernével 3 E 109/15/6 (1887)
+	1888   => '1302899',            # Naissance Kernével 3 E 109/15/7 (1888)
+	1889   => '1302900',            # Naissance Kernével 3 E 109/15/8 (1889)
+	1890   => '1302901',            # Naissance Kernével 3 E 109/15/9 (1890)
+    },
+
+    '3E109_0016' => {			# Mariage promesse de mariage Kernével 3 E 109 16   an VII-an VII
+	'AN02' => '1302955',            # Mariage promesse de mariage Kernével 3 E 109/16/1 (1793 - an II)
+	'AN03' => '1302956',            # Mariage promesse de mariage Kernével 3 E 109/16/2 (an III)
+	'AN04' => '1302957',            # Mariage promesse de mariage Kernével 3 E 109/16/3 (an IV)
+	'AN05' => '1302958',            # Mariage promesse de mariage Kernével 3 E 109/16/4 (an V)
+	'AN06' => '1302959',            # Mariage promesse de mariage Kernével 3 E 109/16/5 (an VI)
+	'AN07' => '1302960',            # Mariage promesse de mariage Kernével 3 E 109/16/6 (an VII)
+	'AN08' => '1302961',            # Mariage promesse de mariage Kernével 3 E 109/16/7 (an VIII)
+	'AN09' => '1302962',            # Mariage promesse de mariage Kernével 3 E 109/16/8 (an IX)
+	'AN10' => '1302963',            # Mariage promesse de mariage Kernével 3 E 109/16/9 (an X)
+    },
+
+    '3E109_0017' => {			# Mariage Kernével 3 E 109 17   AN12-1810
+	'AN11' => '1302965',            # Mariage Kernével 3 E 109/17/1 (an XI)
+	'AN12' => '1302966',            # Mariage Kernével 3 E 109/17/2 (an XII)
+	'AN13' => '1302967',            # Mariage Kernével 3 E 109/17/3 (an XIII)
+	'AN14' => '1302968',            # Mariage Kernével 3 E 109/17/4 (an XIV - 1806)
+	1807   => '1302969',            # Mariage Kernével 3 E 109/17/5 (1807)
+	1808   => '1302970',            # Mariage Kernével 3 E 109/17/6 (1808)
+	1809   => '1302971',            # Mariage Kernével 3 E 109/17/7 (1809)
+	1810   => '1302972',            # Mariage Kernével 3 E 109/17/8 (1810)
+    },
+
+    '3E109_0018' => {			# Mariage Kernével 3 E 109 18   1813-1823
+	1813   => '1302976',            # Mariage Kernével 3 E 109/18/1 (1813)
+	1814   => '1302977',            # Mariage Kernével 3 E 109/18/2 (1814)
+	1815   => '1302978',            # Mariage Kernével 3 E 109/18/3 (1815)
+	1816   => '1302979',            # Mariage Kernével 3 E 109/18/4 (1816)
+	1817   => '1302980',            # Mariage Kernével 3 E 109/18/5 (1817)
+	1818   => '1302981',            # Mariage Kernével 3 E 109/18/6 (1818)
+	1819   => '1302982',            # Mariage Kernével 3 E 109/18/7 (1819)
+	1820   => '1302983',            # Mariage Kernével 3 E 109/18/8 (1820)
+	1821   => '1302984',            # Mariage Kernével 3 E 109/18/9 (1821)
+	1822   => '1302985',            # Mariage Kernével 3 E 109/18/10 (1822)
+	1823   => '1302986',            # Mariage Kernével 3 E 109/18/11 (1823)
+    },
+
+    '3E109_0019' => {			# Mariage Kernével 3 E 109 19   1824-1829
+	1824   => '1302988',            # Mariage Kernével 3 E 109/19/1 (1824)
+	1825   => '1302989',            # Mariage Kernével 3 E 109/19/2 (1825)
+	1826   => '1302990',            # Mariage Kernével 3 E 109/19/3 (1826)
+	1827   => '1302991',            # Mariage Kernével 3 E 109/19/4 (1827)
+	1828   => '1302992',            # Mariage Kernével 3 E 109/19/5 (1828)
+	1829   => '1302993',            # Mariage Kernével 3 E 109/19/6 (1829)
+    },
+
+    '3E109_0020' => {			# Mariage Kernével 3 E 109 20   1833-1842
+	1833   => '1302998',            # Mariage Kernével 3 E 109/20/1 (1833)
+	1834   => '1302999',            # Mariage Kernével 3 E 109/20/2 (1834)
+	1835   => '1303000',            # Mariage Kernével 3 E 109/20/3 (1835)
+	1836   => '1303001',            # Mariage Kernével 3 E 109/20/4 (1836)
+	1837   => '1303002',            # Mariage Kernével 3 E 109/20/5 (1837)
+	1838   => '1303003',            # Mariage Kernével 3 E 109/20/6 (1838)
+	1839   => '1303004',            # Mariage Kernével 3 E 109/20/7 (1839)
+	1840   => '1303005',            # Mariage Kernével 3 E 109/20/8 (1840)
+	1841   => '1303006',            # Mariage Kernével 3 E 109/20/9 (1841)
+	1842   => '1303007',            # Mariage Kernével 3 E 109/20/10 (1842)
+    },
+
+    '3E109_0021' => {			# Mariage Kernével 3 E 109 21   1843-1852
+	1843   => '1303009',            # Mariage Kernével 3 E 109/21/1 (1843)
+	1844   => '1303010',            # Mariage Kernével 3 E 109/21/2 (1844)
+	1845   => '1303011',            # Mariage Kernével 3 E 109/21/3 (1845)
+	1846   => '1303012',            # Mariage Kernével 3 E 109/21/4 (1846)
+	1847   => '1303013',            # Mariage Kernével 3 E 109/21/5 (1847)
+	1848   => '1303014',            # Mariage Kernével 3 E 109/21/6 (1848)
+	1849   => '1303015',            # Mariage Kernével 3 E 109/21/7 (1849)
+	1850   => '1303016',            # Mariage Kernével 3 E 109/21/8 (1850)
+	1851   => '1303017',            # Mariage Kernével 3 E 109/21/9 (1851)
+	1852   => '1303018',            # Mariage Kernével 3 E 109/21/10 (1852)
+    },
+
+    '3E109_0022' => {			# Mariage Kernével 3 E 109 22   1853-1862
+	1853   => '1303020',            # Mariage Kernével 3 E 109/22/1 (1853)
+	1854   => '1303021',            # Mariage Kernével 3 E 109/22/2 (1854)
+	1855   => '1303022',            # Mariage Kernével 3 E 109/22/3 (1855)
+	1856   => '1303023',            # Mariage Kernével 3 E 109/22/4 (1856)
+	1857   => '1303024',            # Mariage Kernével 3 E 109/22/5 (1857)
+	1858   => '1303025',            # Mariage Kernével 3 E 109/22/6 (1858)
+	1859   => '1303026',            # Mariage Kernével 3 E 109/22/7 (1859)
+	1860   => '1303027',            # Mariage Kernével 3 E 109/22/8 (1860)
+	1861   => '1303028',            # Mariage Kernével 3 E 109/22/9 (1861)
+	1862   => '1303029',            # Mariage Kernével 3 E 109/22/10 (1862)
+    },
+
+    '3E109_0023' => {			# Mariage Kernével 3 E 109 23   1863-1869
+	1863   => '1303031',            # Mariage Kernével 3 E 109/23/1 (1863)
+	1864   => '1303032',            # Mariage Kernével 3 E 109/23/2 (1864)
+	1865   => '1303033',            # Mariage Kernével 3 E 109/23/3 (1865)
+	1866   => '1303034',            # Mariage Kernével 3 E 109/23/4 (1866)
+	1867   => '1303035',            # Mariage Kernével 3 E 109/23/5 (1867)
+	1868   => '1303036',            # Mariage Kernével 3 E 109/23/6 (1868)
+	1869   => '1303037',            # Mariage Kernével 3 E 109/23/7 (1869)
+    },
+
+    '3E109_0024' => {			# Mariage Kernével 3 E 109 24   1870-1884
+	1870   => '1303039',            # Mariage Kernével 3 E 109/24/1 (1870)
+	1871   => '1303040',            # Mariage Kernével 3 E 109/24/2 (1871)
+	1872   => '1303041',            # Mariage Kernével 3 E 109/24/3 (1872)
+	1873   => '1303042',            # Mariage Kernével 3 E 109/24/4 (1873)
+	1874   => '1303043',            # Mariage Kernével 3 E 109/24/5 (1874)
+	1875   => '1303044',            # Mariage Kernével 3 E 109/24/6 (1875)
+	1876   => '1303045',            # Mariage Kernével 3 E 109/24/7 (1876)
+	1877   => '1303046',            # Mariage Kernével 3 E 109/24/8 (1877)
+	1878   => '1303047',            # Mariage Kernével 3 E 109/24/9 (1878)
+	1879   => '1303048',            # Mariage Kernével 3 E 109/24/10 (1879)
+	1880   => '1303049',            # Mariage Kernével 3 E 109/24/11 (1880)
+	1881   => '1303050',            # Mariage Kernével 3 E 109/24/12 (1881)
+	1882   => '1303051',            # Mariage Kernével 3 E 109/24/13 (1882)
+	1883   => '1303052',            # Mariage Kernével 3 E 109/24/14 (1883)
+	1884   => '1303053',            # Mariage Kernével 3 E 109/24/15 (1884)
+    },
+
+    '3E109_0025' => {			# Décès Kernével 3 E 109 25   AN07-AN07
+	'AN02' => '1303123',            # Décès Kernével 3 E 109/25/1 (1793 - an II)
+	'AN03' => '1303124',            # Décès Kernével 3 E 109/25/2 (an III)
+	'AN04' => '1303125',            # Décès Kernével 3 E 109/25/3 (an IV)
+	'AN05' => '1303126',            # Décès Kernével 3 E 109/25/4 (an V)
+	'AN06' => '1303127',            # Décès Kernével 3 E 109/25/5 (an VI)
+	'AN07' => '1303128',            # Décès Kernével 3 E 109/25/6 (an VII)
+	'AN08' => '1303129',            # Décès Kernével 3 E 109/25/7 (an VIII)
+	'AN09' => '1303130',            # Décès Kernével 3 E 109/25/8 (an IX)
+	'AN10' => '1303131',            # Décès Kernével 3 E 109/25/9 (an X)
+    },
+
+    '3E109_0026' => {			# Décès Kernével 3 E 109 26   AN11-1812
+	'AN11' => '1303133',            # Décès Kernével 3 E 109/26/1 (an XI)
+	'AN12' => '1303134',            # Décès Kernével 3 E 109/26/2 (an XII)
+	'AN13' => '1303135',            # Décès Kernével 3 E 109/26/3 (an XIII)
+	'AN14' => '1303136',            # Décès Kernével 3 E 109/26/4 (an XIV - 1806)
+	1807   => '1303137',            # Décès Kernével 3 E 109/26/5 (1807)
+	1808   => '1303138',            # Décès Kernével 3 E 109/26/6 (1808)
+	1809   => '1303139',            # Décès Kernével 3 E 109/26/7 (1809)
+	1810   => '1303140',            # Décès Kernével 3 E 109/26/8 (1810)
+	1811   => '1303141',            # Décès Kernével 3 E 109/26/9 (1811)
+	1812   => '1303142',            # Décès Kernével 3 E 109/26/10 (1812)
+    },
+
+    '3E109_0027' => {			# Décès Kernével 3 E 109 27   1813-1817
+	1813   => '1303144',            # Décès Kernével 3 E 109/27/1 (1813)
+	1814   => '1303145',            # Décès Kernével 3 E 109/27/2 (1814)
+	1815   => '1303146',            # Décès Kernével 3 E 109/27/3 (1815)
+	1816   => '1303147',            # Décès Kernével 3 E 109/27/4 (1816)
+	1817   => '1303148',            # Décès Kernével 3 E 109/27/5 (1817)
+    },
+
+    '3E109_0028' => {			# Décès Kernével 3 E 109 28   1823-1832
+	1823   => '1303155',            # Décès Kernével 3 E 109/28/1 (1823)
+	1824   => '1303156',            # Décès Kernével 3 E 109/28/2 (1824)
+	1825   => '1303157',            # Décès Kernével 3 E 109/28/3 (1825)
+	1826   => '1303158',            # Décès Kernével 3 E 109/28/4 (1826)
+	1827   => '1303159',            # Décès Kernével 3 E 109/28/5 (1827)
+	1828   => '1303160',            # Décès Kernével 3 E 109/28/6 (1828)
+	1829   => '1303161',            # Décès Kernével 3 E 109/28/7 (1829)
+	1830   => '1303162',            # Décès Kernével 3 E 109/28/8 (1830)
+	1831   => '1303163',            # Décès Kernével 3 E 109/28/9 (1831)
+	1832   => '1303164',            # Décès Kernével 3 E 109/28/10 (1832)
+    },
+
+    '3E109_0029' => {			# Décès Kernével 3 E 109 29   1833-1842
+	1833   => '1303166',            # Décès Kernével 3 E 109/29/1 (1833)
+	1834   => '1303167',            # Décès Kernével 3 E 109/29/2 (1834)
+	1835   => '1303168',            # Décès Kernével 3 E 109/29/3 (1835)
+	1836   => '1303169',            # Décès Kernével 3 E 109/29/4 (1836)
+	1837   => '1303170',            # Décès Kernével 3 E 109/29/5 (1837)
+	1838   => '1303171',            # Décès Kernével 3 E 109/29/6 (1838)
+	1839   => '1303172',            # Décès Kernével 3 E 109/29/7 (1839)
+	1840   => '1303173',            # Décès Kernével 3 E 109/29/8 (1840)
+	1841   => '1303174',            # Décès Kernével 3 E 109/29/9 (1841)
+	1842   => '1303175',            # Décès Kernével 3 E 109/29/10 (1842)
+    },
+
+    '3E109_0030' => {			# Décès Kernével 3 E 109 30   1843-1852
+	1843   => '1303177',            # Décès Kernével 3 E 109/30/1 (1843)
+	1844   => '1303178',            # Décès Kernével 3 E 109/30/2 (1844)
+	1845   => '1303179',            # Décès Kernével 3 E 109/30/3 (1845)
+	1846   => '1303180',            # Décès Kernével 3 E 109/30/4 (1846)
+	1847   => '1303181',            # Décès Kernével 3 E 109/30/5 (1847)
+	1848   => '1303182',            # Décès Kernével 3 E 109/30/6 (1848)
+	1849   => '1303183',            # Décès Kernével 3 E 109/30/7 (1849)
+	1850   => '1303184',            # Décès Kernével 3 E 109/30/8 (1850)
+	1851   => '1303185',            # Décès Kernével 3 E 109/30/9 (1851)
+	1852   => '1303186',            # Décès Kernével 3 E 109/30/10 (1852)
+    },
+
+    '3E109_0031' => {			# Décès Kernével 3 E 109 31   1853-1862
+	1853   => '1303188',            # Décès Kernével 3 E 109/31/1 (1853)
+	1854   => '1303189',            # Décès Kernével 3 E 109/31/2 (1854)
+	1855   => '1303190',            # Décès Kernével 3 E 109/31/3 (1855)
+	1856   => '1303191',            # Décès Kernével 3 E 109/31/4 (1856)
+	1857   => '1303192',            # Décès Kernével 3 E 109/31/5 (1857)
+	1858   => '1303193',            # Décès Kernével 3 E 109/31/6 (1858)
+	1859   => '1303194',            # Décès Kernével 3 E 109/31/7 (1859)
+	1860   => '1303195',            # Décès Kernével 3 E 109/31/8 (1860)
+	1861   => '1303196',            # Décès Kernével 3 E 109/31/9 (1861)
+	1862   => '1303197',            # Décès Kernével 3 E 109/31/10 (1862)
+    },
+
+    '3E109_0032' => {			# Décès Kernével 3 E 109 32   1863-1869
+	1863   => '1303199',            # Décès Kernével 3 E 109/32/1 (1863)
+	1864   => '1303200',            # Décès Kernével 3 E 109/32/2 (1864)
+	1865   => '1303201',            # Décès Kernével 3 E 109/32/3 (1865)
+	1866   => '1303202',            # Décès Kernével 3 E 109/32/4 (1866)
+	1867   => '1303203',            # Décès Kernével 3 E 109/32/5 (1867)
+	1868   => '1303204',            # Décès Kernével 3 E 109/32/6 (1868)
+	1869   => '1303205',            # Décès Kernével 3 E 109/32/7 (1869)
+    },
+
+    '3E109_0033' => {			# Décès Kernével 3 E 109 33   1870-1880
+	1870   => '1303207',            # Décès Kernével 3 E 109/33/1 (1870)
+	1871   => '1303208',            # Décès Kernével 3 E 109/33/2 (1871)
+	1872   => '1303209',            # Décès Kernével 3 E 109/33/3 (1872)
+	1873   => '1303210',            # Décès Kernével 3 E 109/33/4 (1873)
+	1874   => '1303211',            # Décès Kernével 3 E 109/33/5 (1874)
+	1875   => '1303212',            # Décès Kernével 3 E 109/33/6 (1875)
+	1876   => '1303213',            # Décès Kernével 3 E 109/33/7 (1876)
+	1877   => '1303214',            # Décès Kernével 3 E 109/33/8 (1877)
+	1878   => '1303215',            # Décès Kernével 3 E 109/33/9 (1878)
+	1879   => '1303216',            # Décès Kernével 3 E 109/33/10 (1879)
+	1880   => '1303217',            # Décès Kernével 3 E 109/33/11 (1880)
+    },
+
+    '3E109_0034' => {			# Décès Kernével 3 E 109 34   1881-1893
+	1881   => '1303219',            # Décès Kernével 3 E 109/34/1 (1881)
+	1882   => '1303220',            # Décès Kernével 3 E 109/34/2 (1882)
+	1883   => '1303221',            # Décès Kernével 3 E 109/34/3 (1883)
+	1884   => '1303222',            # Décès Kernével 3 E 109/34/4 (1884)
+	1885   => '1303223',            # Décès Kernével 3 E 109/34/5 (1885)
+	1886   => '1303224',            # Décès Kernével 3 E 109/34/6 (1886)
+	1887   => '1303225',            # Décès Kernével 3 E 109/34/7 (1887)
+	1888   => '1303226',            # Décès Kernével 3 E 109/34/8 (1888)
+	1889   => '1303227',            # Décès Kernével 3 E 109/34/9 (1889)
+	1890   => '1303228',            # Décès Kernével 3 E 109/34/10 (1890)
+	1891   => '1303229',            # Décès Kernével 3 E 109/34/11 (1891)
+	1892   => '1303230',            # Décès Kernével 3 E 109/34/12 (1892)
+	1893   => '1303231',            # Décès Kernével 3 E 109/34/13 (1893)
+    },
+
+    '3E109_0035' => {			# Naissance Kernével 3 E 109 35   1891-1900
+	1891   => '1302903',            # Naissance Kernével 3 E 109/35/1 (1891)
+	1892   => '1302904',            # Naissance Kernével 3 E 109/35/2 (1892)
+	1893   => '1302905',            # Naissance Kernével 3 E 109/35/3 (1893)
+	1894   => '1302906',            # Naissance Kernével 3 E 109/35/4 (1894)
+	1895   => '1302907',            # Naissance Kernével 3 E 109/35/5 (1895)
+	1896   => '1302908',            # Naissance Kernével 3 E 109/35/6 (1896)
+	1897   => '1302909',            # Naissance Kernével 3 E 109/35/7 (1897)
+	1898   => '1302910',            # Naissance Kernével 3 E 109/35/8 (1898)
+	1899   => '1302911',            # Naissance Kernével 3 E 109/35/9 (1899)
+	1900   => '1302912',            # Naissance Kernével 3 E 109/35/10 (1900)
+    },
+
+    '3E109_0036' => {			# Mariage Kernével 3 E 109 36   1885-1897
+	1885   => '1303055',            # Mariage Kernével 3 E 109/36/1 (1885)
+	1886   => '1303056',            # Mariage Kernével 3 E 109/36/2 (1886)
+	1887   => '1303057',            # Mariage Kernével 3 E 109/36/3 (1887)
+	1888   => '1303058',            # Mariage Kernével 3 E 109/36/4 (1888)
+	1889   => '1303059',            # Mariage Kernével 3 E 109/36/5 (1889)
+	1890   => '1303060',            # Mariage Kernével 3 E 109/36/6 (1890)
+	1891   => '1303061',            # Mariage Kernével 3 E 109/36/7 (1891)
+	1892   => '1303062',            # Mariage Kernével 3 E 109/36/8 (1892)
+	1893   => '1303063',            # Mariage Kernével 3 E 109/36/9 (1893)
+	1894   => '1303064',            # Mariage Kernével 3 E 109/36/10 (1894)
+	1895   => '1303065',            # Mariage Kernével 3 E 109/36/11 (1895)
+	1896   => '1303066',            # Mariage Kernével 3 E 109/36/12 (1896)
+	1897   => '1303067',            # Mariage Kernével 3 E 109/36/13 (1897)
+    },
+
+    '3E109_0037' => {			# Décès Kernével 3 E 109 37   1894-1907
+	1894   => '1303233',            # Décès Kernével 3 E 109/37/1 (1894)
+	1895   => '1303234',            # Décès Kernével 3 E 109/37/2 (1895)
+	1896   => '1303235',            # Décès Kernével 3 E 109/37/3 (1896)
+	1897   => '1303236',            # Décès Kernével 3 E 109/37/4 (1897)
+	1898   => '1303237',            # Décès Kernével 3 E 109/37/5 (1898)
+	1899   => '1303238',            # Décès Kernével 3 E 109/37/6 (1899)
+	1900   => '1303239',            # Décès Kernével 3 E 109/37/7 (1900)
+	1901   => '1303240',            # Décès Kernével 3 E 109/37/8 (1901)
+	1902   => '1303241',            # Décès Kernével 3 E 109/37/9 (1902)
+	1903   => '1303242',            # Décès Kernével 3 E 109/37/10 (1903)
+	1904   => '1303243',            # Décès Kernével 3 E 109/37/11 (1904)
+	1905   => '1303244',            # Décès Kernével 3 E 109/37/12 (1905)
+	1906   => '1303245',            # Décès Kernével 3 E 109/37/13 (1906)
+	1907   => '1303246',            # Décès Kernével 3 E 109/37/14 (1907)
+    },
+
+    '3E109_0038' => {			# Mariage Kernével 3 E 109 38   1898-1908
+	1898   => '1303069',            # Mariage Kernével 3 E 109/38/1 (1898)
+	1899   => '1303070',            # Mariage Kernével 3 E 109/38/2 (1899)
+	1900   => '1303071',            # Mariage Kernével 3 E 109/38/3 (1900)
+	1901   => '1303072',            # Mariage Kernével 3 E 109/38/4 (1901)
+	1902   => '1303073',            # Mariage Kernével 3 E 109/38/5 (1902)
+	1903   => '1303074',            # Mariage Kernével 3 E 109/38/6 (1903)
+	1904   => '1303075',            # Mariage Kernével 3 E 109/38/7 (1904)
+	1905   => '1303076',            # Mariage Kernével 3 E 109/38/8 (1905)
+	1906   => '1303077',            # Mariage Kernével 3 E 109/38/9 (1906)
+	1907   => '1303078',            # Mariage Kernével 3 E 109/38/10 (1907)
+	1908   => '1303079',            # Mariage Kernével 3 E 109/38/11 (1908)
+    },
+
+    '3E109_0039' => {			# Naissance Kernével 3 E 109 39   1901-1910
+	1901   => '1302914',            # Naissance Kernével 3 E 109/39/1 (1901)
+	1902   => '1302915',            # Naissance Kernével 3 E 109/39/2 (1902)
+	1903   => '1302916',            # Naissance Kernével 3 E 109/39/3 (1903)
+	1904   => '1302917',            # Naissance Kernével 3 E 109/39/4 (1904)
+	1905   => '1302918',            # Naissance Kernével 3 E 109/39/5 (1905)
+	1906   => '1302919',            # Naissance Kernével 3 E 109/39/6 (1906)
+	1907   => '1302920',            # Naissance Kernével 3 E 109/39/7 (1907)
+	1908   => '1302921',            # Naissance Kernével 3 E 109/39/8 (1908)
+	1909   => '1302922',            # Naissance Kernével 3 E 109/39/9 (1909)
+	1910   => '1302923',            # Naissance Kernével 3 E 109/39/10 (1910)
+    },
+
+    '3E109_0040' => {			# Naissance Kernével 3 E 109 40   1911-1920
+	1911   => '1302925',            # Naissance Kernével 3 E 109/40/1 (1911)
+	1912   => '1302926',            # Naissance Kernével 3 E 109/40/2 (1912)
+	1913   => '1302927',            # Naissance Kernével 3 E 109/40/3 (1913)
+	1914   => '1302928',            # Naissance Kernével 3 E 109/40/4 (1914)
+	1915   => '1302929',            # Naissance Kernével 3 E 109/40/5 (1915)
+	1916   => '1302930',            # Naissance Kernével 3 E 109/40/6 (1916)
+	1917   => '1302931',            # Naissance Kernével 3 E 109/40/7 (1917)
+	1918   => '1302932',            # Naissance Kernével 3 E 109/40/8 (1918)
+	1919   => '1302933',            # Naissance Kernével 3 E 109/40/9 (1919)
+	1920   => '1302934',            # Naissance Kernével 3 E 109/40/10 (1920)
+    },
+
+    '3E109_0041' => {			# Naissance Kernével 3 E 109 41   1921-1925
+	1921   => '1302936',            # Naissance Kernével 3 E 109/41/1 (1921)
+	1922   => '1302937',            # Naissance Kernével 3 E 109/41/2 (1922)
+	1923   => '1302938',            # Naissance Kernével 3 E 109/41/3 (1923)
+	1924   => '1302939',            # Naissance Kernével 3 E 109/41/4 (1924)
+	1925   => '1302940',            # Naissance Kernével 3 E 109/41/5 (1925)
+    },
+
+    '3E109_0043' => {			# Mariage Kernével 3 E 109 43   1909-1920
+	1909   => '1303081',            # Mariage Kernével 3 E 109/43/1 (1909)
+	1910   => '1303082',            # Mariage Kernével 3 E 109/43/2 (1910)
+	1911   => '1303083',            # Mariage Kernével 3 E 109/43/3 (1911)
+	1912   => '1303084',            # Mariage Kernével 3 E 109/43/4 (1912)
+	1913   => '1303085',            # Mariage Kernével 3 E 109/43/5 (1913)
+	1914   => '1303086',            # Mariage Kernével 3 E 109/43/6 (1914)
+	1915   => '1303087',            # Mariage Kernével 3 E 109/43/7 (1915)
+	1916   => '1303088',            # Mariage Kernével 3 E 109/43/8 (1916)
+	1917   => '1303089',            # Mariage Kernével 3 E 109/43/9 (1917)
+	1918   => '1303090',            # Mariage Kernével 3 E 109/43/10 (1918)
+	1919   => '1303091',            # Mariage Kernével 3 E 109/43/11 (1919)
+	1920   => '1303092',            # Mariage Kernével 3 E 109/43/12 (1920)
+    },
+
+    '3E109_0044' => {			# Mariage Kernével 3 E 109 44   1921-1925
+	1921   => '1303094',            # Mariage Kernével 3 E 109/44/1 (1921)
+	1922   => '1303095',            # Mariage Kernével 3 E 109/44/2 (1922)
+	1923   => '1303096',            # Mariage Kernével 3 E 109/44/3 (1923)
+	1924   => '1303097',            # Mariage Kernével 3 E 109/44/4 (1924)
+	1925   => '1303098',            # Mariage Kernével 3 E 109/44/5 (1925)
+    },
+
+    '3E109_0046' => {			# Décès Kernével 3 E 109 46   1908-1920
+	1908   => '1303248',            # Décès Kernével 3 E 109/46/1 (1908)
+	1909   => '1303249',            # Décès Kernével 3 E 109/46/2 (1909)
+	1910   => '1303250',            # Décès Kernével 3 E 109/46/3 (1910)
+	1911   => '1303251',            # Décès Kernével 3 E 109/46/4 (1911)
+	1912   => '1303252',            # Décès Kernével 3 E 109/46/5 (1912)
+	1913   => '1303253',            # Décès Kernével 3 E 109/46/6 (1913)
+	1914   => '1303254',            # Décès Kernével 3 E 109/46/7 (1914)
+	1915   => '1303255',            # Décès Kernével 3 E 109/46/8 (1915)
+	1916   => '1303256',            # Décès Kernével 3 E 109/46/9 (1916)
+	1917   => '1303257',            # Décès Kernével 3 E 109/46/10 (1917)
+	1918   => '1303258',            # Décès Kernével 3 E 109/46/11 (1918)
+	1919   => '1303259',            # Décès Kernével 3 E 109/46/12 (1919)
+	1920   => '1303260',            # Décès Kernével 3 E 109/46/13 (1920)
+    },
+
+    '3E109_0047' => {			# Décès Kernével 3 E 109 47   1921-1936
+	1921   => '1303262',            # Décès Kernével 3 E 109/47/1 (1921)
+	1922   => '1303263',            # Décès Kernével 3 E 109/47/2 (1922)
+	1923   => '1303264',            # Décès Kernével 3 E 109/47/3 (1923)
+	1924   => '1303265',            # Décès Kernével 3 E 109/47/4 (1924)
+	1925   => '1303266',            # Décès Kernével 3 E 109/47/5 (1925)
+	1926   => '1303267',            # Décès Kernével 3 E 109/47/6 (1926)
+	1927   => '1303268',            # Décès Kernével 3 E 109/47/7 (1927)
+	1928   => '1303269',            # Décès Kernével 3 E 109/47/8 (1928)
+	1929   => '1303270',            # Décès Kernével 3 E 109/47/9 (1929)
+	1930   => '1303271',            # Décès Kernével 3 E 109/47/10 (1930)
+	1931   => '1303272',            # Décès Kernével 3 E 109/47/11 (1931)
+	1932   => '1303273',            # Décès Kernével 3 E 109/47/12 (1932)
+	1933   => '1303274',            # Décès Kernével 3 E 109/47/13 (1933)
+	1934   => '1303275',            # Décès Kernével 3 E 109/47/14 (1934)
+	1935   => '1303276',            # Décès Kernével 3 E 109/47/15 (1935)
+	1936   => '1303277',            # Décès Kernével 3 E 109/47/16 (1936)
+    },
+
+
     # Motreff
     '3E189_0004' => '657659.1324612',   # Naissance Motreff 3 E 189 4 (1793-1812)
     '3E189_0005' => '657660.1324613',   # Naissance Motreff 3 E 189 5 (1813-1832)
