@@ -177,6 +177,7 @@ my %conv_cal_republicain = (
     'An VIII' => 'AN08',
     'An X' => 'AN10',
     'An XI' => 'AN11',
+    'An XI-1812' => 'AN11',
     'An XII' => 'AN12',
     'An XIII' => 'AN13',
     'An XIV - 1806' => 'AN14',
