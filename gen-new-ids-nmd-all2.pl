@@ -129,7 +129,7 @@ my %years = (
 	1870 => 1887,
 	1888 => 1903,
 	1904 => 1917,
-	1918 => 1925, # Technically 1919-1936 but later years weren't online on the old server
+	1918 => 1936,
     },
 
     'Décès' => {
