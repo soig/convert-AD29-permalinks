@@ -20,7 +20,7 @@ my %villes = (
     'Châteauneuf-du-Faou' => 'c4e561615bc60b9006dd2126a0a34a81',
     'Kergloff' => 'b514c4417f09b16bf87e6d3adcf13473',
     'Le Moustoir' => 'bd1776d155d280f985d30f73b87b2530',
-    'Le+Moustoir' => 'bd1776d155d280f985d30f73b87b2530',
+    #'Le+Moustoir' => 'bd1776d155d280f985d30f73b87b2530', # commented out due to sanity check
     'Motreff' => '4c3ae13cbf62a5e72b9c034018a6a467',
     'Plonéis' => 'c2e2fc6c89a009fcc699e9d615eae31d',
     'Plouguer' => 'f96ae4a1741a2ec286a159cf90e26788%7C',
@@ -31,7 +31,26 @@ my %villes = (
     "Tourc'h" => '4bf1ee125457d932f80806b7da556577',
     'Tourch' => '6e5e559fd968f5b9686bd78989889cf2',
     );
-    
+
+
+# Sanitation check: Make sure that each old key translates to a unique key
+# TODO: would need to check subkeys too for registers split by year
+my %seen_keys;
+foreach my $key (keys %villes) {
+    push @{$seen_keys{$villes{$key}}}, $key;
+}
+# Ignore empty key (bug on AD29 site):
+delete $seen_keys{''};
+foreach my $key (keys %seen_keys) {
+    if (@{$seen_keys{$key}} > 1) {
+	print "\nDuplicate keys for value $key:\n";
+	print "$_\n" foreach @{$seen_keys{$key}};
+	exit 1;
+    }
+}
+# end of check
+
+
 # "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:15?REch_commune_Libel=Cl%A8!è%A9den-Poher+%28Finist%C3%A8re%29%7C&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc%7C&Rech_typologie%5B0%5D=Naissance&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil");
 
 # A cople special cases (usually when two towns were merged):
