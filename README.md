@@ -39,7 +39,7 @@ Il faut d'abord sauvegarder sa base au format gramps (ce qui est fait également
 Puis décompresser le fichier .gramps (qui est en fait compressé au format gzip) et lancer le convertisseur dessus :
 
 ```
-zcat  'ma famille-2026-05-09-15-58-47.gramps' > G.gramps
+zcat 'ma famille-2026-05-09-15-58-47.gramps' > G.gramps
 ./convert-finistere.pl G.gramps
 ```
 
@@ -47,7 +47,7 @@ Il suffit ensuite de réimporter le fichier dans un nouvel arbre et voila les li
 
 Si on veut contrôller le résulat :
 ```
-zcat  'ma famille-2026-05-09-15-58-47.gramps' > G.gramps
+zcat 'ma famille-2026-05-09-15-58-47.gramps' > G.gramps
 cp G.gramps{,.orig}
 ./convert-finistere.pl G.gramps
 diff -u G.gramps{.orig,} | vim -
@@ -60,24 +60,23 @@ diff -u G.gramps{.orig,} | vim -
 Si vous avez bien fait votre travail, vous avez le lien, le numéro de vue et le nom du registre :
 Exemple d'un mariage du 1702-11-21 à Carhaix :
 * https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E037/3E037_0002/?img=FRAD029_3E037_02_0159.jpg
-  * dans cette URL, il faut noter l'ancien identifiant, ici **3E037_0002**
+  * dans cette URL, il faut noter l'ancien identifiant, ici **``3E037_0002``**
 * "Acte vue 199/363 en haut à droite"
 * "BMS Carhaix - 1690-1714"
 
 Il suffit d'aller sur https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138 d'entrer Carhaix et la date de l'évènement (ou l'année du début du registre).
 On obtient un lien : https://recherche.archives.finistere.fr/ark:/72506/652176.1275535/img:FRAD029_3E037_02_0159
 Dans ce lien on retrouve :
-* le nom de domaine des AD29 : recherche.archives.finistere.fr
-* l'identifiant unique ARK des AD29 : 72506
-* l'identifiant unique du registre dans les AD29 : **652176.1275535**
-* le nom de l'image : img:FRAD029_3E037_02_0159
+* le nom de domaine des AD29 : ``recherche.archives.finistere.fr``
+* l'identifiant unique ARK des AD29 : ``72506``
+* le nouvel identifiant unique du registre dans les AD29 : **``652176.1275535``** (qui remplace donc l'ancien **``3E037_0002``**)
+* le nom de l'image : ``img:FRAD029_3E037_02_0159``
 
 C'est l'identifiant unique du registre qui nous intéresse ici.
 Il suffit maintenant de rajouter une ligne dans `convert-finistere.pl` afin de convertir automatiquement toutes les permaliens de ce registre (avec un commentaire notant le type "BMS", la commune "Carhaix", la côte et la plage d'années concernées) :
 ```
     '3E037_0002' => '652176.1275535',	# BMS Carhaix  3 E 37/2		1690-1714
 ```
-
 
 ### Comment rajouter tous les registres NMD de la commune
 
