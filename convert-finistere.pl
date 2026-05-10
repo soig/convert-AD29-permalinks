@@ -143,6 +143,579 @@ my %convert = (
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
     # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer
 
+    # Bannalec
+    '3E004_0017' => {			# Naissance Bannalec 3 E 4 17   AN05-AN05
+	'AN02' => '1266697',            # Naissance Bannalec 3 E 4/17/1 (1793 - an II)
+	'AN03' => '1266698',            # Naissance Bannalec 3 E 4/17/2 (an III)
+	'AN04' => '1266699',            # Naissance Bannalec 3 E 4/17/3 (an IV)
+	'AN05' => '1266700',            # Naissance Bannalec 3 E 4/17/4 (an V)
+	'AN06' => '1266701',            # Naissance Bannalec 3 E 4/17/5 (an VI)
+	'AN07' => '1266702',            # Naissance Bannalec 3 E 4/17/6 (an VII)
+	'AN08' => '1266703',            # Naissance Bannalec 3 E 4/17/7 (an VIII)
+	'AN09' => '1266704',            # Naissance Bannalec 3 E 4/17/8 (an IX)
+	'AN10' => '1266705',            # Naissance Bannalec 3 E 4/17/9 (an X)
+    },
+
+    '3E004_0018' => {			# Naissance Bannalec 3 E 4 18   AN11-1812
+	'AN11' => '1266707',            # Naissance Bannalec 3 E 4/18/1 (an XI)
+	'AN12' => '1266708',            # Naissance Bannalec 3 E 4/18/2 (an XII)
+	'AN13' => '1266709',            # Naissance Bannalec 3 E 4/18/3 (an XIII)
+	'AN14' => '1266710',            # Naissance Bannalec 3 E 4/18/4 (an XIV - 1806)
+	1807   => '1266711',            # Naissance Bannalec 3 E 4/18/5 (1807)
+	1808   => '1266712',            # Naissance Bannalec 3 E 4/18/6 (1808)
+	1809   => '1266713',            # Naissance Bannalec 3 E 4/18/7 (1809)
+	1810   => '1266714',            # Naissance Bannalec 3 E 4/18/8 (1810)
+	1811   => '1266715',            # Naissance Bannalec 3 E 4/18/9 (1811)
+	1812   => '1266716',            # Naissance Bannalec 3 E 4/18/10 (1812)
+    },
+
+    '3E004_0019' => {			# Naissance Bannalec 3 E 4 19   1813-1817
+	1813   => '1266718',            # Naissance Bannalec 3 E 4/19/1 (1813)
+	1814   => '1266719',            # Naissance Bannalec 3 E 4/19/2 (1814)
+	1815   => '1266720',            # Naissance Bannalec 3 E 4/19/3 (1815)
+	1816   => '1266721',            # Naissance Bannalec 3 E 4/19/4 (1816)
+	1817   => '1266722',            # Naissance Bannalec 3 E 4/19/5 (1817)
+    },
+
+    '3E004_0020' => {			# Naissance Bannalec 3 E 4 20   1823-1832
+	1823   => '1266729',            # Naissance Bannalec 3 E 4/20/1 (1823)
+	1824   => '1266730',            # Naissance Bannalec 3 E 4/20/2 (1824)
+	1825   => '1266731',            # Naissance Bannalec 3 E 4/20/3 (1825)
+	1826   => '1266732',            # Naissance Bannalec 3 E 4/20/4 (1826)
+	1827   => '1266733',            # Naissance Bannalec 3 E 4/20/5 (1827)
+	1828   => '1266734',            # Naissance Bannalec 3 E 4/20/6 (1828)
+	1829   => '1266735',            # Naissance Bannalec 3 E 4/20/7 (1829)
+	1830   => '1266736',            # Naissance Bannalec 3 E 4/20/8 (1830)
+	1831   => '1266737',            # Naissance Bannalec 3 E 4/20/9 (1831)
+	1832   => '1266738',            # Naissance Bannalec 3 E 4/20/10 (1832)
+    },
+
+    '3E004_0021' => {			# Naissance Bannalec 3 E 4 21   1833-1842
+	1833   => '1266740',            # Naissance Bannalec 3 E 4/21/1 (1833)
+	1834   => '1266741',            # Naissance Bannalec 3 E 4/21/2 (1834)
+	1835   => '1266742',            # Naissance Bannalec 3 E 4/21/3 (1835)
+	1836   => '1266743',            # Naissance Bannalec 3 E 4/21/4 (1836)
+	1837   => '1266744',            # Naissance Bannalec 3 E 4/21/5 (1837)
+	1838   => '1266745',            # Naissance Bannalec 3 E 4/21/6 (1838)
+	1839   => '1266746',            # Naissance Bannalec 3 E 4/21/7 (1839)
+	1840   => '1266747',            # Naissance Bannalec 3 E 4/21/8 (1840)
+	1841   => '1266748',            # Naissance Bannalec 3 E 4/21/9 (1841)
+	1842   => '1266749',            # Naissance Bannalec 3 E 4/21/10 (1842)
+    },
+
+    '3E004_0022' => {			# Naissance Bannalec 3 E 4 22   1843-1852
+	1843   => '1266751',            # Naissance Bannalec 3 E 4/22/1 (1843)
+	1844   => '1266752',            # Naissance Bannalec 3 E 4/22/2 (1844)
+	1845   => '1266753',            # Naissance Bannalec 3 E 4/22/3 (1845)
+	1846   => '1266754',            # Naissance Bannalec 3 E 4/22/4 (1846)
+	1847   => '1266755',            # Naissance Bannalec 3 E 4/22/5 (1847)
+	1848   => '1266756',            # Naissance Bannalec 3 E 4/22/6 (1848)
+	1849   => '1266757',            # Naissance Bannalec 3 E 4/22/7 (1849)
+	1850   => '1266758',            # Naissance Bannalec 3 E 4/22/8 (1850)
+	1851   => '1266759',            # Naissance Bannalec 3 E 4/22/9 (1851)
+	1852   => '1266760',            # Naissance Bannalec 3 E 4/22/10 (1852)
+    },
+
+    '3E004_0023' => {			# Naissance Bannalec 3 E 4 23   1853-1862
+	1853   => '1266762',            # Naissance Bannalec 3 E 4/23/1 (1853)
+	1854   => '1266763',            # Naissance Bannalec 3 E 4/23/2 (1854)
+	1855   => '1266764',            # Naissance Bannalec 3 E 4/23/3 (1855)
+	1856   => '1266765',            # Naissance Bannalec 3 E 4/23/4 (1856)
+	1857   => '1266766',            # Naissance Bannalec 3 E 4/23/5 (1857)
+	1858   => '1266767',            # Naissance Bannalec 3 E 4/23/6 (1858)
+	1859   => '1266768',            # Naissance Bannalec 3 E 4/23/7 (1859)
+	1860   => '1266769',            # Naissance Bannalec 3 E 4/23/8 (1860)
+	1861   => '1266770',            # Naissance Bannalec 3 E 4/23/9 (1861)
+	1862   => '1266771',            # Naissance Bannalec 3 E 4/23/10 (1862)
+    },
+
+    '3E004_0024' => {			# Naissance Bannalec 3 E 4 24   1863-1869
+	1863   => '1266773',            # Naissance Bannalec 3 E 4/24/1 (1863)
+	1864   => '1266774',            # Naissance Bannalec 3 E 4/24/2 (1864)
+	1865   => '1266775',            # Naissance Bannalec 3 E 4/24/3 (1865)
+	1866   => '1266776',            # Naissance Bannalec 3 E 4/24/4 (1866)
+	1867   => '1266777',            # Naissance Bannalec 3 E 4/24/5 (1867)
+	1868   => '1266778',            # Naissance Bannalec 3 E 4/24/6 (1868)
+	1869   => '1266779',            # Naissance Bannalec 3 E 4/24/7 (1869)
+    },
+
+    '3E004_0025' => {			# Naissance Bannalec 3 E 4 25   1870-1875
+	1870   => '1266781',            # Naissance Bannalec 3 E 4/25/1 (1870)
+	1871   => '1266782',            # Naissance Bannalec 3 E 4/25/2 (1871)
+	1872   => '1266783',            # Naissance Bannalec 3 E 4/25/3 (1872)
+	1873   => '1266784',            # Naissance Bannalec 3 E 4/25/4 (1873)
+	1874   => '1266785',            # Naissance Bannalec 3 E 4/25/5 (1874)
+	1875   => '1266786',            # Naissance Bannalec 3 E 4/25/6 (1875)
+    },
+
+    '3E004_0026' => {			# Naissance Bannalec 3 E 4 26   1876-1881
+	1876   => '1266788',            # Naissance Bannalec 3 E 4/26/1 (1876)
+	1877   => '1266789',            # Naissance Bannalec 3 E 4/26/2 (1877)
+	1878   => '1266790',            # Naissance Bannalec 3 E 4/26/3 (1878)
+	1879   => '1266791',            # Naissance Bannalec 3 E 4/26/4 (1879)
+	1880   => '1266792',            # Naissance Bannalec 3 E 4/26/5 (1880)
+	1881   => '1266793',            # Naissance Bannalec 3 E 4/26/6 (1881)
+    },
+
+    '3E004_0027' => {			# Naissance Bannalec 3 E 4 27   1882-1886
+	1882   => '1266795',            # Naissance Bannalec 3 E 4/27/1 (1882)
+	1883   => '1266796',            # Naissance Bannalec 3 E 4/27/2 (1883)
+	1884   => '1266797',            # Naissance Bannalec 3 E 4/27/3 (1884)
+	1885   => '1266798',            # Naissance Bannalec 3 E 4/27/4 (1885)
+	1886   => '1266799',            # Naissance Bannalec 3 E 4/27/5 (1886)
+    },
+
+    '3E004_0028' => {			# Naissance Bannalec 3 E 4 28   1887-1890
+	1887   => '1266801',            # Naissance Bannalec 3 E 4/28/1 (1887)
+	1888   => '1266802',            # Naissance Bannalec 3 E 4/28/2 (1888)
+	1889   => '1266803',            # Naissance Bannalec 3 E 4/28/3 (1889)
+	1890   => '1266804',            # Naissance Bannalec 3 E 4/28/4 (1890)
+    },
+
+    '3E004_0029' => {			# Naissance Bannalec 3 E 4 29   1891-1894
+	1891   => '1266806',            # Naissance Bannalec 3 E 4/29/1 (1891)
+	1892   => '1266807',            # Naissance Bannalec 3 E 4/29/2 (1892)
+	1893   => '1266808',            # Naissance Bannalec 3 E 4/29/3 (1893)
+	1894   => '1266809',            # Naissance Bannalec 3 E 4/29/4 (1894)
+    },
+
+    '3E004_0030' => {			# Mariage promesse de mariage Bannalec 3 E 4 30   AN02-1793-an XI
+	'AN02' => '1266876',            # Mariage promesse de mariage Bannalec 3 E 4/30/1 (1793-an II)
+	'AN03' => '1266877',            # Mariage promesse de mariage Bannalec 3 E 4/30/2 (an III)
+	'AN05' => '1266878',            # Mariage promesse de mariage Bannalec 3 E 4/30/3 (an V)
+	'AN06' => '1266879',            # Mariage promesse de mariage Bannalec 3 E 4/30/4 (an VI)
+	'AN07' => '1266880',            # Mariage promesse de mariage Bannalec 3 E 4/30/5 (an VII)
+	'AN08' => '1266881',            # Mariage promesse de mariage Bannalec 3 E 4/30/6 (an VIII)
+	'AN09' => '1266882',            # Mariage promesse de mariage Bannalec 3 E 4/30/7 (an IX)
+	'AN10' => '1266883',            # Mariage promesse de mariage Bannalec 3 E 4/30/8 (an X)
+	'an VI-an VIII, an X-an XI (promesses de mariages)' => '1266884',            # Mariage promesse de mariage Bannalec 3 E 4/30/9 (an VI-an VIII, an X-an XI (promesses de mariages))
+    },
+
+    '3E004_0031' => {			# Mariage Bannalec 3 E 4 31   AN11-1810
+	'AN11' => '1266886',            # Mariage Bannalec 3 E 4/31/1 (an XI)
+	'AN12' => '1266887',            # Mariage Bannalec 3 E 4/31/2 (an XII)
+	'AN13' => '1266888',            # Mariage Bannalec 3 E 4/31/3 (an XIII)
+	'AN14' => '1266889',            # Mariage Bannalec 3 E 4/31/4 (an XIV - 1806)
+	1807   => '1266890',            # Mariage Bannalec 3 E 4/31/5 (1807)
+	1808   => '1266891',            # Mariage Bannalec 3 E 4/31/6 (1808)
+	1809   => '1266892',            # Mariage Bannalec 3 E 4/31/7 (1809)
+	1810   => '1266893',            # Mariage Bannalec 3 E 4/31/8 (1810)
+    },
+
+    '3E004_0032' => {			# Mariage Bannalec 3 E 4 32   1813-1822
+	1813   => '1266897',            # Mariage Bannalec 3 E 4/32/1 (1813)
+	1814   => '1266898',            # Mariage Bannalec 3 E 4/32/2 (1814)
+	1815   => '1266899',            # Mariage Bannalec 3 E 4/32/3 (1815)
+	1816   => '1266900',            # Mariage Bannalec 3 E 4/32/4 (1816)
+	1817   => '1266901',            # Mariage Bannalec 3 E 4/32/5 (1817)
+	1818   => '1266902',            # Mariage Bannalec 3 E 4/32/6 (1818)
+	1819   => '1266903',            # Mariage Bannalec 3 E 4/32/7 (1819)
+	1820   => '1266904',            # Mariage Bannalec 3 E 4/32/8 (1820)
+	1821   => '1266905',            # Mariage Bannalec 3 E 4/32/9 (1821)
+	1822   => '1266906',            # Mariage Bannalec 3 E 4/32/10 (1822)
+    },
+
+    '3E004_0033' => {			# Mariage Bannalec 3 E 4 33   1823-1829
+	1823   => '1266908',            # Mariage Bannalec 3 E 4/33/1 (1823)
+	1824   => '1266909',            # Mariage Bannalec 3 E 4/33/2 (1824)
+	1825   => '1266910',            # Mariage Bannalec 3 E 4/33/3 (1825)
+	1826   => '1266911',            # Mariage Bannalec 3 E 4/33/4 (1826)
+	1827   => '1266912',            # Mariage Bannalec 3 E 4/33/5 (1827)
+	1828   => '1266913',            # Mariage Bannalec 3 E 4/33/6 (1828)
+	1829   => '1266914',            # Mariage Bannalec 3 E 4/33/7 (1829)
+    },
+
+    '3E004_0034' => {			# Mariage Bannalec 3 E 4 34   1833-1842
+	1833   => '1266919',            # Mariage Bannalec 3 E 4/34/1 (1833)
+	1834   => '1266920',            # Mariage Bannalec 3 E 4/34/2 (1834)
+	1835   => '1266921',            # Mariage Bannalec 3 E 4/34/3 (1835)
+	1836   => '1266922',            # Mariage Bannalec 3 E 4/34/4 (1836)
+	1837   => '1266923',            # Mariage Bannalec 3 E 4/34/5 (1837)
+	1838   => '1266924',            # Mariage Bannalec 3 E 4/34/6 (1838)
+	1839   => '1266925',            # Mariage Bannalec 3 E 4/34/7 (1839)
+	1840   => '1266926',            # Mariage Bannalec 3 E 4/34/8 (1840)
+	1841   => '1266927',            # Mariage Bannalec 3 E 4/34/9 (1841)
+	1842   => '1266928',            # Mariage Bannalec 3 E 4/34/10 (1842)
+    },
+
+    '3E004_0035' => {			# Mariage Bannalec 3 E 4 35   1843-1852
+	1843   => '1266930',            # Mariage Bannalec 3 E 4/35/1 (1843)
+	1844   => '1266931',            # Mariage Bannalec 3 E 4/35/2 (1844)
+	1845   => '1266932',            # Mariage Bannalec 3 E 4/35/3 (1845)
+	1846   => '1266933',            # Mariage Bannalec 3 E 4/35/4 (1846)
+	1847   => '1266934',            # Mariage Bannalec 3 E 4/35/5 (1847)
+	1848   => '1266935',            # Mariage Bannalec 3 E 4/35/6 (1848)
+	1849   => '1266936',            # Mariage Bannalec 3 E 4/35/7 (1849)
+	1850   => '1266937',            # Mariage Bannalec 3 E 4/35/8 (1850)
+	1851   => '1266938',            # Mariage Bannalec 3 E 4/35/9 (1851)
+	1852   => '1266939',            # Mariage Bannalec 3 E 4/35/10 (1852)
+    },
+
+    '3E004_0036' => {			# Mariage Bannalec 3 E 4 36   1853-1862
+	1853   => '1266941',            # Mariage Bannalec 3 E 4/36/1 (1853)
+	1854   => '1266942',            # Mariage Bannalec 3 E 4/36/2 (1854)
+	1855   => '1266943',            # Mariage Bannalec 3 E 4/36/3 (1855)
+	1856   => '1266944',            # Mariage Bannalec 3 E 4/36/4 (1856)
+	1857   => '1266945',            # Mariage Bannalec 3 E 4/36/5 (1857)
+	1858   => '1266946',            # Mariage Bannalec 3 E 4/36/6 (1858)
+	1859   => '1266947',            # Mariage Bannalec 3 E 4/36/7 (1859)
+	1860   => '1266948',            # Mariage Bannalec 3 E 4/36/8 (1860)
+	1861   => '1266949',            # Mariage Bannalec 3 E 4/36/9 (1861)
+	1862   => '1266950',            # Mariage Bannalec 3 E 4/36/10 (1862)
+    },
+
+    '3E004_0037' => {			# Mariage Bannalec 3 E 4 37   1863-1869
+	1863   => '1266952',            # Mariage Bannalec 3 E 4/37/1 (1863)
+	1864   => '1266953',            # Mariage Bannalec 3 E 4/37/2 (1864)
+	1865   => '1266954',            # Mariage Bannalec 3 E 4/37/3 (1865)
+	1866   => '1266955',            # Mariage Bannalec 3 E 4/37/4 (1866)
+	1867   => '1266956',            # Mariage Bannalec 3 E 4/37/5 (1867)
+	1868   => '1266957',            # Mariage Bannalec 3 E 4/37/6 (1868)
+	1869   => '1266958',            # Mariage Bannalec 3 E 4/37/7 (1869)
+    },
+
+    '3E004_0038' => {			# Mariage Bannalec 3 E 4 38   1870-1876
+	1870   => '1266960',            # Mariage Bannalec 3 E 4/38/1 (1870)
+	1871   => '1266961',            # Mariage Bannalec 3 E 4/38/2 (1871)
+	1872   => '1266962',            # Mariage Bannalec 3 E 4/38/3 (1872)
+	1873   => '1266963',            # Mariage Bannalec 3 E 4/38/4 (1873)
+	1874   => '1266964',            # Mariage Bannalec 3 E 4/38/5 (1874)
+	1875   => '1266965',            # Mariage Bannalec 3 E 4/38/6 (1875)
+	1876   => '1266966',            # Mariage Bannalec 3 E 4/38/7 (1876)
+    },
+
+    '3E004_0039' => {			# Mariage Bannalec 3 E 4 39   1877-1883
+	1877   => '1266968',            # Mariage Bannalec 3 E 4/39/1 (1877)
+	1878   => '1266969',            # Mariage Bannalec 3 E 4/39/2 (1878)
+	1879   => '1266970',            # Mariage Bannalec 3 E 4/39/3 (1879)
+	1880   => '1266971',            # Mariage Bannalec 3 E 4/39/4 (1880)
+	1881   => '1266972',            # Mariage Bannalec 3 E 4/39/5 (1881)
+	1882   => '1266973',            # Mariage Bannalec 3 E 4/39/6 (1882)
+	1883   => '1266974',            # Mariage Bannalec 3 E 4/39/7 (1883)
+    },
+
+    '3E004_0040' => {			# Mariage Bannalec 3 E 4 40   1884-1888
+	1884   => '1266976',            # Mariage Bannalec 3 E 4/40/1 (1884)
+	1885   => '1266977',            # Mariage Bannalec 3 E 4/40/2 (1885)
+	1886   => '1266978',            # Mariage Bannalec 3 E 4/40/3 (1886)
+	1888   => '1266980',            # Mariage Bannalec 3 E 4/40/5 (1888)
+    },
+
+    '3E004_0041' => {			# Mariage Bannalec 3 E 4 41   1889-1893
+	1889   => '1266982',            # Mariage Bannalec 3 E 4/41/1 (1889)
+	1890   => '1266983',            # Mariage Bannalec 3 E 4/41/2 (1890)
+	1891   => '1266984',            # Mariage Bannalec 3 E 4/41/3 (1891)
+	1892   => '1266985',            # Mariage Bannalec 3 E 4/41/4 (1892)
+	1893   => '1266986',            # Mariage Bannalec 3 E 4/41/5 (1893)
+    },
+
+    '3E004_0042' => {			# Décès Bannalec 3 E 4 42   AN02-AN10
+	'AN02' => '1267049',            # Décès Bannalec 3 E 4/42/1 (1793 - an II)
+	'AN03' => '1267050',            # Décès Bannalec 3 E 4/42/2 (an III)
+	'AN04' => '1267051',            # Décès Bannalec 3 E 4/42/3 (an IV)
+	'AN05' => '1267052',            # Décès Bannalec 3 E 4/42/4 (an V)
+	'AN06' => '1267053',            # Décès Bannalec 3 E 4/42/5 (an VI)
+	'AN07' => '1267054',            # Décès Bannalec 3 E 4/42/6 (an VII)
+	'AN08' => '1267055',            # Décès Bannalec 3 E 4/42/7 (an VIII)
+	'AN09' => '1267056',            # Décès Bannalec 3 E 4/42/8 (an IX)
+	'AN10' => '1267057',            # Décès Bannalec 3 E 4/42/9 (an X)
+    },
+
+    '3E004_0043' => {			# Décès Bannalec 3 E 4 43   AN11-1812
+	'AN11' => '1267059',            # Décès Bannalec 3 E 4/43/1 (an XI)
+	'AN12' => '1267060',            # Décès Bannalec 3 E 4/43/2 (an XII)
+	'AN13' => '1267061',            # Décès Bannalec 3 E 4/43/3 (an XIII)
+	'AN14' => '1267062',            # Décès Bannalec 3 E 4/43/4 (an XIV - 1806)
+	1807   => '1267063',            # Décès Bannalec 3 E 4/43/5 (1807)
+	1808   => '1267064',            # Décès Bannalec 3 E 4/43/6 (1808)
+	1809   => '1267065',            # Décès Bannalec 3 E 4/43/7 (1809)
+	1810   => '1267066',            # Décès Bannalec 3 E 4/43/8 (1810)
+	1811   => '1267067',            # Décès Bannalec 3 E 4/43/9 (1811)
+	1812   => '1267068',            # Décès Bannalec 3 E 4/43/10 (1812)
+    },
+
+    '3E004_0044' => {			# Décès Bannalec 3 E 4 44   1813-1817
+	1813   => '1267070',            # Décès Bannalec 3 E 4/44/1 (1813)
+	1814   => '1267071',            # Décès Bannalec 3 E 4/44/2 (1814)
+	1815   => '1267072',            # Décès Bannalec 3 E 4/44/3 (1815)
+	1816   => '1267073',            # Décès Bannalec 3 E 4/44/4 (1816)
+	1817   => '1267074',            # Décès Bannalec 3 E 4/44/5 (1817)
+    },
+
+    '3E004_0045' => {			# Décès Bannalec 3 E 4 45   1823-1832
+	1823   => '1267081',            # Décès Bannalec 3 E 4/45/1 (1823)
+	1824   => '1267082',            # Décès Bannalec 3 E 4/45/2 (1824)
+	1825   => '1267083',            # Décès Bannalec 3 E 4/45/3 (1825)
+	1826   => '1267084',            # Décès Bannalec 3 E 4/45/4 (1826)
+	1827   => '1267085',            # Décès Bannalec 3 E 4/45/5 (1827)
+	1828   => '1267086',            # Décès Bannalec 3 E 4/45/6 (1828)
+	1829   => '1267087',            # Décès Bannalec 3 E 4/45/7 (1829)
+	1830   => '1267088',            # Décès Bannalec 3 E 4/45/8 (1830)
+	1831   => '1267089',            # Décès Bannalec 3 E 4/45/9 (1831)
+	1832   => '1267090',            # Décès Bannalec 3 E 4/45/10 (1832)
+    },
+
+    '3E004_0046' => {			# Décès Bannalec 3 E 4 46   1833-1842
+	1833   => '1267092',            # Décès Bannalec 3 E 4/46/1 (1833)
+	1834   => '1267093',            # Décès Bannalec 3 E 4/46/2 (1834)
+	1835   => '1267094',            # Décès Bannalec 3 E 4/46/3 (1835)
+	1836   => '1267095',            # Décès Bannalec 3 E 4/46/4 (1836)
+	1837   => '1267096',            # Décès Bannalec 3 E 4/46/5 (1837)
+	1838   => '1267097',            # Décès Bannalec 3 E 4/46/6 (1838)
+	1839   => '1267098',            # Décès Bannalec 3 E 4/46/7 (1839)
+	1840   => '1267099',            # Décès Bannalec 3 E 4/46/8 (1840)
+	1841   => '1267100',            # Décès Bannalec 3 E 4/46/9 (1841)
+	1842   => '1267101',            # Décès Bannalec 3 E 4/46/10 (1842)
+    },
+
+    '3E004_0047' => {			# Décès Bannalec 3 E 4 47   1843-1852
+	1843   => '1267103',            # Décès Bannalec 3 E 4/47/1 (1843)
+	1844   => '1267104',            # Décès Bannalec 3 E 4/47/2 (1844)
+	1845   => '1267105',            # Décès Bannalec 3 E 4/47/3 (1845)
+	1846   => '1267106',            # Décès Bannalec 3 E 4/47/4 (1846)
+	1847   => '1267107',            # Décès Bannalec 3 E 4/47/5 (1847)
+	1848   => '1267108',            # Décès Bannalec 3 E 4/47/6 (1848)
+	1849   => '1267109',            # Décès Bannalec 3 E 4/47/7 (1849)
+	1850   => '1267110',            # Décès Bannalec 3 E 4/47/8 (1850)
+	1851   => '1267111',            # Décès Bannalec 3 E 4/47/9 (1851)
+	1852   => '1267112',            # Décès Bannalec 3 E 4/47/10 (1852)
+    },
+
+    '3E004_0048' => {			# Décès Bannalec 3 E 4 48   1853-1862
+	1853   => '1267114',            # Décès Bannalec 3 E 4/48/1 (1853)
+	1854   => '1267115',            # Décès Bannalec 3 E 4/48/2 (1854)
+	1855   => '1267116',            # Décès Bannalec 3 E 4/48/3 (1855)
+	1856   => '1267117',            # Décès Bannalec 3 E 4/48/4 (1856)
+	1857   => '1267118',            # Décès Bannalec 3 E 4/48/5 (1857)
+	1858   => '1267119',            # Décès Bannalec 3 E 4/48/6 (1858)
+	1859   => '1267120',            # Décès Bannalec 3 E 4/48/7 (1859)
+	1860   => '1267121',            # Décès Bannalec 3 E 4/48/8 (1860)
+	1861   => '1267122',            # Décès Bannalec 3 E 4/48/9 (1861)
+	1862   => '1267123',            # Décès Bannalec 3 E 4/48/10 (1862)
+    },
+
+    '3E004_0049' => {			# Décès Bannalec 3 E 4 49   1863-1869
+	1863   => '1267125',            # Décès Bannalec 3 E 4/49/1 (1863)
+	1864   => '1267126',            # Décès Bannalec 3 E 4/49/2 (1864)
+	1865   => '1267127',            # Décès Bannalec 3 E 4/49/3 (1865)
+	1866   => '1267128',            # Décès Bannalec 3 E 4/49/4 (1866)
+	1867   => '1267129',            # Décès Bannalec 3 E 4/49/5 (1867)
+	1868   => '1267130',            # Décès Bannalec 3 E 4/49/6 (1868)
+	1869   => '1267131',            # Décès Bannalec 3 E 4/49/7 (1869)
+    },
+
+    '3E004_0050' => {			# Décès Bannalec 3 E 4 50   1870-1875
+	1870   => '1267133',            # Décès Bannalec 3 E 4/50/1 (1870)
+	1871   => '1267134',            # Décès Bannalec 3 E 4/50/2 (1871)
+	1872   => '1267135',            # Décès Bannalec 3 E 4/50/3 (1872)
+	1873   => '1267136',            # Décès Bannalec 3 E 4/50/4 (1873)
+	1874   => '1267137',            # Décès Bannalec 3 E 4/50/5 (1874)
+	1875   => '1267138',            # Décès Bannalec 3 E 4/50/6 (1875)
+    },
+
+    '3E004_0051' => {			# Décès Bannalec 3 E 4 51   1876-1882
+	1876   => '1267140',            # Décès Bannalec 3 E 4/51/1 (1876)
+	1877   => '1267141',            # Décès Bannalec 3 E 4/51/2 (1877)
+	1878   => '1267142',            # Décès Bannalec 3 E 4/51/3 (1878)
+	1879   => '1267143',            # Décès Bannalec 3 E 4/51/4 (1879)
+	1880   => '1267144',            # Décès Bannalec 3 E 4/51/5 (1880)
+	1881   => '1267145',            # Décès Bannalec 3 E 4/51/6 (1881)
+	1882   => '1267146',            # Décès Bannalec 3 E 4/51/7 (1882)
+    },
+
+    '3E004_0052' => {			# Décès Bannalec 3 E 4 52   1883-1888
+	1883   => '1267148',            # Décès Bannalec 3 E 4/52/1 (1883)
+	1884   => '1267149',            # Décès Bannalec 3 E 4/52/2 (1884)
+	1885   => '1267150',            # Décès Bannalec 3 E 4/52/3 (1885)
+	1886   => '1267151',            # Décès Bannalec 3 E 4/52/4 (1886)
+	1887   => '1267152',            # Décès Bannalec 3 E 4/52/5 (1887)
+	1888   => '1267153',            # Décès Bannalec 3 E 4/52/6 (1888)
+    },
+
+    '3E004_0053' => {			# Décès Bannalec 3 E 4 53   1889-1894
+	1889   => '1267155',            # Décès Bannalec 3 E 4/53/1 (1889)
+	1890   => '1267156',            # Décès Bannalec 3 E 4/53/2 (1890)
+	1891   => '1267157',            # Décès Bannalec 3 E 4/53/3 (1891)
+	1892   => '1267158',            # Décès Bannalec 3 E 4/53/4 (1892)
+	1893   => '1267159',            # Décès Bannalec 3 E 4/53/5 (1893)
+	1894   => '1267160',            # Décès Bannalec 3 E 4/53/6 (1894)
+    },
+
+    '3E004_0054' => {			# Naissance Bannalec 3 E 4 54   1895-1898
+	1895   => '1266811',            # Naissance Bannalec 3 E 4/54/1 (1895)
+	1896   => '1266812',            # Naissance Bannalec 3 E 4/54/2 (1896)
+	1897   => '1266813',            # Naissance Bannalec 3 E 4/54/3 (1897)
+	1898   => '1266814',            # Naissance Bannalec 3 E 4/54/4 (1898)
+    },
+
+    '3E004_0055' => {			# Mariage Bannalec 3 E 4 55   1894-1898
+	1894   => '1266988',            # Mariage Bannalec 3 E 4/55/1 (1894)
+	1895   => '1266989',            # Mariage Bannalec 3 E 4/55/2 (1895)
+	1896   => '1266990',            # Mariage Bannalec 3 E 4/55/3 (1896)
+	1897   => '1266991',            # Mariage Bannalec 3 E 4/55/4 (1897)
+	1898   => '1266992',            # Mariage Bannalec 3 E 4/55/5 (1898)
+    },
+
+    '3E004_0056' => {			# Décès Bannalec 3 E 4 56   1895-1900
+	1895   => '1267162',            # Décès Bannalec 3 E 4/56/1 (1895)
+	1896   => '1267163',            # Décès Bannalec 3 E 4/56/2 (1896)
+	1897   => '1267164',            # Décès Bannalec 3 E 4/56/3 (1897)
+	1898   => '1267165',            # Décès Bannalec 3 E 4/56/4 (1898)
+	1899   => '1267166',            # Décès Bannalec 3 E 4/56/5 (1899)
+	1900   => '1267167',            # Décès Bannalec 3 E 4/56/6 (1900)
+    },
+
+    '3E004_0057' => {			# Naissance Bannalec 3 E 4 57   1899-1902
+	1899   => '1266816',            # Naissance Bannalec 3 E 4/57/1 (1899)
+	1900   => '1266817',            # Naissance Bannalec 3 E 4/57/2 (1900)
+	1901   => '1266818',            # Naissance Bannalec 3 E 4/57/3 (1901)
+	1902   => '1266819',            # Naissance Bannalec 3 E 4/57/4 (1902)
+    },
+
+    '3E004_0058' => {			# Naissance Bannalec 3 E 4 58   1903-1905
+	1903   => '1266821',            # Naissance Bannalec 3 E 4/58/1 (1903)
+	1904   => '1266822',            # Naissance Bannalec 3 E 4/58/2 (1904)
+	1905   => '1266823',            # Naissance Bannalec 3 E 4/58/3 (1905)
+    },
+
+    '3E004_0059' => {			# Mariage Bannalec 3 E 4 59   1899-1902
+	1899   => '1266994',            # Mariage Bannalec 3 E 4/59/1 (1899)
+	1900   => '1266995',            # Mariage Bannalec 3 E 4/59/2 (1900)
+	1901   => '1266996',            # Mariage Bannalec 3 E 4/59/3 (1901)
+	1902   => '1266997',            # Mariage Bannalec 3 E 4/59/4 (1902)
+    },
+
+    '3E004_0060' => {			# Mariage Bannalec 3 E 4 60   1903-1906
+	1903   => '1266999',            # Mariage Bannalec 3 E 4/60/1 (1903)
+	1904   => '1267000',            # Mariage Bannalec 3 E 4/60/2 (1904)
+	1905   => '1267001',            # Mariage Bannalec 3 E 4/60/3 (1905)
+	1906   => '1267002',            # Mariage Bannalec 3 E 4/60/4 (1906)
+    },
+
+    '3E004_0061' => {			# Décès Bannalec 3 E 4 61   1901-1905
+	1901   => '1267169',            # Décès Bannalec 3 E 4/61/1 (1901)
+	1902   => '1267170',            # Décès Bannalec 3 E 4/61/2 (1902)
+	1903   => '1267171',            # Décès Bannalec 3 E 4/61/3 (1903)
+	1904   => '1267172',            # Décès Bannalec 3 E 4/61/4 (1904)
+	1905   => '1267173',            # Décès Bannalec 3 E 4/61/5 (1905)
+    },
+
+    '3E004_0062' => {			# Naissance Bannalec 3 E 4 62   1906-1908
+	1906   => '1266825',            # Naissance Bannalec 3 E 4/62/1 (1906)
+	1907   => '1266826',            # Naissance Bannalec 3 E 4/62/2 (1907)
+	1908   => '1266827',            # Naissance Bannalec 3 E 4/62/3 (1908)
+    },
+
+    '3E004_0063' => {			# Mariage Bannalec 3 E 4 63   1907-1910
+	1907   => '1267004',            # Mariage Bannalec 3 E 4/63/1 (1907)
+	1908   => '1267005',            # Mariage Bannalec 3 E 4/63/2 (1908)
+	1909   => '1267006',            # Mariage Bannalec 3 E 4/63/3 (1909)
+	1910   => '1267007',            # Mariage Bannalec 3 E 4/63/4 (1910)
+    },
+
+    '3E004_0064' => {			# Naissance Bannalec 3 E 4 64   1909-1911
+	1909   => '1266829',            # Naissance Bannalec 3 E 4/64/1 (1909)
+	1910   => '1266830',            # Naissance Bannalec 3 E 4/64/2 (1910)
+	1911   => '1266831',            # Naissance Bannalec 3 E 4/64/3 (1911)
+    },
+
+    '3E004_0065' => {			# Naissance Bannalec 3 E 4 65   1912-1915
+	1912   => '1266833',            # Naissance Bannalec 3 E 4/65/1 (1912)
+	1913   => '1266834',            # Naissance Bannalec 3 E 4/65/2 (1913)
+	1914   => '1266835',            # Naissance Bannalec 3 E 4/65/3 (1914)
+	1915   => '1266836',            # Naissance Bannalec 3 E 4/65/4 (1915)
+    },
+
+    '3E004_0066' => {			# Mariage Bannalec 3 E 4 66   1911-1914
+	1911   => '1267009',            # Mariage Bannalec 3 E 4/66/1 (1911)
+	1912   => '1267010',            # Mariage Bannalec 3 E 4/66/2 (1912)
+	1913   => '1267011',            # Mariage Bannalec 3 E 4/66/3 (1913)
+	1914   => '1267012',            # Mariage Bannalec 3 E 4/66/4 (1914)
+    },
+
+    '3E004_0067' => {			# Décès Bannalec 3 E 4 67   1906-1911
+	1906   => '1267175',            # Décès Bannalec 3 E 4/67/1 (1906)
+	1907   => '1267176',            # Décès Bannalec 3 E 4/67/2 (1907)
+	1908   => '1267177',            # Décès Bannalec 3 E 4/67/3 (1908)
+	1909   => '1267178',            # Décès Bannalec 3 E 4/67/4 (1909)
+	1910   => '1267179',            # Décès Bannalec 3 E 4/67/5 (1910)
+	1911   => '1267180',            # Décès Bannalec 3 E 4/67/6 (1911)
+    },
+
+    '3E004_0068' => {			# Naissance Bannalec 3 E 4 68   1916-1920
+	1916   => '1266838',            # Naissance Bannalec 3 E 4/68/1 (1916)
+	1917   => '1266839',            # Naissance Bannalec 3 E 4/68/2 (1917)
+	1918   => '1266840',            # Naissance Bannalec 3 E 4/68/3 (1918)
+	1919   => '1266841',            # Naissance Bannalec 3 E 4/68/4 (1919)
+	1920   => '1266842',            # Naissance Bannalec 3 E 4/68/5 (1920)
+    },
+
+    '3E004_0069' => {			# Naissance Bannalec 3 E 4 69   1921-1925
+	1921   => '1266844',            # Naissance Bannalec 3 E 4/69/1 (1921)
+	1922   => '1266845',            # Naissance Bannalec 3 E 4/69/2 (1922)
+	1923   => '1266846',            # Naissance Bannalec 3 E 4/69/3 (1923)
+	1924   => '1266847',            # Naissance Bannalec 3 E 4/69/4 (1924)
+	1925   => '1266848',            # Naissance Bannalec 3 E 4/69/5 (1925)
+    },
+
+    '3E004_0072' => {			# Mariage Bannalec 3 E 4 72   1915-1919
+	1915   => '1267014',            # Mariage Bannalec 3 E 4/72/1 (1915)
+	1916   => '1267015',            # Mariage Bannalec 3 E 4/72/2 (1916)
+	1917   => '1267016',            # Mariage Bannalec 3 E 4/72/3 (1917)
+	1918   => '1267017',            # Mariage Bannalec 3 E 4/72/4 (1918)
+	1919   => '1267018',            # Mariage Bannalec 3 E 4/72/5 (1919)
+    },
+
+    '3E004_0073' => {			# Mariage Bannalec 3 E 4 73   1920-1923
+	1920   => '1267020',            # Mariage Bannalec 3 E 4/73/1 (1920)
+	1921   => '1267021',            # Mariage Bannalec 3 E 4/73/2 (1921)
+	1922   => '1267022',            # Mariage Bannalec 3 E 4/73/3 (1922)
+	1923   => '1267023',            # Mariage Bannalec 3 E 4/73/4 (1923)
+    },
+
+    '3E004_0074' => {			# Mariage Bannalec 3 E 4 74   1924-1925
+	1924   => '1267025',            # Mariage Bannalec 3 E 4/74/1 (1924)
+	1925   => '1267026',            # Mariage Bannalec 3 E 4/74/2 (1925)
+    },
+
+    '3E004_0077' => {			# Décès Bannalec 3 E 4 77   1912-1917
+	1912   => '1267182',            # Décès Bannalec 3 E 4/77/1 (1912)
+	1913   => '1267183',            # Décès Bannalec 3 E 4/77/2 (1913)
+	1914   => '1267184',            # Décès Bannalec 3 E 4/77/3 (1914)
+	1915   => '1267185',            # Décès Bannalec 3 E 4/77/4 (1915)
+	1916   => '1267186',            # Décès Bannalec 3 E 4/77/5 (1916)
+	1917   => '1267187',            # Décès Bannalec 3 E 4/77/6 (1917)
+    },
+
+    '3E004_0078' => {			# Décès Bannalec 3 E 4 78   1918-1922
+	1918   => '1267189',            # Décès Bannalec 3 E 4/78/1 (1918)
+	1919   => '1267190',            # Décès Bannalec 3 E 4/78/2 (1919)
+	1920   => '1267191',            # Décès Bannalec 3 E 4/78/3 (1920)
+	1921   => '1267192',            # Décès Bannalec 3 E 4/78/4 (1921)
+	1922   => '1267193',            # Décès Bannalec 3 E 4/78/5 (1922)
+    },
+
+    '3E004_0079' => {			# Décès Bannalec 3 E 4 79   1923-1929
+	1923   => '1267195',            # Décès Bannalec 3 E 4/79/1 (1923)
+	1924   => '1267196',            # Décès Bannalec 3 E 4/79/2 (1924)
+	1925   => '1267197',            # Décès Bannalec 3 E 4/79/3 (1925)
+	1926   => '1267198',            # Décès Bannalec 3 E 4/79/4 (1926)
+	1927   => '1267199',            # Décès Bannalec 3 E 4/79/5 (1927)
+	1928   => '1267200',            # Décès Bannalec 3 E 4/79/6 (1928)
+	1929   => '1267201',            # Décès Bannalec 3 E 4/79/7 (1929)
+    },
+
+    '3E004_0080' => {			# Décès Bannalec 3 E 4 80   1930-1936
+	1930   => '1267203',            # Décès Bannalec 3 E 4/80/1 (1930)
+	1931   => '1267204',            # Décès Bannalec 3 E 4/80/2 (1931)
+	1932   => '1267205',            # Décès Bannalec 3 E 4/80/3 (1932)
+	1933   => '1267206',            # Décès Bannalec 3 E 4/80/4 (1933)
+	1934   => '1267207',            # Décès Bannalec 3 E 4/80/5 (1934)
+	1935   => '1267208',            # Décès Bannalec 3 E 4/80/6 (1935)
+	1936   => '1267209',            # Décès Bannalec 3 E 4/80/7 (1936)
+    },
+
+
     # Beuzec-Conq
     '3E010_0009' => {			# Naissance Beuzec-Conq 3 E 10 9   AN02-AN10
 	'AN02' => '1268926',            # Naissance Beuzec-Conq 3 E 10/9/1 (1793 - an II)
