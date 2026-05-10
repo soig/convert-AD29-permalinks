@@ -5443,6 +5443,500 @@ my %convert = (
 	1936   => '1354741',            # Décès Poullaouen 3 E 270/50/11 (1936)
     },
 
+    # Saint-Goazec
+    '3E307_0005' => {			# Naissance Saint-Goazec 3 E 307 5   AN02-1812
+	'AN02' => '1362801',            # Naissance Saint-Goazec 3 E 307/5/1 (1793 - an II)
+	'AN03' => '1362802',            # Naissance Saint-Goazec 3 E 307/5/2 (an III)
+	'AN04' => '1362803',            # Naissance Saint-Goazec 3 E 307/5/3 (an IV)
+	'AN05' => '1362804',            # Naissance Saint-Goazec 3 E 307/5/4 (an V)
+	'AN06' => '1362805',            # Naissance Saint-Goazec 3 E 307/5/5 (an VI)
+	'AN07' => '1362806',            # Naissance Saint-Goazec 3 E 307/5/6 (an VII)
+	'AN08' => '1362807',            # Naissance Saint-Goazec 3 E 307/5/7 (an VIII)
+	'AN09' => '1362808',            # Naissance Saint-Goazec 3 E 307/5/8 (an IX)
+	'AN10' => '1362809',            # Naissance Saint-Goazec 3 E 307/5/9 (an X)
+	'AN11' => '1362810',            # Naissance Saint-Goazec 3 E 307/5/10 (an XI)
+	'AN12' => '1362811',            # Naissance Saint-Goazec 3 E 307/5/11 (an XII)
+	'AN13' => '1362812',            # Naissance Saint-Goazec 3 E 307/5/12 (an XIII)
+	'AN14' => '1362813',            # Naissance Saint-Goazec 3 E 307/5/13 (an XIV - 1806)
+	1807   => '1362814',            # Naissance Saint-Goazec 3 E 307/5/14 (1807)
+	1808   => '1362815',            # Naissance Saint-Goazec 3 E 307/5/15 (1808)
+	1809   => '1362816',            # Naissance Saint-Goazec 3 E 307/5/16 (1809)
+	1810   => '1362817',            # Naissance Saint-Goazec 3 E 307/5/17 (1810)
+	1811   => '1362818',            # Naissance Saint-Goazec 3 E 307/5/18 (1811)
+	1812   => '1362819',            # Naissance Saint-Goazec 3 E 307/5/19 (1812)
+    },
+
+    '3E307_0006' => {			# Naissance Saint-Goazec 3 E 307 6   1813-1817
+	1813   => '1362821',            # Naissance Saint-Goazec 3 E 307/6/1 (1813)
+	1814   => '1362822',            # Naissance Saint-Goazec 3 E 307/6/2 (1814)
+	1815   => '1362823',            # Naissance Saint-Goazec 3 E 307/6/3 (1815)
+	1816   => '1362824',            # Naissance Saint-Goazec 3 E 307/6/4 (1816)
+	1817   => '1362825',            # Naissance Saint-Goazec 3 E 307/6/5 (1817)
+    },
+
+    '3E307_0007' => {			# Naissance Saint-Goazec 3 E 307 7   1823-1832
+	1823   => '1362832',            # Naissance Saint-Goazec 3 E 307/7/1 (1823)
+	1824   => '1362833',            # Naissance Saint-Goazec 3 E 307/7/2 (1824)
+	1825   => '1362834',            # Naissance Saint-Goazec 3 E 307/7/3 (1825)
+	1826   => '1362835',            # Naissance Saint-Goazec 3 E 307/7/4 (1826)
+	1827   => '1362836',            # Naissance Saint-Goazec 3 E 307/7/5 (1827)
+	1828   => '1362837',            # Naissance Saint-Goazec 3 E 307/7/6 (1828)
+	1829   => '1362838',            # Naissance Saint-Goazec 3 E 307/7/7 (1829)
+	1830   => '1362839',            # Naissance Saint-Goazec 3 E 307/7/8 (1830)
+	1831   => '1362840',            # Naissance Saint-Goazec 3 E 307/7/9 (1831)
+	1832   => '1362841',            # Naissance Saint-Goazec 3 E 307/7/10 (1832)
+    },
+
+    '3E307_0008' => {			# Naissance Saint-Goazec 3 E 307 8   1833-1842
+	1833   => '1362843',            # Naissance Saint-Goazec 3 E 307/8/1 (1833)
+	1834   => '1362844',            # Naissance Saint-Goazec 3 E 307/8/2 (1834)
+	1835   => '1362845',            # Naissance Saint-Goazec 3 E 307/8/3 (1835)
+	1836   => '1362846',            # Naissance Saint-Goazec 3 E 307/8/4 (1836)
+	1837   => '1362847',            # Naissance Saint-Goazec 3 E 307/8/5 (1837)
+	1838   => '1362848',            # Naissance Saint-Goazec 3 E 307/8/6 (1838)
+	1839   => '1362849',            # Naissance Saint-Goazec 3 E 307/8/7 (1839)
+	1840   => '1362850',            # Naissance Saint-Goazec 3 E 307/8/8 (1840)
+	1841   => '1362851',            # Naissance Saint-Goazec 3 E 307/8/9 (1841)
+	1842   => '1362852',            # Naissance Saint-Goazec 3 E 307/8/10 (1842)
+    },
+
+    '3E307_0009' => {			# Naissance Saint-Goazec 3 E 307 9   1843-1852
+	1843   => '1362854',            # Naissance Saint-Goazec 3 E 307/9/1 (1843)
+	1844   => '1362855',            # Naissance Saint-Goazec 3 E 307/9/2 (1844)
+	1845   => '1362856',            # Naissance Saint-Goazec 3 E 307/9/3 (1845)
+	1846   => '1362857',            # Naissance Saint-Goazec 3 E 307/9/4 (1846)
+	1847   => '1362858',            # Naissance Saint-Goazec 3 E 307/9/5 (1847)
+	1848   => '1362859',            # Naissance Saint-Goazec 3 E 307/9/6 (1848)
+	1849   => '1362860',            # Naissance Saint-Goazec 3 E 307/9/7 (1849)
+	1850   => '1362861',            # Naissance Saint-Goazec 3 E 307/9/8 (1850)
+	1851   => '1362862',            # Naissance Saint-Goazec 3 E 307/9/9 (1851)
+	1852   => '1362863',            # Naissance Saint-Goazec 3 E 307/9/10 (1852)
+    },
+
+    '3E307_0010' => {			# Naissance Saint-Goazec 3 E 307 10   1853-1862
+	1853   => '1362865',            # Naissance Saint-Goazec 3 E 307/10/1 (1853)
+	1854   => '1362866',            # Naissance Saint-Goazec 3 E 307/10/2 (1854)
+	1855   => '1362867',            # Naissance Saint-Goazec 3 E 307/10/3 (1855)
+	1856   => '1362868',            # Naissance Saint-Goazec 3 E 307/10/4 (1856)
+	1857   => '1362869',            # Naissance Saint-Goazec 3 E 307/10/5 (1857)
+	1858   => '1362870',            # Naissance Saint-Goazec 3 E 307/10/6 (1858)
+	1859   => '1362871',            # Naissance Saint-Goazec 3 E 307/10/7 (1859)
+	1860   => '1362872',            # Naissance Saint-Goazec 3 E 307/10/8 (1860)
+	1861   => '1362873',            # Naissance Saint-Goazec 3 E 307/10/9 (1861)
+	1862   => '1362874',            # Naissance Saint-Goazec 3 E 307/10/10 (1862)
+    },
+
+    '3E307_0011' => {			# Naissance Saint-Goazec 3 E 307 11   1863-1869
+	1863   => '1362876',            # Naissance Saint-Goazec 3 E 307/11/1 (1863)
+	1864   => '1362877',            # Naissance Saint-Goazec 3 E 307/11/2 (1864)
+	1865   => '1362878',            # Naissance Saint-Goazec 3 E 307/11/3 (1865)
+	1866   => '1362879',            # Naissance Saint-Goazec 3 E 307/11/4 (1866)
+	1867   => '1362880',            # Naissance Saint-Goazec 3 E 307/11/5 (1867)
+	1868   => '1362881',            # Naissance Saint-Goazec 3 E 307/11/6 (1868)
+	1869   => '1362882',            # Naissance Saint-Goazec 3 E 307/11/7 (1869)
+    },
+
+    '3E307_0012' => {			# Naissance Saint-Goazec 3 E 307 12   1870-1881
+	1870   => '1362884',            # Naissance Saint-Goazec 3 E 307/12/1 (1870)
+	1871   => '1362885',            # Naissance Saint-Goazec 3 E 307/12/2 (1871)
+	1872   => '1362886',            # Naissance Saint-Goazec 3 E 307/12/3 (1872)
+	1873   => '1362887',            # Naissance Saint-Goazec 3 E 307/12/4 (1873)
+	1874   => '1362888',            # Naissance Saint-Goazec 3 E 307/12/5 (1874)
+	1875   => '1362889',            # Naissance Saint-Goazec 3 E 307/12/6 (1875)
+	1876   => '1362890',            # Naissance Saint-Goazec 3 E 307/12/7 (1876)
+	1877   => '1362891',            # Naissance Saint-Goazec 3 E 307/12/8 (1877)
+	1878   => '1362892',            # Naissance Saint-Goazec 3 E 307/12/9 (1878)
+	1879   => '1362893',            # Naissance Saint-Goazec 3 E 307/12/10 (1879)
+	1880   => '1362894',            # Naissance Saint-Goazec 3 E 307/12/11 (1880)
+	1881   => '1362895',            # Naissance Saint-Goazec 3 E 307/12/12 (1881)
+    },
+
+    '3E307_0013' => {			# Naissance Saint-Goazec 3 E 307 13   1882-1891
+	1882   => '1362897',            # Naissance Saint-Goazec 3 E 307/13/1 (1882)
+	1883   => '1362898',            # Naissance Saint-Goazec 3 E 307/13/2 (1883)
+	1884   => '1362899',            # Naissance Saint-Goazec 3 E 307/13/3 (1884)
+	1885   => '1362900',            # Naissance Saint-Goazec 3 E 307/13/4 (1885)
+	1886   => '1362901',            # Naissance Saint-Goazec 3 E 307/13/5 (1886)
+	1887   => '1362902',            # Naissance Saint-Goazec 3 E 307/13/6 (1887)
+	1888   => '1362903',            # Naissance Saint-Goazec 3 E 307/13/7 (1888)
+	1889   => '1362904',            # Naissance Saint-Goazec 3 E 307/13/8 (1889)
+	1890   => '1362905',            # Naissance Saint-Goazec 3 E 307/13/9 (1890)
+	1891   => '1362906',            # Naissance Saint-Goazec 3 E 307/13/10 (1891)
+    },
+
+    '3E307_0014' => {			# Mariage Saint-Goazec 3 E 307 14   AN02-1812
+	'AN02' => '1362957',            # Mariage Saint-Goazec 3 E 307/14/1 (1793 - an II)
+	'AN03' => '1362958',            # Mariage Saint-Goazec 3 E 307/14/2 (an III)
+	'AN04' => '1362959',            # Mariage Saint-Goazec 3 E 307/14/3 (an IV)
+	'AN05' => '1362960',            # Mariage Saint-Goazec 3 E 307/14/4 (an V)
+	'AN06' => '1362961',            # Mariage Saint-Goazec 3 E 307/14/5 (an VI)
+	'AN09' => '1362962',            # Mariage Saint-Goazec 3 E 307/14/6 (an IX)
+	'AN10' => '1362963',            # Mariage Saint-Goazec 3 E 307/14/7 (an X)
+	'AN11' => '1362964',            # Mariage Saint-Goazec 3 E 307/14/8 (an XI)
+	'AN12' => '1362965',            # Mariage Saint-Goazec 3 E 307/14/9 (an XII)
+	'AN13' => '1362966',            # Mariage Saint-Goazec 3 E 307/14/10 (an XIII)
+	'AN14' => '1362967',            # Mariage Saint-Goazec 3 E 307/14/11 (an XIV - 1806)
+	1807   => '1362968',            # Mariage Saint-Goazec 3 E 307/14/12 (1807)
+	1808   => '1362969',            # Mariage Saint-Goazec 3 E 307/14/13 (1808)
+	1809   => '1362970',            # Mariage Saint-Goazec 3 E 307/14/14 (1809)
+	1810   => '1362971',            # Mariage Saint-Goazec 3 E 307/14/15 (1810)
+	1811   => '1362972',            # Mariage Saint-Goazec 3 E 307/14/16 (1811)
+	1812   => '1362973',            # Mariage Saint-Goazec 3 E 307/14/17 (1812)
+    },
+
+    '3E307_0015' => {			# Mariage Saint-Goazec 3 E 307 15   1813-1822
+	1813   => '1362975',            # Mariage Saint-Goazec 3 E 307/15/1 (1813)
+	1814   => '1362976',            # Mariage Saint-Goazec 3 E 307/15/2 (1814)
+	1815   => '1362977',            # Mariage Saint-Goazec 3 E 307/15/3 (1815)
+	1816   => '1362978',            # Mariage Saint-Goazec 3 E 307/15/4 (1816)
+	1817   => '1362979',            # Mariage Saint-Goazec 3 E 307/15/5 (1817)
+	1818   => '1362980',            # Mariage Saint-Goazec 3 E 307/15/6 (1818)
+	1819   => '1362981',            # Mariage Saint-Goazec 3 E 307/15/7 (1819)
+	1820   => '1362982',            # Mariage Saint-Goazec 3 E 307/15/8 (1820)
+	1821   => '1362983',            # Mariage Saint-Goazec 3 E 307/15/9 (1821)
+	1822   => '1362984',            # Mariage Saint-Goazec 3 E 307/15/10 (1822)
+    },
+
+    '3E307_0016' => {			# Mariage Saint-Goazec 3 E 307 16   1823-1828
+	1823   => '1362986',            # Mariage Saint-Goazec 3 E 307/16/1 (1823)
+	1824   => '1362987',            # Mariage Saint-Goazec 3 E 307/16/2 (1824)
+	1825   => '1362988',            # Mariage Saint-Goazec 3 E 307/16/3 (1825)
+	1826   => '1362989',            # Mariage Saint-Goazec 3 E 307/16/4 (1826)
+	1827   => '1362990',            # Mariage Saint-Goazec 3 E 307/16/5 (1827)
+	1828   => '1362991',            # Mariage Saint-Goazec 3 E 307/16/6 (1828)
+    },
+
+    '3E307_0017' => {			# Mariage Saint-Goazec 3 E 307 17   1833-1842
+	1833   => '1362997',            # Mariage Saint-Goazec 3 E 307/17/1 (1833)
+	1834   => '1362998',            # Mariage Saint-Goazec 3 E 307/17/2 (1834)
+	1835   => '1362999',            # Mariage Saint-Goazec 3 E 307/17/3 (1835)
+	1836   => '1363000',            # Mariage Saint-Goazec 3 E 307/17/4 (1836)
+	1837   => '1363001',            # Mariage Saint-Goazec 3 E 307/17/5 (1837)
+	1838   => '1363002',            # Mariage Saint-Goazec 3 E 307/17/6 (1838)
+	1839   => '1363003',            # Mariage Saint-Goazec 3 E 307/17/7 (1839)
+	1840   => '1363004',            # Mariage Saint-Goazec 3 E 307/17/8 (1840)
+	1841   => '1363005',            # Mariage Saint-Goazec 3 E 307/17/9 (1841)
+	1842   => '1363006',            # Mariage Saint-Goazec 3 E 307/17/10 (1842)
+    },
+
+    '3E307_0018' => {			# Mariage Saint-Goazec 3 E 307 18   1843-1852
+	1843   => '1363008',            # Mariage Saint-Goazec 3 E 307/18/1 (1843)
+	1844   => '1363009',            # Mariage Saint-Goazec 3 E 307/18/2 (1844)
+	1845   => '1363010',            # Mariage Saint-Goazec 3 E 307/18/3 (1845)
+	1846   => '1363011',            # Mariage Saint-Goazec 3 E 307/18/4 (1846)
+	1847   => '1363012',            # Mariage Saint-Goazec 3 E 307/18/5 (1847)
+	1848   => '1363013',            # Mariage Saint-Goazec 3 E 307/18/6 (1848)
+	1849   => '1363014',            # Mariage Saint-Goazec 3 E 307/18/7 (1849)
+	1850   => '1363015',            # Mariage Saint-Goazec 3 E 307/18/8 (1850)
+	1851   => '1363016',            # Mariage Saint-Goazec 3 E 307/18/9 (1851)
+	1852   => '1363017',            # Mariage Saint-Goazec 3 E 307/18/10 (1852)
+    },
+
+    '3E307_0019' => {			# Mariage Saint-Goazec 3 E 307 19   1853-1862
+	1853   => '1363019',            # Mariage Saint-Goazec 3 E 307/19/1 (1853)
+	1854   => '1363020',            # Mariage Saint-Goazec 3 E 307/19/2 (1854)
+	1855   => '1363021',            # Mariage Saint-Goazec 3 E 307/19/3 (1855)
+	1856   => '1363022',            # Mariage Saint-Goazec 3 E 307/19/4 (1856)
+	1857   => '1363023',            # Mariage Saint-Goazec 3 E 307/19/5 (1857)
+	1858   => '1363024',            # Mariage Saint-Goazec 3 E 307/19/6 (1858)
+	1859   => '1363025',            # Mariage Saint-Goazec 3 E 307/19/7 (1859)
+	1860   => '1363026',            # Mariage Saint-Goazec 3 E 307/19/8 (1860)
+	1861   => '1363027',            # Mariage Saint-Goazec 3 E 307/19/9 (1861)
+	1862   => '1363028',            # Mariage Saint-Goazec 3 E 307/19/10 (1862)
+    },
+
+    '3E307_0020' => {			# Mariage Saint-Goazec 3 E 307 20   1863-1869
+	1863   => '1363030',            # Mariage Saint-Goazec 3 E 307/20/1 (1863)
+	1864   => '1363031',            # Mariage Saint-Goazec 3 E 307/20/2 (1864)
+	1865   => '1363032',            # Mariage Saint-Goazec 3 E 307/20/3 (1865)
+	1866   => '1363033',            # Mariage Saint-Goazec 3 E 307/20/4 (1866)
+	1867   => '1363034',            # Mariage Saint-Goazec 3 E 307/20/5 (1867)
+	1868   => '1363035',            # Mariage Saint-Goazec 3 E 307/20/6 (1868)
+	1869   => '1363036',            # Mariage Saint-Goazec 3 E 307/20/7 (1869)
+    },
+
+    '3E307_0021' => {			# Mariage Saint-Goazec 3 E 307 21   1870-1887
+	1870   => '1363038',            # Mariage Saint-Goazec 3 E 307/21/1 (1870)
+	1871   => '1363039',            # Mariage Saint-Goazec 3 E 307/21/2 (1871)
+	1872   => '1363040',            # Mariage Saint-Goazec 3 E 307/21/3 (1872)
+	1873   => '1363041',            # Mariage Saint-Goazec 3 E 307/21/4 (1873)
+	1874   => '1363042',            # Mariage Saint-Goazec 3 E 307/21/5 (1874)
+	1875   => '1363043',            # Mariage Saint-Goazec 3 E 307/21/6 (1875)
+	1876   => '1363044',            # Mariage Saint-Goazec 3 E 307/21/7 (1876)
+	1877   => '1363045',            # Mariage Saint-Goazec 3 E 307/21/8 (1877)
+	1878   => '1363046',            # Mariage Saint-Goazec 3 E 307/21/9 (1878)
+	1879   => '1363047',            # Mariage Saint-Goazec 3 E 307/21/10 (1879)
+	1880   => '1363048',            # Mariage Saint-Goazec 3 E 307/21/11 (1880)
+	1881   => '1363049',            # Mariage Saint-Goazec 3 E 307/21/12 (1881)
+	1882   => '1363050',            # Mariage Saint-Goazec 3 E 307/21/13 (1882)
+	1883   => '1363051',            # Mariage Saint-Goazec 3 E 307/21/14 (1883)
+	1884   => '1363052',            # Mariage Saint-Goazec 3 E 307/21/15 (1884)
+	1885   => '1363053',            # Mariage Saint-Goazec 3 E 307/21/16 (1885)
+	1886   => '1363054',            # Mariage Saint-Goazec 3 E 307/21/17 (1886)
+	1887   => '1363055',            # Mariage Saint-Goazec 3 E 307/21/18 (1887)
+    },
+
+    '3E307_0022' => {			# Décès Saint-Goazec 3 E 307 22   AN02-1812
+	'AN02' => '1363110',            # Décès Saint-Goazec 3 E 307/22/1 (1793 - an II)
+	'AN03' => '1363111',            # Décès Saint-Goazec 3 E 307/22/2 (an III)
+	'AN04' => '1363112',            # Décès Saint-Goazec 3 E 307/22/3 (an IV)
+	'AN05' => '1363113',            # Décès Saint-Goazec 3 E 307/22/4 (an V)
+	'AN06' => '1363114',            # Décès Saint-Goazec 3 E 307/22/5 (an VI)
+	'AN07' => '1363115',            # Décès Saint-Goazec 3 E 307/22/6 (an VII)
+	'AN08' => '1363116',            # Décès Saint-Goazec 3 E 307/22/7 (an VIII)
+	'AN09' => '1363117',            # Décès Saint-Goazec 3 E 307/22/8 (an IX)
+	'AN10' => '1363118',            # Décès Saint-Goazec 3 E 307/22/9 (an X)
+	'AN11' => '1363119',            # Décès Saint-Goazec 3 E 307/22/10 (an XI)
+	'AN12' => '1363120',            # Décès Saint-Goazec 3 E 307/22/11 (an XII)
+	'AN13' => '1363121',            # Décès Saint-Goazec 3 E 307/22/12 (an XIII)
+	'AN14' => '1363122',            # Décès Saint-Goazec 3 E 307/22/13 (an XIV - 1806)
+	1807   => '1363123',            # Décès Saint-Goazec 3 E 307/22/14 (1807)
+	1808   => '1363124',            # Décès Saint-Goazec 3 E 307/22/15 (1808)
+	1809   => '1363125',            # Décès Saint-Goazec 3 E 307/22/16 (1809)
+	1810   => '1363126',            # Décès Saint-Goazec 3 E 307/22/17 (1810)
+	1811   => '1363127',            # Décès Saint-Goazec 3 E 307/22/18 (1811)
+	1812   => '1363128',            # Décès Saint-Goazec 3 E 307/22/19 (1812)
+    },
+
+    '3E307_0023' => {			# Décès Saint-Goazec 3 E 307 23   1813-1817
+	1813   => '1363130',            # Décès Saint-Goazec 3 E 307/23/1 (1813)
+	1814   => '1363131',            # Décès Saint-Goazec 3 E 307/23/2 (1814)
+	1815   => '1363132',            # Décès Saint-Goazec 3 E 307/23/3 (1815)
+	1816   => '1363133',            # Décès Saint-Goazec 3 E 307/23/4 (1816)
+	1817   => '1363134',            # Décès Saint-Goazec 3 E 307/23/5 (1817)
+    },
+
+    '3E307_0024' => {			# Décès Saint-Goazec 3 E 307 24   1823-1832
+	1823   => '1363141',            # Décès Saint-Goazec 3 E 307/24/1 (1823)
+	1824   => '1363142',            # Décès Saint-Goazec 3 E 307/24/2 (1824)
+	1825   => '1363143',            # Décès Saint-Goazec 3 E 307/24/3 (1825)
+	1826   => '1363144',            # Décès Saint-Goazec 3 E 307/24/4 (1826)
+	1827   => '1363145',            # Décès Saint-Goazec 3 E 307/24/5 (1827)
+	1828   => '1363146',            # Décès Saint-Goazec 3 E 307/24/6 (1828)
+	1829   => '1363147',            # Décès Saint-Goazec 3 E 307/24/7 (1829)
+	1830   => '1363148',            # Décès Saint-Goazec 3 E 307/24/8 (1830)
+	1831   => '1363149',            # Décès Saint-Goazec 3 E 307/24/9 (1831)
+	1832   => '1363150',            # Décès Saint-Goazec 3 E 307/24/10 (1832)
+    },
+
+    '3E307_0025' => {			# Décès Saint-Goazec 3 E 307 25   1833-1842
+	1833   => '1363152',            # Décès Saint-Goazec 3 E 307/25/1 (1833)
+	1834   => '1363153',            # Décès Saint-Goazec 3 E 307/25/2 (1834)
+	1835   => '1363154',            # Décès Saint-Goazec 3 E 307/25/3 (1835)
+	1836   => '1363155',            # Décès Saint-Goazec 3 E 307/25/4 (1836)
+	1837   => '1363156',            # Décès Saint-Goazec 3 E 307/25/5 (1837)
+	1838   => '1363157',            # Décès Saint-Goazec 3 E 307/25/6 (1838)
+	1839   => '1363158',            # Décès Saint-Goazec 3 E 307/25/7 (1839)
+	1840   => '1363159',            # Décès Saint-Goazec 3 E 307/25/8 (1840)
+	1841   => '1363160',            # Décès Saint-Goazec 3 E 307/25/9 (1841)
+	1842   => '1363161',            # Décès Saint-Goazec 3 E 307/25/10 (1842)
+    },
+
+    '3E307_0026' => {			# Décès Saint-Goazec 3 E 307 26   1843-1852
+	1843   => '1363163',            # Décès Saint-Goazec 3 E 307/26/1 (1843)
+	1844   => '1363164',            # Décès Saint-Goazec 3 E 307/26/2 (1844)
+	1845   => '1363165',            # Décès Saint-Goazec 3 E 307/26/3 (1845)
+	1846   => '1363166',            # Décès Saint-Goazec 3 E 307/26/4 (1846)
+	1847   => '1363167',            # Décès Saint-Goazec 3 E 307/26/5 (1847)
+	1848   => '1363168',            # Décès Saint-Goazec 3 E 307/26/6 (1848)
+	1849   => '1363169',            # Décès Saint-Goazec 3 E 307/26/7 (1849)
+	1850   => '1363170',            # Décès Saint-Goazec 3 E 307/26/8 (1850)
+	1851   => '1363171',            # Décès Saint-Goazec 3 E 307/26/9 (1851)
+	1852   => '1363172',            # Décès Saint-Goazec 3 E 307/26/10 (1852)
+    },
+
+    '3E307_0027' => {			# Décès Saint-Goazec 3 E 307 27   1853-1862
+	1853   => '1363174',            # Décès Saint-Goazec 3 E 307/27/1 (1853)
+	1854   => '1363175',            # Décès Saint-Goazec 3 E 307/27/2 (1854)
+	1855   => '1363176',            # Décès Saint-Goazec 3 E 307/27/3 (1855)
+	1856   => '1363177',            # Décès Saint-Goazec 3 E 307/27/4 (1856)
+	1857   => '1363178',            # Décès Saint-Goazec 3 E 307/27/5 (1857)
+	1858   => '1363179',            # Décès Saint-Goazec 3 E 307/27/6 (1858)
+	1859   => '1363180',            # Décès Saint-Goazec 3 E 307/27/7 (1859)
+	1860   => '1363181',            # Décès Saint-Goazec 3 E 307/27/8 (1860)
+	1861   => '1363182',            # Décès Saint-Goazec 3 E 307/27/9 (1861)
+	1862   => '1363183',            # Décès Saint-Goazec 3 E 307/27/10 (1862)
+    },
+
+    '3E307_0028' => {			# Décès Saint-Goazec 3 E 307 28   1863-1869
+	1863   => '1363185',            # Décès Saint-Goazec 3 E 307/28/1 (1863)
+	1864   => '1363186',            # Décès Saint-Goazec 3 E 307/28/2 (1864)
+	1865   => '1363187',            # Décès Saint-Goazec 3 E 307/28/3 (1865)
+	1866   => '1363188',            # Décès Saint-Goazec 3 E 307/28/4 (1866)
+	1867   => '1363189',            # Décès Saint-Goazec 3 E 307/28/5 (1867)
+	1868   => '1363190',            # Décès Saint-Goazec 3 E 307/28/6 (1868)
+	1869   => '1363191',            # Décès Saint-Goazec 3 E 307/28/7 (1869)
+    },
+
+    '3E307_0029' => {			# Décès Saint-Goazec 3 E 307 29   1870-1886
+	1870   => '1363193',            # Décès Saint-Goazec 3 E 307/29/1 (1870)
+	1871   => '1363194',            # Décès Saint-Goazec 3 E 307/29/2 (1871)
+	1872   => '1363195',            # Décès Saint-Goazec 3 E 307/29/3 (1872)
+	1873   => '1363196',            # Décès Saint-Goazec 3 E 307/29/4 (1873)
+	1874   => '1363197',            # Décès Saint-Goazec 3 E 307/29/5 (1874)
+	1875   => '1363198',            # Décès Saint-Goazec 3 E 307/29/6 (1875)
+	1876   => '1363199',            # Décès Saint-Goazec 3 E 307/29/7 (1876)
+	1877   => '1363200',            # Décès Saint-Goazec 3 E 307/29/8 (1877)
+	1878   => '1363201',            # Décès Saint-Goazec 3 E 307/29/9 (1878)
+	1879   => '1363202',            # Décès Saint-Goazec 3 E 307/29/10 (1879)
+	1880   => '1363203',            # Décès Saint-Goazec 3 E 307/29/11 (1880)
+	1881   => '1363204',            # Décès Saint-Goazec 3 E 307/29/12 (1881)
+	1882   => '1363205',            # Décès Saint-Goazec 3 E 307/29/13 (1882)
+	1883   => '1363206',            # Décès Saint-Goazec 3 E 307/29/14 (1883)
+	1884   => '1363207',            # Décès Saint-Goazec 3 E 307/29/15 (1884)
+	1885   => '1363208',            # Décès Saint-Goazec 3 E 307/29/16 (1885)
+	1886   => '1363209',            # Décès Saint-Goazec 3 E 307/29/17 (1886)
+    },
+
+    '3E307_0030' => {			# Naissance Saint-Goazec 3 E 307 30   1892-1906
+	1892   => '1362908',            # Naissance Saint-Goazec 3 E 307/30/1 (1892)
+	1893   => '1362909',            # Naissance Saint-Goazec 3 E 307/30/2 (1893)
+	1894   => '1362910',            # Naissance Saint-Goazec 3 E 307/30/3 (1894)
+	1895   => '1362911',            # Naissance Saint-Goazec 3 E 307/30/4 (1895)
+	1896   => '1362912',            # Naissance Saint-Goazec 3 E 307/30/5 (1896)
+	1897   => '1362913',            # Naissance Saint-Goazec 3 E 307/30/6 (1897)
+	1898   => '1362914',            # Naissance Saint-Goazec 3 E 307/30/7 (1898)
+	1899   => '1362915',            # Naissance Saint-Goazec 3 E 307/30/8 (1899)
+	1900   => '1362916',            # Naissance Saint-Goazec 3 E 307/30/9 (1900)
+	1901   => '1362917',            # Naissance Saint-Goazec 3 E 307/30/10 (1901)
+	1902   => '1362918',            # Naissance Saint-Goazec 3 E 307/30/11 (1902)
+	1903   => '1362919',            # Naissance Saint-Goazec 3 E 307/30/12 (1903)
+	1904   => '1362920',            # Naissance Saint-Goazec 3 E 307/30/13 (1904)
+	1905   => '1362921',            # Naissance Saint-Goazec 3 E 307/30/14 (1905)
+	1906   => '1362922',            # Naissance Saint-Goazec 3 E 307/30/15 (1906)
+    },
+
+    '3E307_0031' => {			# Mariage Saint-Goazec 3 E 307 31   1888-1904
+	1888   => '1363057',            # Mariage Saint-Goazec 3 E 307/31/1 (1888)
+	1889   => '1363058',            # Mariage Saint-Goazec 3 E 307/31/2 (1889)
+	1890   => '1363059',            # Mariage Saint-Goazec 3 E 307/31/3 (1890)
+	1891   => '1363060',            # Mariage Saint-Goazec 3 E 307/31/4 (1891)
+	1892   => '1363061',            # Mariage Saint-Goazec 3 E 307/31/5 (1892)
+	1893   => '1363062',            # Mariage Saint-Goazec 3 E 307/31/6 (1893)
+	1894   => '1363063',            # Mariage Saint-Goazec 3 E 307/31/7 (1894)
+	1895   => '1363064',            # Mariage Saint-Goazec 3 E 307/31/8 (1895)
+	1896   => '1363065',            # Mariage Saint-Goazec 3 E 307/31/9 (1896)
+	1897   => '1363066',            # Mariage Saint-Goazec 3 E 307/31/10 (1897)
+	1898   => '1363067',            # Mariage Saint-Goazec 3 E 307/31/11 (1898)
+	1899   => '1363068',            # Mariage Saint-Goazec 3 E 307/31/12 (1899)
+	1900   => '1363069',            # Mariage Saint-Goazec 3 E 307/31/13 (1900)
+	1901   => '1363070',            # Mariage Saint-Goazec 3 E 307/31/14 (1901)
+	1902   => '1363071',            # Mariage Saint-Goazec 3 E 307/31/15 (1902)
+	1903   => '1363072',            # Mariage Saint-Goazec 3 E 307/31/16 (1903)
+	1904   => '1363073',            # Mariage Saint-Goazec 3 E 307/31/17 (1904)
+    },
+
+    '3E307_0032' => {			# Décès Saint-Goazec 3 E 307 32   1887-1902
+	1887   => '1363211',            # Décès Saint-Goazec 3 E 307/32/1 (1887)
+	1888   => '1363212',            # Décès Saint-Goazec 3 E 307/32/2 (1888)
+	1889   => '1363213',            # Décès Saint-Goazec 3 E 307/32/3 (1889)
+	1890   => '1363214',            # Décès Saint-Goazec 3 E 307/32/4 (1890)
+	1891   => '1363215',            # Décès Saint-Goazec 3 E 307/32/5 (1891)
+	1892   => '1363216',            # Décès Saint-Goazec 3 E 307/32/6 (1892)
+	1893   => '1363217',            # Décès Saint-Goazec 3 E 307/32/7 (1893)
+	1894   => '1363218',            # Décès Saint-Goazec 3 E 307/32/8 (1894)
+	1895   => '1363219',            # Décès Saint-Goazec 3 E 307/32/9 (1895)
+	1896   => '1363220',            # Décès Saint-Goazec 3 E 307/32/10 (1896)
+	1897   => '1363221',            # Décès Saint-Goazec 3 E 307/32/11 (1897)
+	1898   => '1363222',            # Décès Saint-Goazec 3 E 307/32/12 (1898)
+	1899   => '1363223',            # Décès Saint-Goazec 3 E 307/32/13 (1899)
+	1900   => '1363224',            # Décès Saint-Goazec 3 E 307/32/14 (1900)
+	1901   => '1363225',            # Décès Saint-Goazec 3 E 307/32/15 (1901)
+	1902   => '1363226',            # Décès Saint-Goazec 3 E 307/32/16 (1902)
+    },
+
+    '3E307_0033' => {			# Naissance Saint-Goazec 3 E 307 33   1907-1919
+	1907   => '1362924',            # Naissance Saint-Goazec 3 E 307/33/1 (1907)
+	1908   => '1362925',            # Naissance Saint-Goazec 3 E 307/33/2 (1908)
+	1909   => '1362926',            # Naissance Saint-Goazec 3 E 307/33/3 (1909)
+	1910   => '1362927',            # Naissance Saint-Goazec 3 E 307/33/4 (1910)
+	1911   => '1362928',            # Naissance Saint-Goazec 3 E 307/33/5 (1911)
+	1912   => '1362929',            # Naissance Saint-Goazec 3 E 307/33/6 (1912)
+	1913   => '1362930',            # Naissance Saint-Goazec 3 E 307/33/7 (1913)
+	1914   => '1362931',            # Naissance Saint-Goazec 3 E 307/33/8 (1914)
+	1915   => '1362932',            # Naissance Saint-Goazec 3 E 307/33/9 (1915)
+	1916   => '1362933',            # Naissance Saint-Goazec 3 E 307/33/10 (1916)
+	1917   => '1362934',            # Naissance Saint-Goazec 3 E 307/33/11 (1917)
+	1918   => '1362935',            # Naissance Saint-Goazec 3 E 307/33/12 (1918)
+	1919   => '1362936',            # Naissance Saint-Goazec 3 E 307/33/13 (1919)
+    },
+
+    '3E307_0034' => {			# Naissance Saint-Goazec 3 E 307 34   1920-1925
+	1920   => '1362938',            # Naissance Saint-Goazec 3 E 307/34/1 (1920)
+	1921   => '1362939',            # Naissance Saint-Goazec 3 E 307/34/2 (1921)
+	1922   => '1362940',            # Naissance Saint-Goazec 3 E 307/34/3 (1922)
+	1923   => '1362941',            # Naissance Saint-Goazec 3 E 307/34/4 (1923)
+	1924   => '1362942',            # Naissance Saint-Goazec 3 E 307/34/5 (1924)
+	1925   => '1362943',            # Naissance Saint-Goazec 3 E 307/34/6 (1925)
+    },
+
+    '3E307_0035' => {			# Mariage Saint-Goazec 3 E 307 35   1905-1918
+	1905   => '1363075',            # Mariage Saint-Goazec 3 E 307/35/1 (1905)
+	1906   => '1363076',            # Mariage Saint-Goazec 3 E 307/35/2 (1906)
+	1907   => '1363077',            # Mariage Saint-Goazec 3 E 307/35/3 (1907)
+	1908   => '1363078',            # Mariage Saint-Goazec 3 E 307/35/4 (1908)
+	1909   => '1363079',            # Mariage Saint-Goazec 3 E 307/35/5 (1909)
+	1910   => '1363080',            # Mariage Saint-Goazec 3 E 307/35/6 (1910)
+	1911   => '1363081',            # Mariage Saint-Goazec 3 E 307/35/7 (1911)
+	1912   => '1363082',            # Mariage Saint-Goazec 3 E 307/35/8 (1912)
+	1913   => '1363083',            # Mariage Saint-Goazec 3 E 307/35/9 (1913)
+	1914   => '1363084',            # Mariage Saint-Goazec 3 E 307/35/10 (1914)
+	1915   => '1363085',            # Mariage Saint-Goazec 3 E 307/35/11 (1915)
+	1916   => '1363086',            # Mariage Saint-Goazec 3 E 307/35/12 (1916)
+	1917   => '1363087',            # Mariage Saint-Goazec 3 E 307/35/13 (1917)
+	1918   => '1363088',            # Mariage Saint-Goazec 3 E 307/35/14 (1918)
+    },
+
+    '3E307_0036' => {			# Mariage Saint-Goazec 3 E 307 36   1919-1925
+	1919   => '1363090',            # Mariage Saint-Goazec 3 E 307/36/1 (1919)
+	1920   => '1363091',            # Mariage Saint-Goazec 3 E 307/36/2 (1920)
+	1921   => '1363092',            # Mariage Saint-Goazec 3 E 307/36/3 (1921)
+	1922   => '1363093',            # Mariage Saint-Goazec 3 E 307/36/4 (1922)
+	1923   => '1363094',            # Mariage Saint-Goazec 3 E 307/36/5 (1923)
+	1924   => '1363095',            # Mariage Saint-Goazec 3 E 307/36/6 (1924)
+	1925   => '1363096',            # Mariage Saint-Goazec 3 E 307/36/7 (1925)
+    },
+
+    '3E307_0037' => {			# Décès Saint-Goazec 3 E 307 37   1903-1917
+	1903   => '1363228',            # Décès Saint-Goazec 3 E 307/37/1 (1903)
+	1904   => '1363229',            # Décès Saint-Goazec 3 E 307/37/2 (1904)
+	1905   => '1363230',            # Décès Saint-Goazec 3 E 307/37/3 (1905)
+	1906   => '1363231',            # Décès Saint-Goazec 3 E 307/37/4 (1906)
+	1907   => '1363232',            # Décès Saint-Goazec 3 E 307/37/5 (1907)
+	1908   => '1363233',            # Décès Saint-Goazec 3 E 307/37/6 (1908)
+	1909   => '1363234',            # Décès Saint-Goazec 3 E 307/37/7 (1909)
+	1910   => '1363235',            # Décès Saint-Goazec 3 E 307/37/8 (1910)
+	1911   => '1363236',            # Décès Saint-Goazec 3 E 307/37/9 (1911)
+	1912   => '1363237',            # Décès Saint-Goazec 3 E 307/37/10 (1912)
+	1913   => '1363238',            # Décès Saint-Goazec 3 E 307/37/11 (1913)
+	1914   => '1363239',            # Décès Saint-Goazec 3 E 307/37/12 (1914)
+	1915   => '1363240',            # Décès Saint-Goazec 3 E 307/37/13 (1915)
+	1916   => '1363241',            # Décès Saint-Goazec 3 E 307/37/14 (1916)
+	1917   => '1363242',            # Décès Saint-Goazec 3 E 307/37/15 (1917)
+    },
+
+    '3E307_0038' => {			# Décès Saint-Goazec 3 E 307 38   1918-1936
+	1918   => '1363244',            # Décès Saint-Goazec 3 E 307/38/1 (1918)
+	1919   => '1363245',            # Décès Saint-Goazec 3 E 307/38/2 (1919)
+	1920   => '1363246',            # Décès Saint-Goazec 3 E 307/38/3 (1920)
+	1921   => '1363247',            # Décès Saint-Goazec 3 E 307/38/4 (1921)
+	1922   => '1363248',            # Décès Saint-Goazec 3 E 307/38/5 (1922)
+	1923   => '1363249',            # Décès Saint-Goazec 3 E 307/38/6 (1923)
+	1924   => '1363250',            # Décès Saint-Goazec 3 E 307/38/7 (1924)
+	1925   => '1363251',            # Décès Saint-Goazec 3 E 307/38/8 (1925)
+	1926   => '1363252',            # Décès Saint-Goazec 3 E 307/38/9 (1926)
+	1927   => '1363253',            # Décès Saint-Goazec 3 E 307/38/10 (1927)
+	1928   => '1363254',            # Décès Saint-Goazec 3 E 307/38/11 (1928)
+	1929   => '1363255',            # Décès Saint-Goazec 3 E 307/38/12 (1929)
+	1930   => '1363256',            # Décès Saint-Goazec 3 E 307/38/13 (1930)
+	1931   => '1363257',            # Décès Saint-Goazec 3 E 307/38/14 (1931)
+	1932   => '1363258',            # Décès Saint-Goazec 3 E 307/38/15 (1932)
+	1933   => '1363259',            # Décès Saint-Goazec 3 E 307/38/16 (1933)
+	1934   => '1363260',            # Décès Saint-Goazec 3 E 307/38/17 (1934)
+	1935   => '1363261',            # Décès Saint-Goazec 3 E 307/38/18 (1935)
+	1936   => '1363262',            # Décès Saint-Goazec 3 E 307/38/19 (1936)
+    },
+
     # Saint-Hernin
     '3E309_0006' => '1040260.1634658',  # Naissance Saint-Hernin 3 E 309 6 (1793-1812)
     '3E309_0007' => '1040261.1634659',  # Naissance Saint-Hernin 3 E 309 7 (1813-1832)
