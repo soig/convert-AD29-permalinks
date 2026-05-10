@@ -129,6 +129,526 @@ my %convert = (
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
     # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer
 
+    # Beuzec-Conq
+    '3E010_0009' => {			# Naissance Beuzec-Conq 3 E 10 9   AN02-AN10
+	'AN02' => '1268926',            # Naissance Beuzec-Conq 3 E 10/9/1 (1793 - an II)
+	'AN03' => '1268927',            # Naissance Beuzec-Conq 3 E 10/9/2 (an III)
+	'AN04' => '1268928',            # Naissance Beuzec-Conq 3 E 10/9/3 (an IV)
+	'AN05' => '1268929',            # Naissance Beuzec-Conq 3 E 10/9/4 (an V)
+	'AN06' => '1268930',            # Naissance Beuzec-Conq 3 E 10/9/5 (an VI)
+	'AN07' => '1268931',            # Naissance Beuzec-Conq 3 E 10/9/6 (an VII)
+	'AN08' => '1268932',            # Naissance Beuzec-Conq 3 E 10/9/7 (an VIII)
+	'AN09' => '1268933',            # Naissance Beuzec-Conq 3 E 10/9/8 (an IX)
+	'AN10' => '1268934',            # Naissance Beuzec-Conq 3 E 10/9/9 (an X)
+    },
+
+    '3E010_0010' => {			# Naissance Beuzec-Conq 3 E 10 10   AN11-1812
+	'AN11' => '1268936',            # Naissance Beuzec-Conq 3 E 10/10/1 (an XI)
+	'AN12' => '1268937',            # Naissance Beuzec-Conq 3 E 10/10/2 (an XII)
+	'AN13' => '1268938',            # Naissance Beuzec-Conq 3 E 10/10/3 (an XIII)
+	'AN14' => '1268939',            # Naissance Beuzec-Conq 3 E 10/10/4 (an XIV - 1806)
+	1807   => '1268940',            # Naissance Beuzec-Conq 3 E 10/10/5 (1807)
+	1808   => '1268941',            # Naissance Beuzec-Conq 3 E 10/10/6 (1808)
+	1809   => '1268942',            # Naissance Beuzec-Conq 3 E 10/10/7 (1809)
+	1810   => '1268943',            # Naissance Beuzec-Conq 3 E 10/10/8 (1810)
+	1811   => '1268944',            # Naissance Beuzec-Conq 3 E 10/10/9 (1811)
+	1812   => '1268945',            # Naissance Beuzec-Conq 3 E 10/10/10 (1812)
+    },
+
+    '3E010_0011' => {			# Naissance Beuzec-Conq 3 E 10 11   1813-1817
+	1813   => '1268947',            # Naissance Beuzec-Conq 3 E 10/11/1 (1813)
+	1814   => '1268948',            # Naissance Beuzec-Conq 3 E 10/11/2 (1814)
+	1815   => '1268949',            # Naissance Beuzec-Conq 3 E 10/11/3 (1815)
+	1816   => '1268950',            # Naissance Beuzec-Conq 3 E 10/11/4 (1816)
+	1817   => '1268951',            # Naissance Beuzec-Conq 3 E 10/11/5 (1817)
+    },
+
+    '3E010_0012' => {			# Naissance Beuzec-Conq 3 E 10 12   1823-1832
+	1823   => '1268958',            # Naissance Beuzec-Conq 3 E 10/12/1 (1823)
+	1824   => '1268959',            # Naissance Beuzec-Conq 3 E 10/12/2 (1824)
+	1825   => '1268960',            # Naissance Beuzec-Conq 3 E 10/12/3 (1825)
+	1826   => '1268961',            # Naissance Beuzec-Conq 3 E 10/12/4 (1826)
+	1827   => '1268962',            # Naissance Beuzec-Conq 3 E 10/12/5 (1827)
+	1828   => '1268963',            # Naissance Beuzec-Conq 3 E 10/12/6 (1828)
+	1829   => '1268964',            # Naissance Beuzec-Conq 3 E 10/12/7 (1829)
+	1830   => '1268965',            # Naissance Beuzec-Conq 3 E 10/12/8 (1830)
+	1831   => '1268966',            # Naissance Beuzec-Conq 3 E 10/12/9 (1831)
+	1832   => '1268967',            # Naissance Beuzec-Conq 3 E 10/12/10 (1832)
+    },
+
+    '3E010_0013' => {			# Naissance Beuzec-Conq 3 E 10 13   1833-1842
+	1833   => '1268969',            # Naissance Beuzec-Conq 3 E 10/13/1 (1833)
+	1834   => '1268970',            # Naissance Beuzec-Conq 3 E 10/13/2 (1834)
+	1835   => '1268971',            # Naissance Beuzec-Conq 3 E 10/13/3 (1835)
+	1836   => '1268972',            # Naissance Beuzec-Conq 3 E 10/13/4 (1836)
+	1837   => '1268973',            # Naissance Beuzec-Conq 3 E 10/13/5 (1837)
+	1838   => '1268974',            # Naissance Beuzec-Conq 3 E 10/13/6 (1838)
+	1839   => '1268975',            # Naissance Beuzec-Conq 3 E 10/13/7 (1839)
+	1840   => '1268976',            # Naissance Beuzec-Conq 3 E 10/13/8 (1840)
+	1841   => '1268977',            # Naissance Beuzec-Conq 3 E 10/13/9 (1841)
+	1842   => '1268978',            # Naissance Beuzec-Conq 3 E 10/13/10 (1842)
+    },
+
+    '3E010_0014' => {			# Naissance Beuzec-Conq 3 E 10 14   1843-1852
+	1843   => '1268980',            # Naissance Beuzec-Conq 3 E 10/14/1 (1843)
+	1844   => '1268981',            # Naissance Beuzec-Conq 3 E 10/14/2 (1844)
+	1845   => '1268982',            # Naissance Beuzec-Conq 3 E 10/14/3 (1845)
+	1846   => '1268983',            # Naissance Beuzec-Conq 3 E 10/14/4 (1846)
+	1847   => '1268984',            # Naissance Beuzec-Conq 3 E 10/14/5 (1847)
+	1848   => '1268985',            # Naissance Beuzec-Conq 3 E 10/14/6 (1848)
+	1849   => '1268986',            # Naissance Beuzec-Conq 3 E 10/14/7 (1849)
+	1850   => '1268987',            # Naissance Beuzec-Conq 3 E 10/14/8 (1850)
+	1851   => '1268988',            # Naissance Beuzec-Conq 3 E 10/14/9 (1851)
+	1852   => '1268989',            # Naissance Beuzec-Conq 3 E 10/14/10 (1852)
+    },
+
+    '3E010_0015' => {			# Naissance Beuzec-Conq 3 E 10 15   1853-1862
+	1853   => '1268991',            # Naissance Beuzec-Conq 3 E 10/15/1 (1853)
+	1854   => '1268992',            # Naissance Beuzec-Conq 3 E 10/15/2 (1854)
+	1855   => '1268993',            # Naissance Beuzec-Conq 3 E 10/15/3 (1855)
+	1856   => '1268994',            # Naissance Beuzec-Conq 3 E 10/15/4 (1856)
+	1857   => '1268995',            # Naissance Beuzec-Conq 3 E 10/15/5 (1857)
+	1858   => '1268996',            # Naissance Beuzec-Conq 3 E 10/15/6 (1858)
+	1859   => '1268997',            # Naissance Beuzec-Conq 3 E 10/15/7 (1859)
+	1860   => '1268998',            # Naissance Beuzec-Conq 3 E 10/15/8 (1860)
+	1861   => '1268999',            # Naissance Beuzec-Conq 3 E 10/15/9 (1861)
+	1862   => '1269000',            # Naissance Beuzec-Conq 3 E 10/15/10 (1862)
+    },
+
+    '3E010_0016' => {			# Naissance Beuzec-Conq 3 E 10 16   1863-1869
+	1863   => '1269002',            # Naissance Beuzec-Conq 3 E 10/16/1 (1863)
+	1864   => '1269003',            # Naissance Beuzec-Conq 3 E 10/16/2 (1864)
+	1865   => '1269004',            # Naissance Beuzec-Conq 3 E 10/16/3 (1865)
+	1866   => '1269005',            # Naissance Beuzec-Conq 3 E 10/16/4 (1866)
+	1867   => '1269006',            # Naissance Beuzec-Conq 3 E 10/16/5 (1867)
+	1868   => '1269007',            # Naissance Beuzec-Conq 3 E 10/16/6 (1868)
+	1869   => '1269008',            # Naissance Beuzec-Conq 3 E 10/16/7 (1869)
+    },
+
+    '3E010_0017' => {			# Naissance Beuzec-Conq 3 E 10 17   1870-1882
+	1870   => '1269010',            # Naissance Beuzec-Conq 3 E 10/17/1 (1870)
+	1871   => '1269011',            # Naissance Beuzec-Conq 3 E 10/17/2 (1871)
+	1872   => '1269012',            # Naissance Beuzec-Conq 3 E 10/17/3 (1872)
+	1873   => '1269013',            # Naissance Beuzec-Conq 3 E 10/17/4 (1873)
+	1874   => '1269014',            # Naissance Beuzec-Conq 3 E 10/17/5 (1874)
+	1875   => '1269015',            # Naissance Beuzec-Conq 3 E 10/17/6 (1875)
+	1876   => '1269016',            # Naissance Beuzec-Conq 3 E 10/17/7 (1876)
+	1877   => '1269017',            # Naissance Beuzec-Conq 3 E 10/17/8 (1877)
+	1878   => '1269018',            # Naissance Beuzec-Conq 3 E 10/17/9 (1878)
+	1879   => '1269019',            # Naissance Beuzec-Conq 3 E 10/17/10 (1879)
+	1880   => '1269020',            # Naissance Beuzec-Conq 3 E 10/17/11 (1880)
+	1881   => '1269021',            # Naissance Beuzec-Conq 3 E 10/17/12 (1881)
+	1882   => '1269022',            # Naissance Beuzec-Conq 3 E 10/17/13 (1882)
+    },
+
+    '3E010_0018' => {			# Naissance Beuzec-Conq 3 E 10 18   1883-1890
+	1883   => '1269024',            # Naissance Beuzec-Conq 3 E 10/18/1 (1883)
+	1884   => '1269025',            # Naissance Beuzec-Conq 3 E 10/18/2 (1884)
+	1885   => '1269026',            # Naissance Beuzec-Conq 3 E 10/18/3 (1885)
+	1886   => '1269027',            # Naissance Beuzec-Conq 3 E 10/18/4 (1886)
+	1887   => '1269028',            # Naissance Beuzec-Conq 3 E 10/18/5 (1887)
+	1888   => '1269029',            # Naissance Beuzec-Conq 3 E 10/18/6 (1888)
+	1889   => '1269030',            # Naissance Beuzec-Conq 3 E 10/18/7 (1889)
+	1890   => '1269031',            # Naissance Beuzec-Conq 3 E 10/18/8 (1890)
+    },
+
+    '3E010_0019' => {			# Mariage Beuzec-Conq 3 E 10 19   AN10-AN10
+	'AN02' => '1269086',            # Mariage Beuzec-Conq 3 E 10/19/1 (1793 - an II)
+	'AN03' => '1269087',            # Mariage Beuzec-Conq 3 E 10/19/2 (an III)
+	'AN04' => '1269088',            # Mariage Beuzec-Conq 3 E 10/19/3 (an IV)
+	'AN05' => '1269089',            # Mariage Beuzec-Conq 3 E 10/19/4 (an V)
+	'AN06' => '1269090',            # Mariage Beuzec-Conq 3 E 10/19/5 (an VI)
+	'AN09' => '1269091',            # Mariage Beuzec-Conq 3 E 10/19/6 (an IX)
+	'AN10' => '1269092',            # Mariage Beuzec-Conq 3 E 10/19/7 (an X)
+    },
+
+    '3E010_0020' => {			# Mariage Beuzec-Conq 3 E 10 20   AN12-1812
+	'AN11' => '1269094',            # Mariage Beuzec-Conq 3 E 10/20/1 (an XI)
+	'AN12' => '1269095',            # Mariage Beuzec-Conq 3 E 10/20/2 (an XII)
+	'AN13' => '1269096',            # Mariage Beuzec-Conq 3 E 10/20/3 (an XIII)
+	'AN14' => '1269097',            # Mariage Beuzec-Conq 3 E 10/20/4 (an XIV - 1806)
+	1807   => '1269098',            # Mariage Beuzec-Conq 3 E 10/20/5 (1807)
+	1808   => '1269099',            # Mariage Beuzec-Conq 3 E 10/20/6 (1808)
+	1809   => '1269100',            # Mariage Beuzec-Conq 3 E 10/20/7 (1809)
+	1810   => '1269101',            # Mariage Beuzec-Conq 3 E 10/20/8 (1810)
+	1811   => '1269102',            # Mariage Beuzec-Conq 3 E 10/20/9 (1811)
+	1812   => '1269103',            # Mariage Beuzec-Conq 3 E 10/20/10 (1812)
+    },
+
+    '3E010_0021' => {			# Mariage Beuzec-Conq 3 E 10 21   1813-1822
+	1813   => '1269105',            # Mariage Beuzec-Conq 3 E 10/21/1 (1813)
+	1814   => '1269106',            # Mariage Beuzec-Conq 3 E 10/21/2 (1814)
+	1815   => '1269107',            # Mariage Beuzec-Conq 3 E 10/21/3 (1815)
+	1816   => '1269108',            # Mariage Beuzec-Conq 3 E 10/21/4 (1816)
+	1817   => '1269109',            # Mariage Beuzec-Conq 3 E 10/21/5 (1817)
+	1818   => '1269110',            # Mariage Beuzec-Conq 3 E 10/21/6 (1818)
+	1819   => '1269111',            # Mariage Beuzec-Conq 3 E 10/21/7 (1819)
+	1820   => '1269112',            # Mariage Beuzec-Conq 3 E 10/21/8 (1820)
+	1821   => '1269113',            # Mariage Beuzec-Conq 3 E 10/21/9 (1821)
+	1822   => '1269114',            # Mariage Beuzec-Conq 3 E 10/21/10 (1822)
+    },
+
+    '3E010_0022' => {			# Mariage Beuzec-Conq 3 E 10 22   1823-1829
+	1823   => '1269116',            # Mariage Beuzec-Conq 3 E 10/22/1 (1823)
+	1824   => '1269117',            # Mariage Beuzec-Conq 3 E 10/22/2 (1824)
+	1825   => '1269118',            # Mariage Beuzec-Conq 3 E 10/22/3 (1825)
+	1826   => '1269119',            # Mariage Beuzec-Conq 3 E 10/22/4 (1826)
+	1827   => '1269120',            # Mariage Beuzec-Conq 3 E 10/22/5 (1827)
+	1828   => '1269121',            # Mariage Beuzec-Conq 3 E 10/22/6 (1828)
+	1829   => '1269122',            # Mariage Beuzec-Conq 3 E 10/22/7 (1829)
+    },
+
+    '3E010_0023' => {			# Mariage Beuzec-Conq 3 E 10 23   1833-1842
+	1833   => '1269127',            # Mariage Beuzec-Conq 3 E 10/23/1 (1833)
+	1834   => '1269128',            # Mariage Beuzec-Conq 3 E 10/23/2 (1834)
+	1835   => '1269129',            # Mariage Beuzec-Conq 3 E 10/23/3 (1835)
+	1836   => '1269130',            # Mariage Beuzec-Conq 3 E 10/23/4 (1836)
+	1837   => '1269131',            # Mariage Beuzec-Conq 3 E 10/23/5 (1837)
+	1838   => '1269132',            # Mariage Beuzec-Conq 3 E 10/23/6 (1838)
+	1839   => '1269133',            # Mariage Beuzec-Conq 3 E 10/23/7 (1839)
+	1840   => '1269134',            # Mariage Beuzec-Conq 3 E 10/23/8 (1840)
+	1841   => '1269135',            # Mariage Beuzec-Conq 3 E 10/23/9 (1841)
+	1842   => '1269136',            # Mariage Beuzec-Conq 3 E 10/23/10 (1842)
+    },
+
+    '3E010_0024' => {			# Mariage Beuzec-Conq 3 E 10 24   1843-1852
+	1843   => '1269138',            # Mariage Beuzec-Conq 3 E 10/24/1 (1843)
+	1844   => '1269139',            # Mariage Beuzec-Conq 3 E 10/24/2 (1844)
+	1845   => '1269140',            # Mariage Beuzec-Conq 3 E 10/24/3 (1845)
+	1846   => '1269141',            # Mariage Beuzec-Conq 3 E 10/24/4 (1846)
+	1847   => '1269142',            # Mariage Beuzec-Conq 3 E 10/24/5 (1847)
+	1848   => '1269143',            # Mariage Beuzec-Conq 3 E 10/24/6 (1848)
+	1849   => '1269144',            # Mariage Beuzec-Conq 3 E 10/24/7 (1849)
+	1850   => '1269145',            # Mariage Beuzec-Conq 3 E 10/24/8 (1850)
+	1851   => '1269146',            # Mariage Beuzec-Conq 3 E 10/24/9 (1851)
+	1852   => '1269147',            # Mariage Beuzec-Conq 3 E 10/24/10 (1852)
+    },
+
+    '3E010_0025' => {			# Mariage Beuzec-Conq 3 E 10 25   1853-1862
+	1853   => '1269149',            # Mariage Beuzec-Conq 3 E 10/25/1 (1853)
+	1854   => '1269150',            # Mariage Beuzec-Conq 3 E 10/25/2 (1854)
+	1855   => '1269151',            # Mariage Beuzec-Conq 3 E 10/25/3 (1855)
+	1856   => '1269152',            # Mariage Beuzec-Conq 3 E 10/25/4 (1856)
+	1857   => '1269153',            # Mariage Beuzec-Conq 3 E 10/25/5 (1857)
+	1858   => '1269154',            # Mariage Beuzec-Conq 3 E 10/25/6 (1858)
+	1859   => '1269155',            # Mariage Beuzec-Conq 3 E 10/25/7 (1859)
+	1860   => '1269156',            # Mariage Beuzec-Conq 3 E 10/25/8 (1860)
+	1861   => '1269157',            # Mariage Beuzec-Conq 3 E 10/25/9 (1861)
+	1862   => '1269158',            # Mariage Beuzec-Conq 3 E 10/25/10 (1862)
+    },
+
+    '3E010_0026' => {			# Mariage Beuzec-Conq 3 E 10 26   1863-1869
+	1863   => '1269160',            # Mariage Beuzec-Conq 3 E 10/26/1 (1863)
+	1864   => '1269161',            # Mariage Beuzec-Conq 3 E 10/26/2 (1864)
+	1865   => '1269162',            # Mariage Beuzec-Conq 3 E 10/26/3 (1865)
+	1866   => '1269163',            # Mariage Beuzec-Conq 3 E 10/26/4 (1866)
+	1867   => '1269164',            # Mariage Beuzec-Conq 3 E 10/26/5 (1867)
+	1868   => '1269165',            # Mariage Beuzec-Conq 3 E 10/26/6 (1868)
+	1869   => '1269166',            # Mariage Beuzec-Conq 3 E 10/26/7 (1869)
+    },
+
+    '3E010_0027' => {			# Mariage Beuzec-Conq 3 E 10 27   1870-1888
+	1870   => '1269168',            # Mariage Beuzec-Conq 3 E 10/27/1 (1870)
+	1871   => '1269169',            # Mariage Beuzec-Conq 3 E 10/27/2 (1871)
+	1872   => '1269170',            # Mariage Beuzec-Conq 3 E 10/27/3 (1872)
+	1873   => '1269171',            # Mariage Beuzec-Conq 3 E 10/27/4 (1873)
+	1874   => '1269172',            # Mariage Beuzec-Conq 3 E 10/27/5 (1874)
+	1875   => '1269173',            # Mariage Beuzec-Conq 3 E 10/27/6 (1875)
+	1876   => '1269174',            # Mariage Beuzec-Conq 3 E 10/27/7 (1876)
+	1877   => '1269175',            # Mariage Beuzec-Conq 3 E 10/27/8 (1877)
+	1878   => '1269176',            # Mariage Beuzec-Conq 3 E 10/27/9 (1878)
+	1879   => '1269177',            # Mariage Beuzec-Conq 3 E 10/27/10 (1879)
+	1880   => '1269178',            # Mariage Beuzec-Conq 3 E 10/27/11 (1880)
+	1881   => '1269179',            # Mariage Beuzec-Conq 3 E 10/27/12 (1881)
+	1882   => '1269180',            # Mariage Beuzec-Conq 3 E 10/27/13 (1882)
+	1883   => '1269181',            # Mariage Beuzec-Conq 3 E 10/27/14 (1883)
+	1884   => '1269182',            # Mariage Beuzec-Conq 3 E 10/27/15 (1884)
+	1885   => '1269183',            # Mariage Beuzec-Conq 3 E 10/27/16 (1885)
+	1886   => '1269184',            # Mariage Beuzec-Conq 3 E 10/27/17 (1886)
+	1887   => '1269185',            # Mariage Beuzec-Conq 3 E 10/27/18 (1887)
+	1888   => '1269186',            # Mariage Beuzec-Conq 3 E 10/27/19 (1888)
+    },
+
+    '3E010_0028' => {			# Décès Beuzec-Conq 3 E 10 28   AN10-AN10
+	'AN02' => '1269252',            # Décès Beuzec-Conq 3 E 10/28/1 (1793 - an II)
+	'AN03' => '1269253',            # Décès Beuzec-Conq 3 E 10/28/2 (an III)
+	'AN04' => '1269254',            # Décès Beuzec-Conq 3 E 10/28/3 (an IV)
+	'AN05' => '1269255',            # Décès Beuzec-Conq 3 E 10/28/4 (an V)
+	'AN06' => '1269256',            # Décès Beuzec-Conq 3 E 10/28/5 (an VI)
+	'AN07' => '1269257',            # Décès Beuzec-Conq 3 E 10/28/6 (an VII)
+	'AN08' => '1269258',            # Décès Beuzec-Conq 3 E 10/28/7 (an VIII)
+	'AN09' => '1269259',            # Décès Beuzec-Conq 3 E 10/28/8 (an IX)
+	'AN10' => '1269260',            # Décès Beuzec-Conq 3 E 10/28/9 (an X)
+    },
+
+    '3E010_0029' => {			# Décès Beuzec-Conq 3 E 10 29   AN12-1812
+	'AN11' => '1269262',            # Décès Beuzec-Conq 3 E 10/29/1 (an XI)
+	'AN12' => '1269263',            # Décès Beuzec-Conq 3 E 10/29/2 (an XII)
+	'AN13' => '1269264',            # Décès Beuzec-Conq 3 E 10/29/3 (an XIII)
+	'AN14' => '1269265',            # Décès Beuzec-Conq 3 E 10/29/4 (an XIV - 1806)
+	1807   => '1269266',            # Décès Beuzec-Conq 3 E 10/29/5 (1807)
+	1808   => '1269267',            # Décès Beuzec-Conq 3 E 10/29/6 (1808)
+	1809   => '1269268',            # Décès Beuzec-Conq 3 E 10/29/7 (1809)
+	1810   => '1269269',            # Décès Beuzec-Conq 3 E 10/29/8 (1810)
+	1811   => '1269270',            # Décès Beuzec-Conq 3 E 10/29/9 (1811)
+	1812   => '1269271',            # Décès Beuzec-Conq 3 E 10/29/10 (1812)
+    },
+
+    '3E010_0030' => {			# Décès Beuzec-Conq 3 E 10 30   1813-1817
+	1813   => '1269273',            # Décès Beuzec-Conq 3 E 10/30/1 (1813)
+	1814   => '1269274',            # Décès Beuzec-Conq 3 E 10/30/2 (1814)
+	1815   => '1269275',            # Décès Beuzec-Conq 3 E 10/30/3 (1815)
+	1816   => '1269276',            # Décès Beuzec-Conq 3 E 10/30/4 (1816)
+	1817   => '1269277',            # Décès Beuzec-Conq 3 E 10/30/5 (1817)
+    },
+
+    '3E010_0031' => {			# Décès Beuzec-Conq 3 E 10 31   1823-1832
+	1823   => '1269284',            # Décès Beuzec-Conq 3 E 10/31/1 (1823)
+	1824   => '1269285',            # Décès Beuzec-Conq 3 E 10/31/2 (1824)
+	1825   => '1269286',            # Décès Beuzec-Conq 3 E 10/31/3 (1825)
+	1826   => '1269287',            # Décès Beuzec-Conq 3 E 10/31/4 (1826)
+	1827   => '1269288',            # Décès Beuzec-Conq 3 E 10/31/5 (1827)
+	1828   => '1269289',            # Décès Beuzec-Conq 3 E 10/31/6 (1828)
+	1829   => '1269290',            # Décès Beuzec-Conq 3 E 10/31/7 (1829)
+	1830   => '1269291',            # Décès Beuzec-Conq 3 E 10/31/8 (1830)
+	1831   => '1269292',            # Décès Beuzec-Conq 3 E 10/31/9 (1831)
+	1832   => '1269293',            # Décès Beuzec-Conq 3 E 10/31/10 (1832)
+    },
+
+    '3E010_0032' => {			# Décès Beuzec-Conq 3 E 10 32   1833-1842
+	1833   => '1269295',            # Décès Beuzec-Conq 3 E 10/32/1 (1833)
+	1834   => '1269296',            # Décès Beuzec-Conq 3 E 10/32/2 (1834)
+	1835   => '1269297',            # Décès Beuzec-Conq 3 E 10/32/3 (1835)
+	1836   => '1269298',            # Décès Beuzec-Conq 3 E 10/32/4 (1836)
+	1837   => '1269299',            # Décès Beuzec-Conq 3 E 10/32/5 (1837)
+	1838   => '1269300',            # Décès Beuzec-Conq 3 E 10/32/6 (1838)
+	1839   => '1269301',            # Décès Beuzec-Conq 3 E 10/32/7 (1839)
+	1840   => '1269302',            # Décès Beuzec-Conq 3 E 10/32/8 (1840)
+	1841   => '1269303',            # Décès Beuzec-Conq 3 E 10/32/9 (1841)
+	1842   => '1269304',            # Décès Beuzec-Conq 3 E 10/32/10 (1842)
+    },
+
+    '3E010_0033' => {			# Décès Beuzec-Conq 3 E 10 33   1843-1852
+	1843   => '1269306',            # Décès Beuzec-Conq 3 E 10/33/1 (1843)
+	1844   => '1269307',            # Décès Beuzec-Conq 3 E 10/33/2 (1844)
+	1845   => '1269308',            # Décès Beuzec-Conq 3 E 10/33/3 (1845)
+	1846   => '1269309',            # Décès Beuzec-Conq 3 E 10/33/4 (1846)
+	1847   => '1269310',            # Décès Beuzec-Conq 3 E 10/33/5 (1847)
+	1848   => '1269311',            # Décès Beuzec-Conq 3 E 10/33/6 (1848)
+	1849   => '1269312',            # Décès Beuzec-Conq 3 E 10/33/7 (1849)
+	1850   => '1269313',            # Décès Beuzec-Conq 3 E 10/33/8 (1850)
+	1851   => '1269314',            # Décès Beuzec-Conq 3 E 10/33/9 (1851)
+	1852   => '1269315',            # Décès Beuzec-Conq 3 E 10/33/10 (1852)
+    },
+
+    '3E010_0034' => {			# Décès Beuzec-Conq 3 E 10 34   1853-1862
+	1853   => '1269317',            # Décès Beuzec-Conq 3 E 10/34/1 (1853)
+	1854   => '1269318',            # Décès Beuzec-Conq 3 E 10/34/2 (1854)
+	1855   => '1269319',            # Décès Beuzec-Conq 3 E 10/34/3 (1855)
+	1856   => '1269320',            # Décès Beuzec-Conq 3 E 10/34/4 (1856)
+	1857   => '1269321',            # Décès Beuzec-Conq 3 E 10/34/5 (1857)
+	1858   => '1269322',            # Décès Beuzec-Conq 3 E 10/34/6 (1858)
+	1859   => '1269323',            # Décès Beuzec-Conq 3 E 10/34/7 (1859)
+	1860   => '1269324',            # Décès Beuzec-Conq 3 E 10/34/8 (1860)
+	1861   => '1269325',            # Décès Beuzec-Conq 3 E 10/34/9 (1861)
+	1862   => '1269326',            # Décès Beuzec-Conq 3 E 10/34/10 (1862)
+    },
+
+    '3E010_0035' => {			# Décès Beuzec-Conq 3 E 10 35   1863-1869
+	1863   => '1269328',            # Décès Beuzec-Conq 3 E 10/35/1 (1863)
+	1864   => '1269329',            # Décès Beuzec-Conq 3 E 10/35/2 (1864)
+	1865   => '1269330',            # Décès Beuzec-Conq 3 E 10/35/3 (1865)
+	1866   => '1269331',            # Décès Beuzec-Conq 3 E 10/35/4 (1866)
+	1867   => '1269332',            # Décès Beuzec-Conq 3 E 10/35/5 (1867)
+	1868   => '1269333',            # Décès Beuzec-Conq 3 E 10/35/6 (1868)
+	1869   => '1269334',            # Décès Beuzec-Conq 3 E 10/35/7 (1869)
+    },
+
+    '3E010_0036' => {			# Décès Beuzec-Conq 3 E 10 36   1870-1884
+	1870   => '1269336',            # Décès Beuzec-Conq 3 E 10/36/1 (1870)
+	1871   => '1269337',            # Décès Beuzec-Conq 3 E 10/36/2 (1871)
+	1872   => '1269338',            # Décès Beuzec-Conq 3 E 10/36/3 (1872)
+	1873   => '1269339',            # Décès Beuzec-Conq 3 E 10/36/4 (1873)
+	1874   => '1269340',            # Décès Beuzec-Conq 3 E 10/36/5 (1874)
+	1875   => '1269341',            # Décès Beuzec-Conq 3 E 10/36/6 (1875)
+	1876   => '1269342',            # Décès Beuzec-Conq 3 E 10/36/7 (1876)
+	1877   => '1269343',            # Décès Beuzec-Conq 3 E 10/36/8 (1877)
+	1878   => '1269344',            # Décès Beuzec-Conq 3 E 10/36/9 (1878)
+	1879   => '1269345',            # Décès Beuzec-Conq 3 E 10/36/10 (1879)
+	1880   => '1269346',            # Décès Beuzec-Conq 3 E 10/36/11 (1880)
+	1881   => '1269347',            # Décès Beuzec-Conq 3 E 10/36/12 (1881)
+	1882   => '1269348',            # Décès Beuzec-Conq 3 E 10/36/13 (1882)
+	1883   => '1269349',            # Décès Beuzec-Conq 3 E 10/36/14 (1883)
+	1884   => '1269350',            # Décès Beuzec-Conq 3 E 10/36/15 (1884)
+    },
+
+    '3E010_0037' => {			# Décès Beuzec-Conq 3 E 10 37   1885-1894
+	1885   => '1269352',            # Décès Beuzec-Conq 3 E 10/37/1 (1885)
+	1886   => '1269353',            # Décès Beuzec-Conq 3 E 10/37/2 (1886)
+	1887   => '1269354',            # Décès Beuzec-Conq 3 E 10/37/3 (1887)
+	1888   => '1269355',            # Décès Beuzec-Conq 3 E 10/37/4 (1888)
+	1889   => '1269356',            # Décès Beuzec-Conq 3 E 10/37/5 (1889)
+	1890   => '1269357',            # Décès Beuzec-Conq 3 E 10/37/6 (1890)
+	1891   => '1269358',            # Décès Beuzec-Conq 3 E 10/37/7 (1891)
+	1892   => '1269359',            # Décès Beuzec-Conq 3 E 10/37/8 (1892)
+	1893   => '1269360',            # Décès Beuzec-Conq 3 E 10/37/9 (1893)
+	1894   => '1269361',            # Décès Beuzec-Conq 3 E 10/37/10 (1894)
+    },
+
+    '3E010_0038' => {			# Naissance Beuzec-Conq 3 E 10 38   1891-1896
+	1891   => '1269033',            # Naissance Beuzec-Conq 3 E 10/38/1 (1891)
+	1892   => '1269034',            # Naissance Beuzec-Conq 3 E 10/38/2 (1892)
+	1893   => '1269035',            # Naissance Beuzec-Conq 3 E 10/38/3 (1893)
+	1894   => '1269036',            # Naissance Beuzec-Conq 3 E 10/38/4 (1894)
+	1895   => '1269037',            # Naissance Beuzec-Conq 3 E 10/38/5 (1895)
+	1896   => '1269038',            # Naissance Beuzec-Conq 3 E 10/38/6 (1896)
+    },
+
+    '3E010_0039' => {			# Mariage Beuzec-Conq 3 E 10 39   1889-1899
+	1889   => '1269188',            # Mariage Beuzec-Conq 3 E 10/39/1 (1889)
+	1890   => '1269189',            # Mariage Beuzec-Conq 3 E 10/39/2 (1890)
+	1891   => '1269190',            # Mariage Beuzec-Conq 3 E 10/39/3 (1891)
+	1892   => '1269191',            # Mariage Beuzec-Conq 3 E 10/39/4 (1892)
+	1893   => '1269192',            # Mariage Beuzec-Conq 3 E 10/39/5 (1893)
+	1894   => '1269193',            # Mariage Beuzec-Conq 3 E 10/39/6 (1894)
+	1895   => '1269194',            # Mariage Beuzec-Conq 3 E 10/39/7 (1895)
+	1896   => '1269195',            # Mariage Beuzec-Conq 3 E 10/39/8 (1896)
+	1897   => '1269196',            # Mariage Beuzec-Conq 3 E 10/39/9 (1897)
+	1898   => '1269197',            # Mariage Beuzec-Conq 3 E 10/39/10 (1898)
+	1899   => '1269198',            # Mariage Beuzec-Conq 3 E 10/39/11 (1899)
+    },
+
+    '3E010_0040' => {			# Naissance Beuzec-Conq 3 E 10 40   1897-1903
+	1897   => '1269040',            # Naissance Beuzec-Conq 3 E 10/40/1 (1897)
+	1898   => '1269041',            # Naissance Beuzec-Conq 3 E 10/40/2 (1898)
+	1899   => '1269042',            # Naissance Beuzec-Conq 3 E 10/40/3 (1899)
+	1900   => '1269043',            # Naissance Beuzec-Conq 3 E 10/40/4 (1900)
+	1901   => '1269044',            # Naissance Beuzec-Conq 3 E 10/40/5 (1901)
+	1902   => '1269045',            # Naissance Beuzec-Conq 3 E 10/40/6 (1902)
+	1903   => '1269046',            # Naissance Beuzec-Conq 3 E 10/40/7 (1903)
+    },
+
+    '3E010_0041' => {			# Décès Beuzec-Conq 3 E 10 41   1895-1904
+	1895   => '1269363',            # Décès Beuzec-Conq 3 E 10/41/1 (1895)
+	1896   => '1269364',            # Décès Beuzec-Conq 3 E 10/41/2 (1896)
+	1897   => '1269365',            # Décès Beuzec-Conq 3 E 10/41/3 (1897)
+	1898   => '1269366',            # Décès Beuzec-Conq 3 E 10/41/4 (1898)
+	1899   => '1269367',            # Décès Beuzec-Conq 3 E 10/41/5 (1899)
+	1900   => '1269368',            # Décès Beuzec-Conq 3 E 10/41/6 (1900)
+	1901   => '1269369',            # Décès Beuzec-Conq 3 E 10/41/7 (1901)
+	1902   => '1269370',            # Décès Beuzec-Conq 3 E 10/41/8 (1902)
+	1903   => '1269371',            # Décès Beuzec-Conq 3 E 10/41/9 (1903)
+	1904   => '1269372',            # Décès Beuzec-Conq 3 E 10/41/10 (1904)
+    },
+
+    '3E010_0042' => {			# Mariage Beuzec-Conq 3 E 10 42   1900-1908
+	1900   => '1269200',            # Mariage Beuzec-Conq 3 E 10/42/1 (1900)
+	1901   => '1269201',            # Mariage Beuzec-Conq 3 E 10/42/2 (1901)
+	1902   => '1269202',            # Mariage Beuzec-Conq 3 E 10/42/3 (1902)
+	1903   => '1269203',            # Mariage Beuzec-Conq 3 E 10/42/4 (1903)
+	1904   => '1269204',            # Mariage Beuzec-Conq 3 E 10/42/5 (1904)
+	1905   => '1269205',            # Mariage Beuzec-Conq 3 E 10/42/6 (1905)
+	1906   => '1269206',            # Mariage Beuzec-Conq 3 E 10/42/7 (1906)
+	1907   => '1269207',            # Mariage Beuzec-Conq 3 E 10/42/8 (1907)
+	1908   => '1269208',            # Mariage Beuzec-Conq 3 E 10/42/9 (1908)
+    },
+
+    '3E010_0043' => {			# Naissance Beuzec-Conq 3 E 10 43   1904-1909
+	1904   => '1269048',            # Naissance Beuzec-Conq 3 E 10/43/1 (1904)
+	1905   => '1269049',            # Naissance Beuzec-Conq 3 E 10/43/2 (1905)
+	1906   => '1269050',            # Naissance Beuzec-Conq 3 E 10/43/3 (1906)
+	1907   => '1269051',            # Naissance Beuzec-Conq 3 E 10/43/4 (1907)
+	1908   => '1269052',            # Naissance Beuzec-Conq 3 E 10/43/5 (1908)
+	1909   => '1269053',            # Naissance Beuzec-Conq 3 E 10/43/6 (1909)
+    },
+
+    '3E010_0044' => {			# Naissance Beuzec-Conq 3 E 10 44   1910-1915
+	1910   => '1269055',            # Naissance Beuzec-Conq 3 E 10/44/1 (1910)
+	1911   => '1269056',            # Naissance Beuzec-Conq 3 E 10/44/2 (1911)
+	1912   => '1269057',            # Naissance Beuzec-Conq 3 E 10/44/3 (1912)
+	1913   => '1269058',            # Naissance Beuzec-Conq 3 E 10/44/4 (1913)
+	1914   => '1269059',            # Naissance Beuzec-Conq 3 E 10/44/5 (1914)
+	1915   => '1269060',            # Naissance Beuzec-Conq 3 E 10/44/6 (1915)
+    },
+
+    '3E010_0045' => {			# Décès Beuzec-Conq 3 E 10 45   1905-1914
+	1905   => '1269374',            # Décès Beuzec-Conq 3 E 10/45/1 (1905)
+	1906   => '1269375',            # Décès Beuzec-Conq 3 E 10/45/2 (1906)
+	1907   => '1269376',            # Décès Beuzec-Conq 3 E 10/45/3 (1907)
+	1908   => '1269377',            # Décès Beuzec-Conq 3 E 10/45/4 (1908)
+	1909   => '1269378',            # Décès Beuzec-Conq 3 E 10/45/5 (1909)
+	1910   => '1269379',            # Décès Beuzec-Conq 3 E 10/45/6 (1910)
+	1911   => '1269380',            # Décès Beuzec-Conq 3 E 10/45/7 (1911)
+	1912   => '1269381',            # Décès Beuzec-Conq 3 E 10/45/8 (1912)
+	1913   => '1269382',            # Décès Beuzec-Conq 3 E 10/45/9 (1913)
+	1914   => '1269383',            # Décès Beuzec-Conq 3 E 10/45/10 (1914)
+    },
+
+    '3E010_0046' => {			# Naissance Beuzec-Conq 3 E 10 46   1916-1925
+	1916   => '1269062',            # Naissance Beuzec-Conq 3 E 10/46/1 (1916)
+	1917   => '1269063',            # Naissance Beuzec-Conq 3 E 10/46/2 (1917)
+	1918   => '1269064',            # Naissance Beuzec-Conq 3 E 10/46/3 (1918)
+	1919   => '1269065',            # Naissance Beuzec-Conq 3 E 10/46/4 (1919)
+	1920   => '1269066',            # Naissance Beuzec-Conq 3 E 10/46/5 (1920)
+	1921   => '1269067',            # Naissance Beuzec-Conq 3 E 10/46/6 (1921)
+	1922   => '1269068',            # Naissance Beuzec-Conq 3 E 10/46/7 (1922)
+	1923   => '1269069',            # Naissance Beuzec-Conq 3 E 10/46/8 (1923)
+	1924   => '1269070',            # Naissance Beuzec-Conq 3 E 10/46/9 (1924)
+	1925   => '1269071',            # Naissance Beuzec-Conq 3 E 10/46/10 (1925)
+    },
+
+    '3E010_0048' => {			# Mariage Beuzec-Conq 3 E 10 48   1909-1918
+	1909   => '1269210',            # Mariage Beuzec-Conq 3 E 10/48/1 (1909)
+	1910   => '1269211',            # Mariage Beuzec-Conq 3 E 10/48/2 (1910)
+	1911   => '1269212',            # Mariage Beuzec-Conq 3 E 10/48/3 (1911)
+	1912   => '1269213',            # Mariage Beuzec-Conq 3 E 10/48/4 (1912)
+	1913   => '1269214',            # Mariage Beuzec-Conq 3 E 10/48/5 (1913)
+	1914   => '1269215',            # Mariage Beuzec-Conq 3 E 10/48/6 (1914)
+	1915   => '1269216',            # Mariage Beuzec-Conq 3 E 10/48/7 (1915)
+	1916   => '1269217',            # Mariage Beuzec-Conq 3 E 10/48/8 (1916)
+	1917   => '1269218',            # Mariage Beuzec-Conq 3 E 10/48/9 (1917)
+	1918   => '1269219',            # Mariage Beuzec-Conq 3 E 10/48/10 (1918)
+    },
+
+    '3E010_0049' => {			# Mariage Beuzec-Conq 3 E 10 49   1919-1925
+	1919   => '1269221',            # Mariage Beuzec-Conq 3 E 10/49/1 (1919)
+	1920   => '1269222',            # Mariage Beuzec-Conq 3 E 10/49/2 (1920)
+	1921   => '1269223',            # Mariage Beuzec-Conq 3 E 10/49/3 (1921)
+	1922   => '1269224',            # Mariage Beuzec-Conq 3 E 10/49/4 (1922)
+	1923   => '1269225',            # Mariage Beuzec-Conq 3 E 10/49/5 (1923)
+	1924   => '1269226',            # Mariage Beuzec-Conq 3 E 10/49/6 (1924)
+	1925   => '1269227',            # Mariage Beuzec-Conq 3 E 10/49/7 (1925)
+    },
+
+    '3E010_0051' => {			# Décès Beuzec-Conq 3 E 10 51   1915-1924
+	1915   => '1269385',            # Décès Beuzec-Conq 3 E 10/51/1 (1915)
+	1916   => '1269386',            # Décès Beuzec-Conq 3 E 10/51/2 (1916)
+	1917   => '1269387',            # Décès Beuzec-Conq 3 E 10/51/3 (1917)
+	1918   => '1269388',            # Décès Beuzec-Conq 3 E 10/51/4 (1918)
+	1919   => '1269389',            # Décès Beuzec-Conq 3 E 10/51/5 (1919)
+	1920   => '1269390',            # Décès Beuzec-Conq 3 E 10/51/6 (1920)
+	1921   => '1269391',            # Décès Beuzec-Conq 3 E 10/51/7 (1921)
+	1922   => '1269392',            # Décès Beuzec-Conq 3 E 10/51/8 (1922)
+	1923   => '1269393',            # Décès Beuzec-Conq 3 E 10/51/9 (1923)
+	1924   => '1269394',            # Décès Beuzec-Conq 3 E 10/51/10 (1924)
+    },
+
+    '3E010_0052' => {			# Décès Beuzec-Conq 3 E 10 52   1925-1936
+	1925   => '1269396',            # Décès Beuzec-Conq 3 E 10/52/1 (1925)
+	1926   => '1269397',            # Décès Beuzec-Conq 3 E 10/52/2 (1926)
+	1927   => '1269398',            # Décès Beuzec-Conq 3 E 10/52/3 (1927)
+	1928   => '1269399',            # Décès Beuzec-Conq 3 E 10/52/4 (1928)
+	1929   => '1269400',            # Décès Beuzec-Conq 3 E 10/52/5 (1929)
+	1930   => '1269401',            # Décès Beuzec-Conq 3 E 10/52/6 (1930)
+	1931   => '1269402',            # Décès Beuzec-Conq 3 E 10/52/7 (1931)
+	1932   => '1269403',            # Décès Beuzec-Conq 3 E 10/52/8 (1932)
+	1933   => '1269404',            # Décès Beuzec-Conq 3 E 10/52/9 (1933)
+	1934   => '1269405',            # Décès Beuzec-Conq 3 E 10/52/10 (1934)
+	1935   => '1269406',            # Décès Beuzec-Conq 3 E 10/52/11 (1935)
+	1936   => '1269407',            # Décès Beuzec-Conq 3 E 10/52/12 (1936)
+    },
+
+
     # NMD Carhaix
     '3E037_0041' => {			# Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37 41   1886-1894
 	1886   => '1275559',            # Naissance Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/41/1 (1886)
