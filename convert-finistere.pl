@@ -10011,15 +10011,6 @@ my %convert = (
 	1936 => '1373629',
     },
 
-    '3E348_0050' => {			# Naissances Spezet 3 E 348 50		1924-1929
-	1924 => '1373301',		# Naissances Spezet 3 E 348/50/1	1924
-	1925 => '1373302',
-	1926 => '1373303',
-	1927 => '1373304',
-	1928 => '1373305',
-	1929 => '1373306',
-    },
-
     # NMD Tourc'h
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Tourch+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E351_0003' => {			# Naissance Tourc'h 3 E 351 3   an II-1812
