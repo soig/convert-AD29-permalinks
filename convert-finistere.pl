@@ -150,7 +150,7 @@ my %convert = (
     # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer
 
     # NMD Bannalec
-    '3E004_0017' => {			# Naissance Bannalec 3 E 4 17   AN05-AN05
+    '3E004_0017' => {			# Naissance Bannalec 3 E 4 17   AN02-AN10
 	'AN02' => '1266697',            # Naissance Bannalec 3 E 4/17/1 (1793 - an II)
 	'AN03' => '1266698',            # Naissance Bannalec 3 E 4/17/2 (an III)
 	'AN04' => '1266699',            # Naissance Bannalec 3 E 4/17/3 (an IV)
@@ -845,7 +845,7 @@ my %convert = (
 	1890   => '1269031',            # Naissance Beuzec-Conq 3 E 10/18/8 (1890)
     },
 
-    '3E010_0019' => {			# Mariage Beuzec-Conq 3 E 10 19   AN10-AN10
+    '3E010_0019' => {			# Mariage Beuzec-Conq 3 E 10 19   AN02-AN10
 	'AN02' => '1269086',            # Mariage Beuzec-Conq 3 E 10/19/1 (1793 - an II)
 	'AN03' => '1269087',            # Mariage Beuzec-Conq 3 E 10/19/2 (an III)
 	'AN04' => '1269088',            # Mariage Beuzec-Conq 3 E 10/19/3 (an IV)
@@ -962,7 +962,7 @@ my %convert = (
 	1888   => '1269186',            # Mariage Beuzec-Conq 3 E 10/27/19 (1888)
     },
 
-    '3E010_0028' => {			# Décès Beuzec-Conq 3 E 10 28   AN10-AN10
+    '3E010_0028' => {			# Décès Beuzec-Conq 3 E 10 28   AN02-AN10
 	'AN02' => '1269252',            # Décès Beuzec-Conq 3 E 10/28/1 (1793 - an II)
 	'AN03' => '1269253',            # Décès Beuzec-Conq 3 E 10/28/2 (an III)
 	'AN04' => '1269254',            # Décès Beuzec-Conq 3 E 10/28/3 (an IV)
@@ -3395,7 +3395,7 @@ my %convert = (
     },
 
     # NMD Kernével
-    '3E109_0006' => {			# Naissance Kernével 3 E 109 6   AN10-AN10
+    '3E109_0006' => {			# Naissance Kernével 3 E 109 6   AN02-AN10
 	'AN02' => '1302796',            # Naissance Kernével 3 E 109/6/1 (1793 - an II)
 	'AN03' => '1302797',            # Naissance Kernével 3 E 109/6/2 (an III)
 	'AN04' => '1302798',            # Naissance Kernével 3 E 109/6/3 (an IV)
@@ -3517,7 +3517,7 @@ my %convert = (
 	1890   => '1302901',            # Naissance Kernével 3 E 109/15/9 (1890)
     },
 
-    '3E109_0016' => {			# Mariage promesse de mariage Kernével 3 E 109 16   an VII-an VII
+    '3E109_0016' => {			# Mariage promesse de mariage Kernével 3 E 109 16   AN02-AN10
 	'AN02' => '1302955',            # Mariage promesse de mariage Kernével 3 E 109/16/1 (1793 - an II)
 	'AN03' => '1302956',            # Mariage promesse de mariage Kernével 3 E 109/16/2 (an III)
 	'AN04' => '1302957',            # Mariage promesse de mariage Kernével 3 E 109/16/3 (an IV)
@@ -3630,7 +3630,7 @@ my %convert = (
 	1884   => '1303053',            # Mariage Kernével 3 E 109/24/15 (1884)
     },
 
-    '3E109_0025' => {			# Décès Kernével 3 E 109 25   AN07-AN07
+    '3E109_0025' => {			# Décès Kernével 3 E 109 25   AN02-AN10
 	'AN02' => '1303123',            # Décès Kernével 3 E 109/25/1 (1793 - an II)
 	'AN03' => '1303124',            # Décès Kernével 3 E 109/25/2 (an III)
 	'AN04' => '1303125',            # Décès Kernével 3 E 109/25/3 (an IV)
@@ -4125,7 +4125,7 @@ my %convert = (
 	1884   => '1307390',            # Mariage Landeleau 3 E 122/20/15 (1884)
     },
 
-    '3E122_0021' => {			# Décès Landeleau 3 E 122 21   AN12-1812
+    '3E122_0021' => {			# Décès Landeleau 3 E 122 21   AN06-1812
 	'1793-21 frimaire an III' => '1307447',            # Décès Landeleau 3 E 122/21/1 (1793-21 frimaire an III)
 	1807   => '1307460',            # Décès Landeleau 3 E 122/21/14 (1807)
 	1808   => '1307461',            # Décès Landeleau 3 E 122/21/15 (1808)
@@ -8290,7 +8290,7 @@ my %convert = (
     },
 
     # NMD Saint-Yvi
-    '3E339_0004' => {			# Naissance Saint-Yvi 3 E 339 4   AN02-AN02
+    '3E339_0004' => {			# Naissance Saint-Yvi 3 E 339 4   AN02-AN10
 	'AN02' => '1370901',            # Naissance Saint-Yvi 3 E 339/4/1 (1793 - an II)
 	'AN03' => '1370902',            # Naissance Saint-Yvi 3 E 339/4/2 (an III)
 	'AN04' => '1370903',            # Naissance Saint-Yvi 3 E 339/4/3 (an IV)
@@ -8414,7 +8414,7 @@ my %convert = (
 	1894   => '1371009',            # Naissance Saint-Yvi 3 E 339/13/11 (1894)
     },
 
-    '3E339_0014' => {			# Mariage Saint-Yvi 3 E 339 14   AN07-AN07
+    '3E339_0014' => {			# Mariage Saint-Yvi 3 E 339 14   AN02-AN10
 	'AN02' => '1371057',            # Mariage Saint-Yvi 3 E 339/14/1 (1793 - an II)
 	'AN03' => '1371058',            # Mariage Saint-Yvi 3 E 339/14/2 (an III)
 	'AN04' => '1371059',            # Mariage Saint-Yvi 3 E 339/14/3 (an IV)
@@ -8521,7 +8521,7 @@ my %convert = (
 	1885   => '1371155',            # Mariage Saint-Yvi 3 E 339/22/16 (1885)
     },
 
-    '3E339_0023' => {			# Décès Saint-Yvi 3 E 339 23   AN07-AN07
+    '3E339_0023' => {			# Décès Saint-Yvi 3 E 339 23   AN02-AN10
 	'AN02' => '1371212',            # Décès Saint-Yvi 3 E 339/23/1 (1793 - an II)
 	'AN03' => '1371213',            # Décès Saint-Yvi 3 E 339/23/2 (an III)
 	'AN04' => '1371214',            # Décès Saint-Yvi 3 E 339/23/3 (an IV)
@@ -9034,7 +9034,7 @@ my %convert = (
 	1891   => '1371929',            # Mariage Scaër 3 E 344/33/10 (1891)
     },
 
-    '3E344_0034' => {			# Décès Scaër 3 E 344 34   AN06-AN06
+    '3E344_0034' => {			# Décès Scaër 3 E 344 34   AN02-AN10
 	'AN02' => '1371985',            # Décès Scaër 3 E 344/34/1 (1793 - an II)
 	'AN03' => '1371986',            # Décès Scaër 3 E 344/34/2 (an III)
 	'AN04' => '1371987',            # Décès Scaër 3 E 344/34/3 (an IV)
