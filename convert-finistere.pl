@@ -4031,13 +4031,13 @@ my %convert = (
 	'29 thermidor an V' => '1307299',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/4 (29 thermidor an V)
 	'8 brumaire an IV-12 messidor an V (contient des publications de mariages)' => '1307298',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/3 (8 brumaire an IV-12 messidor an V (contient des publications de mariages))
 	'AN06' => '1307300',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/5 (an VI)
+	'AN09' => '1307301',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/6 (an IX (contient des promesses de mariages))
 	'AN10' => '1307302',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/7 (an X)
 	'AN11' => '1307303',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/8 (an XI)
 	'AN12' => '1307304',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/9 (an XII)
 	'AN13' => '1307305',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/10 (an XIII)
 	'AN14' => '1307306',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/11 (an XIV - 1806)
 	'Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III' => '1307296',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/1 (Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III)
-	'an IX (contient des promesses de mariages)' => '1307301',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/6 (an IX (contient des promesses de mariages))
     },
 
     '3E122_0015' => {			# Mariage Landeleau 3 E 122 15   1813-1827
