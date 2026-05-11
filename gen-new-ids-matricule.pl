@@ -37,5 +37,5 @@ foreach my $row ($table->rows) {
     $id = sprintf("${prefix}R%05d", $suffix);
     my ($ark) = $link =~ m!/ark:/72506/([^/]+)/!;
     #eg: "    '1R01653' => '1145865',			# Bureau de Brest-Châteaulin n° 4001 à 4422, 4433 à 4434, 4439 à 4440. (1920)"
-    print "    '$id' => '$ark',			# Bureau $desc ($year)\n";
+    print "    '$id' => '$ark',	       # $desc ($year)\n";
 }
