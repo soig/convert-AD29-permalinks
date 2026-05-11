@@ -154,7 +154,6 @@ my %convert = (
     '3E010_0006' => '650716.1268921',            # Sépulture Beuzec-Conq 3 E 10 6 (30 décembre 1747-1762)
     '3E010_0007' => '650717.1268922',            # Sépulture Beuzec-Conq 3 E 10 7 (1763-1778)
     '3E010_0008' => '650718.1268923',            # Sépulture Beuzec-Conq 3 E 10 8 (1779- 1789, 1791)
-    '3E010_0019' => '1269086',                   # Mariage Beuzec-Conq 3 E 10/19/1 (1793 - an II)
 
     # BMS Carhaix:
     '3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
@@ -203,7 +202,6 @@ my %convert = (
     '3E053_0008' => '652898.1281440',            # Sépulture Concarneau 3 E 53 8 (1761-1773)
     '3E053_0009' => '652899.1281441',            # Sépulture Concarneau 3 E 53 9 (1774-1784)
     '3E053_0010' => '652900.1281442',            # Sépulture Concarneau 3 E 53 10 (1785-1792)
-    '3E053_0024' => '652914.1281514',            # Mariage Concarneau 3 E 53 24 (1793-an X)
 
     # BMS Elliant
     '3E064_0001' => '653414.1285727',            # BMS Elliant 3 E 64 1 (1702, 1704-1723, 1731-1732.)
@@ -211,13 +209,11 @@ my %convert = (
     '3E064_0003' => '653416.1285730',            # BM  Elliant 3 E 64 3 (1750-1771.)
     '3E064_0004' => '653417.1285731',            # BM  Elliant 3 E 64 4 (1772-1792.)
     '3E064_0005' => '653418.1285733',            # Sépulture Elliant 3 E 64 5 (1750-1792.)
-    '3E064_0015' => '1285905',                   # Mariage Elliant 3 E 64/15/1 (1793 - an II)
 
     # BMS Kergloff
     '3E106_0001' => '654908.1301833',            # BMS Kergloff 3 E 106 1 (1694-1707, 1709-1720, 1723-1724, 1726-1729, 1740, 1744-1752)
     '3E106_0002' => '654909.1301835',            # BM Kergloff 3 E 106 2 (1753-1792)
     '3E106_0003' => '654910.1301837',            # Sépulture Kergloff 3 E 106 3 (1753-1792)
-    '3E106_0011' => '1301995',                   # Mariage Kergloff 3 E 106/11/1 (1793 - an II)
 
     # BMS Kernével
     '3E109_0001' => '654999.1302787',            # BMS Kernével 3 E 109 1 (Mariages (13 août 1653-28 février 1658, 1660-1666 - incomplets) ; baptêmes, mariages, sépultures (1668-1669, 1679, 1692, 1702, 1705-1728))
@@ -225,7 +221,6 @@ my %convert = (
     '3E109_0003' => '655001.1302790',            # BM  Kernével 3 E 109 3 (1749-1772)
     '3E109_0004' => '655002.1302791',            # BM Kernével 3 E 109 4 (1773-1792)
     '3E109_0005' => '655003.1302793',            # Sépulture Kernével 3 E 109 5 (1749-1792)
-    '3E109_0016' => '1302955',                   # Mariage promesse de mariage Kernével 3 E 109/16/1 (1793 - an II)
 
     # BMS Landeleau
     '3E122_0001' => '655525.1307132',            # BMS Landeleau 3 E 122 1 (Baptêmes, mariages, sépultures (1694-1699, 1701-1718, 1724, 1726-1732) ; extraits mortuaires (1699-1732))
@@ -233,7 +228,6 @@ my %convert = (
     '3E122_0003' => '655527.1307135',            # BM  Landeleau 3 E 122 3 (1752-1774)
     '3E122_0004' => '655528.1307136',            # BM  Landeleau 3 E 122 4 (1775-1792)
     '3E122_0005' => '655529.1307138',            # Sépulture Landeleau 3 E 122 5 (1752-1792)
-    '3E122_0014' => '1307296',                   # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/1 (Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III)
 
     # BMS Laz
     '3E148_0001' => '656323.1314137',            # BMS Laz 3 E 148 1 (1674-1676, 1702-1716, 1718-1722, 1724-1725, 1727-1728)
@@ -241,7 +235,6 @@ my %convert = (
     '3E148_0003' => '656325.1314140',            # BM  Laz 3 E 148 3 (1751-1776)
     '3E148_0004' => '656326.1314141',            # BM  Laz 3 E 148 4 (1777-1792)
     '3E148_0005' => '656327.1314143',            # Sépulture Laz 3 E 148 5 (1751-1792)
-    '3E148_0014' => '656336.1314203',            # Mariage Laz 3 E 148 14 (1793-an VI, an IX-1812)
 
     # BMS Leuhan
     '3E151_0001' => '656461.1315011',            # BMS Leuhan 3 E 151 1 (1695-1696, 1698-1702 (incomplet), 1703-1704, 1709-1723, 1725-1734.)
@@ -249,13 +242,11 @@ my %convert = (
     '3E151_0003' => '656463.1315014',            # BM  Leuhan 3 E 151 3 (1752-1772.)
     '3E151_0004' => '656464.1315015',            # BM  Leuhan 3 E 151 4 (1773-1er mars 1793.)
     '3E151_0005' => '656465.1315017',            # Sépulture Leuhan 3 E 151 5 (1752-22 mars 1793.)
-    '3E151_0014' => '1315175',                   # Mariage Leuhan 3 E 151/14/1 (an II)
 
     # BMS Motreff
     '3E189_0001' => '657656.1324606',            # BMS Motreff 3 E 189 1 (1676-1677 (incomplet), 1685 (incomplet)-1691, 1692 (incomplet), 1694-1703, 1705-1709, 1711-1715, 1717-1719, 1721-1740, 1742, 1744, 1746-1752)
     '3E189_0002' => '657657.1324608',            # BM  Motreff 3 E 189 2 (1753-1792)
     '3E189_0003' => '657658.1324610',            # Sépulture Motreff 3 E 189 3 (1754-1792)
-    '3E189_0011' => '657666.1324675',            # Mariage promesse de mariage Motreff 3 E 189 11 (1793-1812)
 
     # BMS Le Moustoir
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
@@ -265,7 +256,6 @@ my %convert = (
     '3E212_0002' => '658571.1332282',            # BM Plonéis 3 E 212 2 (1749-1774.)
     '3E212_0003' => '658572.1332283',            # BM Plonéis 3 E 212 3 (1775-1792.)
     '3E212_0004' => '658573.1332285',            # Sépulture Plonéis 3 E 212 4 (1749-1792.)
-    '3E212_0014' => '1332444',                   # Mariage Plonéis 3 E 212/14/1 (1793 - an II)
 
     # BMS Saint-Quijeau
     '3E326_0001' => '1040982.1366562',            # BMS Saint-Quijeau E 326 1 (1687-1690, 1704-1706, 1708-1712, 1715-1717, 1719-1721, 1723, 1726, 1728-1738, 1744-1752)
@@ -282,7 +272,6 @@ my %convert = (
     '3E245_0001' => '660152.1345472',            # BMS Plounévézel 3 E 245 1 (1676-1678 (incomplet), 1687-1691, 1694-1701, 1703-1706 (incomplet), 1707-1715, 1717-1719, 1724-1731, 1733-1753.)
     '3E245_0002' => '660153.1345474',            # BM  Plounévézel 3 E 245 2 (1754-24 juillet 1792.)
     '3E245_0003' => '660154.1345476',            # Sépulture Plounévézel 3 E 245 3 (1754-1755, 1757-1790.)
-    '3E245_0011' => '1345632',                   # Mariage Plounévézel 3 E 245/11/1 (1793-an II)
 
     # BMS Poullaouen
     '3E270_0001' => '1039195.1354565',            # Baptême mariage sépulture Poullaouen 3 E 270 1 (1676 (incomplet)-1677, 1687-1688, 1690-1691, 1694-1715.)
@@ -290,13 +279,11 @@ my %convert = (
     '3E270_0003' => '1039197.1354568',            # Baptême mariage Poullaouen 3 E 270 3 (1753-1777.)
     '3E270_0004' => '1039198.1354569',            # Baptême mariage Poullaouen 3 E 270 4 (1778-1792.)
     '3E270_0005' => '1039199.1354571',            # Sépulture Poullaouen 3 E 270 5 (1753-1765, 1768-1792.)
-    '3E270_0016' => '1039210.1354631',            # Mariage promesse de mariage Poullaouen 3 E 270 16 (1793-an VI, an VIII-an X.)
 
     # BMS Saint-Hernin
     '3E309_0001' => '1040255.1634650',            # BMS Saint-Hernin 3 E 309 1 (9 avril-15 septembre 1694, 6 novembre-décembre 1702, 1704-1720, 1724-1726, 1728-1734)
     '3E309_0004' => '1040258.1634654',            # BM  Saint-Hernin 3 E 309 4 (1771-1792)
     '3E309_0005' => '1040259.1634656',            # Sépulture Saint-Hernin 3 E 309 5 (1753-1792)
-    '3E309_0013' => '1040457.1634708',            # Mariage promesse de mariage publication de mariage Saint-Hernin 3 E 309 13 (1793-1812)
 
     # BMS Plonévez-du-Faou
     '3E214_0001' => '658661.1333267',            # BMS Plonévez-du-Faou 3 E 214 1 (Baptêmes, mariages, sépultures (1694-1702, 1704, 1706-1712, 1714-1719, 1721, 1723, 1728) ; extraits mortuaires (1704-1728))
@@ -307,7 +294,6 @@ my %convert = (
     '3E214_0006' => '658666.1333273',            # BM  Plonévez-du-Faou 3 E 214 6 (1781-1792)
     '3E214_0007' => '658667.1333275',            # Sépulture Plonévez-du-Faou 3 E 214 7 (1751-1772)
     '3E214_0008' => '658668.1333276',            # Sépulture Plonévez-du-Faou 3 E 214 8 (1773-1792)
-    '3E214_0020' => '658680.1333347',            # Mariage promesse de mariage Plonévez-du-Faou 3 E 214 20 (1793-an X)
 
     # BMS Querrien
     '3E274_0001' => '1039321.1355723',            # BMS Querrien 3 E 274 1 (Baptêmes (1653 (incomplet)-1661) ; baptêmes, sépultures (1669, 1672-1673) ; baptêmes, mariages, sépultures (1693, 1696 (incomplet), 1704 (incomplet), 1707, 1709-1711 (incomplet), 1712-1720 (incomplet) ).)
@@ -317,7 +303,6 @@ my %convert = (
     '3E274_0005' => '1039325.1355728',            # BM  Querrien 3 E 274 5 (1764-1766 (incomplet), 1767-1769, 1771-1779.)
     '3E274_0006' => '1039326.1355729',            # BM  Querrien 3 E 274 6 (1780-1790, 1792-7 janvier 1793.)
     '3E274_0007' => '1039327.1355731',            # Sépulture Querrien 3 E 274 7 (1749-1766, 1768-1771, 1773-1776 (incomplet), 1777-1er avril 1793.)
-    '3E274_0018' => '1355892',            # Mariage promesse de mariage Querrien 3 E 274/18/1 (1793-an II (contient également des promesses de mariages))
 
     # BMS Scaër
     '3E344_0001' => '1045957.1371644',            # BMS Scaër 3 E 344 1 (1669-1670 (incomplets), 1701, 1704-1709 (incomplet), 1710-1714 (incomplets), 1715-1716 (incomplet), 1717-6 février 1719)
@@ -332,7 +317,6 @@ my %convert = (
     '3E344_0010' => '1045966.1371655',            # Sépulture Scaër 3 E 344 10 (1759-1770)
     '3E344_0011' => '1045967.1371656',            # Sépulture Scaër 3 E 344 11 (1771-1782)
     '3E344_0012' => '1045968.1371657',            # Sépulture Scaër 3 E 344 12 (1783-1789, 1791-4 janvier 1793)
-    '3E344_0024' => '1371825',                    # Mariage promesse de mariage Scaër 3 E 344/24/1 (1793 - an II)
 
     # BMS Spézet
     '3E348_0001' => '1045747.1373143',            # BMS Spézet 3 E 348 1 (1671-1672, 1675-1677, 1687-1690, 1694-1696)
@@ -347,7 +331,6 @@ my %convert = (
     '3E348_0009' => '1045755.1373151',            # BMS Spézet 3 E 348 9 (1777-1782)
     '3E348_0010' => '1045756.1373152',            # BMS Spézet 3 E 348 10 (1783-1788)
     '3E348_0011' => '1045757.1373153',            # BMS Spézet 3 E 348 11 (1789-1791)
-    '3E348_0022' => '1373318',                    # Mariage publication de mariage promesse de mariage Spézet 3 E 348/22/1 (1793-an II (contient également des publications de mariages))
 
     # NMD :
     #=====
