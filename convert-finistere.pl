@@ -414,6 +414,7 @@ my %convert = (
 	1884   => '1266976',            # Mariage Bannalec 3 E 4/40/1 (1884)
 	1885   => '1266977',            # Mariage Bannalec 3 E 4/40/2 (1885)
 	1886   => '1266978',            # Mariage Bannalec 3 E 4/40/3 (1886)
+	1887   => '1266979',            # Mariage Bannalec 3 E 4/40/4 (1887)
 	1888   => '1266980',            # Mariage Bannalec 3 E 4/40/5 (1888)
     },
 
@@ -2974,7 +2975,8 @@ my %convert = (
     '3E073_0034' => '653770.1289376',   # Décès Fouesnant 3 E 73 34 (1881-1890)
     '3E073_0035' => '653771.1289246',   # Naissance Fouesnant 3 E 73 35 (1894-1901)
     '3E073_0036' => '653772.1289377',   # Décès Fouesnant 3 E 73 36 (1891-1901)
-    '3E073_0037' => {			# Mariage Fouesnant 3 E 73 37   1892-1898
+
+    '3E073_0037' => {			# Mariage Fouesnant 3 E 73 37   1892-1902
 	1892   => '1289308',            # Mariage Fouesnant 3 E 73/37/1 (1892)
 	1893   => '1289309',            # Mariage Fouesnant 3 E 73/37/2 (1893)
 	1894   => '1289310',            # Mariage Fouesnant 3 E 73/37/3 (1894)
@@ -2982,6 +2984,10 @@ my %convert = (
 	1896   => '1289312',            # Mariage Fouesnant 3 E 73/37/5 (1896)
 	1897   => '1289313',            # Mariage Fouesnant 3 E 73/37/6 (1897)
 	1898   => '1289314',            # Mariage Fouesnant 3 E 73/37/7 (1898)
+	1899   => '1289315',            # Mariage Fouesnant 3 E 73/37/8 (1899)
+	1900   => '1289316',            # Mariage Fouesnant 3 E 73/37/9 (1900)
+	1901   => '1289317',            # Mariage Fouesnant 3 E 73/37/10 (1901)
+	1902   => '1289318',            # Mariage Fouesnant 3 E 73/37/11 (1902)
     },
 
     '3E073_0038' => {			# Naissance Fouesnant 3 E 73 38   1878-1908
@@ -3032,6 +3038,11 @@ my %convert = (
 	1896   => '1289460',            # Mariage publication de mariage Fouesnant 3 E 73/39/15 (1896)
 	1897   => '1289461',            # Mariage publication de mariage Fouesnant 3 E 73/39/16 (1897)
 	1898   => '1289462',            # Mariage publication de mariage Fouesnant 3 E 73/39/17 (1898)
+	1899   => '1289463',            # Mariage publication de mariage Fouesnant 3 E 73/39/18 (1899)
+	1900   => '1289464',            # Mariage publication de mariage Fouesnant 3 E 73/39/19 (1900)
+	1901   => '1289465',            # Mariage publication de mariage Fouesnant 3 E 73/39/20 (1901)
+	1902   => '1289466',            # Mariage publication de mariage Fouesnant 3 E 73/39/21 (1902)
+	1903   => '1289467',            # Mariage publication de mariage Fouesnant 3 E 73/39/22 (1903)
 	1904   => '1289468',            # Mariage publication de mariage Fouesnant 3 E 73/39/23 (1904)
 	1905   => '1289469',            # Mariage publication de mariage Fouesnant 3 E 73/39/24 (1905)
 	1906   => '1289470',            # Mariage publication de mariage Fouesnant 3 E 73/39/25 (1906)
@@ -3039,7 +3050,7 @@ my %convert = (
 	1908   => '1289472',            # Mariage publication de mariage Fouesnant 3 E 73/39/27 (1908)
     },
 
-    '3E073_0040' => {			# Décès Fouesnant 3 E 73 40   1878-1906
+    '3E073_0040' => {			# Décès Fouesnant 3 E 73 40   1878-1908
 	1878   => '1289474',            # Décès Fouesnant 3 E 73/40/1 (1878)
 	1879   => '1289475',            # Décès Fouesnant 3 E 73/40/2 (1879)
 	1880   => '1289476',            # Décès Fouesnant 3 E 73/40/3 (1880)
@@ -3065,6 +3076,8 @@ my %convert = (
 	1904   => '1289496',            # Décès Fouesnant 3 E 73/40/23 (1904)
 	1905   => '1289497',            # Décès Fouesnant 3 E 73/40/24 (1905)
 	1906   => '1289498',            # Décès Fouesnant 3 E 73/40/25 (1906)
+	1907   => '1289499',            # Décès Fouesnant 3 E 73/40/26 (1907)
+	1908   => '1289500',            # Décès Fouesnant 3 E 73/40/27 (1908)
     },
 
     '3E073_0041' => {			# Naissance Fouesnant 3 E 73 41   1902-1909
@@ -3078,7 +3091,8 @@ my %convert = (
 	1909   => '1289255',            # Naissance Fouesnant 3 E 73/41/8 (1909)
     },
 
-    '3E073_0042' => {			# Mariage Fouesnant 3 E 73 42   1904-1914
+    '3E073_0042' => {			# Mariage Fouesnant 3 E 73 42   1903-1914
+	1903   => '1289320',            # Mariage Fouesnant 3 E 73/42/1 (1903)
 	1904   => '1289321',            # Mariage Fouesnant 3 E 73/42/2 (1904)
 	1905   => '1289322',            # Mariage Fouesnant 3 E 73/42/3 (1905)
 	1906   => '1289323',            # Mariage Fouesnant 3 E 73/42/4 (1906)
@@ -3099,6 +3113,8 @@ my %convert = (
 	1905   => '1289382',            # Décès Fouesnant 3 E 73/43/4 (1905)
 	1906   => '1289383',            # Décès Fouesnant 3 E 73/43/5 (1906)
 	1907   => '1289384',            # Décès Fouesnant 3 E 73/43/6 (1907)
+	1908   => '1289385',            # Décès Fouesnant 3 E 73/43/7 (1908)
+	1909   => '1289386',            # Décès Fouesnant 3 E 73/43/8 (1909)
 	1910   => '1289387',            # Décès Fouesnant 3 E 73/43/9 (1910)
 	1911   => '1289388',            # Décès Fouesnant 3 E 73/43/10 (1911)
 	1912   => '1289389',            # Décès Fouesnant 3 E 73/43/11 (1912)
@@ -3131,6 +3147,8 @@ my %convert = (
 
     '3E073_0047' => {			# Mariage Fouesnant 3 E 73 47   1915-1924
 	1915   => '1289333',            # Mariage Fouesnant 3 E 73/47/1 (1915)
+	1916   => '1289334',            # Mariage Fouesnant 3 E 73/47/2 (1916)
+	1917   => '1289335',            # Mariage Fouesnant 3 E 73/47/3 (1917)
 	1918   => '1289336',            # Mariage Fouesnant 3 E 73/47/4 (1918)
 	1919   => '1289337',            # Mariage Fouesnant 3 E 73/47/5 (1919)
 	1920   => '1289338',            # Mariage Fouesnant 3 E 73/47/6 (1920)
@@ -4444,7 +4462,7 @@ my %convert = (
 	1869   => '1307374',            # Mariage Landeleau 3 E 122/19/7 (1869)
     },
 
-    '3E122_0020' => {			# Mariage Landeleau 3 E 122 20   1870-1884
+    '3E122_0020' => {			# Mariage Landeleau 3 E 122 20   1870-1885
 	1870   => '1307376',            # Mariage Landeleau 3 E 122/20/1 (1870)
 	1871   => '1307377',            # Mariage Landeleau 3 E 122/20/2 (1871)
 	1872   => '1307378',            # Mariage Landeleau 3 E 122/20/3 (1872)
@@ -4460,6 +4478,7 @@ my %convert = (
 	1882   => '1307388',            # Mariage Landeleau 3 E 122/20/13 (1882)
 	1883   => '1307389',            # Mariage Landeleau 3 E 122/20/14 (1883)
 	1884   => '1307390',            # Mariage Landeleau 3 E 122/20/15 (1884)
+	1885   => '1307391',            # Mariage Landeleau 3 E 122/20/16 (1885)
     },
 
     '3E122_0021' => {			# Décès Landeleau 3 E 122 21   AN06-1812
@@ -4588,7 +4607,9 @@ my %convert = (
 	1906   => '1307261',            # Naissance Landeleau 3 E 122/28/12 (1906)
     },
 
-    '3E122_0029' => {			# Mariage Landeleau 3 E 122 29   1888-1902
+    '3E122_0029' => {			# Mariage Landeleau 3 E 122 29   1886-1902
+	1886   => '1307393',            # Mariage Landeleau 3 E 122/29/1 (1886)
+	1887   => '1307394',            # Mariage Landeleau 3 E 122/29/2 (1887)
 	1888   => '1307395',            # Mariage Landeleau 3 E 122/29/3 (1888)
 	1889   => '1307396',            # Mariage Landeleau 3 E 122/29/4 (1889)
 	1890   => '1307397',            # Mariage Landeleau 3 E 122/29/5 (1890)
@@ -6001,6 +6022,7 @@ my %convert = (
 	1900   => '1324695',            # Mariage Motreff 3 E 189/26/13 (1900)
 	1901   => '1324696',            # Mariage Motreff 3 E 189/26/14 (1901)
 	1902   => '1324697',            # Mariage Motreff 3 E 189/26/15 (1902)
+	1903   => '1324698',            # Mariage Motreff 3 E 189/26/16 (1903)
 	1904   => '1324699',            # Mariage Motreff 3 E 189/26/17 (1904)
 	1905   => '1324700',            # Mariage Motreff 3 E 189/26/18 (1905)
     },
@@ -8590,6 +8612,11 @@ my %convert = (
 	1880   => '1369836',            # Mariage Saint-Thurien 3 E 335/17/11 (1880)
 	1881   => '1369837',            # Mariage Saint-Thurien 3 E 335/17/12 (1881)
 	1882   => '1369838',            # Mariage Saint-Thurien 3 E 335/17/13 (1882)
+	1883   => '1369839',            # Mariage Saint-Thurien 3 E 335/17/14 (1883)
+	1884   => '1369840',            # Mariage Saint-Thurien 3 E 335/17/15 (1884)
+	1885   => '1369841',            # Mariage Saint-Thurien 3 E 335/17/16 (1885)
+	1886   => '1369842',            # Mariage Saint-Thurien 3 E 335/17/17 (1886)
+	1887   => '1369843',            # Mariage Saint-Thurien 3 E 335/17/18 (1887)
 	1888   => '1369844',            # Mariage Saint-Thurien 3 E 335/17/19 (1888)
     },
 
@@ -8718,6 +8745,7 @@ my %convert = (
 	1888   => '1369691',            # Naissance Saint-Thurien 3 E 335/26/3 (1888)
 	1889   => '1369692',            # Naissance Saint-Thurien 3 E 335/26/4 (1889)
 	1890   => '1369693',            # Naissance Saint-Thurien 3 E 335/26/5 (1890)
+	1891   => '1369694',            # Naissance Saint-Thurien 3 E 335/26/6 (1891)
 	1892   => '1369695',            # Naissance Saint-Thurien 3 E 335/26/7 (1892)
 	1893   => '1369696',            # Naissance Saint-Thurien 3 E 335/26/8 (1893)
 	1894   => '1369697',            # Naissance Saint-Thurien 3 E 335/26/9 (1894)
@@ -8739,6 +8767,10 @@ my %convert = (
 	1897   => '1369854',            # Mariage Saint-Thurien 3 E 335/27/9 (1897)
 	1898   => '1369855',            # Mariage Saint-Thurien 3 E 335/27/10 (1898)
 	1899   => '1369856',            # Mariage Saint-Thurien 3 E 335/27/11 (1899)
+	1900   => '1369857',            # Mariage Saint-Thurien 3 E 335/27/12 (1900)
+	1901   => '1369858',            # Mariage Saint-Thurien 3 E 335/27/13 (1901)
+	1902   => '1369859',            # Mariage Saint-Thurien 3 E 335/27/14 (1902)
+	1903   => '1369860',            # Mariage Saint-Thurien 3 E 335/27/15 (1903)
 	1904   => '1369861',            # Mariage Saint-Thurien 3 E 335/27/16 (1904)
 	1905   => '1369862',            # Mariage Saint-Thurien 3 E 335/27/17 (1905)
 	1906   => '1369863',            # Mariage Saint-Thurien 3 E 335/27/18 (1906)
@@ -8752,6 +8784,7 @@ my %convert = (
 	1892   => '1370004',            # Décès Saint-Thurien 3 E 335/28/5 (1892)
 	1893   => '1370005',            # Décès Saint-Thurien 3 E 335/28/6 (1893)
 	1894   => '1370006',            # Décès Saint-Thurien 3 E 335/28/7 (1894)
+	1895   => '1370007',            # Décès Saint-Thurien 3 E 335/28/8 (1895)
 	1896   => '1370008',            # Décès Saint-Thurien 3 E 335/28/9 (1896)
 	1897   => '1370009',            # Décès Saint-Thurien 3 E 335/28/10 (1897)
 	1898   => '1370010',            # Décès Saint-Thurien 3 E 335/28/11 (1898)
@@ -10320,6 +10353,7 @@ my %convert = (
     '3E348_0040' => {			# Décès Spézet 3 E 348 40   1880-1889
 	1880   => '1373568',            # Décès Spézet 3 E 348/40/1 (1880)
 	1881   => '1373569',            # Décès Spézet 3 E 348/40/2 (1881)
+	1882   => '1373570',            # Décès Spézet 3 E 348/40/3 (1882)
 	1883   => '1373571',            # Décès Spézet 3 E 348/40/4 (1883)
 	1884   => '1373572',            # Décès Spézet 3 E 348/40/5 (1884)
 	1885   => '1373573',            # Décès Spézet 3 E 348/40/6 (1885)
@@ -10342,6 +10376,11 @@ my %convert = (
     },
 
     '3E348_0042' => {			# Mariage Spézet 3 E 348 42   1888-1895
+	1883   => '1373412',            # Mariage Spézet 3 E 348/42/1 (1883)
+	1884   => '1373413',            # Mariage Spézet 3 E 348/42/2 (1884)
+	1885   => '1373414',            # Mariage Spézet 3 E 348/42/3 (1885)
+	1886   => '1373415',            # Mariage Spézet 3 E 348/42/4 (1886)
+	1887   => '1373416',            # Mariage Spézet 3 E 348/42/5 (1887)
 	1888   => '1373417',            # Mariage Spézet 3 E 348/42/6 (1888)
 	1889   => '1373418',            # Mariage Spézet 3 E 348/42/7 (1889)
 	1890   => '1373419',            # Mariage Spézet 3 E 348/42/8 (1890)
@@ -10358,6 +10397,7 @@ my %convert = (
 	1892   => '1373581',            # Décès Spézet 3 E 348/43/3 (1892)
 	1893   => '1373582',            # Décès Spézet 3 E 348/43/4 (1893)
 	1894   => '1373583',            # Décès Spézet 3 E 348/43/5 (1894)
+	1895   => '1373584',            # Décès Spézet 3 E 348/43/6 (1895)
 	1896   => '1373585',            # Décès Spézet 3 E 348/43/7 (1896)
 	1897   => '1373586',            # Décès Spézet 3 E 348/43/8 (1897)
 	1898   => '1373587',            # Décès Spézet 3 E 348/43/9 (1898)
@@ -10379,6 +10419,10 @@ my %convert = (
 	1897   => '1373427',            # Mariage Spézet 3 E 348/45/2 (1897)
 	1898   => '1373428',            # Mariage Spézet 3 E 348/45/3 (1898)
 	1899   => '1373429',            # Mariage Spézet 3 E 348/45/4 (1899)
+	1900   => '1373430',            # Mariage Spézet 3 E 348/45/5 (1900)
+	1901   => '1373431',            # Mariage Spézet 3 E 348/45/6 (1901)
+	1902   => '1373432',            # Mariage Spézet 3 E 348/45/7 (1902)
+	1903   => '1373433',            # Mariage Spézet 3 E 348/45/8 (1903)
 	1904   => '1373434',            # Mariage Spézet 3 E 348/45/9 (1904)
 	1905   => '1373435',            # Mariage Spézet 3 E 348/45/10 (1905)
     },
@@ -10471,6 +10515,7 @@ my %convert = (
 
     '3E348_0055' => {			# Décès Spézet 3 E 348 55   1908-1915
 	1908   => '1373599',            # Décès Spézet 3 E 348/55/1 (1908)
+	1909   => '1373600',            # Décès Spézet 3 E 348/55/2 (1909)
 	1910   => '1373601',            # Décès Spézet 3 E 348/55/3 (1910)
 	1911   => '1373602',            # Décès Spézet 3 E 348/55/4 (1911)
 	1912   => '1373603',            # Décès Spézet 3 E 348/55/5 (1912)
@@ -10734,6 +10779,8 @@ my %convert = (
 	1883   => '1374561',            # Mariage Tourc'h 3 E 351/18/14 (1883)
 	1884   => '1374562',            # Mariage Tourc'h 3 E 351/18/15 (1884)
 	1885   => '1374563',            # Mariage Tourc'h 3 E 351/18/16 (1885)
+	1886   => '1374564',            # Mariage Tourc'h 3 E 351/18/17 (1886)
+	1887   => '1374565',            # Mariage Tourc'h 3 E 351/18/18 (1887)
 	1888   => '1374566',            # Mariage Tourc'h 3 E 351/18/19 (1888)
 	1889   => '1374567',            # Mariage Tourc'h 3 E 351/18/20 (1889)
     },
@@ -10893,6 +10940,7 @@ my %convert = (
 	1900   => '1374579',            # Mariage Tourc'h 3 E 351/28/11 (1900)
 	1901   => '1374580',            # Mariage Tourc'h 3 E 351/28/12 (1901)
 	1902   => '1374581',            # Mariage Tourc'h 3 E 351/28/13 (1902)
+	1903   => '1374582',            # Mariage Tourc'h 3 E 351/28/14 (1903)
 	1904   => '1374583',            # Mariage Tourc'h 3 E 351/28/15 (1904)
 	1905   => '1374584',            # Mariage Tourc'h 3 E 351/28/16 (1905)
 	1906   => '1374585',            # Mariage Tourc'h 3 E 351/28/17 (1906)
