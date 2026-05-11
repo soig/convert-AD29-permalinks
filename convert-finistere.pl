@@ -67,6 +67,11 @@ my %convert = (
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
     '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
 
+    # BMS Poullaouen
+    '1211EDEPOT_003' => '645498.1477662',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 3 (1711-1741)
+    '1211EDEPOT_001' => '645496.1477660',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 1 (Baptêmes (1548-1568, 1619-1683). Baptêmes, mariages, sépultures (1666-1670))
+    '1211EDEPOT_005' => '645500.1477664',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 5 (Baptêmes et mariages (1789-1792). Sépultures (1753-1787, 1791-1792).)
+    '1211EDEPOT_004' => '645499.1477663',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 4 (Baptêmes, mariages, sépultures (1742-1752). Baptêmes et mariages (1762-1788).)
 
     # BMS Saint-Yvi
     '1261EDEPOT_009' => '1480039',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 9 (Décès)
@@ -155,6 +160,14 @@ my %convert = (
     '3E234_0002' => '659571.1340588',	# BMS Plouguer 3 E 234 2        1704-1749
     '3E234_0003' => '659572.1340590',	# BM Plouguer  3 E 234 3        1750-28 février 1793
     '3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4        1753-28 février 1793
+
+    # BMS Poullaouen
+    '3E270_0001' => '1039195.1354565',            # Baptême mariage sépulture Poullaouen 3 E 270 1 (1676 (incomplet)-1677, 1687-1688, 1690-1691, 1694-1715.)
+    '3E270_0002' => '1039196.1354566',            # Baptême mariage sépulture Poullaouen 3 E 270 2 (1716-1717, 1719-1721, 1723-1726, 1728-1735, 1737-1738, 1742, 1744-1752.)
+    '3E270_0003' => '1039197.1354568',            # Baptême mariage Poullaouen 3 E 270 3 (1753-1777.)
+    '3E270_0004' => '1039198.1354569',            # Baptême mariage Poullaouen 3 E 270 4 (1778-1792.)
+    '3E270_0005' => '1039199.1354571',            # Sépulture Poullaouen 3 E 270 5 (1753-1765, 1768-1792.)
+    '3E270_0016' => '1039210.1354631',            # Mariage promesse de mariage Poullaouen 3 E 270 16 (1793-an VI, an VIII-an X.)
 
     # BMS Saint-Hernin
     '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
