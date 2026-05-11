@@ -175,12 +175,17 @@ my %convert = (
 	1812   => '1266716',            # Naissance Bannalec 3 E 4/18/10 (1812)
     },
 
-    '3E004_0019' => {			# Naissance Bannalec 3 E 4 19   1813-1817
+    '3E004_0019' => {			# Naissance Bannalec 3 E 4 19   1813-1822
 	1813   => '1266718',            # Naissance Bannalec 3 E 4/19/1 (1813)
 	1814   => '1266719',            # Naissance Bannalec 3 E 4/19/2 (1814)
 	1815   => '1266720',            # Naissance Bannalec 3 E 4/19/3 (1815)
 	1816   => '1266721',            # Naissance Bannalec 3 E 4/19/4 (1816)
 	1817   => '1266722',            # Naissance Bannalec 3 E 4/19/5 (1817)
+	1818   => '1266723',            # Naissance Bannalec 3 E 4/19/6 (1818)
+	1819   => '1266724',            # Naissance Bannalec 3 E 4/19/7 (1819)
+	1820   => '1266725',            # Naissance Bannalec 3 E 4/19/8 (1820)
+	1821   => '1266726',            # Naissance Bannalec 3 E 4/19/9 (1821)
+	1822   => '1266727',            # Naissance Bannalec 3 E 4/19/10 (1822)
     },
 
     '3E004_0020' => {			# Naissance Bannalec 3 E 4 20   1823-1832
@@ -297,7 +302,7 @@ my %convert = (
 	'an VI-an VIII, an X-an XI (promesses de mariages)' => '1266884',            # Mariage promesse de mariage Bannalec 3 E 4/30/9 (an VI-an VIII, an X-an XI (promesses de mariages))
     },
 
-    '3E004_0031' => {			# Mariage Bannalec 3 E 4 31   AN11-1810
+    '3E004_0031' => {			# Mariage Bannalec 3 E 4 31   AN11-1812
 	'AN11' => '1266886',            # Mariage Bannalec 3 E 4/31/1 (an XI)
 	'AN12' => '1266887',            # Mariage Bannalec 3 E 4/31/2 (an XII)
 	'AN13' => '1266888',            # Mariage Bannalec 3 E 4/31/3 (an XIII)
@@ -306,6 +311,8 @@ my %convert = (
 	1808   => '1266891',            # Mariage Bannalec 3 E 4/31/6 (1808)
 	1809   => '1266892',            # Mariage Bannalec 3 E 4/31/7 (1809)
 	1810   => '1266893',            # Mariage Bannalec 3 E 4/31/8 (1810)
+	1811   => '1266894',            # Mariage Bannalec 3 E 4/31/9 (1811)
+	1812   => '1266895',            # Mariage Bannalec 3 E 4/31/10 (1812)
     },
 
     '3E004_0032' => {			# Mariage Bannalec 3 E 4 32   1813-1822
@@ -440,12 +447,17 @@ my %convert = (
 	1812   => '1267068',            # Décès Bannalec 3 E 4/43/10 (1812)
     },
 
-    '3E004_0044' => {			# Décès Bannalec 3 E 4 44   1813-1817
+    '3E004_0044' => {			# Décès Bannalec 3 E 4 44   1813-1822
 	1813   => '1267070',            # Décès Bannalec 3 E 4/44/1 (1813)
 	1814   => '1267071',            # Décès Bannalec 3 E 4/44/2 (1814)
 	1815   => '1267072',            # Décès Bannalec 3 E 4/44/3 (1815)
 	1816   => '1267073',            # Décès Bannalec 3 E 4/44/4 (1816)
 	1817   => '1267074',            # Décès Bannalec 3 E 4/44/5 (1817)
+	1818   => '1267075',            # Décès Bannalec 3 E 4/44/6 (1818)
+	1819   => '1267076',            # Décès Bannalec 3 E 4/44/7 (1819)
+	1820   => '1267077',            # Décès Bannalec 3 E 4/44/8 (1820)
+	1821   => '1267078',            # Décès Bannalec 3 E 4/44/9 (1821)
+	1822   => '1267079',            # Décès Bannalec 3 E 4/44/10 (1822)
     },
 
     '3E004_0045' => {			# Décès Bannalec 3 E 4 45   1823-1832
@@ -679,9 +691,18 @@ my %convert = (
 	1923   => '1267023',            # Mariage Bannalec 3 E 4/73/4 (1923)
     },
 
-    '3E004_0074' => {			# Mariage Bannalec 3 E 4 74   1924-1925
+    '3E004_0074' => {			# Mariage Bannalec 3 E 4 74   1924-1927
 	1924   => '1267025',            # Mariage Bannalec 3 E 4/74/1 (1924)
 	1925   => '1267026',            # Mariage Bannalec 3 E 4/74/2 (1925)
+	1926   => '1267027',            # Mariage Bannalec 3 E 4/74/3 (1926)
+	1927   => '1267028',            # Mariage Bannalec 3 E 4/74/4 (1927)
+    },
+
+    '3E004_0075' => {			# Mariage Bannalec 3 E 4 75   1928-1931
+	1928   => '1267030',            # Mariage Bannalec 3 E 4/75/1 (1928)
+	1929   => '1267031',            # Mariage Bannalec 3 E 4/75/2 (1929)
+	1930   => '1267032',            # Mariage Bannalec 3 E 4/75/3 (1930)
+	1931   => '1267033',            # Mariage Bannalec 3 E 4/75/4 (1931)
     },
 
     '3E004_0077' => {			# Décès Bannalec 3 E 4 77   1912-1917
@@ -748,12 +769,17 @@ my %convert = (
 	1812   => '1268945',            # Naissance Beuzec-Conq 3 E 10/10/10 (1812)
     },
 
-    '3E010_0011' => {			# Naissance Beuzec-Conq 3 E 10 11   1813-1817
+    '3E010_0011' => {			# Naissance Beuzec-Conq 3 E 10 11   1813-1822
 	1813   => '1268947',            # Naissance Beuzec-Conq 3 E 10/11/1 (1813)
 	1814   => '1268948',            # Naissance Beuzec-Conq 3 E 10/11/2 (1814)
 	1815   => '1268949',            # Naissance Beuzec-Conq 3 E 10/11/3 (1815)
 	1816   => '1268950',            # Naissance Beuzec-Conq 3 E 10/11/4 (1816)
 	1817   => '1268951',            # Naissance Beuzec-Conq 3 E 10/11/5 (1817)
+	1818   => '1268952',            # Naissance Beuzec-Conq 3 E 10/11/6 (1818)
+	1819   => '1268953',            # Naissance Beuzec-Conq 3 E 10/11/7 (1819)
+	1820   => '1268954',            # Naissance Beuzec-Conq 3 E 10/11/8 (1820)
+	1821   => '1268955',            # Naissance Beuzec-Conq 3 E 10/11/9 (1821)
+	1822   => '1268956',            # Naissance Beuzec-Conq 3 E 10/11/10 (1822)
     },
 
     '3E010_0012' => {			# Naissance Beuzec-Conq 3 E 10 12   1823-1832
@@ -987,12 +1013,17 @@ my %convert = (
 	1812   => '1269271',            # Décès Beuzec-Conq 3 E 10/29/10 (1812)
     },
 
-    '3E010_0030' => {			# Décès Beuzec-Conq 3 E 10 30   1813-1817
+    '3E010_0030' => {			# Décès Beuzec-Conq 3 E 10 30   1813-1822
 	1813   => '1269273',            # Décès Beuzec-Conq 3 E 10/30/1 (1813)
 	1814   => '1269274',            # Décès Beuzec-Conq 3 E 10/30/2 (1814)
 	1815   => '1269275',            # Décès Beuzec-Conq 3 E 10/30/3 (1815)
 	1816   => '1269276',            # Décès Beuzec-Conq 3 E 10/30/4 (1816)
 	1817   => '1269277',            # Décès Beuzec-Conq 3 E 10/30/5 (1817)
+	1818   => '1269278',            # Décès Beuzec-Conq 3 E 10/30/6 (1818)
+	1819   => '1269279',            # Décès Beuzec-Conq 3 E 10/30/7 (1819)
+	1820   => '1269280',            # Décès Beuzec-Conq 3 E 10/30/8 (1820)
+	1821   => '1269281',            # Décès Beuzec-Conq 3 E 10/30/9 (1821)
+	1822   => '1269282',            # Décès Beuzec-Conq 3 E 10/30/10 (1822)
     },
 
     '3E010_0031' => {			# Décès Beuzec-Conq 3 E 10 31   1823-1832
@@ -1203,7 +1234,7 @@ my %convert = (
 	1918   => '1269219',            # Mariage Beuzec-Conq 3 E 10/48/10 (1918)
     },
 
-    '3E010_0049' => {			# Mariage Beuzec-Conq 3 E 10 49   1919-1925
+    '3E010_0049' => {			# Mariage Beuzec-Conq 3 E 10 49   1919-1926
 	1919   => '1269221',            # Mariage Beuzec-Conq 3 E 10/49/1 (1919)
 	1920   => '1269222',            # Mariage Beuzec-Conq 3 E 10/49/2 (1920)
 	1921   => '1269223',            # Mariage Beuzec-Conq 3 E 10/49/3 (1921)
@@ -1211,6 +1242,18 @@ my %convert = (
 	1923   => '1269225',            # Mariage Beuzec-Conq 3 E 10/49/5 (1923)
 	1924   => '1269226',            # Mariage Beuzec-Conq 3 E 10/49/6 (1924)
 	1925   => '1269227',            # Mariage Beuzec-Conq 3 E 10/49/7 (1925)
+	1926   => '1269228',            # Mariage Beuzec-Conq 3 E 10/49/8 (1926)
+    },
+
+    '3E010_0050' => {			# Mariage Beuzec-Conq 3 E 10 50   1927-1934
+	1927   => '1269230',            # Mariage Beuzec-Conq 3 E 10/50/1 (1927)
+	1928   => '1269231',            # Mariage Beuzec-Conq 3 E 10/50/2 (1928)
+	1929   => '1269232',            # Mariage Beuzec-Conq 3 E 10/50/3 (1929)
+	1930   => '1269233',            # Mariage Beuzec-Conq 3 E 10/50/4 (1930)
+	1931   => '1269234',            # Mariage Beuzec-Conq 3 E 10/50/5 (1931)
+	1932   => '1269235',            # Mariage Beuzec-Conq 3 E 10/50/6 (1932)
+	1933   => '1269236',            # Mariage Beuzec-Conq 3 E 10/50/7 (1933)
+	1934   => '1269237',            # Mariage Beuzec-Conq 3 E 10/50/8 (1934)
     },
 
     '3E010_0051' => {			# Décès Beuzec-Conq 3 E 10 51   1915-1924
@@ -1565,6 +1608,19 @@ my %convert = (
 	1923   => '1276575',            # Mariage Châteauneuf-du-Faou 3 E 40/53/6 (1923)
 	1924   => '1276576',            # Mariage Châteauneuf-du-Faou 3 E 40/53/7 (1924)
 	1925   => '1276577',            # Mariage Châteauneuf-du-Faou 3 E 40/53/8 (1925)
+    },
+
+    '3E040_0054' => {			# Mariage Châteauneuf-du-Faou 3 E 40 54   1926-1935
+	1926   => '1276579',            # Mariage Châteauneuf-du-Faou 3 E 40/54/1 (1926)
+	1927   => '1276580',            # Mariage Châteauneuf-du-Faou 3 E 40/54/2 (1927)
+	1928   => '1276581',            # Mariage Châteauneuf-du-Faou 3 E 40/54/3 (1928)
+	1929   => '1276582',            # Mariage Châteauneuf-du-Faou 3 E 40/54/4 (1929)
+	1930   => '1276583',            # Mariage Châteauneuf-du-Faou 3 E 40/54/5 (1930)
+	1931   => '1276584',            # Mariage Châteauneuf-du-Faou 3 E 40/54/6 (1931)
+	1932   => '1276585',            # Mariage Châteauneuf-du-Faou 3 E 40/54/7 (1932)
+	1933   => '1276586',            # Mariage Châteauneuf-du-Faou 3 E 40/54/8 (1933)
+	1934   => '1276587',            # Mariage Châteauneuf-du-Faou 3 E 40/54/9 (1934)
+	1935   => '1276588',            # Mariage Châteauneuf-du-Faou 3 E 40/54/10 (1935)
     },
 
     '3E040_0055' => {			# Décès Châteauneuf-du-Faou 3 E 40 55   1908-1917
@@ -2118,6 +2174,20 @@ my %convert = (
 	1925   => '1281560',            # Mariage Concarneau 3 E 53/64/5 (1925)
     },
 
+    '3E053_0065' => {			# Mariage Concarneau 3 E 53 65   1926-1930
+	1926   => '1281562',            # Mariage Concarneau 3 E 53/65/1 (1926)
+	1927   => '1281563',            # Mariage Concarneau 3 E 53/65/2 (1927)
+	1928   => '1281564',            # Mariage Concarneau 3 E 53/65/3 (1928)
+	1929   => '1281565',            # Mariage Concarneau 3 E 53/65/4 (1929)
+	1930   => '1281566',            # Mariage Concarneau 3 E 53/65/5 (1930)
+    },
+
+    '3E053_0066' => {			# Mariage Concarneau 3 E 53 66   1931-1933
+	1931   => '1281568',            # Mariage Concarneau 3 E 53/66/1 (1931)
+	1932   => '1281569',            # Mariage Concarneau 3 E 53/66/2 (1932)
+	1933   => '1281570',            # Mariage Concarneau 3 E 53/66/3 (1933)
+    },
+
     '3E053_0067' => {			# Décès Concarneau 3 E 53 67   1908-1913
 	1908   => '1281614',            # Décès Concarneau 3 E 53/67/1 (1908)
 	1909   => '1281615',            # Décès Concarneau 3 E 53/67/2 (1909)
@@ -2189,11 +2259,17 @@ my %convert = (
 	1812   => '1285755',            # Naissance Elliant 3 E 64/7/10 (1812)
     },
 
-    '3E064_0008' => {			# Naissance Elliant 3 E 64 8   1813-1816
+    '3E064_0008' => {			# Naissance Elliant 3 E 64 8   1813-1822
 	1813   => '1285757',            # Naissance Elliant 3 E 64/8/1 (1813)
 	1814   => '1285758',            # Naissance Elliant 3 E 64/8/2 (1814)
 	1815   => '1285759',            # Naissance Elliant 3 E 64/8/3 (1815)
 	1816   => '1285760',            # Naissance Elliant 3 E 64/8/4 (1816)
+	1817   => '1285761',            # Naissance Elliant 3 E 64/8/5 (1817)
+	1818   => '1285762',            # Naissance Elliant 3 E 64/8/6 (1818)
+	1819   => '1285763',            # Naissance Elliant 3 E 64/8/7 (1819)
+	1820   => '1285764',            # Naissance Elliant 3 E 64/8/8 (1820)
+	1821   => '1285765',            # Naissance Elliant 3 E 64/8/9 (1821)
+	1822   => '1285766',            # Naissance Elliant 3 E 64/8/10 (1822)
     },
 
     '3E064_0009' => {			# Naissance Elliant 3 E 64 9   1823-1832
@@ -2291,7 +2367,7 @@ my %convert = (
 	'AN10' => '1285913',            # Mariage Elliant 3 E 64/15/9 (An X)
     },
 
-    '3E064_0016' => {			# Mariage Elliant 3 E 64 16   AN11-1809
+    '3E064_0016' => {			# Mariage Elliant 3 E 64 16   AN11-1812
 	'AN11' => '1285915',            # Mariage Elliant 3 E 64/16/1 (An XI)
 	'AN12' => '1285916',            # Mariage Elliant 3 E 64/16/2 (An XII)
 	'AN13' => '1285917',            # Mariage Elliant 3 E 64/16/3 (An XIII)
@@ -2299,6 +2375,9 @@ my %convert = (
 	1807   => '1285919',            # Mariage Elliant 3 E 64/16/5 (1807)
 	1808   => '1285920',            # Mariage Elliant 3 E 64/16/6 (1808)
 	1809   => '1285921',            # Mariage Elliant 3 E 64/16/7 (1809)
+	1810   => '1285922',            # Mariage Elliant 3 E 64/16/8 (1810)
+	1811   => '1285923',            # Mariage Elliant 3 E 64/16/9 (1811)
+	1812   => '1285924',            # Mariage Elliant 3 E 64/16/10 (1812)
     },
 
     '3E064_0017' => {			# Mariage Elliant 3 E 64 17   1813-1822
@@ -2413,7 +2492,7 @@ my %convert = (
 	'AN10' => '1286080',            # Décès Elliant 3 E 64/24/9 (An X)
     },
 
-    '3E064_0025' => {			# Décès Elliant 3 E 64 25   AN12-1817
+    '3E064_0025' => {			# Décès Elliant 3 E 64 25   AN12-1818
 	'AN11' => '1286082',            # Décès Elliant 3 E 64/25/1 (An XI)
 	'AN12' => '1286083',            # Décès Elliant 3 E 64/25/2 (An XII)
 	'AN13' => '1286084',            # Décès Elliant 3 E 64/25/3 (An XIII)
@@ -2429,9 +2508,14 @@ my %convert = (
 	1815   => '1286094',            # Décès Elliant 3 E 64/25/13 (1815)
 	1816   => '1286095',            # Décès Elliant 3 E 64/25/14 (1816)
 	1817   => '1286096',            # Décès Elliant 3 E 64/25/15 (1817)
+	1818   => '1286097',            # Décès Elliant 3 E 64/25/16 (1818)
     },
 
-    '3E064_0026' => {			# Décès Elliant 3 E 64 26   1823-1832
+    '3E064_0026' => {			# Décès Elliant 3 E 64 26   1819-1832
+	1819   => '1286099',            # Décès Elliant 3 E 64/26/1 (1819)
+	1820   => '1286100',            # Décès Elliant 3 E 64/26/2 (1820)
+	1821   => '1286101',            # Décès Elliant 3 E 64/26/3 (1821)
+	1822   => '1286102',            # Décès Elliant 3 E 64/26/4 (1822)
 	1823   => '1286103',            # Décès Elliant 3 E 64/26/5 (1823)
 	1824   => '1286104',            # Décès Elliant 3 E 64/26/6 (1824)
 	1825   => '1286105',            # Décès Elliant 3 E 64/26/7 (1825)
@@ -2642,6 +2726,18 @@ my %convert = (
 	1923   => '1286045',            # Mariage Elliant 3 E 64/43/5 (1923)
 	1924   => '1286046',            # Mariage Elliant 3 E 64/43/6 (1924)
 	1925   => '1286047',            # Mariage Elliant 3 E 64/43/7 (1925)
+	1926   => '1286048',            # Mariage Elliant 3 E 64/43/8 (1926)
+    },
+
+    '3E064_0044' => {			# Mariage Elliant 3 E 64 44   1927-1934
+	1927   => '1286050',            # Mariage Elliant 3 E 64/44/1 (1927)
+	1928   => '1286051',            # Mariage Elliant 3 E 64/44/2 (1928)
+	1929   => '1286052',            # Mariage Elliant 3 E 64/44/3 (1929)
+	1930   => '1286053',            # Mariage Elliant 3 E 64/44/4 (1930)
+	1931   => '1286054',            # Mariage Elliant 3 E 64/44/5 (1931)
+	1932   => '1286055',            # Mariage Elliant 3 E 64/44/6 (1932)
+	1933   => '1286056',            # Mariage Elliant 3 E 64/44/7 (1933)
+	1934   => '1286057',            # Mariage Elliant 3 E 64/44/8 (1934)
     },
 
     '3E064_0045' => {			# Décès Elliant 3 E 64 45   1916-1923
@@ -3529,7 +3625,7 @@ my %convert = (
 	'AN10' => '1302963',            # Mariage promesse de mariage Kernével 3 E 109/16/9 (an X)
     },
 
-    '3E109_0017' => {			# Mariage Kernével 3 E 109 17   AN12-1810
+    '3E109_0017' => {			# Mariage Kernével 3 E 109 17   AN12-1812
 	'AN11' => '1302965',            # Mariage Kernével 3 E 109/17/1 (an XI)
 	'AN12' => '1302966',            # Mariage Kernével 3 E 109/17/2 (an XII)
 	'AN13' => '1302967',            # Mariage Kernével 3 E 109/17/3 (an XIII)
@@ -3538,6 +3634,8 @@ my %convert = (
 	1808   => '1302970',            # Mariage Kernével 3 E 109/17/6 (1808)
 	1809   => '1302971',            # Mariage Kernével 3 E 109/17/7 (1809)
 	1810   => '1302972',            # Mariage Kernével 3 E 109/17/8 (1810)
+	1811   => '1302973',            # Mariage Kernével 3 E 109/17/9 (1811)
+	1812   => '1302974',            # Mariage Kernével 3 E 109/17/10 (1812)
     },
 
     '3E109_0018' => {			# Mariage Kernével 3 E 109 18   1813-1823
@@ -3655,12 +3753,17 @@ my %convert = (
 	1812   => '1303142',            # Décès Kernével 3 E 109/26/10 (1812)
     },
 
-    '3E109_0027' => {			# Décès Kernével 3 E 109 27   1813-1817
+    '3E109_0027' => {			# Décès Kernével 3 E 109 27   1813-1822
 	1813   => '1303144',            # Décès Kernével 3 E 109/27/1 (1813)
 	1814   => '1303145',            # Décès Kernével 3 E 109/27/2 (1814)
 	1815   => '1303146',            # Décès Kernével 3 E 109/27/3 (1815)
 	1816   => '1303147',            # Décès Kernével 3 E 109/27/4 (1816)
 	1817   => '1303148',            # Décès Kernével 3 E 109/27/5 (1817)
+	1818   => '1303149',            # Décès Kernével 3 E 109/27/6 (1818)
+	1819   => '1303150',            # Décès Kernével 3 E 109/27/7 (1819)
+	1820   => '1303151',            # Décès Kernével 3 E 109/27/8 (1820)
+	1821   => '1303152',            # Décès Kernével 3 E 109/27/9 (1821)
+	1822   => '1303153',            # Décès Kernével 3 E 109/27/10 (1822)
     },
 
     '3E109_0028' => {			# Décès Kernével 3 E 109 28   1823-1832
@@ -3864,12 +3967,24 @@ my %convert = (
 	1920   => '1303092',            # Mariage Kernével 3 E 109/43/12 (1920)
     },
 
-    '3E109_0044' => {			# Mariage Kernével 3 E 109 44   1921-1925
+    '3E109_0044' => {			# Mariage Kernével 3 E 109 44   1921-1928
 	1921   => '1303094',            # Mariage Kernével 3 E 109/44/1 (1921)
 	1922   => '1303095',            # Mariage Kernével 3 E 109/44/2 (1922)
 	1923   => '1303096',            # Mariage Kernével 3 E 109/44/3 (1923)
 	1924   => '1303097',            # Mariage Kernével 3 E 109/44/4 (1924)
 	1925   => '1303098',            # Mariage Kernével 3 E 109/44/5 (1925)
+	1926   => '1303099',            # Mariage Kernével 3 E 109/44/6 (1926)
+	1927   => '1303100',            # Mariage Kernével 3 E 109/44/7 (1927)
+	1928   => '1303101',            # Mariage Kernével 3 E 109/44/8 (1928)
+    },
+
+    '3E109_0045' => {			# Mariage Kernével 3 E 109 45   1929-1934
+	1929   => '1303103',            # Mariage Kernével 3 E 109/45/1 (1929)
+	1930   => '1303104',            # Mariage Kernével 3 E 109/45/2 (1930)
+	1931   => '1303105',            # Mariage Kernével 3 E 109/45/3 (1931)
+	1932   => '1303106',            # Mariage Kernével 3 E 109/45/4 (1932)
+	1933   => '1303107',            # Mariage Kernével 3 E 109/45/5 (1933)
+	1934   => '1303108',            # Mariage Kernével 3 E 109/45/6 (1934)
     },
 
     '3E109_0046' => {			# Décès Kernével 3 E 109 46   1908-1920
@@ -3908,7 +4023,7 @@ my %convert = (
     },
 
     # NMD Landeleau
-    '3E122_0006' => {			# Naissance Landeleau 3 E 122 6   AN14-1809
+    '3E122_0006' => {			# Naissance Landeleau 3 E 122 6   AN14-1813
 	'AN02' => '1307141',            # Naissance Landeleau 3 E 122/6/1 (1793-1er thermidor an II)
 	# An 3-5 to be doble checked:
 	'AN03' => '1307142',            # Naissance Landeleau 3 E 122/6/2 (19 frimaire-25 fructidor an III)
@@ -3926,9 +4041,20 @@ my %convert = (
 	1807   => '1307154',            # Naissance Landeleau 3 E 122/6/14 (1807)
 	1808   => '1307155',            # Naissance Landeleau 3 E 122/6/15 (1808)
 	1809   => '1307156',            # Naissance Landeleau 3 E 122/6/16 (1809)
+	# FIXME: Still an hole!
+	1813   => '1307160',            # Naissance Landeleau 3 E 122/6/20 (1813)
     },
 
-    '3E122_0007' => {			# Naissance Landeleau 3 E 122 7   1823-1832
+    '3E122_0007' => {			# Naissance Landeleau 3 E 122 7   1814-1832
+	1814   => '1307162',            # Naissance Landeleau 3 E 122/7/1 (1814)
+	1815   => '1307163',            # Naissance Landeleau 3 E 122/7/2 (1815)
+	1816   => '1307164',            # Naissance Landeleau 3 E 122/7/3 (1816)
+	1817   => '1307165',            # Naissance Landeleau 3 E 122/7/4 (1817)
+	1818   => '1307166',            # Naissance Landeleau 3 E 122/7/5 (1818)
+	1819   => '1307167',            # Naissance Landeleau 3 E 122/7/6 (1819)
+	1820   => '1307168',            # Naissance Landeleau 3 E 122/7/7 (1820)
+	1821   => '1307169',            # Naissance Landeleau 3 E 122/7/8 (1821)
+	1822   => '1307170',            # Naissance Landeleau 3 E 122/7/9 (1822)
 	1823   => '1307171',            # Naissance Landeleau 3 E 122/7/10 (1823)
 	1824   => '1307172',            # Naissance Landeleau 3 E 122/7/11 (1824)
 	1825   => '1307173',            # Naissance Landeleau 3 E 122/7/12 (1825)
@@ -4021,13 +4147,14 @@ my %convert = (
 	1894   => '1307248',            # Naissance Landeleau 3 E 122/13/11 (1894)
     },
 
-    '3E122_0014' => {			# Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122 14   AN12-1811
+    '3E122_0014' => {			# Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122 14   AN06-1812
 	'17 nivôse an III-25 vendémiaire an IV' => '1307297',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/2 (17 nivôse an III-25 vendémiaire an IV)
 	1807   => '1307307',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/12 (1807)
 	1808   => '1307308',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/13 (1808)
 	1809   => '1307309',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/14 (1809)
 	1810   => '1307310',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/15 (1810)
 	1811   => '1307311',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/16 (1811)
+	1812   => '1307312',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/17 (1812)
 	'29 thermidor an V' => '1307299',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/4 (29 thermidor an V)
 	'8 brumaire an IV-12 messidor an V (contient des publications de mariages)' => '1307298',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/3 (8 brumaire an IV-12 messidor an V (contient des publications de mariages))
 	'AN06' => '1307300',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/5 (an VI)
@@ -4150,6 +4277,11 @@ my %convert = (
 	1814   => '1307468',            # Décès Landeleau 3 E 122/22/2 (1814)
 	1815   => '1307469',            # Décès Landeleau 3 E 122/22/3 (1815)
 	1816   => '1307470',            # Décès Landeleau 3 E 122/22/4 (1816)
+	1817   => '1307471',            # Décès Landeleau 3 E 122/22/5 (1817)
+	1818   => '1307472',            # Décès Landeleau 3 E 122/22/6 (1818)
+	1819   => '1307473',            # Décès Landeleau 3 E 122/22/7 (1819)
+	1820   => '1307474',            # Décès Landeleau 3 E 122/22/8 (1820)
+	1821   => '1307475',            # Décès Landeleau 3 E 122/22/9 (1821)
 	1823   => '1307477',            # Décès Landeleau 3 E 122/22/11 (1823)
 	1824   => '1307478',            # Décès Landeleau 3 E 122/22/12 (1824)
 	1825   => '1307479',            # Décès Landeleau 3 E 122/22/13 (1825)
@@ -4327,7 +4459,7 @@ my %convert = (
 	1918   => '1307425',            # Mariage Landeleau 3 E 122/33/15 (1918)
     },
 
-    '3E122_0034' => {			# Mariage Landeleau 3 E 122 34   1919-1925
+    '3E122_0034' => {			# Mariage Landeleau 3 E 122 34   1919-1935
 	1919   => '1307427',            # Mariage Landeleau 3 E 122/34/1 (1919)
 	1920   => '1307428',            # Mariage Landeleau 3 E 122/34/2 (1920)
 	1921   => '1307429',            # Mariage Landeleau 3 E 122/34/3 (1921)
@@ -4335,6 +4467,16 @@ my %convert = (
 	1923   => '1307431',            # Mariage Landeleau 3 E 122/34/5 (1923)
 	1924   => '1307432',            # Mariage Landeleau 3 E 122/34/6 (1924)
 	1925   => '1307433',            # Mariage Landeleau 3 E 122/34/7 (1925)
+	1926   => '1307434',            # Mariage Landeleau 3 E 122/34/8 (1926)
+	1927   => '1307435',            # Mariage Landeleau 3 E 122/34/9 (1927)
+	1928   => '1307436',            # Mariage Landeleau 3 E 122/34/10 (1928)
+	1929   => '1307437',            # Mariage Landeleau 3 E 122/34/11 (1929)
+	1930   => '1307438',            # Mariage Landeleau 3 E 122/34/12 (1930)
+	1931   => '1307439',            # Mariage Landeleau 3 E 122/34/13 (1931)
+	1932   => '1307440',            # Mariage Landeleau 3 E 122/34/14 (1932)
+	1933   => '1307441',            # Mariage Landeleau 3 E 122/34/15 (1933)
+	1934   => '1307442',            # Mariage Landeleau 3 E 122/34/16 (1934)
+	1935   => '1307443',            # Mariage Landeleau 3 E 122/34/17 (1935)
     },
 
     '3E122_0035' => {			# Décès Landeleau 3 E 122 35   1904-1919
@@ -4500,13 +4642,23 @@ my %convert = (
 	1919   => '1314241',            # Mariage Laz 3 E 148/35/12 (1919)
     },
 
-    '3E148_0036' => {			# Mariage Laz 3 E 148 36   1920-1925
+    '3E148_0036' => {			# Mariage Laz 3 E 148 36   1920-1935
 	1920   => '1314243',            # Mariage Laz 3 E 148/36/1 (1920)
 	1921   => '1314244',            # Mariage Laz 3 E 148/36/2 (1921)
 	1922   => '1314245',            # Mariage Laz 3 E 148/36/3 (1922)
 	1923   => '1314246',            # Mariage Laz 3 E 148/36/4 (1923)
 	1924   => '1314247',            # Mariage Laz 3 E 148/36/5 (1924)
 	1925   => '1314248',            # Mariage Laz 3 E 148/36/6 (1925)
+	1926   => '1314249',            # Mariage Laz 3 E 148/36/7 (1926)
+	1927   => '1314250',            # Mariage Laz 3 E 148/36/8 (1927)
+	1928   => '1314251',            # Mariage Laz 3 E 148/36/9 (1928)
+	1929   => '1314252',            # Mariage Laz 3 E 148/36/10 (1929)
+	1930   => '1314253',            # Mariage Laz 3 E 148/36/11 (1930)
+	1931   => '1314254',            # Mariage Laz 3 E 148/36/12 (1931)
+	1932   => '1314255',            # Mariage Laz 3 E 148/36/13 (1932)
+	1933   => '1314256',            # Mariage Laz 3 E 148/36/14 (1933)
+	1934   => '1314257',            # Mariage Laz 3 E 148/36/15 (1934)
+	1935   => '1314258',            # Mariage Laz 3 E 148/36/16 (1935)
     },
 
     '3E148_0037' => {			# Décès Laz 3 E 148 37   1905-1918
@@ -4570,13 +4722,17 @@ my %convert = (
 	1812   => '1315037',            # Naissance Leuhan 3 E 151/6/18 (1812)
     },
 
-    '3E151_0007' => {			# Naissance Leuhan 3 E 151 7   1813-1818
+    '3E151_0007' => {			# Naissance Leuhan 3 E 151 7   1813-1822
 	1813   => '1315039',            # Naissance Leuhan 3 E 151/7/1 (1813)
 	1814   => '1315040',            # Naissance Leuhan 3 E 151/7/2 (1814)
 	1815   => '1315041',            # Naissance Leuhan 3 E 151/7/3 (1815)
 	1816   => '1315042',            # Naissance Leuhan 3 E 151/7/4 (1816)
 	1817   => '1315043',            # Naissance Leuhan 3 E 151/7/5 (1817)
 	1818   => '1315044',            # Naissance Leuhan 3 E 151/7/6 (1818)
+	1819   => '1315045',            # Naissance Leuhan 3 E 151/7/7 (1819)
+	1820   => '1315046',            # Naissance Leuhan 3 E 151/7/8 (1820)
+	1821   => '1315047',            # Naissance Leuhan 3 E 151/7/9 (1821)
+	1822   => '1315048',            # Naissance Leuhan 3 E 151/7/10 (1822)
     },
 
     '3E151_0008' => {			# Naissance Leuhan 3 E 151 8   1823-1832
@@ -4792,13 +4948,17 @@ my %convert = (
 	1812   => '1315346',            # Décès Leuhan 3 E 151/22/19 (1812)
     },
 
-    '3E151_0023' => {			# Décès Leuhan 3 E 151 23   1813-1818
+    '3E151_0023' => {			# Décès Leuhan 3 E 151 23   1813-1822
 	1813   => '1315348',            # Décès Leuhan 3 E 151/23/1 (1813)
 	1814   => '1315349',            # Décès Leuhan 3 E 151/23/2 (1814)
 	1815   => '1315350',            # Décès Leuhan 3 E 151/23/3 (1815)
 	1816   => '1315351',            # Décès Leuhan 3 E 151/23/4 (1816)
 	1817   => '1315352',            # Décès Leuhan 3 E 151/23/5 (1817)
 	1818   => '1315353',            # Décès Leuhan 3 E 151/23/6 (1818)
+	1819   => '1315354',            # Décès Leuhan 3 E 151/23/7 (1819)
+	1820   => '1315355',            # Décès Leuhan 3 E 151/23/8 (1820)
+	1821   => '1315356',            # Décès Leuhan 3 E 151/23/9 (1821)
+	1822   => '1315357',            # Décès Leuhan 3 E 151/23/10 (1822)
     },
 
     '3E151_0024' => {			# Décès Leuhan 3 E 151 24   1823-1832
@@ -5004,7 +5164,7 @@ my %convert = (
 	1918   => '1315306',            # Mariage Leuhan 3 E 151/37/16 (1918)
     },
 
-    '3E151_0038' => {			# Mariage Leuhan 3 E 151 38   1919-1925
+    '3E151_0038' => {			# Mariage Leuhan 3 E 151 38   1919-1935
 	1919   => '1315308',            # Mariage Leuhan 3 E 151/38/1 (1919)
 	1920   => '1315309',            # Mariage Leuhan 3 E 151/38/2 (1920)
 	1921   => '1315310',            # Mariage Leuhan 3 E 151/38/3 (1921)
@@ -5012,6 +5172,16 @@ my %convert = (
 	1923   => '1315312',            # Mariage Leuhan 3 E 151/38/5 (1923)
 	1924   => '1315313',            # Mariage Leuhan 3 E 151/38/6 (1924)
 	1925   => '1315314',            # Mariage Leuhan 3 E 151/38/7 (1925)
+	1926   => '1315315',            # Mariage Leuhan 3 E 151/38/8 (1926)
+	1927   => '1315316',            # Mariage Leuhan 3 E 151/38/9 (1927)
+	1928   => '1315317',            # Mariage Leuhan 3 E 151/38/10 (1928)
+	1929   => '1315318',            # Mariage Leuhan 3 E 151/38/11 (1929)
+	1930   => '1315319',            # Mariage Leuhan 3 E 151/38/12 (1930)
+	1931   => '1315320',            # Mariage Leuhan 3 E 151/38/13 (1931)
+	1932   => '1315321',            # Mariage Leuhan 3 E 151/38/14 (1932)
+	1933   => '1315322',            # Mariage Leuhan 3 E 151/38/15 (1933)
+	1934   => '1315323',            # Mariage Leuhan 3 E 151/38/16 (1934)
+	1935   => '1315324',            # Mariage Leuhan 3 E 151/38/17 (1935)
     },
 
     '3E151_0039' => {			# Décès Leuhan 3 E 151 39   1910-1920
@@ -5074,6 +5244,23 @@ my %convert = (
 	1813   => '1316426',            # Naissance Locmaria-Berrien 3 E 158/6/1 (1813)
 	1814   => '1316427',            # Naissance Locmaria-Berrien 3 E 158/6/2 (1814)
 	1815   => '1316428',            # Naissance Locmaria-Berrien 3 E 158/6/3 (1815)
+	1816   => '1316429',            # Naissance Locmaria-Berrien 3 E 158/6/4 (1816)
+	1817   => '1316430',            # Naissance Locmaria-Berrien 3 E 158/6/5 (1817)
+	1818   => '1316431',            # Naissance Locmaria-Berrien 3 E 158/6/6 (1818)
+	1819   => '1316432',            # Naissance Locmaria-Berrien 3 E 158/6/7 (1819)
+	1820   => '1316433',            # Naissance Locmaria-Berrien 3 E 158/6/8 (1820)
+	1821   => '1316434',            # Naissance Locmaria-Berrien 3 E 158/6/9 (1821)
+	1822   => '1316435',            # Naissance Locmaria-Berrien 3 E 158/6/10 (1822)
+	1823   => '1316436',            # Naissance Locmaria-Berrien 3 E 158/6/11 (1823)
+	1824   => '1316437',            # Naissance Locmaria-Berrien 3 E 158/6/12 (1824)
+	1825   => '1316438',            # Naissance Locmaria-Berrien 3 E 158/6/13 (1825)
+	1826   => '1316439',            # Naissance Locmaria-Berrien 3 E 158/6/14 (1826)
+	1827   => '1316440',            # Naissance Locmaria-Berrien 3 E 158/6/15 (1827)
+	1828   => '1316441',            # Naissance Locmaria-Berrien 3 E 158/6/16 (1828)
+	1829   => '1316442',            # Naissance Locmaria-Berrien 3 E 158/6/17 (1829)
+	1830   => '1316443',            # Naissance Locmaria-Berrien 3 E 158/6/18 (1830)
+	1831   => '1316444',            # Naissance Locmaria-Berrien 3 E 158/6/19 (1831)
+	1832   => '1316445',            # Naissance Locmaria-Berrien 3 E 158/6/20 (1832)
 	1823   => '1316436',            # Naissance Locmaria-Berrien 3 E 158/6/11 (1823)
 	1824   => '1316437',            # Naissance Locmaria-Berrien 3 E 158/6/12 (1824)
 	1825   => '1316438',            # Naissance Locmaria-Berrien 3 E 158/6/13 (1825)
@@ -5168,6 +5355,7 @@ my %convert = (
 	1809   => '1316573',            # Mariage Locmaria-Berrien 3 E 158/12/14 (1809)
 	1810   => '1316574',            # Mariage Locmaria-Berrien 3 E 158/12/15 (1810)
 	1811   => '1316575',            # Mariage Locmaria-Berrien 3 E 158/12/16 (1811)
+	1812   => '1316576',            # Mariage Locmaria-Berrien 3 E 158/12/17 (1812)
 	1813   => '1316577',            # Mariage Locmaria-Berrien 3 E 158/12/18 (1813)
     },
 
@@ -5285,6 +5473,13 @@ my %convert = (
 	1813   => '1316731',            # Décès Locmaria-Berrien 3 E 158/20/1 (1813)
 	1814   => '1316732',            # Décès Locmaria-Berrien 3 E 158/20/2 (1814)
 	1815   => '1316733',            # Décès Locmaria-Berrien 3 E 158/20/3 (1815)
+	1816   => '1316734',            # Décès Locmaria-Berrien 3 E 158/20/4 (1816)
+	1817   => '1316735',            # Décès Locmaria-Berrien 3 E 158/20/5 (1817)
+	1818   => '1316736',            # Décès Locmaria-Berrien 3 E 158/20/6 (1818)
+	1819   => '1316737',            # Décès Locmaria-Berrien 3 E 158/20/7 (1819)
+	1820   => '1316738',            # Décès Locmaria-Berrien 3 E 158/20/8 (1820)
+	1821   => '1316739',            # Décès Locmaria-Berrien 3 E 158/20/9 (1821)
+	1822   => '1316740',            # Décès Locmaria-Berrien 3 E 158/20/10 (1822)
 	1823   => '1316741',            # Décès Locmaria-Berrien 3 E 158/20/11 (1823)
 	1824   => '1316742',            # Décès Locmaria-Berrien 3 E 158/20/12 (1824)
 	1825   => '1316743',            # Décès Locmaria-Berrien 3 E 158/20/13 (1825)
@@ -5443,7 +5638,7 @@ my %convert = (
 	1911   => '1316682',            # Mariage Locmaria-Berrien 3 E 158/29/21 (1911)
     },
 
-    '3E158_0030' => {			# Mariage Locmaria-Berrien 3 E 158 30   1912-1925
+    '3E158_0030' => {			# Mariage Locmaria-Berrien 3 E 158 30   1912-1936
 	1912   => '1316684',            # Mariage Locmaria-Berrien 3 E 158/30/1 (1912)
 	1913   => '1316685',            # Mariage Locmaria-Berrien 3 E 158/30/2 (1913)
 	1914   => '1316686',            # Mariage Locmaria-Berrien 3 E 158/30/3 (1914)
@@ -5458,6 +5653,17 @@ my %convert = (
 	1923   => '1316695',            # Mariage Locmaria-Berrien 3 E 158/30/12 (1923)
 	1924   => '1316696',            # Mariage Locmaria-Berrien 3 E 158/30/13 (1924)
 	1925   => '1316697',            # Mariage Locmaria-Berrien 3 E 158/30/14 (1925)
+	1926   => '1316698',            # Mariage Locmaria-Berrien 3 E 158/30/15 (1926)
+	1927   => '1316699',            # Mariage Locmaria-Berrien 3 E 158/30/16 (1927)
+	1928   => '1316700',            # Mariage Locmaria-Berrien 3 E 158/30/17 (1928)
+	1929   => '1316701',            # Mariage Locmaria-Berrien 3 E 158/30/18 (1929)
+	1930   => '1316702',            # Mariage Locmaria-Berrien 3 E 158/30/19 (1930)
+	1931   => '1316703',            # Mariage Locmaria-Berrien 3 E 158/30/20 (1931)
+	1932   => '1316704',            # Mariage Locmaria-Berrien 3 E 158/30/21 (1932)
+	1933   => '1316705',            # Mariage Locmaria-Berrien 3 E 158/30/22 (1933)
+	1934   => '1316706',            # Mariage Locmaria-Berrien 3 E 158/30/23 (1934)
+	1935   => '1316707',            # Mariage Locmaria-Berrien 3 E 158/30/24 (1935)
+	1936   => '1316708',            # Mariage Locmaria-Berrien 3 E 158/30/25 (1936)
     },
 
     '3E158_0031' => {			# Décès Locmaria-Berrien 3 E 158 31   1888-1911
@@ -5647,7 +5853,7 @@ my %convert = (
 	1918   => '1324714',            # Mariage Motreff 3 E 189/31/13 (1918)
     },
 
-    '3E189_0032' => {			# Mariage Motreff 3 E 189 32   1919-1925
+    '3E189_0032' => {			# Mariage Motreff 3 E 189 32   1919-1934
 	1919   => '1324716',            # Mariage Motreff 3 E 189/32/1 (1919)
 	1920   => '1324717',            # Mariage Motreff 3 E 189/32/2 (1920)
 	1921   => '1324718',            # Mariage Motreff 3 E 189/32/3 (1921)
@@ -5655,6 +5861,15 @@ my %convert = (
 	1923   => '1324720',            # Mariage Motreff 3 E 189/32/5 (1923)
 	1924   => '1324721',            # Mariage Motreff 3 E 189/32/6 (1924)
 	1925   => '1324722',            # Mariage Motreff 3 E 189/32/7 (1925)
+	1926   => '1324723',            # Mariage Motreff 3 E 189/32/8 (1926)
+	1927   => '1324724',            # Mariage Motreff 3 E 189/32/9 (1927)
+	1928   => '1324725',            # Mariage Motreff 3 E 189/32/10 (1928)
+	1929   => '1324726',            # Mariage Motreff 3 E 189/32/11 (1929)
+	1930   => '1324727',            # Mariage Motreff 3 E 189/32/12 (1930)
+	1931   => '1324728',            # Mariage Motreff 3 E 189/32/13 (1931)
+	1932   => '1324729',            # Mariage Motreff 3 E 189/32/14 (1932)
+	1933   => '1324730',            # Mariage Motreff 3 E 189/32/15 (1933)
+	1934   => '1324731',            # Mariage Motreff 3 E 189/32/16 (1934)
     },
 
     '3E189_0033' => {			# Décès Motreff 3 E 189 33   1908-1920
@@ -5830,6 +6045,18 @@ my %convert = (
 	1925   => '1333394',            # Mariage Plonévez-du-Faou 3 E 214/52/7 (1925)
     },
 
+    '3E214_0053' => {			# Mariage Plonévez-du-Faou 3 E 214 53   1926-1934
+	1926   => '1333396',            # Mariage Plonévez-du-Faou 3 E 214/53/1 (1926)
+	1927   => '1333397',            # Mariage Plonévez-du-Faou 3 E 214/53/2 (1927)
+	1928   => '1333398',            # Mariage Plonévez-du-Faou 3 E 214/53/3 (1928)
+	1929   => '1333399',            # Mariage Plonévez-du-Faou 3 E 214/53/4 (1929)
+	1930   => '1333400',            # Mariage Plonévez-du-Faou 3 E 214/53/5 (1930)
+	1931   => '1333401',            # Mariage Plonévez-du-Faou 3 E 214/53/6 (1931)
+	1932   => '1333402',            # Mariage Plonévez-du-Faou 3 E 214/53/7 (1932)
+	1933   => '1333403',            # Mariage Plonévez-du-Faou 3 E 214/53/8 (1933)
+	1934   => '1333404',            # Mariage Plonévez-du-Faou 3 E 214/53/9 (1934)
+    },
+
     '3E214_0054' => {			# Décès Plonévez-du-Faou 3 E 214 54   1908-1916
 	1908   => '1333441',            # Décès Plonévez-du-Faou 3 E 214/54/1 (1908)
 	1909   => '1333442',            # Décès Plonévez-du-Faou 3 E 214/54/2 (1909)
@@ -5900,6 +6127,9 @@ my %convert = (
 	1817   => '1340619',            # Naissance Plouguer 3 E 234/6/5 (1817)
 	1818   => '1340620',            # Naissance Plouguer 3 E 234/6/6 (1818)
 	1819   => '1340621',            # Naissance Plouguer 3 E 234/6/7 (1819)
+	1820   => '1340622',            # Naissance Plouguer 3 E 234/6/8 (1820)
+	1821   => '1340623',            # Naissance Plouguer 3 E 234/6/9 (1821)
+	1822   => '1340624',            # Naissance Plouguer 3 E 234/6/10 (1822)
 	1823   => '1340625',            # Naissance Plouguer 3 E 234/6/11 (1823)
 	1824   => '1340626',            # Naissance Plouguer 3 E 234/6/12 (1824)
 	1825   => '1340627',            # Naissance Plouguer 3 E 234/6/13 (1825)
@@ -5961,7 +6191,7 @@ my %convert = (
 	1869   => '1340675',            # Naissance Plouguer 3 E 234/10/7 (1869)
     },
 
-    '3E234_0011' => {			# Mariage promesse de mariage Plouguer 3 E 234 11   AN02-1811
+    '3E234_0011' => {			# Mariage promesse de mariage Plouguer 3 E 234 11   AN02-1812
 	'AN02' => '1340749',            # Mariage promesse de mariage Plouguer 3 E 234/11/1 (an II)
 	'AN03' => '1340750',            # Mariage promesse de mariage Plouguer 3 E 234/11/2 (an III)
 	'AN04' => '1340751',            # Mariage promesse de mariage Plouguer 3 E 234/11/3 (an IV)
@@ -5980,6 +6210,7 @@ my %convert = (
 	1809   => '1340764',            # Mariage promesse de mariage Plouguer 3 E 234/11/16 (1809)
 	1810   => '1340765',            # Mariage promesse de mariage Plouguer 3 E 234/11/17 (1810)
 	1811   => '1340766',            # Mariage promesse de mariage Plouguer 3 E 234/11/18 (1811)
+	1812   => '1340767',            # Mariage promesse de mariage Plouguer 3 E 234/11/19 (1812)
     },
 
     '3E234_0012' => {			# Mariage Plouguer 3 E 234 12   1813-1831
@@ -6101,6 +6332,9 @@ my %convert = (
 	1817   => '1340927',            # Décès Plouguer 3 E 234/19/5 (1817)
 	1818   => '1340928',            # Décès Plouguer 3 E 234/19/6 (1818)
 	1819   => '1340929',            # Décès Plouguer 3 E 234/19/7 (1819)
+	1820   => '1340930',            # Décès Plouguer 3 E 234/19/8 (1820)
+	1821   => '1340931',            # Décès Plouguer 3 E 234/19/9 (1821)
+	1822   => '1340932',            # Décès Plouguer 3 E 234/19/10 (1822)
 	1823   => '1340933',            # Décès Plouguer 3 E 234/19/11 (1823)
 	1824   => '1340934',            # Décès Plouguer 3 E 234/19/12 (1824)
 	1825   => '1340935',            # Décès Plouguer 3 E 234/19/13 (1825)
@@ -6306,7 +6540,7 @@ my %convert = (
 	1917   => '1340880',            # Mariage Plouguer 3 E 234/31/17 (1917)
     },
 
-    '3E234_0032' => {			# Mariage Plouguer 3 E 234 32   1918-1925
+    '3E234_0032' => {			# Mariage Plouguer 3 E 234 32   1918-1936
 	1918   => '1340882',            # Mariage Plouguer 3 E 234/32/1 (1918)
 	1919   => '1340883',            # Mariage Plouguer 3 E 234/32/2 (1919)
 	1920   => '1340884',            # Mariage Plouguer 3 E 234/32/3 (1920)
@@ -6315,6 +6549,17 @@ my %convert = (
 	1923   => '1340887',            # Mariage Plouguer 3 E 234/32/6 (1923)
 	1924   => '1340888',            # Mariage Plouguer 3 E 234/32/7 (1924)
 	1925   => '1340889',            # Mariage Plouguer 3 E 234/32/8 (1925)
+	1926   => '1340890',            # Mariage Plouguer 3 E 234/32/9 (1926)
+	1927   => '1340891',            # Mariage Plouguer 3 E 234/32/10 (1927)
+	1928   => '1340892',            # Mariage Plouguer 3 E 234/32/11 (1928)
+	1929   => '1340893',            # Mariage Plouguer 3 E 234/32/12 (1929)
+	1930   => '1340894',            # Mariage Plouguer 3 E 234/32/13 (1930)
+	1931   => '1340895',            # Mariage Plouguer 3 E 234/32/14 (1931)
+	1932   => '1340896',            # Mariage Plouguer 3 E 234/32/15 (1932)
+	1933   => '1340897',            # Mariage Plouguer 3 E 234/32/16 (1933)
+	1934   => '1340898',            # Mariage Plouguer 3 E 234/32/17 (1934)
+	1935   => '1340899',            # Mariage Plouguer 3 E 234/32/18 (1935)
+	1936   => '1340900',            # Mariage Plouguer 3 E 234/32/19 (1936)
     },
 
     '3E234_0033' => {			# Décès Plouguer 3 E 234 33   1901-1915
@@ -6486,9 +6731,18 @@ my %convert = (
 	1923   => '1354673',            # Mariage Poullaouen 3 E 270/46/10 (1923)
     },
 
-    '3E270_0047' => {			# Mariage Poullaouen 3 E 270 47   1924-1925
+    '3E270_0047' => {			# Mariage Poullaouen 3 E 270 47   1924-1934
 	1924   => '1354675',            # Mariage Poullaouen 3 E 270/47/1 (1924)
 	1925   => '1354676',            # Mariage Poullaouen 3 E 270/47/2 (1925)
+	1926   => '1354677',            # Mariage Poullaouen 3 E 270/47/3 (1926)
+	1927   => '1354678',            # Mariage Poullaouen 3 E 270/47/4 (1927)
+	1928   => '1354679',            # Mariage Poullaouen 3 E 270/47/5 (1928)
+	1929   => '1354680',            # Mariage Poullaouen 3 E 270/47/6 (1929)
+	1930   => '1354681',            # Mariage Poullaouen 3 E 270/47/7 (1930)
+	1931   => '1354682',            # Mariage Poullaouen 3 E 270/47/8 (1931)
+	1932   => '1354683',            # Mariage Poullaouen 3 E 270/47/10 (1932)
+	1933   => '1354684',            # Mariage Poullaouen 3 E 270/47/11 (1933)
+	1934   => '1354685',            # Mariage Poullaouen 3 E 270/47/12 (1934)
     },
 
     '3E270_0048' => {			# Décès Poullaouen 3 E 270 48   1909-1916
@@ -6610,13 +6864,23 @@ my %convert = (
 	1919   => '1359653',            # Mariage Rosnoën 3 E 296/34/18 (1919)
     },
 
-    '3E296_0035' => {			# Mariage Rosnoën 3 E 296 35   1920-1925
+    '3E296_0035' => {			# Mariage Rosnoën 3 E 296 35   1920-1935
 	1920   => '1359655',            # Mariage Rosnoën 3 E 296/35/1 (1920)
 	1921   => '1359656',            # Mariage Rosnoën 3 E 296/35/2 (1921)
 	1922   => '1359657',            # Mariage Rosnoën 3 E 296/35/3 (1922)
 	1923   => '1359658',            # Mariage Rosnoën 3 E 296/35/4 (1923)
 	1924   => '1359659',            # Mariage Rosnoën 3 E 296/35/5 (1924)
 	1925   => '1359660',            # Mariage Rosnoën 3 E 296/35/6 (1925)
+	1926   => '1359661',            # Mariage Rosnoën 3 E 296/35/7 (1926)
+	1927   => '1359662',            # Mariage Rosnoën 3 E 296/35/8 (1927)
+	1928   => '1359663',            # Mariage Rosnoën 3 E 296/35/9 (1928)
+	1929   => '1359664',            # Mariage Rosnoën 3 E 296/35/10 (1929)
+	1930   => '1359665',            # Mariage Rosnoën 3 E 296/35/11 (1930)
+	1931   => '1359666',            # Mariage Rosnoën 3 E 296/35/12 (1931)
+	1932   => '1359667',            # Mariage Rosnoën 3 E 296/35/13 (1932)
+	1933   => '1359668',            # Mariage Rosnoën 3 E 296/35/14 (1933)
+	1934   => '1359669',            # Mariage Rosnoën 3 E 296/35/15 (1934)
+	1935   => '1359670',            # Mariage Rosnoën 3 E 296/35/16 (1935)
     },
 
     '3E296_0036' => {			# Décès Rosnoën 3 E 296 36   1899-1917
@@ -6694,6 +6958,9 @@ my %convert = (
 	1817   => '1355275',            # Naissance Quéménéven 3 E 272/6/5 (1817)
 	1818   => '1355276',            # Naissance Quéménéven 3 E 272/6/6 (1818)
 	1819   => '1355277',            # Naissance Quéménéven 3 E 272/6/7 (1819)
+	1820   => '1355278',            # Naissance Quéménéven 3 E 272/6/8 (1820)
+	1821   => '1355279',            # Naissance Quéménéven 3 E 272/6/9 (1821)
+	1822   => '1355280',            # Naissance Quéménéven 3 E 272/6/10 (1822)
 	1823   => '1355281',            # Naissance Quéménéven 3 E 272/6/11 (1823)
 	1824   => '1355282',            # Naissance Quéménéven 3 E 272/6/12 (1824)
 	1825   => '1355283',            # Naissance Quéménéven 3 E 272/6/13 (1825)
@@ -6925,6 +7192,9 @@ my %convert = (
 	1817   => '1355583',            # Décès Quéménéven 3 E 272/21/5 (1817)
 	1818   => '1355584',            # Décès Quéménéven 3 E 272/21/6 (1818)
 	1819   => '1355585',            # Décès Quéménéven 3 E 272/21/7 (1819)
+	1820   => '1355586',            # Décès Quéménéven 3 E 272/21/8 (1820)
+	1821   => '1355587',            # Décès Quéménéven 3 E 272/21/9 (1821)
+	1822   => '1355588',            # Décès Quéménéven 3 E 272/21/10 (1822)
 	1823   => '1355589',            # Décès Quéménéven 3 E 272/21/11 (1823)
 	1824   => '1355590',            # Décès Quéménéven 3 E 272/21/12 (1824)
 	1825   => '1355591',            # Décès Quéménéven 3 E 272/21/13 (1825)
@@ -7108,13 +7378,23 @@ my %convert = (
 	1919   => '1355538',            # Mariage Quéménéven 3 E 272/33/11 (1919)
     },
 
-    '3E272_0034' => {			# Mariage Quéménéven 3 E 272 34   1920-1925
+    '3E272_0034' => {			# Mariage Quéménéven 3 E 272 34   1920-1935
 	1920   => '1355540',            # Mariage Quéménéven 3 E 272/34/1 (1920)
 	1921   => '1355541',            # Mariage Quéménéven 3 E 272/34/2 (1921)
 	1922   => '1355542',            # Mariage Quéménéven 3 E 272/34/3 (1922)
 	1923   => '1355543',            # Mariage Quéménéven 3 E 272/34/4 (1923)
 	1924   => '1355544',            # Mariage Quéménéven 3 E 272/34/5 (1924)
 	1925   => '1355545',            # Mariage Quéménéven 3 E 272/34/6 (1925)
+	1926   => '1355546',            # Mariage Quéménéven 3 E 272/34/7 (1926)
+	1927   => '1355547',            # Mariage Quéménéven 3 E 272/34/8 (1927)
+	1928   => '1355548',            # Mariage Quéménéven 3 E 272/34/9 (1928)
+	1929   => '1355549',            # Mariage Quéménéven 3 E 272/34/10 (1929)
+	1930   => '1355550',            # Mariage Quéménéven 3 E 272/34/11 (1930)
+	1931   => '1355551',            # Mariage Quéménéven 3 E 272/34/12 (1931)
+	1932   => '1355552',            # Mariage Quéménéven 3 E 272/34/13 (1932)
+	1933   => '1355553',            # Mariage Quéménéven 3 E 272/34/14 (1933)
+	1934   => '1355554',            # Mariage Quéménéven 3 E 272/34/15 (1934)
+	1935   => '1355555',            # Mariage Quéménéven 3 E 272/34/16 (1935)
     },
 
     '3E272_0035' => {			# Décès Quéménéven 3 E 272 35   1902-1919
@@ -7182,12 +7462,17 @@ my %convert = (
 	1812   => '1362819',            # Naissance Saint-Goazec 3 E 307/5/19 (1812)
     },
 
-    '3E307_0006' => {			# Naissance Saint-Goazec 3 E 307 6   1813-1817
+    '3E307_0006' => {			# Naissance Saint-Goazec 3 E 307 6   1813-1822
 	1813   => '1362821',            # Naissance Saint-Goazec 3 E 307/6/1 (1813)
 	1814   => '1362822',            # Naissance Saint-Goazec 3 E 307/6/2 (1814)
 	1815   => '1362823',            # Naissance Saint-Goazec 3 E 307/6/3 (1815)
 	1816   => '1362824',            # Naissance Saint-Goazec 3 E 307/6/4 (1816)
 	1817   => '1362825',            # Naissance Saint-Goazec 3 E 307/6/5 (1817)
+	1818   => '1362826',            # Naissance Saint-Goazec 3 E 307/6/6 (1818)
+	1819   => '1362827',            # Naissance Saint-Goazec 3 E 307/6/7 (1819)
+	1820   => '1362828',            # Naissance Saint-Goazec 3 E 307/6/8 (1820)
+	1821   => '1362829',            # Naissance Saint-Goazec 3 E 307/6/9 (1821)
+	1822   => '1362830',            # Naissance Saint-Goazec 3 E 307/6/10 (1822)
     },
 
     '3E307_0007' => {			# Naissance Saint-Goazec 3 E 307 7   1823-1832
@@ -7420,6 +7705,11 @@ my %convert = (
 	1815   => '1363132',            # Décès Saint-Goazec 3 E 307/23/3 (1815)
 	1816   => '1363133',            # Décès Saint-Goazec 3 E 307/23/4 (1816)
 	1817   => '1363134',            # Décès Saint-Goazec 3 E 307/23/5 (1817)
+	1818   => '1363135',            # Décès Saint-Goazec 3 E 307/23/6 (1818)
+	1819   => '1363136',            # Décès Saint-Goazec 3 E 307/23/7 (1819)
+	1820   => '1363137',            # Décès Saint-Goazec 3 E 307/23/8 (1820)
+	1821   => '1363138',            # Décès Saint-Goazec 3 E 307/23/9 (1821)
+	1822   => '1363139',            # Décès Saint-Goazec 3 E 307/23/10 (1822)
     },
 
     '3E307_0024' => {			# Décès Saint-Goazec 3 E 307 24   1823-1832
@@ -7603,7 +7893,7 @@ my %convert = (
 	1918   => '1363088',            # Mariage Saint-Goazec 3 E 307/35/14 (1918)
     },
 
-    '3E307_0036' => {			# Mariage Saint-Goazec 3 E 307 36   1919-1925
+    '3E307_0036' => {			# Mariage Saint-Goazec 3 E 307 36   1919-1935
 	1919   => '1363090',            # Mariage Saint-Goazec 3 E 307/36/1 (1919)
 	1920   => '1363091',            # Mariage Saint-Goazec 3 E 307/36/2 (1920)
 	1921   => '1363092',            # Mariage Saint-Goazec 3 E 307/36/3 (1921)
@@ -7611,6 +7901,16 @@ my %convert = (
 	1923   => '1363094',            # Mariage Saint-Goazec 3 E 307/36/5 (1923)
 	1924   => '1363095',            # Mariage Saint-Goazec 3 E 307/36/6 (1924)
 	1925   => '1363096',            # Mariage Saint-Goazec 3 E 307/36/7 (1925)
+	1926   => '1363097',            # Mariage Saint-Goazec 3 E 307/36/8 (1926)
+	1927   => '1363098',            # Mariage Saint-Goazec 3 E 307/36/9 (1927)
+	1928   => '1363099',            # Mariage Saint-Goazec 3 E 307/36/10 (1928)
+	1929   => '1363100',            # Mariage Saint-Goazec 3 E 307/36/11 (1929)
+	1930   => '1363101',            # Mariage Saint-Goazec 3 E 307/36/12 (1930)
+	1931   => '1363102',            # Mariage Saint-Goazec 3 E 307/36/13 (1931)
+	1932   => '1363103',            # Mariage Saint-Goazec 3 E 307/36/14 (1932)
+	1933   => '1363104',            # Mariage Saint-Goazec 3 E 307/36/15 (1933)
+	1934   => '1363105',            # Mariage Saint-Goazec 3 E 307/36/16 (1934)
+	1935   => '1363106',            # Mariage Saint-Goazec 3 E 307/36/17 (1935)
     },
 
     '3E307_0037' => {			# Décès Saint-Goazec 3 E 307 37   1903-1917
@@ -7850,7 +8150,19 @@ my %convert = (
 	1812   => '1369607',            # Naissance Saint-Thurien 3 E 335/2/19 (1812)
     },
 
-    '3E335_0003' => '1369609',            # Naissance Saint-Thurien 3 E 335/3/1 (1813)
+    '3E335_0003' => {			# Naissance Saint-Thurien 3 E 335 3   1813-1822
+	1813   => '1369609',            # Naissance Saint-Thurien 3 E 335/3/1 (1813)
+	1814   => '1369610',            # Naissance Saint-Thurien 3 E 335/3/2 (1814)
+	1815   => '1369611',            # Naissance Saint-Thurien 3 E 335/3/3 (1815)
+	1816   => '1369612',            # Naissance Saint-Thurien 3 E 335/3/4 (1816)
+	1817   => '1369613',            # Naissance Saint-Thurien 3 E 335/3/5 (1817)
+	1818   => '1369614',            # Naissance Saint-Thurien 3 E 335/3/6 (1818)
+	1819   => '1369615',            # Naissance Saint-Thurien 3 E 335/3/7 (1819)
+	1820   => '1369616',            # Naissance Saint-Thurien 3 E 335/3/8 (1820)
+	1821   => '1369617',            # Naissance Saint-Thurien 3 E 335/3/9 (1821)
+	1822   => '1369618',            # Naissance Saint-Thurien 3 E 335/3/10 (1822)
+    },
+
     '3E335_0004' => {			# Naissance Saint-Thurien 3 E 335 4   1823-1832
 	1823   => '1369620',            # Naissance Saint-Thurien 3 E 335/4/1 (1823)
 	1824   => '1369621',            # Naissance Saint-Thurien 3 E 335/4/2 (1824)
@@ -7932,7 +8244,7 @@ my %convert = (
 	1885   => '1369687',            # Naissance Saint-Thurien 3 E 335/9/16 (1885)
     },
 
-    '3E335_0010' => {			# Mariage promesse de mariage Saint-Thurien 3 E 335 10   AN02-1808
+    '3E335_0010' => {			# Mariage promesse de mariage Saint-Thurien 3 E 335 10   AN02-1812
 	'AN02' => '1369745',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/1 (1793 - an II)
 	'AN03' => '1369746',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/2 (an III)
 	'AN04' => '1369747',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/3 (an IV)
@@ -7946,6 +8258,10 @@ my %convert = (
 	'AN14' => '1369755',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/11 (an XIV - 1806)
 	1807   => '1369756',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/12 (1807)
 	1808   => '1369757',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/13 (1808)
+	1809   => '1369758',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/14 (1809)
+	1810   => '1369759',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/15 (1810)
+	1811   => '1369760',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/16 (1811)
+	1812   => '1369761',            # Mariage promesse de mariage Saint-Thurien 3 E 335/10/17 (1812)
     },
 
     '3E335_0011' => {			# Mariage Saint-Thurien 3 E 335 11   1813-1822
@@ -8055,7 +8371,20 @@ my %convert = (
 	1812   => '1369916',            # Décès Saint-Thurien 3 E 335/18/19 (1812)
     },
 
-    '3E335_0019' => '1369918',            # Décès Saint-Thurien 3 E 335/19/1 (1813)
+
+    '3E335_0019' => {			# Décès Saint-Thurien 3 E 335 19   1813-1822
+	1813   => '1369918',            # Décès Saint-Thurien 3 E 335/19/1 (1813)
+	1814   => '1369919',            # Décès Saint-Thurien 3 E 335/19/2 (1814)
+	1815   => '1369920',            # Décès Saint-Thurien 3 E 335/19/3 (1815)
+	1816   => '1369921',            # Décès Saint-Thurien 3 E 335/19/4 (1816)
+	1817   => '1369922',            # Décès Saint-Thurien 3 E 335/19/5 (1817)
+	1818   => '1369923',            # Décès Saint-Thurien 3 E 335/19/6 (1818)
+	1819   => '1369924',            # Décès Saint-Thurien 3 E 335/19/7 (1819)
+	1820   => '1369925',            # Décès Saint-Thurien 3 E 335/19/8 (1820)
+	1821   => '1369926',            # Décès Saint-Thurien 3 E 335/19/9 (1821)
+	1822   => '1369927',            # Décès Saint-Thurien 3 E 335/19/10 (1822)
+    },
+
     '3E335_0020' => {			# Décès Saint-Thurien 3 E 335 20   1823-1832
 	1823   => '1369929',            # Décès Saint-Thurien 3 E 335/20/1 (1823)
 	1824   => '1369930',            # Décès Saint-Thurien 3 E 335/20/2 (1824)
@@ -8244,11 +8573,21 @@ my %convert = (
 	1921   => '1369879',            # Mariage Saint-Thurien 3 E 335/32/15 (1921)
     },
 
-    '3E335_0033' => {			# Mariage Saint-Thurien 3 E 335 33   1922-1925
+    '3E335_0033' => {			# Mariage Saint-Thurien 3 E 335 33   1922-1935
 	1922   => '1369881',            # Mariage Saint-Thurien 3 E 335/33/1 (1922)
 	1923   => '1369882',            # Mariage Saint-Thurien 3 E 335/33/2 (1923)
 	1924   => '1369883',            # Mariage Saint-Thurien 3 E 335/33/3 (1924)
 	1925   => '1369884',            # Mariage Saint-Thurien 3 E 335/33/4 (1925)
+	1926   => '1369885',            # Mariage Saint-Thurien 3 E 335/33/5 (1926)
+	1927   => '1369886',            # Mariage Saint-Thurien 3 E 335/33/6 (1927)
+	1928   => '1369887',            # Mariage Saint-Thurien 3 E 335/33/7 (1928)
+	1929   => '1369888',            # Mariage Saint-Thurien 3 E 335/33/8 (1929)
+	1930   => '1369889',            # Mariage Saint-Thurien 3 E 335/33/9 (1930)
+	1931   => '1369890',            # Mariage Saint-Thurien 3 E 335/33/10 (1931)
+	1932   => '1369891',            # Mariage Saint-Thurien 3 E 335/33/11 (1932)
+	1933   => '1369892',            # Mariage Saint-Thurien 3 E 335/33/12 (1933)
+	1934   => '1369893',            # Mariage Saint-Thurien 3 E 335/33/13 (1934)
+	1935   => '1369894',            # Mariage Saint-Thurien 3 E 335/33/14 (1935)
     },
 
     '3E335_0034' => {			# Décès Saint-Thurien 3 E 335 34   1905-1919
@@ -8315,10 +8654,16 @@ my %convert = (
 	1812   => '1370920',            # Naissance Saint-Yvi 3 E 339/5/10 (1812)
     },
 
-    '3E339_0006' => {			# Naissance Saint-Yvi 3 E 339 6   1813-1815
+    '3E339_0006' => {			# Naissance Saint-Yvi 3 E 339 6   1813-1822
 	1813   => '1370922',            # Naissance Saint-Yvi 3 E 339/6/1 (1813)
 	1814   => '1370923',            # Naissance Saint-Yvi 3 E 339/6/2 (1814)
 	1815   => '1370924',            # Naissance Saint-Yvi 3 E 339/6/3 (1815)
+	1816   => '1370925',            # Naissance Saint-Yvi 3 E 339/6/4 (1816)
+	1817   => '1370926',            # Naissance Saint-Yvi 3 E 339/6/5 (1817)
+	1818   => '1370927',            # Naissance Saint-Yvi 3 E 339/6/6 (1818)
+	1820   => '1370928',            # Naissance Saint-Yvi 3 E 339/6/7 (1820)
+	1821   => '1370929',            # Naissance Saint-Yvi 3 E 339/6/8 (1821)
+	1822   => '1370930',            # Naissance Saint-Yvi 3 E 339/6/9 (1822)
     },
 
     '3E339_0007' => {			# Naissance Saint-Yvi 3 E 339 7   1823-1832
@@ -8426,13 +8771,17 @@ my %convert = (
 	'AN10' => '1371065',            # Mariage Saint-Yvi 3 E 339/14/9 (an X)
     },
 
-    '3E339_0015' => {			# Mariage Saint-Yvi 3 E 339 15   AN11-1808
+    '3E339_0015' => {			# Mariage Saint-Yvi 3 E 339 15   AN11-1812
 	'AN11' => '1371067',            # Mariage Saint-Yvi 3 E 339/15/1 (an XI)
 	'AN12' => '1371068',            # Mariage Saint-Yvi 3 E 339/15/2 (an XII)
 	'AN13' => '1371069',            # Mariage Saint-Yvi 3 E 339/15/3 (an XIII)
 	'AN14' => '1371070',            # Mariage Saint-Yvi 3 E 339/15/4 (an XIV - 1806)
 	1807   => '1371071',            # Mariage Saint-Yvi 3 E 339/15/5 (1807)
 	1808   => '1371072',            # Mariage Saint-Yvi 3 E 339/15/6 (1808)
+	1809   => '1371073',            # Mariage Saint-Yvi 3 E 339/15/7 (1809)
+	1810   => '1371074',            # Mariage Saint-Yvi 3 E 339/15/8 (1810)
+	1811   => '1371075',            # Mariage Saint-Yvi 3 E 339/15/9 (1811)
+	1812   => '1371076',            # Mariage Saint-Yvi 3 E 339/15/10 (1812)
     },
 
     '3E339_0016' => {			# Mariage Saint-Yvi 3 E 339 16   1813-1822
@@ -8546,10 +8895,17 @@ my %convert = (
 	1812   => '1371231',            # Décès Saint-Yvi 3 E 339/24/10 (1812)
     },
 
-    '3E339_0025' => {			# Décès Saint-Yvi 3 E 339 25   1813-1815
+    '3E339_0025' => {			# Décès Saint-Yvi 3 E 339 25   1813-1822
 	1813   => '1371233',            # Décès Saint-Yvi 3 E 339/25/1 (1813)
 	1814   => '1371234',            # Décès Saint-Yvi 3 E 339/25/2 (1814)
 	1815   => '1371235',            # Décès Saint-Yvi 3 E 339/25/3 (1815)
+	1816   => '1371236',            # Décès Saint-Yvi 3 E 339/25/4 (1816)
+	1817   => '1371237',            # Décès Saint-Yvi 3 E 339/25/5 (1817)
+	1818   => '1371238',            # Décès Saint-Yvi 3 E 339/25/6 (1818)
+	1819   => '1371239',            # Décès Saint-Yvi 3 E 339/25/7 (1819)
+	1820   => '1371240',            # Décès Saint-Yvi 3 E 339/25/8 (1820)
+	1821   => '1371241',            # Décès Saint-Yvi 3 E 339/25/9 (1821)
+	1822   => '1371242',            # Décès Saint-Yvi 3 E 339/25/10 (1822)
     },
 
     '3E339_0026' => {			# Décès Saint-Yvi 3 E 339 26   1823-1832
@@ -8747,13 +9103,23 @@ my %convert = (
 	1919   => '1371191',            # Mariage Saint-Yvi 3 E 339/38/16 (1919)
     },
 
-    '3E339_0039' => {			# Mariage Saint-Yvi 3 E 339 39   1920-1925
+    '3E339_0039' => {			# Mariage Saint-Yvi 3 E 339 39   1920-1935
 	1920   => '1371193',            # Mariage Saint-Yvi 3 E 339/39/1 (1920)
 	1921   => '1371194',            # Mariage Saint-Yvi 3 E 339/39/2 (1921)
 	1922   => '1371195',            # Mariage Saint-Yvi 3 E 339/39/3 (1922)
 	1923   => '1371196',            # Mariage Saint-Yvi 3 E 339/39/4 (1923)
 	1924   => '1371197',            # Mariage Saint-Yvi 3 E 339/39/5 (1924)
 	1925   => '1371198',            # Mariage Saint-Yvi 3 E 339/39/6 (1925)
+	1926   => '1371199',            # Mariage Saint-Yvi 3 E 339/39/7 (1926)
+	1927   => '1371200',            # Mariage Saint-Yvi 3 E 339/39/8 (1927)
+	1928   => '1371201',            # Mariage Saint-Yvi 3 E 339/39/9 (1928)
+	1929   => '1371202',            # Mariage Saint-Yvi 3 E 339/39/10 (1929)
+	1930   => '1371203',            # Mariage Saint-Yvi 3 E 339/39/11 (1930)
+	1931   => '1371204',            # Mariage Saint-Yvi 3 E 339/39/12 (1931)
+	1932   => '1371205',            # Mariage Saint-Yvi 3 E 339/39/13 (1932)
+	1933   => '1371206',            # Mariage Saint-Yvi 3 E 339/39/14 (1933)
+	1934   => '1371207',            # Mariage Saint-Yvi 3 E 339/39/15 (1934)
+	1935   => '1371208',            # Mariage Saint-Yvi 3 E 339/39/16 (1935)
     },
 
     '3E339_0040' => {			# Décès Saint-Yvi 3 E 339 40   1914-1936
@@ -8808,12 +9174,17 @@ my %convert = (
 	1812   => '1371679',            # Naissance Scaër 3 E 344/14/10 (1812)
     },
 
-    '3E344_0015' => {			# Naissance Scaër 3 E 344 15   1813-1817
+    '3E344_0015' => {			# Naissance Scaër 3 E 344 15   1813-1822
 	1813   => '1371681',            # Naissance Scaër 3 E 344/15/1 (1813)
 	1814   => '1371682',            # Naissance Scaër 3 E 344/15/2 (1814)
 	1815   => '1371683',            # Naissance Scaër 3 E 344/15/3 (1815)
 	1816   => '1371684',            # Naissance Scaër 3 E 344/15/4 (1816)
 	1817   => '1371685',            # Naissance Scaër 3 E 344/15/5 (1817)
+	1818   => '1371686',            # Naissance Scaër 3 E 344/15/6 (1818)
+	1819   => '1371687',            # Naissance Scaër 3 E 344/15/7 (1819)
+	1820   => '1371688',            # Naissance Scaër 3 E 344/15/8 (1820)
+	1821   => '1371689',            # Naissance Scaër 3 E 344/15/9 (1821)
+	1822   => '1371690',            # Naissance Scaër 3 E 344/15/10 (1822)
     },
 
     '3E344_0016' => {			# Naissance Scaër 3 E 344 16   1823-1832
@@ -9059,12 +9430,17 @@ my %convert = (
 	1812   => '1372004',            # Décès Scaër 3 E 344/35/10 (1812)
     },
 
-    '3E344_0036' => {			# Décès Scaër 3 E 344 36   1813-1817
+    '3E344_0036' => {			# Décès Scaër 3 E 344 36   1813-1822
 	1813   => '1372006',            # Décès Scaër 3 E 344/36/1 (1813)
 	1814   => '1372007',            # Décès Scaër 3 E 344/36/2 (1814)
 	1815   => '1372008',            # Décès Scaër 3 E 344/36/3 (1815)
 	1816   => '1372009',            # Décès Scaër 3 E 344/36/4 (1816)
 	1817   => '1372010',            # Décès Scaër 3 E 344/36/5 (1817)
+	1818   => '1372011',            # Décès Scaër 3 E 344/36/6 (1818)
+	1819   => '1372012',            # Décès Scaër 3 E 344/36/7 (1819)
+	1820   => '1372013',            # Décès Scaër 3 E 344/36/8 (1820)
+	1821   => '1372014',            # Décès Scaër 3 E 344/36/9 (1821)
+	1822   => '1372015',            # Décès Scaër 3 E 344/36/10 (1822)
     },
 
     '3E344_0037' => {			# Décès Scaër 3 E 344 37   1823-1832
@@ -9283,7 +9659,21 @@ my %convert = (
 	1924   => '1371966',            # Mariage Scaër 3 E 344/57/6 (1924)
     },
 
-    '3E344_0058' => '1371968',            # Mariage Scaër 3 E 344/58/1 (1925)
+    '3E344_0058' => {			# Mariage Scaër 3 E 344 58   1925-1930
+	1925   => '1371968',            # Mariage Scaër 3 E 344/58/1 (1925)
+	1926   => '1371969',            # Mariage Scaër 3 E 344/58/2 (1926)
+	1927   => '1371970',            # Mariage Scaër 3 E 344/58/3 (1927)
+	1928   => '1371971',            # Mariage Scaër 3 E 344/58/4 (1928)
+	1929   => '1371972',            # Mariage Scaër 3 E 344/58/5 (1929)
+	1930   => '1371973',            # Mariage Scaër 3 E 344/58/6 (1930)
+    },
+
+    '3E344_0059' => {			# Mariage Scaër 3 E 344 59   1931-1933
+	1931   => '1371975',            # Mariage Scaër 3 E 344/59/1 (1931)
+	1932   => '1371976',            # Mariage Scaër 3 E 344/59/2 (1932)
+	1933   => '1371977',            # Mariage Scaër 3 E 344/59/3 (1933)
+    },
+
     '3E344_0060' => {			# Décès Scaër 3 E 344 60   1913-1919
 	1913   => '1372117',            # Décès Scaër 3 E 344/60/1 (1913)
 	1914   => '1372118',            # Décès Scaër 3 E 344/60/2 (1914)
@@ -9521,6 +9911,19 @@ my %convert = (
 	1812   => '1374327',            # Naissance Tourc'h 3 E 351/3/19 (1812)
     },
 
+    '3E351_0004' => {			# Naissance Tourc'h 3 E 351 4   1813-1822
+	1813   => '1374329',            # Naissance Tourc'h 3 E 351/4/1 (1813)
+	1814   => '1374330',            # Naissance Tourc'h 3 E 351/4/2 (1814)
+	1815   => '1374331',            # Naissance Tourc'h 3 E 351/4/3 (1815)
+	1816   => '1374332',            # Naissance Tourc'h 3 E 351/4/4 (1816)
+	1817   => '1374333',            # Naissance Tourc'h 3 E 351/4/5 (1817)
+	1818   => '1374334',            # Naissance Tourc'h 3 E 351/4/6 (1818)
+	1819   => '1374335',            # Naissance Tourc'h 3 E 351/4/7 (1819)
+	1820   => '1374336',            # Naissance Tourc'h 3 E 351/4/8 (1820)
+	1821   => '1374337',            # Naissance Tourc'h 3 E 351/4/9 (1821)
+	1822   => '1374338',            # Naissance Tourc'h 3 E 351/4/10 (1822)
+    },
+
     '3E351_0005' => {			# Naissance Tourc'h 3 E 351 5   1823-1832
 	1823   => '1374340',            # Naissance Tourc'h 3 E 351/5/1 (1823)
 	1824   => '1374341',            # Naissance Tourc'h 3 E 351/5/2 (1824)
@@ -9600,7 +10003,7 @@ my %convert = (
 	1883   => '1374405',            # Naissance Tourc'h 3 E 351/10/14 (1883)
     },
 
-    '3E351_0011' => {			# Mariage publication de mariage promesse de mariage Tourc'h 3 E 351 11   AN02-1793-an 11 (contient uniquement des publications de mariages)
+    '3E351_0011' => {			# Mariage publication de mariage promesse de mariage Tourc'h 3 E 351 11   AN02-1793-1812
 	'1793-an IV (contient uniquement des publications de mariages)' => '1374467',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/4 (1793-an IV (contient uniquement des publications de mariages))
 	'AN02' => '1374464',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/1 (1793 - an II)
 	'AN03' => '1374465',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/2 (an III)
@@ -9612,6 +10015,12 @@ my %convert = (
 	'AN09' => '1374472',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/9 (an IX)
 	'AN10' => '1374473',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/10 (an X)
 	'AN11' => '1374474',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/11 (an XI)
+	1807   => '1374478',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/15 (1807)
+	1808   => '1374479',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/16 (1808)
+	1809   => '1374480',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/17 (1809)
+	1810   => '1374481',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/18 (1810)
+	1811   => '1374482',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/19 (1811)
+	1812   => '1374483',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/20 (1812)
     },
 
     '3E351_0012' => {			# Mariage Tourc'h 3 E 351 12   1813-1822
@@ -9722,6 +10131,19 @@ my %convert = (
 	1810   => '1374636',            # Décès Tourc'h 3 E 351/19/17 (1810)
 	1811   => '1374637',            # Décès Tourc'h 3 E 351/19/18 (1811)
 	1812   => '1374638',            # Décès Tourc'h 3 E 351/19/19 (1812)
+    },
+
+    '3E351_0020' => {			# Décès Tourc'h 3 E 351 20   1813-1822
+	1813   => '1374640',            # Décès Tourc'h 3 E 351/20/1 (1813)
+	1814   => '1374641',            # Décès Tourc'h 3 E 351/20/2 (1814)
+	1815   => '1374642',            # Décès Tourc'h 3 E 351/20/3 (1815)
+	1816   => '1374643',            # Décès Tourc'h 3 E 351/20/4 (1816)
+	1817   => '1374644',            # Décès Tourc'h 3 E 351/20/5 (1817)
+	1818   => '1374645',            # Décès Tourc'h 3 E 351/20/6 (1818)
+	1819   => '1374646',            # Décès Tourc'h 3 E 351/20/7 (1819)
+	1820   => '1374647',            # Décès Tourc'h 3 E 351/20/8 (1820)
+	1821   => '1374648',            # Décès Tourc'h 3 E 351/20/9 (1821)
+	1822   => '1374649',            # Décès Tourc'h 3 E 351/20/10 (1822)
     },
 
     '3E351_0021' => {			# Décès Tourc'h 3 E 351 21   1823-1832
@@ -9929,6 +10351,16 @@ my %convert = (
 	1923   => '1374604',            # Mariage Tourc'h 3 E 351/33/2 (1923)
 	1924   => '1374605',            # Mariage Tourc'h 3 E 351/33/3 (1924)
 	1925   => '1374606',            # Mariage Tourc'h 3 E 351/33/4 (1925)
+	1926   => '1374607',            # Mariage Tourc'h 3 E 351/33/5 (1926)
+	1927   => '1374608',            # Mariage Tourc'h 3 E 351/33/6 (1927)
+	1928   => '1374609',            # Mariage Tourc'h 3 E 351/33/7 (1928)
+	1929   => '1374610',            # Mariage Tourc'h 3 E 351/33/8 (1929)
+	1930   => '1374611',            # Mariage Tourc'h 3 E 351/33/9 (1930)
+	1931   => '1374612',            # Mariage Tourc'h 3 E 351/33/10 (1931)
+	1932   => '1374613',            # Mariage Tourc'h 3 E 351/33/11 (1932)
+	1933   => '1374614',            # Mariage Tourc'h 3 E 351/33/12 (1933)
+	1934   => '1374615',            # Mariage Tourc'h 3 E 351/33/13 (1934)
+	1935   => '1374616',            # Mariage Tourc'h 3 E 351/33/14 (1935)
     },
 
     '3E351_0034' => {			# Décès Tourc'h 3 E 351 34   1914-1936
