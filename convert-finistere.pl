@@ -34,9 +34,11 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 # - lookup the new register URL in AD29 and identiy the new ARK ID for the register (eg: "137330X" in the above example)
 
 my %convert = (
-    # Collection communale:
+    # BMS : Collection communale:
+    #============================
     '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
     '1029EDEPOT_001' => '644418.1465136', # 1029 E-dépôt 1 (Baptêmes et mariages (1783-1786, 1790-1792). Sépultures (1789-1792). Naissances (1793-an VI, an VIII-1820).)
+
     # BMS Carhaix
     '1024EDEPOT_018' => '1464972',            # Registre registre paroissial baptême mariage sépulture Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 18 (1788-1793.)
     #'1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
@@ -53,24 +55,32 @@ my %convert = (
     '1024EDEPOT_031' => '1464990',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 31 (1844-1860.)
     '1024EDEPOT_032' => '1464991',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 32 (1861-1876.)
     '1024EDEPOT_033' => '1464992',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 33 (1877-1892.)
+
     # Châteauneuf-du-Faou
     '1027EDEPOT_012' => '1465024',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 12 (Sépultures)
     '1027EDEPOT_003' => '644405.1465026',     # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance table des baptêmes table des naissances Châteauneuf-du-Faou 1027 E-dépôt 3 (Tables des baptêmes, tables des naissances, tables décennales)
     '1027EDEPOT_013' => '1465028',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 13 (Tables décennales)
+
+    # BMS Concarneau
     '1040 E DEPOT' => '1465702',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Concarneau 1040 E DEPOT 9 (Tables décennales)
     '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
     '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
-    # Saint-Yvi
+
+
+    # BMS Saint-Yvi
     '1261EDEPOT_009' => '1480039',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 9 (Décès)
     '1261EDEPOT_005' => '645681.1480034',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E-dépôt 5 (Décès)
     '1261EDEPOT_008' => '1480038',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 8 (Mariages)
     '1261EDEPOT_007' => '1480037',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 7 (Naissances)
     '1261EDEPOT_004' => '645680.1480033',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E-dépôt 4 (Naissances, mariages)
+
+    # BMS Tourc'h
     '1270EDEPOT_003' => '1480813',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 3/1 (1793-an XI)
     '1270EDEPOT_004' => '1480818',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 4/1 (Publications des bans (1793 -an IV). Mariages (1793-an III, an V-An XI))
 
     # Registre matricule:
+    #====================
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
     '1R01642' => '836100.1076426',             # Bureau Bureau de Brest n° 1 à 500. (1920)
     '1R01643' => '836101.1076427',             # Bureau Bureau de Brest n° 501 à 1000. (1920)
@@ -93,8 +103,10 @@ my %convert = (
     '1R01659' => '836117.1076444',             # Bureau Bureau de Quimper n° 2001 à 2500. (1920)
     '1R01660' => '836118.1076445',             # Bureau Bureau de Quimper n° 2501 à 3104, 3484, 3486, 3515, 3523, 3525, 3543, 3547 à 3548, 3569, 3578, 3581, 3596, 3608, 3610, 3616, 3628 à 3629, 3640, 3649, 3657, 3665, 4423 à 4432, 4435 à 4438, 4441 à 4443. (1920)
 
-    # BMS :
+    # BMS : collection départementale :
+    #==================================
     # TODO: add conversion for all BMS in my tree
+    # BMS Carhaix:
     '3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
     '3E037_0002' => '652176.1275535',	# BMS Carhaix  3 E 37/2		1690-1714
     '3E037_0003' => '652177.1275536',	# BMS Carhaix  3 E 37/3		1715-1728
@@ -118,6 +130,7 @@ my %convert = (
     # Les références sont bonne, par ex je retrouve le même mariage anciennement vue 187/201 sur la vue 431.
     # Et vue 202/431 on voit "1802-1803 Mariages an 11" donc il semble que deux lots d'images aient été aggloméré en un seul.
 
+    # BMS Cléden-Poher
     '3E042_0001' => '652429.1277165',	# BMS Cleden-Poher 3 E 42 1	1694-1712
     '3E042_0002' => '652430.1277166',	# BMS Cleden-Poher 3 E 42 2	1713-1730
     '3E042_0003' => '652431.1277167',	# BMS Cleden-Poher 3 E 42 3	1730-1746
@@ -129,21 +142,25 @@ my %convert = (
     '3E042_0009' => '652437.1277175',	# Sép Cleden-Poher 3 E 42 9	1767-1780
     '3E042_0010' => '652438.1277176',	# Sép Cleden-Poher 3 E 42 10	1781-1792
 
+    # BMS Le Moustoir
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
 
+    # BMS Plonéis
     '3E212_0002' => '658571.1332282',	# BM  Plonéis  3 E 212 2	1749-1774
     '3E212_0003' => '658572.1332283',	# BM  Plonéis  3 E 212 3	1775-1792
-
     '3E212_0004' => '658573.1332285',	# Sép Plonéis  3 E 212 4	1749-1792
 
+    # BMS Plouguer
     '3E234_0001' => '659570.1340587',	# BMS Plouguer 3 E 234 1        1694-1703
     '3E234_0002' => '659571.1340588',	# BMS Plouguer 3 E 234 2        1704-1749
     '3E234_0003' => '659572.1340590',	# BM Plouguer  3 E 234 3        1750-28 février 1793
     '3E234_0004' => '659573.1340592',	# Sép Plouguer 3 E 234 4        1753-28 février 1793
 
+    # BMS Saint-Hernin
     '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
 
     # NMD :
+    #=====
     # TODO: Sépultures Carhaix, Cleden-Poher, Plonéis, Plouguer, Saint-Hernin
     # TODO: décès … Tourc'h
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
