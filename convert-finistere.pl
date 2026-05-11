@@ -1792,6 +1792,116 @@ my %convert = (
         1891 => '1277284',              # Naissance Cléden-Poher 3 E 42/19/11 (1891)
     },
 
+    '3E042_0020' => {			# Mariage Cléden-Poher 3 E 42 20   AN10-AN10
+	'AN02' => '1277336',            # Mariage Cléden-Poher 3 E 42/20/1 (1793 - an II)
+	'AN03' => '1277337',            # Mariage Cléden-Poher 3 E 42/20/2 (an III)
+	'AN04' => '1277338',            # Mariage Cléden-Poher 3 E 42/20/3 (an IV)
+	'AN05' => '1277339',            # Mariage Cléden-Poher 3 E 42/20/4 (an V)
+	'AN06' => '1277340',            # Mariage Cléden-Poher 3 E 42/20/5 (an VI)
+	'AN07' => '1277341',            # Mariage Cléden-Poher 3 E 42/20/6 (an VII)
+	'AN08' => '1277342',            # Mariage Cléden-Poher 3 E 42/20/7 (an VIII)
+	'AN09' => '1277343',            # Mariage Cléden-Poher 3 E 42/20/8 (an IX)
+	'AN10' => '1277344',            # Mariage Cléden-Poher 3 E 42/20/9 (an X)
+    },
+
+    '3E042_0021' => {			# Mariage Cléden-Poher 3 E 42 21   AN12-1822
+	1807   => '1277350',            # Mariage Cléden-Poher 3 E 42/21/5 (1807)
+	1808   => '1277351',            # Mariage Cléden-Poher 3 E 42/21/6 (1808)
+	1809   => '1277352',            # Mariage Cléden-Poher 3 E 42/21/7 (1809)
+	1810   => '1277353',            # Mariage Cléden-Poher 3 E 42/21/8 (1810)
+	1811   => '1277354',            # Mariage Cléden-Poher 3 E 42/21/9 (1811)
+	1812   => '1277355',            # Mariage Cléden-Poher 3 E 42/21/10 (1812)
+	1813   => '1277356',            # Mariage Cléden-Poher 3 E 42/21/11 (1813)
+	1814   => '1277357',            # Mariage Cléden-Poher 3 E 42/21/12 (1814)
+	1815   => '1277358',            # Mariage Cléden-Poher 3 E 42/21/13 (1815)
+	1816   => '1277359',            # Mariage Cléden-Poher 3 E 42/21/14 (1816)
+	1817   => '1277360',            # Mariage Cléden-Poher 3 E 42/21/15 (1817)
+	1818   => '1277361',            # Mariage Cléden-Poher 3 E 42/21/16 (1818)
+	1819   => '1277362',            # Mariage Cléden-Poher 3 E 42/21/17 (1819)
+	1820   => '1277363',            # Mariage Cléden-Poher 3 E 42/21/18 (1820)
+	1821   => '1277364',            # Mariage Cléden-Poher 3 E 42/21/19 (1821)
+	1822   => '1277365',            # Mariage Cléden-Poher 3 E 42/21/20 (1822)
+	'AN11' => '1277346',            # Mariage Cléden-Poher 3 E 42/21/1 (an XI)
+	'AN12' => '1277347',            # Mariage Cléden-Poher 3 E 42/21/2 (an XII)
+	'AN13' => '1277348',            # Mariage Cléden-Poher 3 E 42/21/3 (an XIII)
+	'AN14' => '1277349',            # Mariage Cléden-Poher 3 E 42/21/4 (an XIV - 1806)
+    },
+
+    '3E042_0022' => {			# Mariage Cléden-Poher 3 E 42 22   1823-1826
+	1823   => '1277367',            # Mariage Cléden-Poher 3 E 42/22/1 (1823)
+	1824   => '1277368',            # Mariage Cléden-Poher 3 E 42/22/2 (1824)
+	1825   => '1277369',            # Mariage Cléden-Poher 3 E 42/22/3 (1825)
+	1826   => '1277370',            # Mariage Cléden-Poher 3 E 42/22/4 (1826)
+    },
+
+    '3E042_0023' => {			# Mariage Cléden-Poher 3 E 42 23   1833-1842
+	1833   => '1277378',            # Mariage Cléden-Poher 3 E 42/23/1 (1833)
+	1834   => '1277379',            # Mariage Cléden-Poher 3 E 42/23/2 (1834)
+	1835   => '1277380',            # Mariage Cléden-Poher 3 E 42/23/3 (1835)
+	1836   => '1277381',            # Mariage Cléden-Poher 3 E 42/23/4 (1836)
+	1837   => '1277382',            # Mariage Cléden-Poher 3 E 42/23/5 (1837)
+	1838   => '1277383',            # Mariage Cléden-Poher 3 E 42/23/6 (1838)
+	1839   => '1277384',            # Mariage Cléden-Poher 3 E 42/23/7 (1839)
+	1840   => '1277385',            # Mariage Cléden-Poher 3 E 42/23/8 (1840)
+	1841   => '1277386',            # Mariage Cléden-Poher 3 E 42/23/9 (1841)
+	1842   => '1277387',            # Mariage Cléden-Poher 3 E 42/23/10 (1842)
+    },
+
+    '3E042_0024' => {			# Mariage Cléden-Poher 3 E 42 24   1843-1852
+	1843   => '1277389',            # Mariage Cléden-Poher 3 E 42/24/1 (1843)
+	1844   => '1277390',            # Mariage Cléden-Poher 3 E 42/24/2 (1844)
+	1845   => '1277391',            # Mariage Cléden-Poher 3 E 42/24/3 (1845)
+	1846   => '1277392',            # Mariage Cléden-Poher 3 E 42/24/4 (1846)
+	1847   => '1277393',            # Mariage Cléden-Poher 3 E 42/24/5 (1847)
+	1848   => '1277394',            # Mariage Cléden-Poher 3 E 42/24/6 (1848)
+	1849   => '1277395',            # Mariage Cléden-Poher 3 E 42/24/7 (1849)
+	1850   => '1277396',            # Mariage Cléden-Poher 3 E 42/24/8 (1850)
+	1851   => '1277397',            # Mariage Cléden-Poher 3 E 42/24/9 (1851)
+	1852   => '1277398',            # Mariage Cléden-Poher 3 E 42/24/10 (1852)
+    },
+
+    '3E042_0025' => {			# Mariage Cléden-Poher 3 E 42 25   1853-1862
+	1853   => '1277400',            # Mariage Cléden-Poher 3 E 42/25/1 (1853)
+	1854   => '1277401',            # Mariage Cléden-Poher 3 E 42/25/2 (1854)
+	1855   => '1277402',            # Mariage Cléden-Poher 3 E 42/25/3 (1855)
+	1856   => '1277403',            # Mariage Cléden-Poher 3 E 42/25/4 (1856)
+	1857   => '1277404',            # Mariage Cléden-Poher 3 E 42/25/5 (1857)
+	1858   => '1277405',            # Mariage Cléden-Poher 3 E 42/25/6 (1858)
+	1859   => '1277406',            # Mariage Cléden-Poher 3 E 42/25/7 (1859)
+	1860   => '1277407',            # Mariage Cléden-Poher 3 E 42/25/8 (1860)
+	1861   => '1277408',            # Mariage Cléden-Poher 3 E 42/25/9 (1861)
+	1862   => '1277409',            # Mariage Cléden-Poher 3 E 42/25/10 (1862)
+    },
+
+    '3E042_0026' => {			# Mariage Cléden-Poher 3 E 42 26   1863-1869
+	1863   => '1277411',            # Mariage Cléden-Poher 3 E 42/26/1 (1863)
+	1864   => '1277412',            # Mariage Cléden-Poher 3 E 42/26/2 (1864)
+	1865   => '1277413',            # Mariage Cléden-Poher 3 E 42/26/3 (1865)
+	1866   => '1277414',            # Mariage Cléden-Poher 3 E 42/26/4 (1866)
+	1867   => '1277415',            # Mariage Cléden-Poher 3 E 42/26/5 (1867)
+	1868   => '1277416',            # Mariage Cléden-Poher 3 E 42/26/6 (1868)
+	1869   => '1277417',            # Mariage Cléden-Poher 3 E 42/26/7 (1869)
+    },
+
+    '3E042_0027' => {			# Mariage Cléden-Poher 3 E 42 27   1870-1885
+	1870   => '1277419',            # Mariage Cléden-Poher 3 E 42/27/1 (1870)
+	1871   => '1277420',            # Mariage Cléden-Poher 3 E 42/27/2 (1871)
+	1872   => '1277421',            # Mariage Cléden-Poher 3 E 42/27/3 (1872)
+	1873   => '1277422',            # Mariage Cléden-Poher 3 E 42/27/4 (1873)
+	1874   => '1277423',            # Mariage Cléden-Poher 3 E 42/27/5 (1874)
+	1875   => '1277424',            # Mariage Cléden-Poher 3 E 42/27/6 (1875)
+	1876   => '1277425',            # Mariage Cléden-Poher 3 E 42/27/7 (1876)
+	1877   => '1277426',            # Mariage Cléden-Poher 3 E 42/27/8 (1877)
+	1878   => '1277427',            # Mariage Cléden-Poher 3 E 42/27/9 (1878)
+	1879   => '1277428',            # Mariage Cléden-Poher 3 E 42/27/10 (1879)
+	1880   => '1277429',            # Mariage Cléden-Poher 3 E 42/27/11 (1880)
+	1881   => '1277430',            # Mariage Cléden-Poher 3 E 42/27/12 (1881)
+	1882   => '1277431',            # Mariage Cléden-Poher 3 E 42/27/13 (1882)
+	1883   => '1277432',            # Mariage Cléden-Poher 3 E 42/27/14 (1883)
+	1884   => '1277433',            # Mariage Cléden-Poher 3 E 42/27/15 (1884)
+	1885   => '1277434',            # Mariage Cléden-Poher 3 E 42/27/16 (1885)
+    },
+
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=Cléden-Poher+(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[0]=Décès&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil&pagination_25
     '3E042_0028' => {			# Décès Cléden-Poher  3 E 42 28             1793 - an X
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
@@ -1940,6 +2050,27 @@ my %convert = (
         1902 => '1277296',              # Naissance Cléden-Poher 3 E 42/37/11 (1902)
         1903 => '1277297',              # Naissance Cléden-Poher 3 E 42/37/12 (1903)
         1904 => '1277299',              # Naissance Cléden-Poher 3 E 42/40/1 (1904)
+    },
+
+    '3E042_0038' => {			# Mariage Cléden-Poher 3 E 42 38   1886-1903
+	1886   => '1277436',            # Mariage Cléden-Poher 3 E 42/38/1 (1886)
+	1887   => '1277437',            # Mariage Cléden-Poher 3 E 42/38/2 (1887)
+	1888   => '1277438',            # Mariage Cléden-Poher 3 E 42/38/3 (1888)
+	1889   => '1277439',            # Mariage Cléden-Poher 3 E 42/38/4 (1889)
+	1890   => '1277440',            # Mariage Cléden-Poher 3 E 42/38/5 (1890)
+	1891   => '1277441',            # Mariage Cléden-Poher 3 E 42/38/6 (1891)
+	1892   => '1277442',            # Mariage Cléden-Poher 3 E 42/38/7 (1892)
+	1893   => '1277443',            # Mariage Cléden-Poher 3 E 42/38/8 (1893)
+	1894   => '1277444',            # Mariage Cléden-Poher 3 E 42/38/9 (1894)
+	1895   => '1277445',            # Mariage Cléden-Poher 3 E 42/38/10 (1895)
+	1896   => '1277446',            # Mariage Cléden-Poher 3 E 42/38/11 (1896)
+	1897   => '1277447',            # Mariage Cléden-Poher 3 E 42/38/12 (1897)
+	1898   => '1277448',            # Mariage Cléden-Poher 3 E 42/38/13 (1898)
+	1899   => '1277449',            # Mariage Cléden-Poher 3 E 42/38/14 (1899)
+	1900   => '1277450',            # Mariage Cléden-Poher 3 E 42/38/15 (1900)
+	1901   => '1277451',            # Mariage Cléden-Poher 3 E 42/38/16 (1901)
+	1902   => '1277452',            # Mariage Cléden-Poher 3 E 42/38/17 (1902)
+	1903   => '1277453',            # Mariage Cléden-Poher 3 E 42/38/18 (1903)
     },
 
     '3E042_0039' => {                   # Décès Cléden-Poher 3 E 42 39   1896-1909
