@@ -881,7 +881,7 @@ my %convert = (
 	'AN10' => '1269092',            # Mariage Beuzec-Conq 3 E 10/19/7 (an X)
     },
 
-    '3E010_0020' => {			# Mariage Beuzec-Conq 3 E 10 20   AN12-1812
+    '3E010_0020' => {			# Mariage Beuzec-Conq 3 E 10 20   AN11-1812
 	'AN11' => '1269094',            # Mariage Beuzec-Conq 3 E 10/20/1 (an XI)
 	'AN12' => '1269095',            # Mariage Beuzec-Conq 3 E 10/20/2 (an XII)
 	'AN13' => '1269096',            # Mariage Beuzec-Conq 3 E 10/20/3 (an XIII)
@@ -1000,7 +1000,7 @@ my %convert = (
 	'AN10' => '1269260',            # Décès Beuzec-Conq 3 E 10/28/9 (an X)
     },
 
-    '3E010_0029' => {			# Décès Beuzec-Conq 3 E 10 29   AN12-1812
+    '3E010_0029' => {			# Décès Beuzec-Conq 3 E 10 29   AN11-1812
 	'AN11' => '1269262',            # Décès Beuzec-Conq 3 E 10/29/1 (an XI)
 	'AN12' => '1269263',            # Décès Beuzec-Conq 3 E 10/29/2 (an XII)
 	'AN13' => '1269264',            # Décès Beuzec-Conq 3 E 10/29/3 (an XIII)
@@ -2246,7 +2246,7 @@ my %convert = (
 	'AN10' => '1285744',            # Naissance Elliant 3 E 64/6/9 (An X)
     },
 
-    '3E064_0007' => {			# Naissance Elliant 3 E 64 7   AN12-1812
+    '3E064_0007' => {			# Naissance Elliant 3 E 64 7   AN11-1812
 	'AN11' => '1285746',            # Naissance Elliant 3 E 64/7/1 (An XI)
 	'AN12' => '1285747',            # Naissance Elliant 3 E 64/7/2 (An XII)
 	'AN13' => '1285748',            # Naissance Elliant 3 E 64/7/3 (An XIII)
@@ -2492,7 +2492,7 @@ my %convert = (
 	'AN10' => '1286080',            # Décès Elliant 3 E 64/24/9 (An X)
     },
 
-    '3E064_0025' => {			# Décès Elliant 3 E 64 25   AN12-1818
+    '3E064_0025' => {			# Décès Elliant 3 E 64 25   AN11-1818
 	'AN11' => '1286082',            # Décès Elliant 3 E 64/25/1 (An XI)
 	'AN12' => '1286083',            # Décès Elliant 3 E 64/25/2 (An XII)
 	'AN13' => '1286084',            # Décès Elliant 3 E 64/25/3 (An XIII)
@@ -3625,7 +3625,7 @@ my %convert = (
 	'AN10' => '1302963',            # Mariage promesse de mariage Kernével 3 E 109/16/9 (an X)
     },
 
-    '3E109_0017' => {			# Mariage Kernével 3 E 109 17   AN12-1812
+    '3E109_0017' => {			# Mariage Kernével 3 E 109 17   AN11-1812
 	'AN11' => '1302965',            # Mariage Kernével 3 E 109/17/1 (an XI)
 	'AN12' => '1302966',            # Mariage Kernével 3 E 109/17/2 (an XII)
 	'AN13' => '1302967',            # Mariage Kernével 3 E 109/17/3 (an XIII)
@@ -4023,7 +4023,7 @@ my %convert = (
     },
 
     # NMD Landeleau
-    '3E122_0006' => {			# Naissance Landeleau 3 E 122 6   AN14-1813
+    '3E122_0006' => {			# Naissance Landeleau 3 E 122 6   AN02-1813
 	'AN02' => '1307141',            # Naissance Landeleau 3 E 122/6/1 (1793-1er thermidor an II)
 	# An 3-5 to be doble checked:
 	'AN03' => '1307142',            # Naissance Landeleau 3 E 122/6/2 (19 frimaire-25 fructidor an III)
