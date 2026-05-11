@@ -184,6 +184,7 @@ my %convert = (
     '3E037_0009' => '652183.1275544',	# Sép Carhaix  3 E 37/9		1754-1766
     '3E037_0010' => '652184.1275545',	# Sép Carhaix  3 E 37/10	1767-1780
     '3E037_0011' => '652185.1275546',	# Sép Carhaix  3 E 37/11	1781-1792
+
     # FIXME: pas un simple renommage, il faudrait également changer les références aux vues dans les notes associées, par ex la vue 187/201 devient 187/431:
     # "Lors de la préparation de la migration vers notre nouveau moteur de recherche, nous nous sommes aperçus qu’il y avait une erreur d’affectation de certains lots numérisés pour Carhaix et Morlaix.
     # Une partie de ces lots avaient été microfilmés, il y a longtemps, à partir d’originaux empruntés en mairie.
