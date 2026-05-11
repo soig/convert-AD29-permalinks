@@ -104,7 +104,8 @@ my $real_ville = $special_towns{$ville} || $ville =~ /Finist/ ? $ville : "$ville
 my %years = (
     'Naissance' => {
 	1793 => 1802,
-	1802 => 1822,
+	1802 => 1812,
+	1813 => 1822,
 	1823 => 1832,
 	1833 => 1842,
 	1843 => 1852,
@@ -119,8 +120,8 @@ my %years = (
     },
 
     'Mariage' => {
-	# FIXME: to split if too wide a span?
-	1793 => 1812,
+	1793 => 1802,
+	1803 => 1812,
 	1813 => 1832,
 	1833 => 1842,
 	1843 => 1852,
@@ -134,8 +135,8 @@ my %years = (
 
     'Décès' => {
 	1793 => 1802,
-	# FIXME : we usually emit a hole here for years 1804-1806
-	1802 => 1822,
+	1802 => 1812,
+	1813 => 1822,
 	1823 => 1832,
 	1833 => 1842,
 	1843 => 1852,
