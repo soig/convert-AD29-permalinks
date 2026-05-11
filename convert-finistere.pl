@@ -6153,6 +6153,8 @@ my %convert = (
 	1936   => '1323160',            # Décès Melgven 3 E 177/38/12 (1936)
     },
 
+    # NMD Morlaix
+    '3E188_0126' => '',			# Décès Morlaix (1857-1858) : BUG/FIXME: n'apparait plus avec le nouveau site !
 
     # NMD Motreff
     '3E189_0004' => '657659.1324612',   # Naissance Motreff 3 E 189 4 (1793-1812)
