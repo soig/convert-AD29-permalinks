@@ -4041,7 +4041,9 @@ my %convert = (
 	1807   => '1307154',            # Naissance Landeleau 3 E 122/6/14 (1807)
 	1808   => '1307155',            # Naissance Landeleau 3 E 122/6/15 (1808)
 	1809   => '1307156',            # Naissance Landeleau 3 E 122/6/16 (1809)
-	# FIXME: Still an hole!
+	1810   => '1307157',            # Naissance Landeleau 3 E 122/6/17 (1810)
+	1811   => '1307158',            # Naissance Landeleau 3 E 122/6/18 (1811)
+	1812   => '1307159',            # Naissance Landeleau 3 E 122/6/19 (1812)
 	1813   => '1307160',            # Naissance Landeleau 3 E 122/6/20 (1813)
     },
 
