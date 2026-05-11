@@ -11583,6 +11583,8 @@ sub process {
 	# accept other args before "?img="
 	#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E351/3E351_0010?s=FRAD029_3E351_0010_00N_1881_001.jpg&e=FRAD029_3E351_0010_00N_1881_008.jpg&img=FRAD029_3E351_0010_00N_1881_004.jpg&levelDescription=FRAD029_00003E351_pa-88
 	#KO: https://recherche.archives.finistere.fr/ark:/72506/652182.1275542/img:FRAD029_3E351_0010_00N_1881_004
+	#some URLs are KO b/c of missing "img=", eg: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E106/3E106_0011?s=FRAD029_3E106_0011_00M_AN10_001.jpg&e=FRAD029_3E106_0011_00M_AN10_010.jpg&img=FRAD029_3E106_0011_00M_AN10_006.jpg (vue 6/10/)
+	# => I think I badly pasted the URL or wrongly tried to shortenize it => I've the view number so just add img= as e= but replacing the view nb: img=FRAD029_3E106_0011_00M_AN10_006.jpg
 	($id,$image) = m![^/]*/([^/?]*)\?.*(img=.*)\.jpg!;
     }
     # for new URL scheme:
