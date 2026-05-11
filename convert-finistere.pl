@@ -249,6 +249,11 @@ my %convert = (
     '3E212_0003' => '658572.1332283',	# BM  Plonéis  3 E 212 3	1775-1792
     '3E212_0004' => '658573.1332285',	# Sép Plonéis  3 E 212 4	1749-1792
 
+    # BMS Saint-Quijeau
+    '3E326_0001' => '1040982.1366562',            # BMS Saint-Quijeau E 326 1 (1687-1690, 1704-1706, 1708-1712, 1715-1717, 1719-1721, 1723, 1726, 1728-1738, 1744-1752)
+    '3E326_0002' => '1040983.1366564',            # BM  Saint-Quijeau E 326 2 (1753-1764, 1766-1791)
+    '3E326_0003' => '1040984.1366566',            # Sépulture Saint-Quijeau E 326 3 (1753-1793)
+
     # BMS Plouguer
     '3E234_0001' => '659570.1340587',	# BMS Plouguer 3 E 234 1        1694-1703
     '3E234_0002' => '659571.1340588',	# BMS Plouguer 3 E 234 2        1704-1749
@@ -279,6 +284,16 @@ my %convert = (
     '3E214_0007' => '658667.1333275',            # Sépulture Plonévez-du-Faou 3 E 214 7 (1751-1772)
     '3E214_0008' => '658668.1333276',            # Sépulture Plonévez-du-Faou 3 E 214 8 (1773-1792)
     '3E214_0020' => '658680.1333347',            # Mariage promesse de mariage Plonévez-du-Faou 3 E 214 20 (1793-an X)
+
+    # BMS Querrien
+    '3E274_0001' => '1039321.1355723',            # BMS Querrien 3 E 274 1 (Baptêmes (1653 (incomplet)-1661) ; baptêmes, sépultures (1669, 1672-1673) ; baptêmes, mariages, sépultures (1693, 1696 (incomplet), 1704 (incomplet), 1707, 1709-1711 (incomplet), 1712-1720 (incomplet) ).)
+    '3E274_0002' => '1039322.1355724',            # BMS Querrien 3 E 274 2 (24 décembre 1720-4 janvier 1736.)
+    '3E274_0003' => '1039323.1355725',            # BMS Querrien 3 E 274 3 (7 janvier 1736-1748.)
+    '3E274_0004' => '1039324.1355727',            # BM  Querrien 3 E 274 4 (1749-1763.)
+    '3E274_0005' => '1039325.1355728',            # BM  Querrien 3 E 274 5 (1764-1766 (incomplet), 1767-1769, 1771-1779.)
+    '3E274_0006' => '1039326.1355729',            # BM  Querrien 3 E 274 6 (1780-1790, 1792-7 janvier 1793.)
+    '3E274_0007' => '1039327.1355731',            # Sépulture Querrien 3 E 274 7 (1749-1766, 1768-1771, 1773-1776 (incomplet), 1777-1er avril 1793.)
+    '3E274_0018' => '1355892',            # Mariage promesse de mariage Querrien 3 E 274/18/1 (1793-an II (contient également des promesses de mariages))
 
     # BMS Scaër
     '3E344_0001' => '1045957.1371644',            # BMS Scaër 3 E 344 1 (1669-1670 (incomplets), 1701, 1704-1709 (incomplet), 1710-1714 (incomplets), 1715-1716 (incomplet), 1717-6 février 1719)
