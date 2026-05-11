@@ -98,7 +98,7 @@ my %convert = (
 
     # BMS Spézet
     # FIXME: obviously broken (this needs a subhash due to shared ID)
-    '1267EDEPOT_001' => '1480480',            # BMS Spézet 1267 E DEPOT 1/5 (12 décembre 1645- 1648)
+    '1267EDEPOT_001' => '1480480',            # BMS Spézet  E DEPOT 1/5 (12 décembre 1645- 1648)
     '1267EDEPOT_001' => '1480477',            # BMS Spézet 1267 E DEPOT 1/2 (1597-1611)
     '1267EDEPOT_001' => '1480478',            # BMS Spézet 1267 E DEPOT 1/3 (1617-1635)
     '1267EDEPOT_001' => '1480479',            # BMS Spézet 1267 E DEPOT 1/4 (1636- 10 décembre 1645)
@@ -119,6 +119,11 @@ my %convert = (
 
     # Registre matricule:
     #====================
+    # 1902
+    '1R01289' => '835747.1076020',             # Bureau de Brest-Châteaulin n° 1990 à 2500.
+    '1R01290' => '835747.1076021',             # Bureau de Brest-Châteaulin n° 2501 à 3082, 3865-3866, 3915-3930, 3933-3942, 3962-3963, 3966, 3969, 3976, 3982, 3983, 3995-3998, 4008, 4010.
+    # 1914
+    '1R01519' => '835977.1076281',             # Bureau de Brest-Châteaulin n° 1001 à 1169, 1172 à 1500.
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
     '1R01642' => '836100.1076426',             # Bureau Bureau de Brest n° 1 à 500. (1920)
     '1R01643' => '836101.1076427',             # Bureau Bureau de Brest n° 501 à 1000. (1920)
@@ -153,7 +158,7 @@ my %convert = (
     '3E004_0005' => '650492.1266681',            # Baptême mariage sépulture Bannalec 3 E 4 5 (janvier 1727-janvier 1734)
     '3E004_0006' => '650493.1266682',            # Baptême mariage sépulture Bannalec 3 E 4 6 (janvier 1734-5 mai 1740)
     '3E004_0007' => '650494.1266683',            # Baptême mariage sépulture Bannalec 3 E 4 7 (6 mai 1740-6 janvier 1745)
-    '3E004_0008' => '650495.1266684',            # Baptême mariage sépulture Bannalec 3 E 4 8 (1745-7 février 1750)
+    '3E004_0008' => '650495.1626684',            # Baptême mariage sépulture Bannalec 3 E 4 8 (1745-7 février 1750)
     '3E004_0009' => '650496.1266685',            # Baptême mariage sépulture sépulture Bannalec 3 E 4 9 (Baptêmes, mariages (8 février-décembre 1750, 1752-1759) ; baptêmes, mariages, sépultures (1751))
     '3E004_0010' => '650497.1266687',            # Baptême mariage Bannalec 3 E 4 10 (1760-1770)
     '3E004_0011' => '650498.1266688',            # Baptême mariage Bannalec 3 E 4 11 (1771-1778)

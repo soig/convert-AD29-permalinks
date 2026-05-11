@@ -115,6 +115,13 @@ Un générateur spécialisé est utilisé pour les TD :
 ./gen-new-ids-td.pl Kergloff > TD.Kergloff
 ```
 
+### Comment rajouter tous les registres matricule d'une année
+
+Exemple pour 1914:
+```
+./gen-new-ids-matricule.pl "https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1914&type=matricules"
+```
+
 ## Limitations :
 
 Lors du passage au nouveau site, ils se sont rendu comptes que certains registres étaient mal côtés. Ces registres ont donc été renommés et re-côtés.
