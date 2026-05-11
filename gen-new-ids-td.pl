@@ -193,6 +193,10 @@ sub process {
     my $te = HTML::TableExtract->new(attribs => { id => 'resultats' }, keep_html => 1);
     $te->parse_file($filename);
     my ($table) = $te->tables;
+    if (!$table) {
+	warn ">> ERROR: No results for URL='$url'\n";
+	return;
+    }
     my $i;
     foreach my $row ($table->rows) {
 	# rows are : Commune, desc, type, cote, link, actions…
