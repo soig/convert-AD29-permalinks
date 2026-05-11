@@ -38,6 +38,7 @@ my %villes = (
     'Leuhan' => 'eb2f0726cae4778ee9538ef597db7f92',
     'Locmaria-Berrien' => '4c09c40124360cd6314ab2759a1c79ac',
     'Locmaria-an-Hent' => 'b5a5509cbc217d7767e65f5628e760c5',
+    'Melgven' => 'c574b669ddf7a891dfeff601cb25ecb4',
     'Motreff' => '4c3ae13cbf62a5e72b9c034018a6a467',
     'Plonéis' => 'c2e2fc6c89a009fcc699e9d615eae31d',
     'Plonévez-du-Faou' => '3dd456aaae4fef02b19832b0e3daeb8f',
