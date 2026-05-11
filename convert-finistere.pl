@@ -34,9 +34,14 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 # - lookup the new register URL in AD29 and identiy the new ARK ID for the register (eg: "137330X" in the above example)
 
 my %convert = (
-    # BMS : Collection communale:
+    # BMS : Collection communale (Baptêmes, mariages, sépultures):
     #============================
-    '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
+
+    # BMS Beuzec-Conq
+    '1008EDEPOT_005' => '1463963',            # BMS Beuzec-Conq 1008 E DEPOT 5 (Baptêmes, mariages et sépultures.)
+    '1008EDEPOT_007' => '1463965',            # BMS Beuzec-Conq 1008 E DEPOT 7 (Baptêmes et mariages.)
+    '1008EDEPOT_008' => '1463966',            # BMS Beuzec-Conq 1008 E DEPOT 8 (Baptêmes et mariages et sépultures.)
+
     '1029EDEPOT_001' => '644418.1465136', # 1029 E-dépôt 1 (Baptêmes et mariages (1783-1786, 1790-1792). Sépultures (1789-1792). Naissances (1793-an VI, an VIII-1820).)
 
     # BMS Carhaix
@@ -67,11 +72,22 @@ my %convert = (
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
     '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
 
+    # BMS Plonévez-du-Faou
+    '1164EDEPOT_002' => '645226.1473981',            # B   Plonévez-du-Faou 1164 E-dépôt 2 (Baptêmes.)
+    '1164EDEPOT_008' => '645232.1473987',            # BM  Plonévez-du-Faou 1164 E-dépôt 8 (Baptêmes, mariages.)
+    '1164EDEPOT_009' => '645233.1473988',            # Sépultures Plonévez-du-Faou 1164 E-dépôt 9 (Sépultures.)
+    '1164EDEPOT_011' => '645235.1473990',            # BMS Plonévez-du-Faou 1164 E-dépôt 11 (Baptêmes, mariages, sépultures.)
+
     # BMS Poullaouen
     '1211EDEPOT_003' => '645498.1477662',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 3 (1711-1741)
     '1211EDEPOT_001' => '645496.1477660',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 1 (Baptêmes (1548-1568, 1619-1683). Baptêmes, mariages, sépultures (1666-1670))
     '1211EDEPOT_005' => '645500.1477664',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 5 (Baptêmes et mariages (1789-1792). Sépultures (1753-1787, 1791-1792).)
     '1211EDEPOT_004' => '645499.1477663',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Poullaouen 1211 E-dépôt 4 (Baptêmes, mariages, sépultures (1742-1752). Baptêmes et mariages (1762-1788).)
+
+    # BMS Saint-Hernin
+    '1237EDEPOT_001' => '645576.1478932',            # BMS Saint-Hernin 1237 E-dépôt 1 (Baptêmes, mariages, sépultures)
+    '1237EDEPOT_002' => '645577.1478933',            # BMS Saint-Hernin 1237 E-dépôt 2 (Baptêmes, mariages)
+    '1237EDEPOT_003' => '645578.1478934',            # BMS Saint-Hernin 1237 E-dépôt 3 (Sépultures)
 
     # BMS Saint-Yvi
     '1261EDEPOT_009' => '1480039',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 9 (Décès)
@@ -79,6 +95,23 @@ my %convert = (
     '1261EDEPOT_008' => '1480038',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 8 (Mariages)
     '1261EDEPOT_007' => '1480037',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E DEPOT 7 (Naissances)
     '1261EDEPOT_004' => '645680.1480033',            # Registre table administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Saint-Yvi 1261 E-dépôt 4 (Naissances, mariages)
+
+    # BMS Spézet
+    # FIXME: obviously broken (this needs a subhash due to shared ID)
+    '1267EDEPOT_001' => '1480480',            # BMS Spézet 1267 E DEPOT 1/5 (12 décembre 1645- 1648)
+    '1267EDEPOT_001' => '1480477',            # BMS Spézet 1267 E DEPOT 1/2 (1597-1611)
+    '1267EDEPOT_001' => '1480478',            # BMS Spézet 1267 E DEPOT 1/3 (1617-1635)
+    '1267EDEPOT_001' => '1480479',            # BMS Spézet 1267 E DEPOT 1/4 (1636- 10 décembre 1645)
+    '1267EDEPOT_004' => '1480487',            # BMS Spézet 1267 E DEPOT 4/1 (1693-1709)
+    '1267EDEPOT_004' => '1480488',            # BMS Spézet 1267 E DEPOT 4/2 (1710-1720)
+    '1267EDEPOT_005' => '1480490',            # BMS Spézet 1267 E DEPOT 5/1 (1721-1727)
+    '1267EDEPOT_005' => '1480491',            # BMS Spézet 1267 E DEPOT 5/2 (1728-1743)
+    '1267EDEPOT_003' => '1480483',            # BMS Spézet 1267 E DEPOT 3/1 (Baptêmes (18 mars 1669- 3 mars 1671))
+    '1267EDEPOT_002' => '1480496',            # BMS Spézet 1267 E DEPOT 2/1 (Baptêmes (3 août 1648- 1668))
+    '1267EDEPOT_003' => '1480484',            # BMS Spézet 1267 E DEPOT 3/2 (Baptêmes, mariages et sépultures (1675-1684))
+    '1267EDEPOT_003' => '1480485',            # BMS Spézet 1267 E DEPOT 3/3 (Baptêmes, mariages et sépultures (1685-1692))
+    '1267EDEPOT_002' => '1480497',            # BMS Spézet 1267 E DEPOT 2/2 (Mariages (1597- 1620))
+    '1267EDEPOT_002' => '1480498',            # BMS Spézet 1267 E DEPOT 2/3 (Mariages (1637-1646))
 
     # BMS Tourc'h
     '1270EDEPOT_003' => '1480813',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 3/1 (1793-an XI)
@@ -111,6 +144,18 @@ my %convert = (
     # BMS : collection départementale :
     #==================================
     # TODO: add conversion for all BMS in my tree
+
+    # BMS Beuzec-Conq
+    '3E010_0001' => '650711.1268914',            # BMS Beuzec-Conq 3 E 10 1 (BMS (1664-1726) ; extraits mortuaires (1704-1708))
+    '3E010_0002' => '650712.1268915',            # BMS Beuzec-Conq 3 E 10 2 (23 août 1726-1730, 1732-1733, 1741, 1743-1747)
+    '3E010_0003' => '650713.1268917',            # BM  Beuzec-Conq 3 E 10 3 (1748-1762)
+    '3E010_0004' => '650714.1268918',            # BM  Beuzec-Conq 3 E 10 4 (1763-1778)
+    '3E010_0005' => '650715.1268919',            # BM  Beuzec-Conq 3 E 10 5 (1779-1789, 1791-1792)
+    '3E010_0006' => '650716.1268921',            # Sépulture Beuzec-Conq 3 E 10 6 (30 décembre 1747-1762)
+    '3E010_0007' => '650717.1268922',            # Sépulture Beuzec-Conq 3 E 10 7 (1763-1778)
+    '3E010_0008' => '650718.1268923',            # Sépulture Beuzec-Conq 3 E 10 8 (1779- 1789, 1791)
+    '3E010_0019' => '1269086',                   # Mariage Beuzec-Conq 3 E 10/19/1 (1793 - an II)
+
     # BMS Carhaix:
     '3E037_0001' => '652175.1275534',	# BMS Carhaix  3 E 37/1		1674-1689
     '3E037_0002' => '652176.1275535',	# BMS Carhaix  3 E 37/2		1690-1714
@@ -147,6 +192,55 @@ my %convert = (
     '3E042_0009' => '652437.1277175',	# Sép Cleden-Poher 3 E 42 9	1767-1780
     '3E042_0010' => '652438.1277176',	# Sép Cleden-Poher 3 E 42 10	1781-1792
 
+    # BMS Concarneau
+    '3E053_0001' => '652891.1281431',            # BMS Concarneau 3 E 53 1 (Baptêmes (1561-1563 (incomplets) ) ; baptêmes, mariages, sépultures (1678 (incomplet)-1679, 1693, 1704, 1708-1709, 1711-1712, 1714-1715, 1717-1719))
+    '3E053_0002' => '652892.1281432',            # BMS Concarneau 3 E 53 2 (1720-1722, 1740-30 décembre 1747)
+    '3E053_0003' => '652893.1281434',            # BM  Concarneau 3 E 53 3 (1748-1760)
+    '3E053_0004' => '652894.1281435',            # BM  Concarneau 3 E 53 4 (1761-1773)
+    '3E053_0005' => '652895.1281436',            # BM  Concarneau 3 E 53 5 (1774-1784)
+    '3E053_0006' => '652896.1281437',            # BM  Concarneau 3 E 53 6 (1785-1792)
+    '3E053_0007' => '652897.1281439',            # Sépulture Concarneau 3 E 53 7 (31 décembre 1747-1760)
+    '3E053_0008' => '652898.1281440',            # Sépulture Concarneau 3 E 53 8 (1761-1773)
+    '3E053_0009' => '652899.1281441',            # Sépulture Concarneau 3 E 53 9 (1774-1784)
+    '3E053_0010' => '652900.1281442',            # Sépulture Concarneau 3 E 53 10 (1785-1792)
+    '3E053_0024' => '652914.1281514',            # Mariage Concarneau 3 E 53 24 (1793-an X)
+
+    # BMS Kergloff
+    '3E106_0001' => '654908.1301833',            # BMS Kergloff 3 E 106 1 (1694-1707, 1709-1720, 1723-1724, 1726-1729, 1740, 1744-1752)
+    '3E106_0002' => '654909.1301835',            # BM Kergloff 3 E 106 2 (1753-1792)
+    '3E106_0003' => '654910.1301837',            # Sépulture Kergloff 3 E 106 3 (1753-1792)
+    '3E106_0011' => '1301995',                   # Mariage Kergloff 3 E 106/11/1 (1793 - an II)
+
+    # BMS Kernével
+    '3E109_0001' => '654999.1302787',            # BMS Kernével 3 E 109 1 (Mariages (13 août 1653-28 février 1658, 1660-1666 - incomplets) ; baptêmes, mariages, sépultures (1668-1669, 1679, 1692, 1702, 1705-1728))
+    '3E109_0002' => '655000.1302788',            # BMS Kernével 3 E 109 2 (1729-1748)
+    '3E109_0003' => '655001.1302790',            # BM  Kernével 3 E 109 3 (1749-1772)
+    '3E109_0004' => '655002.1302791',            # BM Kernével 3 E 109 4 (1773-1792)
+    '3E109_0005' => '655003.1302793',            # Sépulture Kernével 3 E 109 5 (1749-1792)
+    '3E109_0016' => '1302955',                   # Mariage promesse de mariage Kernével 3 E 109/16/1 (1793 - an II)
+
+    # BMS Landeleau
+    '3E122_0001' => '655525.1307132',            # BMS Landeleau 3 E 122 1 (Baptêmes, mariages, sépultures (1694-1699, 1701-1718, 1724, 1726-1732) ; extraits mortuaires (1699-1732))
+    '3E122_0002' => '655526.1307133',            # BMS Landeleau 3 E 122 2 (Baptêmes, mariages, sépultures (1733-1751) ; extraits mortuaires (1733-1746))
+    '3E122_0003' => '655527.1307135',            # BM  Landeleau 3 E 122 3 (1752-1774)
+    '3E122_0004' => '655528.1307136',            # BM  Landeleau 3 E 122 4 (1775-1792)
+    '3E122_0005' => '655529.1307138',            # Sépulture Landeleau 3 E 122 5 (1752-1792)
+    '3E122_0014' => '1307296',                   # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/1 (Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III)
+
+    # BMS Laz
+    '3E148_0001' => '656323.1314137',            # BMS Laz 3 E 148 1 (1674-1676, 1702-1716, 1718-1722, 1724-1725, 1727-1728)
+    '3E148_0002' => '656324.1314138',            # BMS Laz 3 E 148 2 (Extraits mortuaires (1730-1746) ; baptêmes, mariages, sépultures (1730, 1732-1733, 1735-1750))
+    '3E148_0003' => '656325.1314140',            # BM  Laz 3 E 148 3 (1751-1776)
+    '3E148_0004' => '656326.1314141',            # BM  Laz 3 E 148 4 (1777-1792)
+    '3E148_0005' => '656327.1314143',            # Sépulture Laz 3 E 148 5 (1751-1792)
+    '3E148_0014' => '656336.1314203',            # Mariage Laz 3 E 148 14 (1793-an VI, an IX-1812)
+
+    # BMS Motreff
+    '3E189_0001' => '657656.1324606',            # BMS Motreff 3 E 189 1 (1676-1677 (incomplet), 1685 (incomplet)-1691, 1692 (incomplet), 1694-1703, 1705-1709, 1711-1715, 1717-1719, 1721-1740, 1742, 1744, 1746-1752)
+    '3E189_0002' => '657657.1324608',            # BM  Motreff 3 E 189 2 (1753-1792)
+    '3E189_0003' => '657658.1324610',            # Sépulture Motreff 3 E 189 3 (1754-1792)
+    '3E189_0011' => '657666.1324675',            # Mariage promesse de mariage Motreff 3 E 189 11 (1793-1812)
+
     # BMS Le Moustoir
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
 
@@ -170,7 +264,51 @@ my %convert = (
     '3E270_0016' => '1039210.1354631',            # Mariage promesse de mariage Poullaouen 3 E 270 16 (1793-an VI, an VIII-an X.)
 
     # BMS Saint-Hernin
-    '3E309_0005' => '1040259.1634656',	# Sép Saint-Hernin 1753-1792
+    '3E309_0001' => '1040255.1634650',            # BMS Saint-Hernin 3 E 309 1 (9 avril-15 septembre 1694, 6 novembre-décembre 1702, 1704-1720, 1724-1726, 1728-1734)
+    '3E309_0004' => '1040258.1634654',            # BM  Saint-Hernin 3 E 309 4 (1771-1792)
+    '3E309_0005' => '1040259.1634656',            # Sépulture Saint-Hernin 3 E 309 5 (1753-1792)
+    '3E309_0013' => '1040457.1634708',            # Mariage promesse de mariage publication de mariage Saint-Hernin 3 E 309 13 (1793-1812)
+
+    # BMS Plonévez-du-Faou
+    '3E214_0001' => '658661.1333267',            # BMS Plonévez-du-Faou 3 E 214 1 (Baptêmes, mariages, sépultures (1694-1702, 1704, 1706-1712, 1714-1719, 1721, 1723, 1728) ; extraits mortuaires (1704-1728))
+    '3E214_0002' => '658662.1333268',            # BMS Plonévez-du-Faou 3 E 214 2 (Baptêmes, mariages, sépultures (1729-1739) ; extraits mortuaires (1729-1746))
+    '3E214_0003' => '658663.1333269',            # BMS Plonévez-du-Faou 3 E 214 3 (1740-1750)
+    '3E214_0004' => '658664.1333271',            # BM  Plonévez-du-Faou 3 E 214 4 (1751-1766)
+    '3E214_0005' => '658665.1333272',            # BM  Plonévez-du-Faou 3 E 214 5 (1767-1780)
+    '3E214_0006' => '658666.1333273',            # BM  Plonévez-du-Faou 3 E 214 6 (1781-1792)
+    '3E214_0007' => '658667.1333275',            # Sépulture Plonévez-du-Faou 3 E 214 7 (1751-1772)
+    '3E214_0008' => '658668.1333276',            # Sépulture Plonévez-du-Faou 3 E 214 8 (1773-1792)
+    '3E214_0020' => '658680.1333347',            # Mariage promesse de mariage Plonévez-du-Faou 3 E 214 20 (1793-an X)
+
+    # BMS Scaër
+    '3E344_0001' => '1045957.1371644',            # BMS Scaër 3 E 344 1 (1669-1670 (incomplets), 1701, 1704-1709 (incomplet), 1710-1714 (incomplets), 1715-1716 (incomplet), 1717-6 février 1719)
+    '3E344_0002' => '1045958.1371645',            # BMS Scaër 3 E 344 2 (13 février 1719-1722, 20 mars 1724-1731)
+    '3E344_0003' => '1045959.1371646',            # BMS Scaër 3 E 344 3 (1732-21 février 1735, 2 août 1735-14 janvier 1742)
+    '3E344_0004' => '1045960.1371647',            # BMS Scaër 3 E 344 4 (15 janvier 1742-1747)
+    '3E344_0005' => '1045961.1371649',            # BM  Scaër 3 E 344 5 (1748-1758)
+    '3E344_0006' => '1045962.1371650',            # BM  Scaër 3 E 344 6 (1759-1770)
+    '3E344_0007' => '1045963.1371651',            # BM  Scaër 3 E 344 7 (1771-1782)
+    '3E344_0008' => '1045964.1371652',            # BM  Scaër 3 E 344 8 (1783-1792)
+    '3E344_0009' => '1045965.1371654',            # Sépulture Scaër 3 E 344 9 (1748-1758)
+    '3E344_0010' => '1045966.1371655',            # Sépulture Scaër 3 E 344 10 (1759-1770)
+    '3E344_0011' => '1045967.1371656',            # Sépulture Scaër 3 E 344 11 (1771-1782)
+    '3E344_0012' => '1045968.1371657',            # Sépulture Scaër 3 E 344 12 (1783-1789, 1791-4 janvier 1793)
+    '3E344_0024' => '1371825',                    # Mariage promesse de mariage Scaër 3 E 344/24/1 (1793 - an II)
+
+    # BMS Spézet
+    '3E348_0001' => '1045747.1373143',            # BMS Spézet 3 E 348 1 (1671-1672, 1675-1677, 1687-1690, 1694-1696)
+    '3E348_0002' => '1045748.1373144',            # BMS Spézet 3 E 348 2 (1697-1704, 1706-1708)
+    '3E348_0003' => '1045749.1373145',            # BMS Spézet 3 E 348 3 (1709-1711, 1713-1721, 1723)
+    '3E348_0004' => '1045750.1373146',            # BMS Spézet 3 E 348 4 (1726, 1729-1738, 1741-1742, 1744)
+    '3E348_0005' => '1045751.1373147',            # BMS Spézet 3 E 348 5 (1745-1753)
+    '3E348_0006' => '1045752.1373148',            # BMS Spézet 3 E 348 6 (1754-1760)
+    '3E348_0006' => '1045752.1373148',            # BMS Spézet 3 E 348 6 (1754-1760)
+    '3E348_0007' => '1045753.1373149',            # BMS Spézet 3 E 348 7 (Baptêmes, mariages, sépultures (1761-1765, 1768-1770) ; baptêmes, mariages (1766-1767))
+    '3E348_0008' => '1045754.1373150',            # BMS Spézet 3 E 348 8 (1771-1776)
+    '3E348_0009' => '1045755.1373151',            # BMS Spézet 3 E 348 9 (1777-1782)
+    '3E348_0010' => '1045756.1373152',            # BMS Spézet 3 E 348 10 (1783-1788)
+    '3E348_0011' => '1045757.1373153',            # BMS Spézet 3 E 348 11 (1789-1791)
+    '3E348_0022' => '1373318',                    # Mariage publication de mariage promesse de mariage Spézet 3 E 348/22/1 (1793-an II (contient également des publications de mariages))
 
     # NMD :
     #=====
