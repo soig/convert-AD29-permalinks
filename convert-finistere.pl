@@ -37,7 +37,7 @@ my %convert = (
     # Collection communale:
     '1237EDEPOT' => '645578.1478934',	# Sép Saint-Hernin 1753-1787 (comm)
     '1029EDEPOT_001' => '644418.1465136', # 1029 E-dépôt 1 (Baptêmes et mariages (1783-1786, 1790-1792). Sépultures (1789-1792). Naissances (1793-an VI, an VIII-1820).)
-    # NMD Carhaix
+    # BMS Carhaix
     '1024EDEPOT_018' => '1464972',            # Registre registre paroissial baptême mariage sépulture Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 18 (1788-1793.)
     #'1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
     '1024EDEPOT_020' => '1464977',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 20 (1822-1841.)
@@ -149,7 +149,7 @@ my %convert = (
     # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
     # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer
 
-    # Bannalec
+    # NMD Bannalec
     '3E004_0017' => {			# Naissance Bannalec 3 E 4 17   AN05-AN05
 	'AN02' => '1266697',            # Naissance Bannalec 3 E 4/17/1 (1793 - an II)
 	'AN03' => '1266698',            # Naissance Bannalec 3 E 4/17/2 (an III)
@@ -722,7 +722,7 @@ my %convert = (
     },
 
 
-    # Beuzec-Conq
+    # NMD Beuzec-Conq
     '3E010_0009' => {			# Naissance Beuzec-Conq 3 E 10 9   AN02-AN10
 	'AN02' => '1268926',            # Naissance Beuzec-Conq 3 E 10/9/1 (1793 - an II)
 	'AN03' => '1268927',            # Naissance Beuzec-Conq 3 E 10/9/2 (an III)
@@ -1411,7 +1411,7 @@ my %convert = (
 	1936   => '1275762',            # Décès Carhaix (Carhaix-Plouguer, Finistère) 3 E 37/56/8 (1936)
     },
 
-    # Châteauneuf-du-Faou
+    # NMD Châteauneuf-du-Faou
     '3E040_0011' => '652338.1276464',   # Naissance table des naissances table des mariages table des décès Châteauneuf-du-Faou 3 E 40 11 (1793-an X)
     '3E040_0012' => '652339.1276465',   # Naissance Châteauneuf-du-Faou 3 E 40 12 (An XI-1812)
     '3E040_0013' => '652340.1276466',   # Naissance Châteauneuf-du-Faou 3 E 40 13 (1813-1822)
@@ -1606,7 +1606,7 @@ my %convert = (
     },
 
 
-    # NMD Cleden-Poher
+    # NMD Cléden-Poher
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Cléden-Poher%20(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[]=Naissance&type=etatcivil
     '3E042_0011' => {		        # Naissances Cleden-Poher  3 E 42 11		1793 - an X
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
@@ -1969,7 +1969,7 @@ my %convert = (
         1936 => '1277644',              # Décès Cléden-Poher 3 E 42/46/15 (1936)
     },
 
-    # Concarneau
+    # NMD Concarneau
     '3E053_0011' => '652901.1281444',   # Naissance Concarneau 3 E 53 11 (1793-an X)
     '3E053_0012' => '652902.1281445',   # Naissance Concarneau 3 E 53 12 (An XI-1812)
     '3E053_0013' => '652903.1281446',   # Naissance Concarneau 3 E 53 13 (1813-1822)
@@ -2163,7 +2163,7 @@ my %convert = (
     },
 
 
-    # Elliant
+    # NMD Elliant
     '3E064_0006' => {			# Naissance Elliant 3 E 64 6   AN02-AN10
 	'AN02' => '1285736',            # Naissance Elliant 3 E 64/6/1 (1793 - an II)
 	'AN03' => '1285737',            # Naissance Elliant 3 E 64/6/2 (An III)
@@ -2671,7 +2671,7 @@ my %convert = (
 	1936   => '1286226',            # Décès Elliant 3 E 64/46/13 (1936)
     },
 
-    # Fouesnant
+    # NMD Fouesnant
     '3E073_0004' => '653740.1289235',   # Naissance Fouesnant 3 E 73 4 (1793-an X)
     '3E073_0005' => '653741.1289236',   # Naissance Fouesnant 3 E 73 5 (An XI-1812)
     '3E073_0006' => '653742.1289237',   # Naissance Fouesnant 3 E 73 6 (1813-1820, 1822)
@@ -2899,7 +2899,7 @@ my %convert = (
 	1936   => '1289415',            # Décès Fouesnant 3 E 73/50/12 (1936)
     },
 
-
+    # NMD Kergloff
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Kergloff+%28Finist%C3%A8re%29%7C&REch_commune_Md5=b514c4417f09b16bf87e6d3adcf13473%7C&Rech_typologie%5B0%5D=Naissance&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil
 
     '3E106_0004' => {                   # Naissance Kergloff 3 E 106 4   1793-1810
@@ -3394,7 +3394,7 @@ my %convert = (
 	# years 1926-1936 never were online with old server
     },
 
-    # Kernével
+    # NMD Kernével
     '3E109_0006' => {			# Naissance Kernével 3 E 109 6   AN10-AN10
 	'AN02' => '1302796',            # Naissance Kernével 3 E 109/6/1 (1793 - an II)
 	'AN03' => '1302797',            # Naissance Kernével 3 E 109/6/2 (an III)
@@ -3907,7 +3907,7 @@ my %convert = (
 	1936   => '1303277',            # Décès Kernével 3 E 109/47/16 (1936)
     },
 
-    # Landeleau
+    # NMD Landeleau
     '3E122_0006' => {			# Naissance Landeleau 3 E 122 6   AN14-1809
 	'AN02' => '1307141',            # Naissance Landeleau 3 E 122/6/1 (1793-1er thermidor an II)
 	# An 3-5 to be doble checked:
@@ -4377,7 +4377,7 @@ my %convert = (
     },
 
 
-    # Laz
+    # NMD Laz
     '3E148_0006' => '656328.1314145',   # Naissance Laz 3 E 148 6 (1793-1812)
     '3E148_0007' => '656329.1314146',   # Naissance Laz 3 E 148 7 (1813-1822)
     '3E148_0008' => '656330.1314147',   # Naissance Laz 3 E 148 8 (1823-1832)
@@ -4547,7 +4547,7 @@ my %convert = (
 	1936   => '1314319',            # Décès Laz 3 E 148/38/18 (1936)
     },
 
-    # Leuhan
+    # NMD Leuhan
     '3E151_0004' => '656464.1315015',   # Baptême mariage Leuhan 3 E 151 4 (1773-1er mars 1793)
     '3E151_0006' => {			# Naissance Leuhan 3 E 151 6   AN02-1812
 	'AN02' => '1315020',            # Naissance Leuhan 3 E 151/6/1 (an II)
@@ -5047,7 +5047,7 @@ my %convert = (
 	1936   => '1315481',            # Décès Leuhan 3 E 151/40/16 (1936)
     },
 
-    # Locmaria-Berrien
+    # NMD Locmaria-Berrien
     '3E158_0005' => {			# Naissance Locmaria-Berrien 3 E 158 5   AN02-1812
 	'AN02' => '1316406',            # Naissance Locmaria-Berrien 3 E 158/5/1 (1793 - an II)
 	'AN03' => '1316407',            # Naissance Locmaria-Berrien 3 E 158/5/2 (an III)
@@ -5516,7 +5516,7 @@ my %convert = (
     },
 
 
-    # Motreff
+    # NMD Motreff
     '3E189_0004' => '657659.1324612',   # Naissance Motreff 3 E 189 4 (1793-1812)
     '3E189_0005' => '657660.1324613',   # Naissance Motreff 3 E 189 5 (1813-1832)
     '3E189_0006' => '657661.1324614',   # Naissance Motreff 3 E 189 6 (1833-1842)
@@ -5692,7 +5692,7 @@ my %convert = (
 	1936   => '1324791',            # Décès Motreff 3 E 189/34/16 (1936)
     },
 
-    # Plonévez-du-Faou
+    # NMD Plonévez-du-Faou
     '3E214_0009' => '658669.1333278',   # Naissance Plonévez-du-Faou 3 E 214 9 (1793-an X)
     '3E214_0010' => '658670.1333279',   # Naissance Plonévez-du-Faou 3 E 214 10 (An XI-1812)
     '3E214_0011' => '658671.1333280',   # Naissance Plonévez-du-Faou 3 E 214 11 (1813-1822)
@@ -5869,7 +5869,7 @@ my %convert = (
     },
 
 
-    # Plouguer
+    # NMD Plouguer
     '3E234_0005' => {			# Naissance Plouguer 3 E 234 5   AN02-1812
 	'AN02' => '1340595',            # Naissance Plouguer 3 E 234/5/1 (an II)
 	'AN03' => '1340596',            # Naissance Plouguer 3 E 234/5/2 (an III)
@@ -6359,7 +6359,7 @@ my %convert = (
 	1936   => '1341054',            # Décès Plouguer 3 E 234/34/21 (1936)
     },
 
-    # Poullaouen
+    # NMD Poullaouen
     '3E270_0006' => '1039200.1354573',  # Naissance Poullaouen 3 E 270 6 (1793-an X)
     '3E270_0007' => '1039201.1354574',  # Naissance Poullaouen 3 E 270 7 (An XI-1812)
     '3E270_0008' => '1039202.1354575',  # Naissance Poullaouen 3 E 270 8 (1813-1822)
@@ -6528,7 +6528,7 @@ my %convert = (
 	1936   => '1354741',            # Décès Poullaouen 3 E 270/50/11 (1936)
     },
 
-    # Rosnoën
+    # NMD Rosnoën
     '3E296_0005' => '1039969.1359576',            # Naissance Rosnoën 3 E 296 5 (1793-1812)
     '3E296_0006' => '1039970.1359577',            # Naissance Rosnoën 3 E 296 6 (1813-1822)
     '3E296_0007' => '1039971.1359578',            # Naissance Rosnoën 3 E 296 7 (1823-1832)
@@ -6663,7 +6663,7 @@ my %convert = (
 	1936   => '1359721',            # Décès Rosnoën 3 E 296/37/19 (1936)
     },
 
-    # Quéménéven
+    # NMD Quéménéven
     '3E272_0005' => {			# Naissance Quéménéven 3 E 272 5   AN02-1812
 	'AN02' => '1355251',            # Naissance Quéménéven 3 E 272/5/1 (1793 - an II)
 	'AN03' => '1355252',            # Naissance Quéménéven 3 E 272/5/2 (an III)
@@ -7159,7 +7159,7 @@ my %convert = (
     },
 
 
-    # Saint-Goazec
+    # NMD Saint-Goazec
     '3E307_0005' => {			# Naissance Saint-Goazec 3 E 307 5   AN02-1812
 	'AN02' => '1362801',            # Naissance Saint-Goazec 3 E 307/5/1 (1793 - an II)
 	'AN03' => '1362802',            # Naissance Saint-Goazec 3 E 307/5/2 (an III)
@@ -7653,7 +7653,7 @@ my %convert = (
 	1936   => '1363262',            # Décès Saint-Goazec 3 E 307/38/19 (1936)
     },
 
-    # Saint-Hernin
+    # NMD Saint-Hernin
     '3E309_0006' => '1040260.1634658',  # Naissance Saint-Hernin 3 E 309 6 (1793-1812)
     '3E309_0007' => '1040261.1634659',  # Naissance Saint-Hernin 3 E 309 7 (1813-1832)
     '3E309_0008' => '1040452.1634660',  # Naissance Saint-Hernin 3 E 309 8 (1833-1842)
@@ -7827,7 +7827,7 @@ my %convert = (
     },
 
 
-    # Saint-Thurien
+    # NMD Saint-Thurien
     '3E335_0002' => {			# Naissance Saint-Thurien 3 E 335 2   AN02-1812
 	'AN02' => '1369589',            # Naissance Saint-Thurien 3 E 335/2/1 (1793 - an II)
 	'AN03' => '1369590',            # Naissance Saint-Thurien 3 E 335/2/2 (an III)
@@ -8289,7 +8289,7 @@ my %convert = (
 	1936   => '1370050',            # Décès Saint-Thurien 3 E 335/35/17 (1936)
     },
 
-    # Saint-Yvi
+    # NMD Saint-Yvi
     '3E339_0004' => {			# Naissance Saint-Yvi 3 E 339 4   AN02-AN02
 	'AN02' => '1370901',            # Naissance Saint-Yvi 3 E 339/4/1 (1793 - an II)
 	'AN03' => '1370902',            # Naissance Saint-Yvi 3 E 339/4/2 (an III)
@@ -8782,7 +8782,7 @@ my %convert = (
 	1936   => '1371365',            # Décès Saint-Yvi 3 E 339/40/23 (1936)
     },
 
-    # Scaër
+    # NMD Scaër
     '3E344_0013' => {			# Naissance Scaër 3 E 344 13   AN 2 - AN 10
 	'AN02' => '1371660',            # Naissance Scaër 3 E 344/13/1 (1793 - an II)
 	'AN03' => '1371661',            # Naissance Scaër 3 E 344/13/2 (an III)
@@ -9317,7 +9317,7 @@ my %convert = (
 	1936   => '1372142',            # Décès Scaër 3 E 344/62/10 (1936)
     },
 
-    # Spezet
+    # NMD Spézet
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Spézet+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E348_0012' => '1373156',		# Naissances Spezet  3 E 348 12		1793 - an II
     '3E348_0013' => {			# Naissances Spezet  3 E 348 13		an XI-1812
@@ -9497,7 +9497,7 @@ my %convert = (
 	1929 => '1373306',
     },
 
-    # Tourc'h
+    # NMD Tourc'h
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Tourch+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
     '3E351_0003' => {			# Naissance Tourc'h 3 E 351 3   an II-1812
 	'AN02' => '1374309',            # Naissance Tourc'h 3 E 351/3/1 (an II)
