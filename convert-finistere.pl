@@ -145,6 +145,23 @@ my %convert = (
     #==================================
     # TODO: add conversion for all BMS in my tree
 
+    # BMS Bannalec
+    '3E004_0001' => '650488.1266677',            # Baptême mariage sépulture Bannalec 3 E 4 1 (1670-1677)
+    '3E004_0002' => '650489.1266678',            # Baptême mariage sépulture Bannalec 3 E 4 2 (1677-1680, 1687-1690)
+    '3E004_0003' => '650490.1266679',            # Baptême mariage sépulture Bannalec 3 E 4 3 (1693-1696, 1704, 1706-1710, 1712)
+    '3E004_0004' => '650491.1266680',            # Baptême mariage sépulture Bannalec 3 E 4 4 (1713-1716, 1722-janvier 1727)
+    '3E004_0005' => '650492.1266681',            # Baptême mariage sépulture Bannalec 3 E 4 5 (janvier 1727-janvier 1734)
+    '3E004_0006' => '650493.1266682',            # Baptême mariage sépulture Bannalec 3 E 4 6 (janvier 1734-5 mai 1740)
+    '3E004_0007' => '650494.1266683',            # Baptême mariage sépulture Bannalec 3 E 4 7 (6 mai 1740-6 janvier 1745)
+    '3E004_0008' => '650495.1266684',            # Baptême mariage sépulture Bannalec 3 E 4 8 (1745-7 février 1750)
+    '3E004_0009' => '650496.1266685',            # Baptême mariage sépulture sépulture Bannalec 3 E 4 9 (Baptêmes, mariages (8 février-décembre 1750, 1752-1759) ; baptêmes, mariages, sépultures (1751))
+    '3E004_0010' => '650497.1266687',            # Baptême mariage Bannalec 3 E 4 10 (1760-1770)
+    '3E004_0011' => '650498.1266688',            # Baptême mariage Bannalec 3 E 4 11 (1771-1778)
+    '3E004_0012' => '650499.1266689',            # Baptême mariage Bannalec 3 E 4 12 (1779-1785)
+    '3E004_0014' => '650501.1266692',            # Sépulture Bannalec 3 E 4 14 (9 février-décembre 1750, 1752-1770)
+    '3E004_0015' => '650502.1266693',            # Sépulture Bannalec 3 E 4 15 (1771-1781)
+    '3E004_0016' => '650503.1266694',            # Sépulture Bannalec 3 E 4 16 (1782-1792)
+
     # BMS Beuzec-Conq
     '3E010_0001' => '650711.1268914',            # BMS Beuzec-Conq 3 E 10 1 (BMS (1664-1726) ; extraits mortuaires (1704-1708))
     '3E010_0002' => '650712.1268915',            # BMS Beuzec-Conq 3 E 10 2 (23 août 1726-1730, 1732-1733, 1741, 1743-1747)
