@@ -12117,6 +12117,13 @@ sub process {
     #my ($id) = m!([^/]*)/[^/]*$!;
     # after last "/" (more complete ID + extract image name); accept an optional "/" before "?img="
     my ($id, $image) = m![^/]*/([^/?]*)/?\?(img=.*)\.jpg$!;
+    # special case for one bogus matricule URL
+    if ($id eq '01') {
+	# Try again if there was a spurious /01/ at end of URL:
+	# https://recherche.archives.finistere.fr/viewer/series/medias/collections/R/01R/1R00885/01/?img=FRAD029_1R_00885_0011.jpg
+	s!/01/!!;
+	($id) = m![^/]*/([^/?]*)/?\?$!;
+    }
     if (!$id) {
 	# accept other args before "?img="
 	#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E351/3E351_0010?s=FRAD029_3E351_0010_00N_1881_001.jpg&e=FRAD029_3E351_0010_00N_1881_008.jpg&img=FRAD029_3E351_0010_00N_1881_004.jpg&levelDescription=FRAD029_00003E351_pa-88
