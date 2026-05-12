@@ -147,6 +147,38 @@ my %convert = (
     '1270EDEPOT_003' => '1480813',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 3/1 (1793-an XI)
     '1270EDEPOT_004' => '1480818',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 4/1 (Publications des bans (1793 -an IV). Mariages (1793-an III, an V-An XI))
 
+    # BMS Morlaix
+    '1373EDEPOT_001' => '1472620',            # BMS Morlaix 1373 E DEPOT 1/1 (1594 -1645)
+    '1373EDEPOT_001' => '1472621',            # BMS Morlaix 1373 E DEPOT 1/2 (1646 au 3 novembre 1672)
+    '1373EDEPOT_002' => '1472623',            # BMS Morlaix 1373 E DEPOT 2 (Mariages.)
+    '1373EDEPOT_003' => '1472625',            # BMS Morlaix 1373 E DEPOT 3 (Sépultures.)
+    '1373EDEPOT_004' => '1472629',            # BMS Morlaix 1373 E DEPOT 4 (8 novembre 1672-1682.)
+    '1373EDEPOT_006' => '1472631',            # BMS Morlaix 1373 E DEPOT 6 (1693-1706.)
+    '1373EDEPOT_007' => '1472632',            # BMS Morlaix 1373 E DEPOT 7 (1707-1720.)
+    '1373EDEPOT_008' => '1472633',            # BMS Morlaix 1373 E DEPOT 8 (1721-1734.)
+    '1373EDEPOT_009' => '1472634',            # BMS Morlaix 1373 E DEPOT 9 (1735-1746.)
+    '1373EDEPOT_017' => '1472642',            # BMS Morlaix 1373 E DEPOT 17 (1538-1549, 1570-1581, 1582-1595 (concernerait les baptêmes de la collégiale du Mur, ce qui expliquerait le chevauchement des dates) 1587-1607, 1610-1612.)
+    '1373EDEPOT_018' => '1472643',            # BMS Morlaix 1373 E DEPOT 18 (1612- 1647.)
+    '1373EDEPOT_019' => '1472644',            # BMS Morlaix 1373 E DEPOT 19 (1648-1657, 1657-1668 suivi de 1587-1606.)
+    '1373EDEPOT_020' => '1472646',            # BMS Morlaix 1373 E DEPOT 20 (1625-1658, 1660-1668.)
+    '1373EDEPOT_021' => '1472664',            # BMS Morlaix 1373 E DEPOT 21 (1586-1606, 1657-1668.)
+    '1373EDEPOT_022' => '1472648',            # BMS Morlaix 1373 E DEPOT 22 (1668-1672.)
+    '1373EDEPOT_023' => '1472649',            # BMS Morlaix 1373 E DEPOT 23 (1673-1675.)
+    '1373EDEPOT_027' => '1472653',            # BMS Morlaix 1373 E DEPOT 27 (1700-1709.)
+    '1373EDEPOT_028' => '1472654',            # BMS Morlaix 1373 E DEPOT 28 (1710-1719.)
+    '1373EDEPOT_029' => '1472655',            # BMS Morlaix 1373 E DEPOT 29 (1720-1730.)
+    '1373EDEPOT_030' => '1472656',            # BMS Morlaix 1373 E DEPOT 30 (1731-1741.)
+    '1373EDEPOT_038' => '1472669',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 38 (1592-1652.)
+    '1373EDEPOT_039' => '1472670',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 39 (1653-1668.)
+    '1373EDEPOT_040' => '1472672',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 40 (1602-1668.)
+    '1373EDEPOT_041' => '1472691',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 41 (1602-1667.)
+    '1373EDEPOT_042' => '1472674',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 42 (1669-1671.)
+    '1373EDEPOT_043' => '1472675',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 43 (1672-1679.)
+    '1373EDEPOT_046' => '1472678',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 46 (1697-1707.)
+    '1373EDEPOT_047' => '1472679',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 47 (1708-1719.)
+    '1373EDEPOT_048' => '1472680',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 48 (1720-1729.)
+    '1373EDEPOT_049' => '1472681',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 49 (1730-1740.)
+
     # Registre matricule:
     #====================
 
