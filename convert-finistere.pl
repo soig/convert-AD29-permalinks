@@ -335,6 +335,12 @@ my %convert = (
     # BMS Le Moustoir
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
 
+    # BMS Penhars
+    '3E195_0001' => '657836.1325884',            # Baptême mariage sépulture Penhars 3 E 195 1 (Baptêmes (1512-1569 (incomplet), 1597-1673) ; baptêmes, mariages, sépultures (1674-1704).)
+    '3E195_0002' => '657837.1325885',            # Baptême mariage sépulture Penhars 3 E 195 2 (1702-1703 (doubles), 1705-1728, 1732-1754, 1756-12 janvier 1761.)
+    '3E195_0003' => '657838.1325886',            # Baptême mariage sépulture Penhars 3 E 195 3 (Baptêmes, mariages (27 janvier 1761-1765, 1768-1792) ; sépultures (20 février 1761-1765, 1768-1792).)
+    '3E195_0011' => '657846.1325902',            # Mariage Penhars 3 E 195 11 (1793-an VI, an IX-1812.)
+
     # BMS Plonéis
     '3E212_0001' => '658570.1332280',            # BMS Plonéis 3 E 212 1 (1702-1715, 1717-1720, 1728, 1730-1748.)
     '3E212_0002' => '658571.1332282',            # BM Plonéis 3 E 212 2 (1749-1774.)
