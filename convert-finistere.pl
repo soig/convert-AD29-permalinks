@@ -11915,7 +11915,7 @@ my %convert = (
 
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Spézet%20(Finistère)|&RECH_commune_Md5=b6713734e42457b28f4773f547444ce7|&type=recensements
     '6M0833' => {			# Recensement Spézet
-	# I only have (and thus only tested) the 188X in my tree
+	# I only have (and thus only tested) the 188X & 193[16] in my tree
 	5343 => '1145844',		# Recensement Spézet 1836
 	5344 => '1145845',		# Recensement Spézet 1841
 	5345 => '1145846',		# Recensement Spézet 1846
