@@ -11822,13 +11822,13 @@ my %convert = (
     # Tables des successions:
     #========================
     # TDS Châteaulin
-    '2023W_176' => '965723.1515189'     # TDS bureau de Châteaulin Volume n°26 | 1939-1947
-    '2023W_177' => '965723.1515190'     # TDS bureau de Châteaulin Volume n°27 | 1947-1955
-    '2023W_178' => '965723.1515191'     # TDS bureau de Châteaulin Volume n°27 | 1956-1963
-    '2023W_179' => '965723.1515192'     # TDS bureau de Châteaulin Volume n°28 | 1963-1967
+    '2023W_176' => '965723.1515189',     # TDS bureau de Châteaulin Volume n°26 | 1939-1947
+    '2023W_177' => '965723.1515190',     # TDS bureau de Châteaulin Volume n°27 | 1947-1955
+    '2023W_178' => '965723.1515191',     # TDS bureau de Châteaulin Volume n°27 | 1956-1963
+    '2023W_179' => '965723.1515192',     # TDS bureau de Châteaulin Volume n°28 | 1963-1967
     # TDS Châteauneuf-du-Faou
-    '1580W_004' => '965730.1515255'     # TDS bureau de Châteauneuf-du-Faou Volume n°29 | 1946-1954
-    '1580W_005' => '965730.1515256'     # TDS bureau de Châteauneuf-du-Faou Volume n°30 | 1955-1960
+    '1580W_004' => '965730.1515255',     # TDS bureau de Châteauneuf-du-Faou Volume n°29 | 1946-1954
+    '1580W_005' => '965730.1515256',     # TDS bureau de Châteauneuf-du-Faou Volume n°30 | 1955-1960
     );
 
 # From MDK::Common :
