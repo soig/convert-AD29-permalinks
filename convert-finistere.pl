@@ -10195,7 +10195,7 @@ my %convert = (
 
     '3E344_0024' => {			# Mariage promesse de mariage Scaër 3 E 344 24   an 2 - an 10
 	'AN02' => '1371825',            # Mariage promesse de mariage Scaër 3 E 344/24/1 (1793 - an II)
-	# HOLE!
+	# HOLE! (lacune du site)
 	'AN05' => '1371826',            # Mariage promesse de mariage Scaër 3 E 344/24/2 (an V)
 	'AN06' => '1371827',            # Mariage promesse de mariage Scaër 3 E 344/24/3 (an VI)
 	'AN07' => '1371828',            # Mariage promesse de mariage Scaër 3 E 344/24/4 (an VII)
