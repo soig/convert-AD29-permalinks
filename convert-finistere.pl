@@ -75,6 +75,7 @@ my %convert = (
     '1024EDEPOT_014' => '1464966',            # BMS Carhaix 1024 E DEPOT 14 (1746-1760)
     '1024EDEPOT_015' => '1464967',            # BMS Carhaix 1024 E DEPOT 15 (1761-1776)
     '1024EDEPOT_016' => '1464968',            # BMS Carhaix 1024 E DEPOT 16 (1777-1787)
+    '1024EDEPOT_017' => '1464970',            # BMS Carhaix 1024 E DEPOT 17 (1788-1793)
     '1024EDEPOT_018' => '1464972',            # BMS Carhaix 1024 E DEPOT 18 (1788-1793)
     # Techniquement, c'est du NMD et plus du BMS:
     #'1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
@@ -152,6 +153,7 @@ my %convert = (
 
     # BMS Spézet
     # I'd to manually add the "_0X" prefix:
+    '1267EDEPOT_001_01' => '1480476',            # BMS 1267 E DEPOT 1/1 (1564-1592)
     '1267EDEPOT_001_02' => '1480477',            # BMS Spézet 1267 E DEPOT 1/2 (1597-1611)
     '1267EDEPOT_001_03' => '1480478',            # BMS Spézet 1267 E DEPOT 1/3 (1617-1635)
     '1267EDEPOT_001_04' => '1480479',            # BMS Spézet 1267 E DEPOT 1/4 (1636- 10 décembre 1645)
@@ -327,6 +329,7 @@ my %convert = (
     '3E004_0010' => '650497.1266687',            # Baptême mariage Bannalec 3 E 4 10 (1760-1770)
     '3E004_0011' => '650498.1266688',            # Baptême mariage Bannalec 3 E 4 11 (1771-1778)
     '3E004_0012' => '650499.1266689',            # Baptême mariage Bannalec 3 E 4 12 (1779-1785)
+    '3E004_0013' => '650500.1266690',            # Baptême mariage Bannalec 3 E 4 13 (1786-1792)
     '3E004_0014' => '650501.1266692',            # Sépulture Bannalec 3 E 4 14 (9 février-décembre 1750, 1752-1770)
     '3E004_0015' => '650502.1266693',            # Sépulture Bannalec 3 E 4 15 (1771-1781)
     '3E004_0016' => '650503.1266694',            # Sépulture Bannalec 3 E 4 16 (1782-1792)
