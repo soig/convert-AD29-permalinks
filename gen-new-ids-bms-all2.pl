@@ -110,8 +110,11 @@ my $real_ville = $special_towns{$ville} || $ville =~ /Finist/ ? $ville : "$ville
 # The split is different for each type (eg: 1881-1891 for births but 1883-1892 for deaths)
 my %years = (
     'BMS' => {
-	1600 => 1700,
-	1701 => 1793,
+	1500 => 1599,
+	1600 => 1649,
+	1650 => 1699,
+	1700 => 1749,
+	1750 => 1793,
     },
     );
 
