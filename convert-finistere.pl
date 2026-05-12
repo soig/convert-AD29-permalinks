@@ -53,7 +53,11 @@ my %convert = (
     '1003EDEPOT_010' => '644279.1463529',            # BMS Bannalec 1003 E-dépôt 10 (1780-1792)
 
     # BMS Beuzec-Conq
+    '1008EDEPOT_002' => '1463960',            # BMS Beuzec-Conq 1008 E DEPOT 2 (Baptêmes, mariages et sépultures.)
+    '1008EDEPOT_003' => '1463961',            # BMS Beuzec-Conq 1008 E DEPOT 3 (Baptêmes, mariages et sépultures.)
+    '1008EDEPOT_004' => '1463962',            # BMS Beuzec-Conq 1008 E DEPOT 4 (Baptêmes, mariages et sépultures.)
     '1008EDEPOT_005' => '1463963',            # BMS Beuzec-Conq 1008 E DEPOT 5 (Baptêmes, mariages et sépultures.)
+    '1008EDEPOT_006' => '1463964',            # BMS Beuzec-Conq 1008 E DEPOT 6 (Baptêmes et mariages.)
     '1008EDEPOT_007' => '1463965',            # BMS Beuzec-Conq 1008 E DEPOT 7 (Baptêmes et mariages.)
     '1008EDEPOT_008' => '1463966',            # BMS Beuzec-Conq 1008 E DEPOT 8 (Baptêmes et mariages et sépultures.)
 
