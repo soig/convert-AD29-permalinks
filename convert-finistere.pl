@@ -117,10 +117,10 @@ my %convert = (
 
     # BMS Spézet
     # I'd to manually add the "_0X" prefix:
-    '1267EDEPOT_001_01' => '1480477',            # BMS Spézet 1267 E DEPOT 1/2 (1597-1611)
-    '1267EDEPOT_001_02' => '1480478',            # BMS Spézet 1267 E DEPOT 1/3 (1617-1635)
-    '1267EDEPOT_001_03' => '1480479',            # BMS Spézet 1267 E DEPOT 1/4 (1636- 10 décembre 1645)
-    '1267EDEPOT_001_04' => '1480480',            # BMS Spézet  E DEPOT 1/5 (12 décembre 1645- 1648)
+    '1267EDEPOT_001_02' => '1480477',            # BMS Spézet 1267 E DEPOT 1/2 (1597-1611)
+    '1267EDEPOT_001_03' => '1480478',            # BMS Spézet 1267 E DEPOT 1/3 (1617-1635)
+    '1267EDEPOT_001_04' => '1480479',            # BMS Spézet 1267 E DEPOT 1/4 (1636- 10 décembre 1645)
+    '1267EDEPOT_001_05' => '1480480',            # BMS Spézet  E DEPOT 1/5 (12 décembre 1645- 1648)
     '1267EDEPOT_002_01' => '1480496',            # BMS Spézet 1267 E DEPOT 2/1 (Baptêmes (3 août 1648- 1668))
     '1267EDEPOT_002_02' => '1480497',            # BMS Spézet 1267 E DEPOT 2/2 (Mariages (1597- 1620))
     '1267EDEPOT_002_03' => '1480498',            # BMS Spézet 1267 E DEPOT 2/3 (Mariages (1637-1646))
