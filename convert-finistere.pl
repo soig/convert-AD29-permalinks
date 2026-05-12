@@ -112,6 +112,11 @@ my %convert = (
     '1040EDEPOT_007' => '1465697',            # BMS Concarneau 1040 E DEPOT 7 (Baptêmes, mariages et sépultures.)
     '1040EDEPOT_008' => '1465698',            # BMS Concarneau 1040 E DEPOT 8 (Baptêmes, mariages et sépultures.)
 
+    # BMS Kernével
+    '1081EDEPOT_001' => '644863.1468059',            # BMS Kernével 1081 E-dépôt 1 (1714-1750)
+    '1081EDEPOT_002' => '644864.1468062',            # BMS Kernével 1081 E-dépôt 2 (1751-1777)
+    '1081EDEPOT_003' => '644865.1468060',            # BMS Kernével 1081 E-dépôt 3 (Baptêmes, mariages ((1778-1780, 1783-1784, 1786-1787, 1791). Sépultures (1751-1777).)
+
     # BMS Névez
     '1141EDEPOT_001' => '1001781.1472878',            # BMS Névez 1141 E-dépôt 1 (Mariages (1657-1676). Sépultures (1656-1676))
     '1141EDEPOT_002' => '1001782.1472876',            # BMS Névez 1141 E-dépôt 2 (Baptêmes (1636-1676). Sépultures : registres d'inhumation des petits enfants (1658-1676))
@@ -136,6 +141,10 @@ my %convert = (
     '1109EDEPOT_005' => '645007.1470238',            # BMS Laz 1109 E-dépôt 5 (Baptêmes, mariages.)
     '1109EDEPOT_006' => '645008.1470239',            # BMS naissance Laz 1109 E-dépôt 6 (Sépultures, naissances.)
     '1109EDEPOT_007' => '645009.1470234',            # BMS Laz 1109 E-dépôt 7 (Baptêmes, Sépultures.)
+
+    # BMS Meillars
+    '1133EDEPOT_001' => '645104.1465709',            # BMS Confort-Meilars 1133 E-dépôt 1 (Baptêmes, mariages, sépultures.)
+    '1133EDEPOT_002' => '645105.1465710',            # BMS Confort-Meilars 1133 E-dépôt 2 (Baptêmes, mariages, sépultures.)
 
     # BMS Plonévez-du-Faou
     '1164EDEPOT_001' => '645225.1473980',            # BMS Plonévez-du-Faou 1164 E-dépôt 1 (Baptêmes, mariages, sépultures.)
