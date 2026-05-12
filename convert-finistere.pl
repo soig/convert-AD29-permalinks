@@ -144,6 +144,11 @@ my %convert = (
     '1109EDEPOT_006' => '645008.1470239',            # BMS naissance Laz 1109 E-dépôt 6 (Sépultures, naissances.)
     '1109EDEPOT_007' => '645009.1470234',            # BMS Laz 1109 E-dépôt 7 (Baptêmes, Sépultures.)
 
+    # Locmaria-an-Hent
+    '1115EDEPOT_001' => '645022.1471620',            # BMS Locmaria-an-Hent 1115 E-dépôt 1 (Baptêmes, mariages, sépultures.)
+    '1115EDEPOT_002' => '645023.1471621',            # BMS Locmaria-an-Hent 1115 E-dépôt 2 (Baptêmes, mariages, sépultures.)
+    '1115EDEPOT_003' => '645024.1471619',            # BMS Locmaria-an-Hent 1115 E-dépôt 3 (Baptêmes, mariages, sépultures.)
+
     # BMS Meillars
     '1133EDEPOT_001' => '645104.1465709',            # BMS Confort-Meilars 1133 E-dépôt 1 (Baptêmes, mariages, sépultures.)
     '1133EDEPOT_002' => '645105.1465710',            # BMS Confort-Meilars 1133 E-dépôt 2 (Baptêmes, mariages, sépultures.)
