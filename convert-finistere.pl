@@ -11913,29 +11913,37 @@ my %convert = (
 	5282 => '1145768', 		# Recensement Scaer 1936
     },
 
+    # Recensement Spézet
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Spézet%20(Finistère)|&RECH_commune_Md5=b6713734e42457b28f4773f547444ce7|&type=recensements
-    '6M0833' => {			# Recensement Spézet
-	# I only have (and thus only tested) the 188X & 193[16] in my tree
-	5343 => '1145844',		# Recensement Spézet 1836
-	5344 => '1145845',		# Recensement Spézet 1841
-	5345 => '1145846',		# Recensement Spézet 1846
-	5346 => '1145847',		# Recensement Spézet 1851
-	5347 => '1145848',		# Recensement Spézet 1856
-	5348 => '1145849',		# Recensement Spézet 1861
-	5349 => '1145851',		# Recensement Spézet 1866  (Note they jumped from 1145849 to 1145851)
-	5350 => '1145852',		# Recensement Spézet 1872
-	5351 => '1145853',		# Recensement Spézet 1876
-	5352 => '1145854',		# Recensement Spézet 1881
-	5353 => '1145855',		# Recensement Spézet 1886
-	5354 => '1145856',		# Recensement Spézet 1891
-	5355 => '1145857',		# Recensement Spézet 1896
-	5356 => '1145858',		# Recensement Spézet 1901
-	5357 => '1145860',		# Recensement Spézet 1906  (Note they jumped from 1145858 to 1145860)
-	5358 => '1145861',		# Recensement Spézet 1911
-	5359 => '1145862',		# Recensement Spézet 1921
-	5360 => '1145863',		# Recensement Spézet 1926
-	5361 => '1145864',		# Recensement Spézet 1931
-	5362 => '1145865',		# Recensement Spézet 1936
+    '6M0831' => {                       # Recensement Spézet 6 M 831   1836-1861
+        '6M_0831_01' => '1145844',      # Recensement Spézet 6 M 831/1 (1836)
+        '6M_0831_02' => '1145845',      # Recensement Spézet 6 M 831/2 (1841)
+        '6M_0831_03' => '1145846',      # Recensement Spézet 6 M 831/3 (1846)
+        '6M_0831_04' => '1145847',      # Recensement Spézet 6 M 831/4 (1851)
+        '6M_0831_05' => '1145848',      # Recensement Spézet 6 M 831/5 (1856)
+        '6M_0831_06' => '1145849',      # Recensement Spézet 6 M 831/6 (1861)
+    },
+
+    '6M0832' => {                       # Recensement Spézet 6 M 832   1866-1901
+	# (Note they jumped from 1145849 to 1145851)
+        '6M_0832_01' => '1145851',      # Recensement Spézet 6 M 832/1 (1866)
+        '6M_0832_02' => '1145852',      # Recensement Spézet 6 M 832/2 (1872)
+        '6M_0832_03' => '1145853',      # Recensement Spézet 6 M 832/3 (1876)
+        '6M_0832_04' => '1145854',      # Recensement Spézet 6 M 832/4 (1881)
+        '6M_0832_05' => '1145855',      # Recensement Spézet 6 M 832/5 (1886)
+        '6M_0832_06' => '1145856',      # Recensement Spézet 6 M 832/6 (1891)
+        '6M_0832_07' => '1145857',      # Recensement Spézet 6 M 832/7 (1896)
+        '6M_0832_08' => '1145858',      # Recensement Spézet 6 M 832/8 (1901)
+    },
+
+    '6M0833' => {                       # Recensement Spézet 6 M 833   1906-1936
+	# (Note they jumped from 1145858 to 1145860)
+        '6M_0833_01' => '1145860',      # Recensement Spézet 6 M 833/1 (1906)
+        '6M_0833_02' => '1145861',      # Recensement Spézet 6 M 833/2 (1911)
+        '6M_0833_03' => '1145862',      # Recensement Spézet 6 M 833/3 (1921)
+        '6M_0833_04' => '1145863',      # Recensement Spézet 6 M 833/4 (1926)
+        '6M_0833_05' => '1145864',      # Recensement Spézet 6 M 833/5 (1931)
+        '6M_0833_06' => '1145865',      # Recensement Spézet 6 M 833/6 (1936)
     },
 
     # https://recherche.archives.finistere.fr/archives/archives/fonds/FRAD029_W_Enregistrement/view:fonds
