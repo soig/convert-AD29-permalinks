@@ -11846,33 +11846,36 @@ my %convert = (
     '5E_0241_006_03' => '1132985',	# TD Quimperlé
 
     # Recensements :
+    #==============
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Cléden-Poher%20(Finistère)|&RECH_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&type=recensements
-    '6M0209' => {			# Recensement Clédin-Poher
+
+    # Recensements Cléden-Poher
+    '6M0209' => {                       # Recensement Cléden-Poher 6 M 209   1836-1876
 	# I don't have (and thus haven't tested) any of them in my tree:
-	572 => '1140255',   		# Recensement Clédin-Poher 1836
-	573 => '1140256',   		# Recensement Clédin-Poher 1841
-	574 => '1140257',   		# Recensement Clédin-Poher 1846
-	575 => '1140258',   		# Recensement Clédin-Poher 1851
-	576 => '1140259',   		# Recensement Clédin-Poher 1856
-	577 => '1140260',   		# Recensement Clédin-Poher 1861
-	578 => '1140261',   		# Recensement Clédin-Poher 1866
-	579 => '1140262',   		# Recensement Clédin-Poher 1872
-	580 => '1140263',   		# Recensement Clédin-Poher 1876
+        '6M_0209_01' => '1140255',      # Recensement Cléden-Poher 6 M 209/1 (1836)
+        '6M_0209_02' => '1140256',      # Recensement Cléden-Poher 6 M 209/2 (1841)
+        '6M_0209_03' => '1140257',      # Recensement Cléden-Poher 6 M 209/3 (1846)
+        '6M_0209_04' => '1140258',      # Recensement Cléden-Poher 6 M 209/4 (1851)
+        '6M_0209_05' => '1140259',      # Recensement Cléden-Poher 6 M 209/5 (1856)
+        '6M_0209_06' => '1140260',      # Recensement Cléden-Poher 6 M 209/6 (1861)
+        '6M_0209_07' => '1140261',      # Recensement Cléden-Poher 6 M 209/7 (1866)
+        '6M_0209_08' => '1140262',      # Recensement Cléden-Poher 6 M 209/8 (1872)
+        '6M_0209_09' => '1140263',      # Recensement Cléden-Poher 6 M 209/9 (1876)
     },
 
-    '6M0210' => {			# Recensement Clédin-Poher
+    '6M0210' => {                       # Recensement Cléden-Poher 6 M 210   1881-1936
 	# I only have (and thus only tested) the 1936 in my tree:
-	581 => '1140265',   		# Recensement Clédin-Poher 1881 (Note they jumped from 1140263 to 1140265)
-	582 => '1140266',   		# Recensement Clédin-Poher 1886
-	583 => '1140267',   		# Recensement Clédin-Poher 1891
-	584 => '1140268',   		# Recensement Clédin-Poher 1896
-	585 => '1140269',   		# Recensement Clédin-Poher 1901
-	586 => '1140270',   		# Recensement Clédin-Poher 1906
-	587 => '1140271',   		# Recensement Clédin-Poher 1911
-	588 => '1140272',   		# Recensement Clédin-Poher 1921
-	589 => '1140273',   		# Recensement Clédin-Poher 1926
-	590 => '1140274',   		# Recensement Clédin-Poher 1931
-	591 => '1140275',   		# Recensement Clédin-Poher 1936
+        '6M_0210_01' => '1140265',      # Recensement Cléden-Poher 6 M 210/1 (1881)
+        '6M_0210_02' => '1140266',      # Recensement Cléden-Poher 6 M 210/2 (1886)
+        '6M_0210_03' => '1140267',      # Recensement Cléden-Poher 6 M 210/3 (1891)
+        '6M_0210_04' => '1140268',      # Recensement Cléden-Poher 6 M 210/4 (1896)
+        '6M_0210_05' => '1140269',      # Recensement Cléden-Poher 6 M 210/5 (1901)
+        '6M_0210_06' => '1140270',      # Recensement Cléden-Poher 6 M 210/6 (1906)
+        '6M_0210_07' => '1140271',      # Recensement Cléden-Poher 6 M 210/7 (1911)
+        '6M_0210_08' => '1140272',      # Recensement Cléden-Poher 6 M 210/8 (1921)
+        '6M_0210_09' => '1140273',      # Recensement Cléden-Poher 6 M 210/9 (1926)
+        '6M_0210_10' => '1140274',      # Recensement Cléden-Poher 6 M 210/10 (1931)
+        '6M_0210_11' => '1140275',      # Recensement Cléden-Poher 6 M 210/11 (1936)
     },
 
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Kergloff%20(Finistère)|&RECH_commune_Md5=b514c4417f09b16bf87e6d3adcf13473|&type=recensements
