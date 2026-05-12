@@ -87,14 +87,9 @@ Si la commune est déja listée dans le générateur :
 ```
 
 
-Si la commune n'est pas déja listée dans le générateur, on a un message d'erreur indiquant qu'il faut un paramètre MD5SUM. Ce paramètre se retrouve sur le site des AD29.
+Si la commune n'est pas déja listée dans le générateur, il faut soit passer un paramètre MD5SUM (qui se retrouve sur le site des AD29), soit espérer que le nom de lieu est unique.
 
-```
-$ ./gen-new-ids-nmd-all2.pl Brest
-Unknown MD5 for 'Brest'
-```
-
-Il faut aller sur https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138, taper "`Brest`" dans le champ "`Commune`", sélectionner "`Brest (Finistère)`" dans les choix proposé puis noter la nouvelle URL dans le navigateur :
+Pour obtenir l'argument MD5, il faut aller sur https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138, taper "`Brest`" dans le champ "`Commune`", sélectionner "`Brest (Finistère)`" dans les choix proposé, presser le bouton de recherche, puis noter la nouvelle URL dans le navigateur :
 * https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Brest%20(Finist%C3%A8re)|&REch_commune_Md5=6f0c992f5656b2b59f520b3089463e94|&type=etatcivil
 
 Dans cette addresse il y a le paramètre qui nous intéresse : "REch_commune_Md5=**6f0c992f5656b2b59f520b3089463e94**"
