@@ -130,8 +130,10 @@ my %convert = (
     '1141EDEPOT_010' => '1001790.1472874',            # BMS Névez 1141 E-dépôt 10 (1502-1574, 1609-1636)
 
     # BMS Landeleau
-    '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
-    '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
+    '1091EDEPOT_001' => '644934.1469166',            # BMS Landeleau 1091 E-dépôt 1 (Baptêmes, mariages, sépultures.)
+    '1091EDEPOT_002' => '644935.1469167',            # BMS Landeleau 1091 E-dépôt 2 (Baptêmes, mariages, sépultures.)
+    '1091EDEPOT_003' => '644936.1469170',            # BMS Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales.)
+    '1091EDEPOT_005' => '644938.1469168',            # BMS naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances.)
 
     # BMS Laz
     '1109EDEPOT_001' => '645003.1470233',            # BMS Laz 1109 E-dépôt 1 (Baptêmes, mariages, sépultures.)
@@ -12114,7 +12116,7 @@ sub process {
     # for new URL scheme:
     $image =~ s/img=/img:/;
     # Looks like *some* communal collections have simplified ID (eg: 1237EDEPOT_003 => 1237EDEPOT):
-    $id =~ s/_00[0-9]$// if /EDEPOT_00/ && !/(1003|1008|1024|1141|1164|1237|1267|1374)EDEPOT/;
+    $id =~ s/_00[0-9]$// if /EDEPOT_00/ && !/(1003|1008|1024|1040|1141|1164|1237|1267|1374)EDEPOT/;
     if (!$id) {
 	warn "!!! FAILED TO PARSE '$_'!\n";
 	return;
