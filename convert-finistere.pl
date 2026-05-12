@@ -306,6 +306,11 @@ my %convert = (
     '3E064_0004' => '653417.1285731',            # BM  Elliant 3 E 64 4 (1772-1792.)
     '3E064_0005' => '653418.1285733',            # Sépulture Elliant 3 E 64 5 (1750-1792.)
 
+    # BMS La Forêt-Fouesnant
+    '3E072_0001' => '653719.1289015',            # BMS La Forêt-Fouesnant 3 E 72 1 (avril 1674-17 février 1676, 1er avril-1er novembre 1702, 1704-12 janvier 1720, 1734-1750.)
+    '3E072_0002' => '653720.1289017',            # Baptême mariage La Forêt-Fouesnant 3 E 72 2 (1751-1792.)
+    '3E072_0003' => '653721.1289019',            # Sépulture La Forêt-Fouesnant 3 E 72 3 (1751-1792.)
+
     # BMS Kergloff
     '3E106_0001' => '654908.1301833',            # BMS Kergloff 3 E 106 1 (1694-1707, 1709-1720, 1723-1724, 1726-1729, 1740, 1744-1752)
     '3E106_0002' => '654909.1301835',            # BM Kergloff 3 E 106 2 (1753-1792)
