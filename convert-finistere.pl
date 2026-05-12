@@ -98,7 +98,15 @@ my %convert = (
     '1027EDEPOT_013' => '1465028',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Châteauneuf-du-Faou 1027 E DEPOT 13 (Tables décennales)
 
     # BMS Concarneau
-    '1040 E DEPOT' => '1465702',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Concarneau 1040 E DEPOT 9 (Tables décennales)
+    '1040EDEPOT_002' => '1465692',            # BMS Concarneau 1040 E DEPOT 2 (Baptêmes.)
+    '1040EDEPOT_003' => '1465693',            # BMS Concarneau 1040 E DEPOT 3 (Baptêmes, mariages et sépultures.)
+    '1040EDEPOT_004' => '1465694',            # BMS Concarneau 1040 E DEPOT 4 (Baptêmes, mariages et sépultures.)
+    '1040EDEPOT_005' => '1465695',            # BMS Concarneau 1040 E DEPOT 5 (Baptêmes, mariages et sépultures.)
+    '1040EDEPOT_006' => '1465696',            # BMS Concarneau 1040 E DEPOT 6 (Baptêmes, mariages et sépultures.)
+    '1040EDEPOT_007' => '1465697',            # BMS Concarneau 1040 E DEPOT 7 (Baptêmes, mariages et sépultures.)
+    '1040EDEPOT_008' => '1465698',            # BMS Concarneau 1040 E DEPOT 8 (Baptêmes, mariages et sépultures.)
+
+    # BMS Landeleau
     '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
 
