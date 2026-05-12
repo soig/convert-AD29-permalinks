@@ -48,7 +48,22 @@ my %convert = (
     '1029EDEPOT_001' => '644418.1465136', # 1029 E-dépôt 1 (Baptêmes et mariages (1783-1786, 1790-1792). Sépultures (1789-1792). Naissances (1793-an VI, an VIII-1820).)
 
     # BMS Carhaix
-    '1024EDEPOT_018' => '1464972',            # BMS Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 18 (1788-1793.)
+    '1024EDEPOT_002' => '1464954',            # BMS Carhaix 1024 E DEPOT 2 (1651-1653)
+    '1024EDEPOT_003' => '1464955',            # BMS Carhaix 1024 E DEPOT 3 (1654-1660)
+    '1024EDEPOT_004' => '1464956',            # BMS Carhaix 1024 E DEPOT 4 (1661-1670)
+    '1024EDEPOT_005' => '1464957',            # BMS Carhaix 1024 E DEPOT 5 (1671-1677)
+    '1024EDEPOT_006' => '1464958',            # BMS Carhaix 1024 E DEPOT 6 (1678-1680)
+    '1024EDEPOT_007' => '1464959',            # BMS Carhaix 1024 E DEPOT 7 (1681-1683)
+    '1024EDEPOT_008' => '1464960',            # BMS Carhaix 1024 E DEPOT 8 (1684-1690)
+    '1024EDEPOT_009' => '1464961',            # BMS Carhaix 1024 E DEPOT 9 (1691-1692)
+    '1024EDEPOT_010' => '1464962',            # BMS Carhaix 1024 E DEPOT 10 (1693-1717)
+    '1024EDEPOT_011' => '1464963',            # BMS Carhaix 1024 E DEPOT 11 (1718-1732)
+    '1024EDEPOT_012' => '1464964',            # BMS Carhaix 1024 E DEPOT 12 (1733-1738)
+    '1024EDEPOT_013' => '1464965',            # BMS Carhaix 1024 E DEPOT 13 (1739-1745)
+    '1024EDEPOT_014' => '1464966',            # BMS Carhaix 1024 E DEPOT 14 (1746-1760)
+    '1024EDEPOT_015' => '1464967',            # BMS Carhaix 1024 E DEPOT 15 (1761-1776)
+    '1024EDEPOT_016' => '1464968',            # BMS Carhaix 1024 E DEPOT 16 (1777-1787)
+    '1024EDEPOT_018' => '1464972',            # BMS Carhaix 1024 E DEPOT 18 (1788-1793)
     # Techniquement, c'est du NMD et plus du BMS:
     #'1024EDEPOT_019' => '1464976',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 19 (1793-1821.)
     '1024EDEPOT_020' => '1464977',            # Registre décès mariage naissance Carhaix (Carhaix-Plouguer, Finistère) 1024 E DEPOT 20 (1822-1841.)
