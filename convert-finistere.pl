@@ -364,6 +364,9 @@ my %convert = (
     '3E189_0003' => '657658.1324610',            # Sépulture Motreff 3 E 189 3 (1754-1792)
 
     # BMS Le Moustoir
+    '3E190_0001' => '657690.1324826',            # Baptême mariage sépulture Le Moustoir (Châteauneuf-du-Faou, Finistère) 3 E 190 1 (1704-1706, 1708-1712, 1715-1719, 1721-1724, 1728-1754.)
+    '3E190_0002' => '657691.1324828',            # Baptême mariage Le Moustoir (Châteauneuf-du-Faou, Finistère) 3 E 190 2 (1755-28 mars 1792.)
+    '3E190_0003' => '657692.1324830',            # Sépulture Le Moustoir (Châteauneuf-du-Faou, Finistère) 3 E 190 3 (1755-1773, 1775-1791.)
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
 
     # BMS Penhars
