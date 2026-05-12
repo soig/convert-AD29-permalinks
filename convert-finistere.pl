@@ -104,9 +104,16 @@ my %convert = (
     '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
 
     # BMS Plonévez-du-Faou
-    '1164EDEPOT_002' => '645226.1473981',            # B   Plonévez-du-Faou 1164 E-dépôt 2 (Baptêmes.)
-    '1164EDEPOT_008' => '645232.1473987',            # BM  Plonévez-du-Faou 1164 E-dépôt 8 (Baptêmes, mariages.)
-    '1164EDEPOT_009' => '645233.1473988',            # Sépultures Plonévez-du-Faou 1164 E-dépôt 9 (Sépultures.)
+    '1164EDEPOT_001' => '645225.1473980',            # BMS Plonévez-du-Faou 1164 E-dépôt 1 (Baptêmes, mariages, sépultures.)
+    '1164EDEPOT_002' => '645226.1473981',            # BMS Plonévez-du-Faou 1164 E-dépôt 2 (Baptêmes.)
+    '1164EDEPOT_003' => '645227.1473982',            # BMS Plonévez-du-Faou 1164 E-dépôt 3 (Baptêmes, mariages, sépultures.)
+    '1164EDEPOT_004' => '645228.1473983',            # BMS Plonévez-du-Faou 1164 E-dépôt 4 (Baptêmes, mariages, sépultures.)
+    '1164EDEPOT_005' => '645229.1473984',            # BMS Plonévez-du-Faou 1164 E-dépôt 5 (Baptêmes, mariages, sépultures.)
+    '1164EDEPOT_006' => '645230.1473985',            # BMS Plonévez-du-Faou 1164 E-dépôt 6 (Baptêmes, mariages, sépultures.)
+    '1164EDEPOT_007' => '645231.1473986',            # BMS Plonévez-du-Faou 1164 E-dépôt 7 (Baptêmes, mariages, sépultures.)
+    '1164EDEPOT_008' => '645232.1473987',            # BMS Plonévez-du-Faou 1164 E-dépôt 8 (Baptêmes, mariages.)
+    '1164EDEPOT_009' => '645233.1473988',            # BMS Plonévez-du-Faou 1164 E-dépôt 9 (Sépultures.)
+    '1164EDEPOT_010' => '645234.1473989',            # BMS Plonévez-du-Faou 1164 E-dépôt 10 (Baptêmes, mariages, sépultures.)
     '1164EDEPOT_011' => '645235.1473990',            # BMS Plonévez-du-Faou 1164 E-dépôt 11 (Baptêmes, mariages, sépultures.)
 
     # BMS Poullaouen
