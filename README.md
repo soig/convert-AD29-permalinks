@@ -55,7 +55,7 @@ diff -u G.gramps{.orig,} | vim -
 
 ## Comment ajouter une nouvelle commune ?
 
-### Comment rajouter un registre unique
+### Comment rajouter un registre unique à la main
 
 Si vous avez bien fait votre travail, vous avez le lien, le numéro de vue et le nom du registre :
 Exemple d'un mariage du 1702-11-21 à Carhaix :
@@ -100,6 +100,15 @@ Il suffit maintenant de le passer en argument au script :
 ```
 
 Le résultat est dans le fichier texte dont il suffit de rajouter le contenu dans `convert-finistere.pl` (de préférence en gardant les côtes triées).
+
+
+### Comment rajouter tous les registres NMD de la commune
+
+Si la commune est déja listée dans le générateur :
+
+```
+./gen-new-ids-bms-all2.pl Névez
+```
 
 
 ### Comment rajouter tous les tables décennales de la commune
