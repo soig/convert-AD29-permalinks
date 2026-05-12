@@ -477,10 +477,15 @@ my %convert = (
     '3E212_0003' => '658572.1332283',            # BM Plonéis 3 E 212 3 (1775-1792.)
     '3E212_0004' => '658573.1332285',            # Sépulture Plonéis 3 E 212 4 (1749-1792.)
 
-    # BMS Saint-Quijeau
-    '3E326_0001' => '1040982.1366562',            # BMS Saint-Quijeau E 326 1 (1687-1690, 1704-1706, 1708-1712, 1715-1717, 1719-1721, 1723, 1726, 1728-1738, 1744-1752)
-    '3E326_0002' => '1040983.1366564',            # BM  Saint-Quijeau E 326 2 (1753-1764, 1766-1791)
-    '3E326_0003' => '1040984.1366566',            # Sépulture Saint-Quijeau E 326 3 (1753-1793)
+    # BMS Plonévez-du-Faou
+    '3E214_0001' => '658661.1333267',            # BMS Plonévez-du-Faou 3 E 214 1 (Baptêmes, mariages, sépultures (1694-1702, 1704, 1706-1712, 1714-1719, 1721, 1723, 1728) ; extraits mortuaires (1704-1728))
+    '3E214_0002' => '658662.1333268',            # BMS Plonévez-du-Faou 3 E 214 2 (Baptêmes, mariages, sépultures (1729-1739) ; extraits mortuaires (1729-1746))
+    '3E214_0003' => '658663.1333269',            # BMS Plonévez-du-Faou 3 E 214 3 (1740-1750)
+    '3E214_0004' => '658664.1333271',            # BM  Plonévez-du-Faou 3 E 214 4 (1751-1766)
+    '3E214_0005' => '658665.1333272',            # BM  Plonévez-du-Faou 3 E 214 5 (1767-1780)
+    '3E214_0006' => '658666.1333273',            # BM  Plonévez-du-Faou 3 E 214 6 (1781-1792)
+    '3E214_0007' => '658667.1333275',            # Sépulture Plonévez-du-Faou 3 E 214 7 (1751-1772)
+    '3E214_0008' => '658668.1333276',            # Sépulture Plonévez-du-Faou 3 E 214 8 (1773-1792)
 
     # BMS Plouguer
     '3E234_0001' => '659570.1340587',	# BMS Plouguer 3 E 234 1        1694-1703
@@ -500,21 +505,6 @@ my %convert = (
     '3E270_0004' => '1039198.1354569',            # Baptême mariage Poullaouen 3 E 270 4 (1778-1792.)
     '3E270_0005' => '1039199.1354571',            # Sépulture Poullaouen 3 E 270 5 (1753-1765, 1768-1792.)
 
-    # BMS Saint-Hernin
-    '3E309_0001' => '1040255.1634650',            # BMS Saint-Hernin 3 E 309 1 (9 avril-15 septembre 1694, 6 novembre-décembre 1702, 1704-1720, 1724-1726, 1728-1734)
-    '3E309_0004' => '1040258.1634654',            # BM  Saint-Hernin 3 E 309 4 (1771-1792)
-    '3E309_0005' => '1040259.1634656',            # Sépulture Saint-Hernin 3 E 309 5 (1753-1792)
-
-    # BMS Plonévez-du-Faou
-    '3E214_0001' => '658661.1333267',            # BMS Plonévez-du-Faou 3 E 214 1 (Baptêmes, mariages, sépultures (1694-1702, 1704, 1706-1712, 1714-1719, 1721, 1723, 1728) ; extraits mortuaires (1704-1728))
-    '3E214_0002' => '658662.1333268',            # BMS Plonévez-du-Faou 3 E 214 2 (Baptêmes, mariages, sépultures (1729-1739) ; extraits mortuaires (1729-1746))
-    '3E214_0003' => '658663.1333269',            # BMS Plonévez-du-Faou 3 E 214 3 (1740-1750)
-    '3E214_0004' => '658664.1333271',            # BM  Plonévez-du-Faou 3 E 214 4 (1751-1766)
-    '3E214_0005' => '658665.1333272',            # BM  Plonévez-du-Faou 3 E 214 5 (1767-1780)
-    '3E214_0006' => '658666.1333273',            # BM  Plonévez-du-Faou 3 E 214 6 (1781-1792)
-    '3E214_0007' => '658667.1333275',            # Sépulture Plonévez-du-Faou 3 E 214 7 (1751-1772)
-    '3E214_0008' => '658668.1333276',            # Sépulture Plonévez-du-Faou 3 E 214 8 (1773-1792)
-
     # BMS Querrien
     '3E274_0001' => '1039321.1355723',            # BMS Querrien 3 E 274 1 (Baptêmes (1653 (incomplet)-1661) ; baptêmes, sépultures (1669, 1672-1673) ; baptêmes, mariages, sépultures (1693, 1696 (incomplet), 1704 (incomplet), 1707, 1709-1711 (incomplet), 1712-1720 (incomplet) ).)
     '3E274_0002' => '1039322.1355724',            # BMS Querrien 3 E 274 2 (24 décembre 1720-4 janvier 1736.)
@@ -523,6 +513,17 @@ my %convert = (
     '3E274_0005' => '1039325.1355728',            # BM  Querrien 3 E 274 5 (1764-1766 (incomplet), 1767-1769, 1771-1779.)
     '3E274_0006' => '1039326.1355729',            # BM  Querrien 3 E 274 6 (1780-1790, 1792-7 janvier 1793.)
     '3E274_0007' => '1039327.1355731',            # Sépulture Querrien 3 E 274 7 (1749-1766, 1768-1771, 1773-1776 (incomplet), 1777-1er avril 1793.)
+
+    # BMS Saint-Hernin
+    '3E309_0001' => '1040255.1634650',            # BMS Saint-Hernin 3 E 309 1 (9 avril-15 septembre 1694, 6 novembre-décembre 1702, 1704-1720, 1724-1726, 1728-1734)
+    '3E309_0004' => '1040258.1634654',            # BM  Saint-Hernin 3 E 309 4 (1771-1792)
+    '3E309_0005' => '1040259.1634656',            # Sépulture Saint-Hernin 3 E 309 5 (1753-1792)
+
+
+    # BMS Saint-Quijeau
+    '3E326_0001' => '1040982.1366562',            # BMS Saint-Quijeau E 326 1 (1687-1690, 1704-1706, 1708-1712, 1715-1717, 1719-1721, 1723, 1726, 1728-1738, 1744-1752)
+    '3E326_0002' => '1040983.1366564',            # BM  Saint-Quijeau E 326 2 (1753-1764, 1766-1791)
+    '3E326_0003' => '1040984.1366566',            # Sépulture Saint-Quijeau E 326 3 (1753-1793)
 
     # BMS Scaër
     '3E344_0001' => '1045957.1371644',            # BMS Scaër 3 E 344 1 (1669-1670 (incomplets), 1701, 1704-1709 (incomplet), 1710-1714 (incomplets), 1715-1716 (incomplet), 1717-6 février 1719)
