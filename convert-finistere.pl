@@ -2157,7 +2157,7 @@ my %convert = (
 
     # NMD Cléden-Poher
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Cléden-Poher%20(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[]=Naissance&type=etatcivil
-    '3E042_0011' => {		        # Naissances Cleden-Poher  3 E 42 11		1793 - an X
+    '3E042_0011' => {		        # Naissances Cleden-Poher  3 E 42 11		1793-AN10
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
 	'AN02' => '1277179',            # Naissance Cléden-Poher 3 E 42/11/1 (1793 - an II)
 	'AN03' => '1277180',            # Naissance Cléden-Poher 3 E 42/11/2 (an III)
@@ -2402,7 +2402,7 @@ my %convert = (
     },
 
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=Cléden-Poher+(Finistère)|&REch_commune_Md5=5be72e6a952159ab5ea609ce32073fcc|&Rech_typologie[0]=Décès&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil&pagination_25
-    '3E042_0028' => {			# Décès Cléden-Poher  3 E 42 28             1793 - an X
+    '3E042_0028' => {			# Décès Cléden-Poher  3 E 42 28             1793-AN10
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
 	'AN02' => '1277491',            # Décès Cléden-Poher 3 E 42/28/1 (1793 - an II)
         'AN03' => '1277492',            # Décès Cléden-Poher 3 E 42/28/2 (an III)
@@ -2415,7 +2415,7 @@ my %convert = (
         'AN10' => '1277499',            # Décès Cléden-Poher 3 E 42/28/9 (an X)
     },
 
-    '3E042_0029' => {	    # Décès Cléden-Poher  3 E 42 29             an XI - 1822
+    '3E042_0029' => {	    # Décès Cléden-Poher  3 E 42 29             AN11-1822
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
         'AN11' => '1277501',            # Décès Cléden-Poher 3 E 42/29/1 (an XI)
 	'AN12' => '1277502',            # Décès Cléden-Poher 3 E 42/29/2 (an XII)
@@ -10061,7 +10061,7 @@ my %convert = (
     },
 
     # NMD Scaër
-    '3E344_0013' => {			# Naissance Scaër 3 E 344 13   AN 2 - AN 10
+    '3E344_0013' => {			# Naissance Scaër 3 E 344 13   AN02-AN10
 	'AN02' => '1371660',            # Naissance Scaër 3 E 344/13/1 (1793 - an II)
 	'AN03' => '1371661',            # Naissance Scaër 3 E 344/13/2 (an III)
 	'AN04' => '1371662',            # Naissance Scaër 3 E 344/13/3 (an IV)
@@ -10193,7 +10193,7 @@ my %convert = (
 	1892   => '1371768',            # Naissance Scaër 3 E 344/23/7 (1892)
     },
 
-    '3E344_0024' => {			# Mariage promesse de mariage Scaër 3 E 344 24   an 2 - an 10
+    '3E344_0024' => {			# Mariage promesse de mariage Scaër 3 E 344 24   AN02-AN10
 	'AN02' => '1371825',            # Mariage promesse de mariage Scaër 3 E 344/24/1 (1793 - an II)
 	# HOLE! (lacune du site)
 	'AN05' => '1371826',            # Mariage promesse de mariage Scaër 3 E 344/24/2 (an V)
@@ -10204,7 +10204,7 @@ my %convert = (
 	'AN10' => '1371831',            # Mariage promesse de mariage Scaër 3 E 344/24/7 (an X)
     },
 
-    '3E344_0025' => {			# Mariage promesse de mariage Scaër 3 E 344 25   an 11 - 1812
+    '3E344_0025' => {			# Mariage promesse de mariage Scaër 3 E 344 25   AN11-1812
 	'AN11' => '1371833',            # Mariage promesse de mariage Scaër 3 E 344/25/1 (an XI)
 	'AN12' => '1371834',            # Mariage promesse de mariage Scaër 3 E 344/25/2 (an XII)
 	'AN13' => '1371835',            # Mariage promesse de mariage Scaër 3 E 344/25/3 (an XIII)
@@ -11179,7 +11179,7 @@ my %convert = (
 
     # NMD Tourc'h
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Tourch+%28Finistère%29%7C&REch_commune_Md5=b6713734e42457b28f4773f547444ce7%7C&Rech_typologie%5B0%5D=Naissance&type=etatcivil
-    '3E351_0003' => {			# Naissance Tourc'h 3 E 351 3   an II-1812
+    '3E351_0003' => {			# Naissance Tourc'h 3 E 351 3   AN02-1812
 	'AN02' => '1374309',            # Naissance Tourc'h 3 E 351/3/1 (an II)
 	'AN03' => '1374310',            # Naissance Tourc'h 3 E 351/3/2 (an III)
 	'AN04' => '1374311',            # Naissance Tourc'h 3 E 351/3/3 (an IV)
