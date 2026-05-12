@@ -121,6 +121,24 @@ my %convert = (
 
     # Registre matricule:
     #====================
+
+    # 1880
+    '1R00919' => '835377.1075601',            # Bureau de Brest n° 1 à 489. (1880)
+    '1R00920' => '835378.1075602',            # Bureau de Brest n° 490 à 985. (1880)
+    '1R00921' => '835379.1075603',            # Bureau de Brest n° 986 à 1478. (1880)
+    '1R00922' => '835380.1075604',            # Bureau de Brest n° 1479 à 1975. (1880)
+    '1R00923' => '835381.1075605',            # Bureau de Brest n° 1976 à 2473. (1880)
+    '1R00924' => '835382.1075606',            # Bureau de Brest n° 2474 à 2967. (1880)
+    '1R00925' => '835383.1075607',            # Bureau de Brest n° 2968 à 3042. (1880)
+    '1R00927' => '1075609',                   # Bureau de Brest-Crozon n° 2051 à 2181, 2532, 2722 à 2729, 2184, 99. (1880)
+    '1R00928' => '835386.1075611',            # Bureau de Quimper n° 1 à 491. (1880)
+    '1R00929' => '835387.1075612',            # Bureau de Quimper n° 492 à 985. (1880)
+    '1R00930' => '835388.1075613',            # Bureau de Quimper n° 986 à 1480. (1880)
+    '1R00931' => '835389.1075614',            # Bureau de Quimper n° 1481 à 1978. (1880)
+    '1R00932' => '835390.1075615',            # Bureau de Quimper n° 1979 à 2473. (1880)
+    '1R00933' => '835391.1075616',            # Bureau de Quimper n° 2474 à 2755. (1880)
+    '1R00935' => '1075618',                   # Liste matricule de la subdivision de Quimper des engagés volontaires non encore inscrits au registre matricule et des réserves étrangers à la subdivision pris au domicile. (1880)
+
     # 1902
     '1R01281' => '835739.1076011',            # Bureau de Brest n° 1 à 500. (1902)
     '1R01282' => '835740.1076012',            # Bureau de Brest n° 501 à 1000. (1902)
