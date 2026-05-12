@@ -2297,7 +2297,11 @@ my %convert = (
 	'AN10' => '1277344',            # Mariage Cléden-Poher 3 E 42/20/9 (an X)
     },
 
-    '3E042_0021' => {			# Mariage Cléden-Poher 3 E 42 21   AN12-1822
+    '3E042_0021' => {			# Mariage Cléden-Poher 3 E 42 21   AN11-1822
+	'AN11' => '1277346',            # Mariage Cléden-Poher 3 E 42/21/1 (an XI)
+	'AN12' => '1277347',            # Mariage Cléden-Poher 3 E 42/21/2 (an XII)
+	'AN13' => '1277348',            # Mariage Cléden-Poher 3 E 42/21/3 (an XIII)
+	'AN14' => '1277349',            # Mariage Cléden-Poher 3 E 42/21/4 (an XIV - 1806)
 	1807   => '1277350',            # Mariage Cléden-Poher 3 E 42/21/5 (1807)
 	1808   => '1277351',            # Mariage Cléden-Poher 3 E 42/21/6 (1808)
 	1809   => '1277352',            # Mariage Cléden-Poher 3 E 42/21/7 (1809)
@@ -2314,10 +2318,6 @@ my %convert = (
 	1820   => '1277363',            # Mariage Cléden-Poher 3 E 42/21/18 (1820)
 	1821   => '1277364',            # Mariage Cléden-Poher 3 E 42/21/19 (1821)
 	1822   => '1277365',            # Mariage Cléden-Poher 3 E 42/21/20 (1822)
-	'AN11' => '1277346',            # Mariage Cléden-Poher 3 E 42/21/1 (an XI)
-	'AN12' => '1277347',            # Mariage Cléden-Poher 3 E 42/21/2 (an XII)
-	'AN13' => '1277348',            # Mariage Cléden-Poher 3 E 42/21/3 (an XIII)
-	'AN14' => '1277349',            # Mariage Cléden-Poher 3 E 42/21/4 (an XIV - 1806)
     },
 
     '3E042_0022' => {			# Mariage Cléden-Poher 3 E 42 22   1823-1832
@@ -3667,7 +3667,7 @@ my %convert = (
     # NMD Kergloff
     # https://recherche.archives.finistere.fr/archive/resultats/etatcivil/n:138?REch_commune_Libel=Kergloff+%28Finist%C3%A8re%29%7C&REch_commune_Md5=b514c4417f09b16bf87e6d3adcf13473%7C&Rech_typologie%5B0%5D=Naissance&RECH_unitdate_debut=1793&RECH_unitdate_fin=1810&type=etatcivil
 
-    '3E106_0004' => {                   # Naissance Kergloff 3 E 106 4   1793-1810
+    '3E106_0004' => {                   # Naissance Kergloff 3 E 106 4   1793-1811
 	999999 => 'dummy',              # Just so that perl-mode indents correctly :-(
         'AN02' => '1301840',            # Naissance Kergloff 3 E 106/4/1 (1793 - an II)
         'AN03' => '1301841',            # Naissance Kergloff 3 E 106/4/2 (an III)
@@ -4834,16 +4834,12 @@ my %convert = (
 	1894   => '1307248',            # Naissance Landeleau 3 E 122/13/11 (1894)
     },
 
-    '3E122_0014' => {			# Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122 14   AN06-1812
+    '3E122_0014' => {			# Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122 14   1793-1812
+	# FIXME : IDs won't work, would have been "ANxx" on the old web site:
+	'Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III' => '1307296',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/1 (Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III)
 	'17 nivôse an III-25 vendémiaire an IV' => '1307297',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/2 (17 nivôse an III-25 vendémiaire an IV)
-	1807   => '1307307',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/12 (1807)
-	1808   => '1307308',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/13 (1808)
-	1809   => '1307309',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/14 (1809)
-	1810   => '1307310',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/15 (1810)
-	1811   => '1307311',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/16 (1811)
-	1812   => '1307312',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/17 (1812)
-	'29 thermidor an V' => '1307299',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/4 (29 thermidor an V)
 	'8 brumaire an IV-12 messidor an V (contient des publications de mariages)' => '1307298',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/3 (8 brumaire an IV-12 messidor an V (contient des publications de mariages))
+	'29 thermidor an V' => '1307299',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/4 (29 thermidor an V)
 	'AN06' => '1307300',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/5 (an VI)
 	'AN09' => '1307301',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/6 (an IX (contient des promesses de mariages))
 	'AN10' => '1307302',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/7 (an X)
@@ -4851,7 +4847,12 @@ my %convert = (
 	'AN12' => '1307304',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/9 (an XII)
 	'AN13' => '1307305',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/10 (an XIII)
 	'AN14' => '1307306',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/11 (an XIV - 1806)
-	'Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III' => '1307296',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/1 (Mariages : 1793-6 brumaire an III (contient des publications et promesses de mariages) ; naissances : 5 thermidor an II-5 frimaire an III)
+	1807   => '1307307',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/12 (1807)
+	1808   => '1307308',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/13 (1808)
+	1809   => '1307309',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/14 (1809)
+	1810   => '1307310',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/15 (1810)
+	1811   => '1307311',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/16 (1811)
+	1812   => '1307312',            # Mariage naissance publication de mariage promesse de mariage Landeleau 3 E 122/14/17 (1812)
     },
 
     '3E122_0015' => {			# Mariage Landeleau 3 E 122 15   1813-1827
@@ -4948,6 +4949,7 @@ my %convert = (
     '3E122_0021' => {			# Décès Landeleau 3 E 122 21   1793-1812
 	'1793-21 frimaire an III' => '1307447',            # Décès Landeleau 3 E 122/21/1 (1793-21 frimaire an III)
 	# There's no 3 E 122/21/2 in AD29
+	# FIXME : ID won't work, would have been "ANxx" on the old web site:
 	'an IV-15 messidor an V' => '1307449',            # Décès Landeleau 3 E 122/21/3 (an IV-15 messidor an V)
 	'AN06' => '1307451',            # Décès Landeleau 3 E 122/21/5 (an VI)
 	'AN07' => '1307452',            # Décès Landeleau 3 E 122/21/6 (an VII)
@@ -11292,11 +11294,12 @@ my %convert = (
     },
 
     '3E351_0011' => {			# Mariage publication de mariage promesse de mariage Tourc'h 3 E 351 11   AN02-1793-1812
-	'1793-an IV (contient uniquement des publications de mariages)' => '1374467',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/4 (1793-an IV (contient uniquement des publications de mariages))
 	'AN02' => '1374464',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/1 (1793 - an II)
 	'AN03' => '1374465',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/2 (an III)
 	'AN04' => '1374466',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/3 (an IV)
 	'AN05' => '1374468',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/5 (an V)
+	# FIXME : ID won't work, would have been "ANxx" on the old web site:
+	'1793-an IV (contient uniquement des publications de mariages)' => '1374467',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/4 (1793-an IV (contient uniquement des publications de mariages))
 	'AN06' => '1374469',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/6 (an VI (contient également des promesses de mariages))
 	'AN07' => '1374470',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/7 (an VII (contient également des promesses de mariages))
 	'AN08' => '1374471',            # Mariage publication de mariage promesse de mariage Tourc'h 3 E 351/11/8 (an VIII (contient également des promesses de mariages))
