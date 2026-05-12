@@ -10,6 +10,8 @@
 # - Maybe merge back in NMD script with soft link (but what about Windows users?),
 #   with different function called depending on the name or an option?
 
+# See https://archives.finistere.fr/sites/default/files/informer_etat_civil_tableau_suivi_communicabilite.pdf for a list of ID by towns
+
 use strict;
 use Data::Dumper;
 use File::Temp qw(tempfile);

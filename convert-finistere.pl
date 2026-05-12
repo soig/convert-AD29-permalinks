@@ -306,6 +306,20 @@ my %convert = (
     '3E109_0004' => '655002.1302791',            # BM Kernével 3 E 109 4 (1773-1792)
     '3E109_0005' => '655003.1302793',            # Sépulture Kernével 3 E 109 5 (1749-1792)
 
+    # BMS Lampaul-Guimiliau
+    '3E117_0001' => '655356.1304911',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 1 (1687-1690, 1692-1696.)
+    '3E117_0002' => '655357.1304912',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 2 (1697-1703.)
+    '3E117_0003' => '655358.1304913',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 3 (1704-1710.)
+    '3E117_0004' => '655359.1304914',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 4 (1711-1718.)
+    '3E117_0005' => '655360.1304915',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 5 (1719-1727.)
+    '3E117_0006' => '655361.1304916',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 6 (1728-1736.)
+    '3E117_0007' => '655362.1304917',            # Baptême mariage sépulture Lampaul-Guimiliau 3 E 117 7 (1737, 1739-1745.)
+    '3E117_0008' => '655363.1304919',            # Baptême mariage Lampaul-Guimiliau 3 E 117 8 (1747-1755, 1757-1760.)
+    '3E117_0009' => '655364.1304920',            # Baptême mariage Lampaul-Guimiliau 3 E 117 9 (1761-1776.)
+    '3E117_0010' => '655365.1304921',            # Baptême mariage Lampaul-Guimiliau 3 E 117 10 (1777-1792.)
+    '3E117_0011' => '655366.1304923',            # Sépulture Lampaul-Guimiliau 3 E 117 11 (1747-1770.)
+    '3E117_0012' => '655367.1304924',            # Sépulture Lampaul-Guimiliau 3 E 117 12 (1771-1792.)
+
     # BMS Landeleau
     '3E122_0001' => '655525.1307132',            # BMS Landeleau 3 E 122 1 (Baptêmes, mariages, sépultures (1694-1699, 1701-1718, 1724, 1726-1732) ; extraits mortuaires (1699-1732))
     '3E122_0002' => '655526.1307133',            # BMS Landeleau 3 E 122 2 (Baptêmes, mariages, sépultures (1733-1751) ; extraits mortuaires (1733-1746))
