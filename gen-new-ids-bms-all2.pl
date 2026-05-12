@@ -102,10 +102,6 @@ Eg: $0 'Carhaix'
 );
 }
 
-if (!$md5) {
-    die "Unknown MD5 for '$ville'\n";
-}
-
 my $real_ville = $special_towns{$ville} || $ville =~ /Finist/ ? $ville : "$ville+(Finistère)"; # %20(Finistère)
 #my $real_ville = $ville =~ /Finist/ ? $ville : "$ville+(Finistère)"; # %20(Finistère)
 
@@ -124,6 +120,8 @@ END {
 
 # Look for B, M & S at once:
 my $url = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=%s|&REch_commune_Md5=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&RECH_images=1&type=etatcivil&pagination_25";
+my $url_nomd5 = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&RECH_images=1&type=etatcivil&pagination_25";
+
 my (%results, %pretty);
 foreach my $type ('BMS') { # Using "BMS" while hardcoding all of B, M & S in URL instead of "foreach my $type (qw(Baptêmes Mariage Sépulture))" which is way faster
     my $years2 = $years{$type};
@@ -131,7 +129,11 @@ foreach my $type ('BMS') { # Using "BMS" while hardcoding all of B, M & S in URL
 	my $end = $years2->{$first};
 	my $typologie = 'Baptême+&Rech_typologie%5B1%5D=Mariage&Rech_typologie%5B2%5D=Sépulture'; # Want "&Rech_typologie%5B0%5D=Baptême+&Rech_typologie%5B1%5D=Mariage&Rech_typologie%5B2%5D=Sépulture"
 	#warn ">> TRY " . sprintf($url, $real_ville, $md5, $typologie, $first, $end) . "\n";
-	process(sprintf($url, $real_ville, $md5, $typologie, $first, $end));
+	if ($md5) {
+	    process(sprintf($url, $real_ville, $md5, $typologie, $first, $end));
+	} else {
+	    process(sprintf($url_nomd5, $real_ville, $typologie, $first, $end));
+	}
     }
 }
 

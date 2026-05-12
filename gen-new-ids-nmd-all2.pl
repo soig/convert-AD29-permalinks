@@ -96,10 +96,6 @@ Eg: $0 'Carhaix'
 );
 }
 
-if (!$md5) {
-    die "Unknown MD5 for '$ville'\n";
-}
-
 my $real_ville = $special_towns{$ville} || $ville =~ /Finist/ ? $ville : "$ville+(Finistère)"; # %20(Finistère)
 #my $real_ville = $ville =~ /Finist/ ? $ville : "$ville+(Finistère)"; # %20(Finistère)
 
@@ -193,13 +189,18 @@ my %conv_cal_republicain = (
     );
 
 my $url = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune_Libel=%s|&REch_commune_Md5=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&type=etatcivil&pagination_25";
+my $url_nomd5 = "https://recherche.archives.finistere.fr/archive/resultats/etatcivil/tableau/n:138/limit:20?REch_commune=%s|&Rech_typologie[0]=%s&RECH_unitdate_debut=%s&RECH_unitdate_fin=%s&type=etatcivil&pagination_25";
 my (%results, %pretty);
 foreach my $type (qw(Naissance Mariage Décès)) {
     my $years2 = $years{$type};
     foreach my $first (sort(keys %$years2)) {
 	my $end = $years2->{$first};
 	#warn ">> TRY " . sprintf($url, $real_ville, $md5, $type, $first, $end) . "\n";
-	process(sprintf($url, $real_ville, $md5, $type, $first, $end));
+	if ($md5) {
+	    process(sprintf($url, $real_ville, $md5, $type, $first, $end));
+	} else {
+	    process(sprintf($url_nomd5, $real_ville, $type, $first, $end));
+	}
     }
 }
 
