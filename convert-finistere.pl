@@ -111,6 +111,18 @@ my %convert = (
     '1040EDEPOT_007' => '1465697',            # BMS Concarneau 1040 E DEPOT 7 (Baptêmes, mariages et sépultures.)
     '1040EDEPOT_008' => '1465698',            # BMS Concarneau 1040 E DEPOT 8 (Baptêmes, mariages et sépultures.)
 
+    # BMS Névez
+    '1141EDEPOT_001' => '1001781.1472878',            # BMS Névez 1141 E-dépôt 1 (Mariages (1657-1676). Sépultures (1656-1676))
+    '1141EDEPOT_002' => '1001782.1472876',            # BMS Névez 1141 E-dépôt 2 (Baptêmes (1636-1676). Sépultures : registres d'inhumation des petits enfants (1658-1676))
+    '1141EDEPOT_003' => '1001783.1472880',            # BMS Névez 1141 E-dépôt 3 (1669-1684)
+    '1141EDEPOT_004' => '1001784.1472881',            # BMS Névez 1141 E-dépôt 4 (1685-1713)
+    '1141EDEPOT_005' => '1001785.1472882',            # BMS Névez 1141 E-dépôt 5 (1714-1731)
+    '1141EDEPOT_006' => '1001786.1472883',            # BMS Névez 1141 E-dépôt 6 (1732-1747)
+    '1141EDEPOT_007' => '1001787.1472885',            # BMS Névez 1141 E-dépôt 7 (1748-1769)
+    '1141EDEPOT_008' => '1001788.1472886',            # BMS Névez 1141 E-dépôt 8 (1770-1787)
+    '1141EDEPOT_009' => '1001789.1472888',            # BMS Névez 1141 E-dépôt 9 (1748-1787)
+    '1141EDEPOT_010' => '1001790.1472874',            # BMS Névez 1141 E-dépôt 10 (1502-1574, 1609-1636)
+
     # BMS Landeleau
     '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
@@ -501,6 +513,13 @@ my %convert = (
     '3E190_0002' => '657691.1324828',            # Baptême mariage Le Moustoir (Châteauneuf-du-Faou, Finistère) 3 E 190 2 (1755-28 mars 1792.)
     '3E190_0003' => '657692.1324830',            # Sépulture Le Moustoir (Châteauneuf-du-Faou, Finistère) 3 E 190 3 (1755-1773, 1775-1791.)
     '3E190_0035' => '',			# Sép Le Moustoir		1755-1773 (BUG/FIXME: n'apparait plus avec le nouveau site!)
+
+    # BMS Névez
+    '3E191_0001' => '657693.1324833',            # Baptême mariage sépulture Névez 3 E 191 1 (1713-1715, 1717, 1725, 1727-1732, 1734-1747)
+    '3E191_0002' => '657694.1324835',            # Baptême mariage Névez 3 E 191 2 (1748-1750, 1754 (incomplet), 1759 (incomplet), 1762, 1764-1768, 1770-1776)
+    '3E191_0003' => '657695.1324836',            # Baptême mariage Névez 3 E 191 3 (1777-1er avril 1793)
+    '3E191_0004' => '657696.1324838',            # Sépulture Névez 3 E 191 4 (1748-1750, 1756 (incomplet), 1762, 1764-1770, 1772-1778, 1780-1er avril 1793)
+    '3E191_0013' => '657705.1324895',            # Mariage promesse de mariage publication de mariage Névez 3 E 191 13 (1793-1812)
 
     # BMS Penhars
     '3E195_0001' => '657836.1325884',            # Baptême mariage sépulture Penhars 3 E 195 1 (Baptêmes (1512-1569 (incomplet), 1597-1673) ; baptêmes, mariages, sépultures (1674-1704).)
@@ -12016,7 +12035,7 @@ sub process {
     # for new URL scheme:
     $image =~ s/img=/img:/;
     # Looks like *some* communal collections have simplified ID (eg: 1237EDEPOT_003 => 1237EDEPOT):
-    $id =~ s/_00[0-9]$// if /EDEPOT_00/ && !/(1003|1008|1024|1164|1267|1374)EDEPOT/;
+    $id =~ s/_00[0-9]$// if /EDEPOT_00/ && !/(1003|1008|1024|1141|1164|1267|1374)EDEPOT/;
     if (!$id) {
 	warn "!!! FAILED TO PARSE '$_'!\n";
 	return;
