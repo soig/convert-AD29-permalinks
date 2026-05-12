@@ -209,6 +209,12 @@ my %convert = (
     '1373EDEPOT_048' => '1472680',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 48 (1720-1729.)
     '1373EDEPOT_049' => '1472681',            # BMS Morlaix -- Paroisse Saint-Melaine 1373 E DEPOT 49 (1730-1740.)
 
+    # BMS Le Moustoir ("remis en ligne" le 12/5/2026 après mon signalement)
+    '1374EDEPOT_001' => '1470874',            # BMS Le Moustoir 1374 E DEPOT 1 (Baptêmes, mariages et sépultures.)
+    '1374EDEPOT_002' => '1470875',            # BMS Le Moustoir 1374 E DEPOT 2 (Baptêmes, mariages et sépultures.)
+    '1374EDEPOT_003' => '1470876',            # BMS Le Moustoir 1374 E DEPOT 3 (Baptêmes et mariages.)
+    '1374EDEPOT_004' => '1470877',            # BMS Le Moustoir 1374 E DEPOT 4 (Sépultures.)
+
     # Registre matricule:
     #====================
 
