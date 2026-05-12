@@ -351,6 +351,13 @@ my %convert = (
     '3E169_0007' => '656886.1320924',            # Sépulture Lopérec 3 E 169 7 (1750-1792.)
     '3E169_0016' => '656895.1320983',            # Mariage Lopérec 3 E 169 16 (1793-an VI, an IX-1812.)
 
+    # BMS Meilars
+    '3E176_0001' => '657076.1322529',            # Baptême mariage sépulture Meilars (Confort-Meilars, Finistère) 3 E 176 1 (1702-1740 (incomplet), 1743-1749.)
+    '3E176_0002' => '657077.1322531',            # Baptême mariage Meilars (Confort-Meilars, Finistère) 3 E 176 2 (1750-1772.)
+    '3E176_0003' => '657078.1322532',            # Baptême mariage Meilars (Confort-Meilars, Finistère) 3 E 176 3 (1773-1792.)
+    '3E176_0004' => '657079.1322534',            # Sépulture Meilars (Confort-Meilars, Finistère) 3 E 176 4 (1750-1792.)
+    '3E176_0011' => '1322690',            # Mariage promesse de mariage Meilars (Confort-Meilars, Finistère) 3 E 176/11/1 (1793 - an II)
+
     # BMS Motreff
     '3E189_0001' => '657656.1324606',            # BMS Motreff 3 E 189 1 (1676-1677 (incomplet), 1685 (incomplet)-1691, 1692 (incomplet), 1694-1703, 1705-1709, 1711-1715, 1717-1719, 1721-1740, 1742, 1744, 1746-1752)
     '3E189_0002' => '657657.1324608',            # BM  Motreff 3 E 189 2 (1753-1792)
