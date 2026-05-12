@@ -8,6 +8,8 @@
 #
 # Sometimes, there's a huge discrepedancy between view number & image number:
 # Eg "vue 6/83" is img 218 : https://recherche.archives.finistere.fr/ark:/72506/652437.1277175/img:FRAD029_1MIEC042_04_0218
+#
+# See https://patrimoines-archives.morbihan.fr/fileadmin/Archives/actualites/Fonds_d_archives/IR/FRAD056_00000001R.pdf for a list of all matricule registers
 
 use strict;
 

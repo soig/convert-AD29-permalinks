@@ -117,9 +117,27 @@ Un générateur spécialisé est utilisé pour les TD :
 
 ### Comment rajouter tous les registres matricule d'une année
 
+
+Générateur plus efficace:
+```
+# Tous les registres du bureau de Crozon pour l'année 1876 :
+./gen-new-ids-matricule-all.pl --bureau=Crozon --annee=1876
+# Tous les registres du bureau de Crozon :
+./gen-new-ids-matricule-all.pl --bureau=Crozon
+# Tous les registres du bureau de Brest pour l'année 1914 :
+./gen-new-ids-matricule-all.pl --bureau=Brest --annee=1914 > matricule.Brest.1914
+# Tous les registres de tous les bureaux pour l'année 1914 :
+./gen-new-ids-matricule-all.pl --annee=1914 > matricule.all.1914
+```
+
+Ancien générateur:
 Exemple pour 1914:
 ```
 ./gen-new-ids-matricule.pl "https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1914&type=matricules"
+```
+Exemple pour 1914, seulement le bureau de Brest:
+```
+https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1914&RECH_bureau_Libel=Bureau%20de%20Brest|&RECH_bureau_Md5=add9e871b619bc2d4431e6faa564285d|&type=matricules
 ```
 
 ## Limitations :
