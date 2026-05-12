@@ -119,6 +119,14 @@ Un générateur spécialisé est utilisé pour les TD :
 ./gen-new-ids-td.pl Kergloff > TD.Kergloff
 ```
 
+### Comment rajouter tous les recensements de la commune
+
+Un générateur spécialisé est utilisé pour les dénombrements de population :
+
+```
+./gen-new-ids-recensements-all.pl Scaër
+```
+
 ### Comment rajouter tous les registres matricule d'une année
 
 
