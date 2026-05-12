@@ -38,6 +38,7 @@ my $prefix     = 'https://recherche.archives.finistere.fr/ark:/72506/';
 my %convert = (
     # BMS : Collection communale (Baptêmes, mariages, sépultures):
     #============================
+    # TODO: Fix handling of BMS IDs for "Collection communale"
 
     # BMS Beuzec-Conq
     '1008EDEPOT_005' => '1463963',            # BMS Beuzec-Conq 1008 E DEPOT 5 (Baptêmes, mariages et sépultures.)
@@ -494,10 +495,7 @@ my %convert = (
 
     # NMD :
     #=====
-    # TODO: Sépultures Carhaix, Cleden-Poher, Plonéis, Plouguer, Saint-Hernin
-    # TODO: décès … Tourc'h
-    # TODO: mariages … Cleden-Poher Elliant Kergloff Kernével Laz Motreff Plouguer Poullaouen, Saint-Goazec, Saint-Hernin Scaer Spezet Tourc'h
-    # TODO: naissances Bannalec Beuzec-Conq Châteauneuf-du-Faou Cleden-Poher Elliant Kergloff Landeleau Laz Motreff Plouguer Plouguerneau Quéménéven Rosnoen Poullaouen, Saint-Goazec, Saint-Hernin Scaer
+    # TODO: Fix BMS/NMD Carhaix with upstream change of ID for Carhaix
 
     # NMD Bannalec
     '3E004_0017' => {			# Naissance Bannalec 3 E 4 17   AN02-AN10
