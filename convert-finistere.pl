@@ -11878,10 +11878,32 @@ my %convert = (
         '6M_0210_11' => '1140275',      # Recensement Cléden-Poher 6 M 210/11 (1936)
     },
 
+    # Recensements Kergloff
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Kergloff%20(Finistère)|&RECH_commune_Md5=b514c4417f09b16bf87e6d3adcf13473|&type=recensements
-    '6M0344' => {			# Recensement Kergloff
-	1728 => '1141602', 		# Recensement Kergloff 1881
-	1729 => '1141603',		# Recensement Kergloff 1886
+    '6M0344' => {                       # Recensement Kergloff 6 M 344   1836-1906
+        '6M_0344_01' => '1141593',      # Recensement Kergloff 6 M 344/1 (1836)
+        '6M_0344_02' => '1141594',      # Recensement Kergloff 6 M 344/2 (1841)
+        '6M_0344_03' => '1141595',      # Recensement Kergloff 6 M 344/3 (1846)
+        '6M_0344_04' => '1141596',      # Recensement Kergloff 6 M 344/4 (1851)
+        '6M_0344_05' => '1141597',      # Recensement Kergloff 6 M 344/5 (1856)
+        '6M_0344_06' => '1141598',      # Recensement Kergloff 6 M 344/6 (1861)
+        '6M_0344_07' => '1141599',      # Recensement Kergloff 6 M 344/7 (1866)
+        '6M_0344_08' => '1141600',      # Recensement Kergloff 6 M 344/8 (1872)
+        '6M_0344_09' => '1141601',      # Recensement Kergloff 6 M 344/9 (1876)
+        '6M_0344_10' => '1141602',      # Recensement Kergloff 6 M 344/10 (1881)
+        '6M_0344_11' => '1141603',      # Recensement Kergloff 6 M 344/11 (1886)
+        '6M_0344_12' => '1141604',      # Recensement Kergloff 6 M 344/12 (1891)
+        '6M_0344_13' => '1141605',      # Recensement Kergloff 6 M 344/13 (1896)
+        '6M_0344_14' => '1141606',      # Recensement Kergloff 6 M 344/14 (1901)
+        '6M_0344_15' => '1141607',      # Recensement Kergloff 6 M 344/15 (1906)
+    },
+
+    '6M0345' => {                       # Recensement Kergloff 6 M 345   1911-1936
+        '6M_0345_01' => '1141609',      # Recensement Kergloff 6 M 345/1 (1911)
+        '6M_0345_02' => '1141610',      # Recensement Kergloff 6 M 345/2 (1921)
+        '6M_0345_03' => '1141611',      # Recensement Kergloff 6 M 345/3 (1926)
+        '6M_0345_04' => '1141612',      # Recensement Kergloff 6 M 345/4 (1931)
+        '6M_0345_05' => '1141613',      # Recensement Kergloff 6 M 345/5 (1936)
     },
 
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
