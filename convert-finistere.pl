@@ -11934,8 +11934,8 @@ sub process {
     }
     # for new URL scheme:
     $image =~ s/img=/img:/;
-    # Looks like all communal collections have simplified ID (eg: 1237EDEPOT_003 => 1237EDEPOT):
-    $id =~ s/_00[0-9]$// if /EDEPOT_00/;
+    # Looks like *some* communal collections have simplified ID (eg: 1237EDEPOT_003 => 1237EDEPOT):
+    $id =~ s/_00[0-9]$// if /EDEPOT_00/ && !/(1003|1008|1024|1164|1267)EDEPOT/;
     if (!$id) {
 	warn "!!! FAILED TO PARSE '$_'!\n";
 	return;
