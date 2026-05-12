@@ -341,6 +341,16 @@ my %convert = (
     '3E151_0004' => '656464.1315015',            # BM  Leuhan 3 E 151 4 (1773-1er mars 1793.)
     '3E151_0005' => '656465.1315017',            # Sépulture Leuhan 3 E 151 5 (1752-22 mars 1793.)
 
+    # BMS Loperec
+    '3E169_0001' => '656880.1320916',            # Baptême mariage sépulture Lopérec 3 E 169 1 (1636-1668.)
+    '3E169_0002' => '656881.1320917',            # Baptême mariage sépulture Lopérec 3 E 169 2 (1669-1692.)
+    '3E169_0003' => '656882.1320918',            # Baptême mariage sépulture Lopérec 3 E 169 3 (1693-1694 (incomplet), 1695-1705, 1707, 1709 (incomplet)-1722, 1724-1727.)
+    '3E169_0004' => '656883.1320919',            # Baptême mariage sépulture Lopérec 3 E 169 4 (1727-1736 (incomplet), 1737-1749.)
+    '3E169_0005' => '656884.1320921',            # Baptême mariage Lopérec 3 E 169 5 (1750-1772.)
+    '3E169_0006' => '656885.1320922',            # Baptême mariage Lopérec 3 E 169 6 (1773-1792.)
+    '3E169_0007' => '656886.1320924',            # Sépulture Lopérec 3 E 169 7 (1750-1792.)
+    '3E169_0016' => '656895.1320983',            # Mariage Lopérec 3 E 169 16 (1793-an VI, an IX-1812.)
+
     # BMS Motreff
     '3E189_0001' => '657656.1324606',            # BMS Motreff 3 E 189 1 (1676-1677 (incomplet), 1685 (incomplet)-1691, 1692 (incomplet), 1694-1703, 1705-1709, 1711-1715, 1717-1719, 1721-1740, 1742, 1744, 1746-1752)
     '3E189_0002' => '657657.1324608',            # BM  Motreff 3 E 189 2 (1753-1792)
