@@ -124,8 +124,34 @@ my %convert = (
     # 1902
     '1R01289' => '835747.1076020',             # Bureau de Brest-Châteaulin n° 1990 à 2500.
     '1R01290' => '835747.1076021',             # Bureau de Brest-Châteaulin n° 2501 à 3082, 3865-3866, 3915-3930, 3933-3942, 3962-3963, 3966, 3969, 3976, 3982, 3983, 3995-3998, 4008, 4010.
+
     # 1914
-    '1R01519' => '835977.1076281',             # Bureau de Brest-Châteaulin n° 1001 à 1169, 1172 à 1500.
+    '1R01510' => '835968.1076271',	       # Bureau de Brest n° 1 à 500. (1914)
+    '1R01511' => '835969.1076272',	       # Bureau de Brest n° 501 à 1000. (1914)
+    '1R01512' => '835970.1076273',	       # Bureau de Brest n° 1001 à 1500. (1914)
+    '1R01513' => '835971.1076274',	       # Bureau de Brest n° 1501 à 2000. (1914)
+    '1R01514' => '835972.1076275',	       # Bureau de Brest n° 2001 à 2500. (1914)
+    '1R01515' => '835973.1076276',	       # Bureau de Brest n° 2501 à 3000. (1914)
+    '1R01516' => '835974.1076277',	       # Bureau de Brest n° 3001 à 3500. (1914)
+    '1R01517' => '835975.1076278',	       # Bureau de Brest n° 3501 à 3835. (1914)
+    '1R01521' => '1076279',	               # Table alphabétique de Brest, suivie d'une liste de natifs du Finistère recensés ailleurs. (1914)
+    '1R01518' => '835976.1076280',	       # Bureau de Brest-Châteaulin n° 467 à 1000. (1914)
+    '1R01519' => '835977.1076281',	       # Bureau de Brest-Châteaulin n° 1001 à 1169, 1172 à 1500. (1914)
+    '1R01520' => '835978.1076282',	       # Bureau de Brest-Châteaulin n° 1501 à 1751. (1914)
+    '1R01521' => '1076283',	               # Table alphabétique de Brest-Châteaulin, suivie d'une liste d'omis et (ou) d'exemptés, et de natifs du Finistère recensés ailleurs. (1914)
+    '1R01522' => '1076284',	               # Liste matricule de la subdivision de Brest des engagés volontaires non encore inscrits au registre matricule et des hommes des réserves étrangers à la subdivision pris au domicile n° 1 à 500. (1914)
+    '1R01522' => '1076285',	               # Table alphabétique de la liste matricule de la subdivision de Brest des engagés volontaires non encore inscrits au registre matricule et des hommes des réserves étrangers à la subdivision pris au domicile n° 1 à 500. (1914)
+    '1R01523' => '1076286',	               # Liste matricule de la subdivision de Brest des engagés volontaires non encore inscrits au registre matricule et des hommes des réserves étrangers à la subdivision pris au domicile n° 501 à 992. (1914)
+    '1R01523' => '1076287',	       # Table alphabétique de la liste matricule de la subdivision de Brest des engagés volontaires non encore inscrits au registre matricule et des hommes des réserves étrangers à la subdivision pris au domicile n° 501 à 992. (1914)
+    '1R01524' => '835982.1076288',	       # Bureau de Quimper n° 1 à 466. (1914)
+    '1R01525' => '835983.1076289',	       # Bureau de Quimper n° 589, 597, 624, 633, 637 à 638, 649, 656 à 658, 672, 692, 696, 711, 715, 723 à 724, 765, 772, 776, 778, 786 à 787, 794 à 797, 802, 805, 810, 1751 à 2000. (1914)
+    '1R01526' => '835984.1076290',	       # Bureau de Quimper n° 2001 à 2500. (1914)
+    '1R01527' => '835985.1076291',            # Bureau de Quimper n° 2501 à 3000. (1914)
+    '1R01528' => '835986.1076292',            # Bureau de Quimper n° 3001 à 3500. (1914)
+    '1R01529' => '835987.1076293',            # Bureau de Quimper n° 3501 à 4000. (1914)
+    '1R01530' => '835988.1076294',            # Bureau de Quimper n° 4001 à 4365. (1914)
+    '1R01532' => '1076297',            # Table de la liste matricule de la subdivision de Quimper, des engagés volontaires non encore inscrits au registre matricule et des hommes des réserves étrangers à la subdivision pris au domicile n° 1 à 466. (1914)
+
     # 1920: https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1920&type=matricules
     '1R01642' => '836100.1076426',             # Bureau Bureau de Brest n° 1 à 500. (1920)
     '1R01643' => '836101.1076427',             # Bureau Bureau de Brest n° 501 à 1000. (1920)
