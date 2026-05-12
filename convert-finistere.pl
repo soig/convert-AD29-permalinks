@@ -275,6 +275,18 @@ my %convert = (
     '3E042_0009' => '652437.1277175',	# Sép Cleden-Poher 3 E 42 9	1767-1780
     '3E042_0010' => '652438.1277176',	# Sép Cleden-Poher 3 E 42 10	1781-1792
 
+    # BMS Cléder
+    '3E043_0001' => '652475.1277679',            # Baptême mariage sépulture Cléder 3 E 43 1 (1687-1690, 1717-1720.)
+    '3E043_0002' => '652476.1277680',            # Baptême mariage sépulture Cléder 3 E 43 2 (1721-30 décembre 1728.)
+    '3E043_0003' => '652477.1277681',            # Baptême mariage sépulture Cléder 3 E 43 3 (30 décembre 1728-1737.)
+    '3E043_0004' => '652478.1277682',            # Baptême mariage sépulture Cléder 3 E 43 4 (1738-1746.)
+    '3E043_0005' => '652479.1277684',            # Baptême mariage Cléder 3 E 43 5 (1747-1755, 1757, 1759-1760.)
+    '3E043_0006' => '652480.1277685',            # Baptême mariage Cléder 3 E 43 6 (1761-1776.)
+    '3E043_0007' => '652481.1277686',            # Baptême mariage Cléder 3 E 43 7 (1777-1790, 1792-1er janvier 1793.)
+    '3E043_0008' => '652482.1277688',            # Sépulture Cléder 3 E 43 8 (1747-1755, 1765-1772.)
+    '3E043_0009' => '652483.1277689',            # Sépulture Cléder 3 E 43 9 (1773-1792.)
+    '3E043_0023' => '652497.1277766',            # Mariage publication de mariage Cléder 3 E 43 23 (1793-an IV.)
+
     # BMS Concarneau
     '3E053_0001' => '652891.1281431',            # BMS Concarneau 3 E 53 1 (Baptêmes (1561-1563 (incomplets) ) ; baptêmes, mariages, sépultures (1678 (incomplet)-1679, 1693, 1704, 1708-1709, 1711-1712, 1714-1715, 1717-1719))
     '3E053_0002' => '652892.1281432',            # BMS Concarneau 3 E 53 2 (1720-1722, 1740-30 décembre 1747)
