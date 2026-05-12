@@ -101,7 +101,15 @@ my %convert = (
     '1040 E DEPOT' => '1465702',            # Table décennale administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Concarneau 1040 E DEPOT 9 (Tables décennales)
     '1091EDEPOT_005' => '644938.1469168',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Landeleau 1091 E-dépôt 5 (Baptêmes, mariages, naissances)
     '1091EDEPOT_003' => '644936.1469170',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance baptême mariage Landeleau 1091 E-dépôt 3 (Baptêmes, mariages, tables décennales)
-    '1109 E DEPOT' => '645008.1470239',            # Registre paroissial registre baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance naissance Laz 1109 E-dépôt 6 (Sépultures, naissances)
+
+    # BMS Laz
+    '1109EDEPOT_001' => '645003.1470233',            # BMS Laz 1109 E-dépôt 1 (Baptêmes, mariages, sépultures.)
+    '1109EDEPOT_002' => '645004.1470235',            # BMS Laz 1109 E-dépôt 2 (Baptêmes, mariages, sépultures.)
+    '1109EDEPOT_003' => '645005.1470236',            # BMS Laz 1109 E-dépôt 3 (Baptêmes, mariages, sépultures.)
+    '1109EDEPOT_004' => '645006.1470237',            # BMS Laz 1109 E-dépôt 4 (Baptêmes, mariages, sépultures.)
+    '1109EDEPOT_005' => '645007.1470238',            # BMS Laz 1109 E-dépôt 5 (Baptêmes, mariages.)
+    '1109EDEPOT_006' => '645008.1470239',            # BMS naissance Laz 1109 E-dépôt 6 (Sépultures, naissances.)
+    '1109EDEPOT_007' => '645009.1470234',            # BMS Laz 1109 E-dépôt 7 (Baptêmes, Sépultures.)
 
     # BMS Plonévez-du-Faou
     '1164EDEPOT_001' => '645225.1473980',            # BMS Plonévez-du-Faou 1164 E-dépôt 1 (Baptêmes, mariages, sépultures.)
