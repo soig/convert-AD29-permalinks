@@ -11934,18 +11934,40 @@ my %convert = (
         '6M_0764_12' => '1145248',      # Recensement Saint-Hernin 6 M 764/12 (1936)
     },
 
+    # Recensements Scaër
     # https://recherche.archives.finistere.fr/archive/resultats/recensements/tableau?RECH_commune_Libel=Scaër%20(Finist_re)|&RECH_commune_Md5=9c354717cc7a5c14e68227d48522db2a|&type=recensements
-    '6M0819' => {
-	# I only have 1906 in my tree:
-	5278 => '1145763' 		# Recensement Scaer 1906
+    '10L0177' => '1158056',     # Recensement Scaër 10 L 177/7/1 (AN08)
+    '6M0817' => {                       # Recensement Scaër 6 M 817   1836-1851
+        '6M_0817_01' => '1145747',      # Recensement Scaër 6 M 817/1 (1836)
+        '6M_0817_02' => '1145748',      # Recensement Scaër 6 M 817/2 (1841)
+        '6M_0817_03' => '1145749',      # Recensement Scaër 6 M 817/3 (1846)
+        '6M_0817_04' => '1145750',      # Recensement Scaër 6 M 817/4 (1851)
     },
 
-    '6M0820' => {
-	5279 => '1145765', 		# Recensement Scaer 1911  (Note they jumped from 1145763 to 1145765)
+    '6M0818' => {                       # Recensement Scaër 6 M 818   1856-1881
+        '6M_0818_01' => '1145752',      # Recensement Scaër 6 M 818/1 (1856)
+        '6M_0818_02' => '1145753',      # Recensement Scaër 6 M 818/2 (1861)
+        '6M_0818_03' => '1145754',      # Recensement Scaër 6 M 818/3 (1866)
+        '6M_0818_04' => '1145755',      # Recensement Scaër 6 M 818/4 (1872)
+        '6M_0818_05' => '1145756',      # Recensement Scaër 6 M 818/5 (1876)
+        '6M_0818_06' => '1145757',      # Recensement Scaër 6 M 818/6 (1881)
+    },
+
+    '6M0819' => {                       # Recensement Scaër 6 M 819   1886-1906
+	# I only have 1906 in my tree:
+        '6M_0819_01' => '1145759',      # Recensement Scaër 6 M 819/1 (1886)
+        '6M_0819_02' => '1145760',      # Recensement Scaër 6 M 819/2 (1891)
+        '6M_0819_03' => '1145761',      # Recensement Scaër 6 M 819/3 (1896)
+        '6M_0819_04' => '1145762',      # Recensement Scaër 6 M 819/4 (1901)
+        '6M_0819_05' => '1145763',      # Recensement Scaër 6 M 819/5 (1906)
+    },
+
+    '6M0820' => {                       # Recensement Scaër 6 M 820   1911-1936
+        '6M_0820_01' => '1145765',      # Recensement Scaër 6 M 820/1 (1911)
 	# Pas de recensement à Scaer en 1921?
-	5280 => '1145766', 		# Recensement Scaer 1926
-	5281 => '1145767', 		# Recensement Scaer 1931
-	5282 => '1145768', 		# Recensement Scaer 1936
+        '6M_0820_02' => '1145766',      # Recensement Scaër 6 M 820/2 (1926)
+        '6M_0820_03' => '1145767',      # Recensement Scaër 6 M 820/3 (1931)
+        '6M_0820_04' => '1145768',      # Recensement Scaër 6 M 820/4 (1936)
     },
 
     # Recensement Spézet
