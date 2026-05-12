@@ -11907,21 +11907,31 @@ my %convert = (
     },
 
     # https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
-    '6M0763' => {			# Recensement Saint-Hernin
-	4821 => '1145228',		# Recensement Saint-Hernin 1836
-	4822 => '1145229',		# Recensement Saint-Hernin 1841
-	4823 => '1145230',		# Recensement Saint-Hernin 1846
-	4824 => '1145231',		# Recensement Saint-Hernin 1851
-	4825 => '1145232',		# Recensement Saint-Hernin 1856
-	4826 => '1145233',		# Recensement Saint-Hernin 1861
-	4827 => '1145234',		# Recensement Saint-Hernin 1866
-	4828 => '1145235',		# Recensement Saint-Hernin 1872
+    # Recensements Saint-Hernin
+    '6M0763' => {                       # Recensement Saint-Hernin 6 M 763   1836-1872
+        '6M_0763_01' => '1145228',      # Recensement Saint-Hernin 6 M 763/1 (1836)
+        '6M_0763_02' => '1145229',      # Recensement Saint-Hernin 6 M 763/2 (1841)
+        '6M_0763_03' => '1145230',      # Recensement Saint-Hernin 6 M 763/3 (1846)
+        '6M_0763_04' => '1145231',      # Recensement Saint-Hernin 6 M 763/4 (1851)
+        '6M_0763_05' => '1145232',      # Recensement Saint-Hernin 6 M 763/5 (1856)
+        '6M_0763_06' => '1145233',      # Recensement Saint-Hernin 6 M 763/6 (1861)
+        '6M_0763_07' => '1145234',      # Recensement Saint-Hernin 6 M 763/7 (1866)
+        '6M_0763_08' => '1145235',      # Recensement Saint-Hernin 6 M 763/8 (1872)
     },
 
-    '6M0764' => {			# Recensement Saint-Hernin
-	# https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=Saint-Hernin%20(Finistère)|&RECH_commune_Md5=4253319ee371d0a987f959bf9da20d89|&type=recensements
-	4829 => '1145237',		# Recensement Saint-Hernin 1876
-	4830 => '1145238',		# Recensement Saint-Hernin 1881
+    '6M0764' => {                       # Recensement Saint-Hernin 6 M 764   1876-1936
+        '6M_0764_01' => '1145237',      # Recensement Saint-Hernin 6 M 764/1 (1876)
+        '6M_0764_02' => '1145238',      # Recensement Saint-Hernin 6 M 764/2 (1881)
+        '6M_0764_03' => '1145239',      # Recensement Saint-Hernin 6 M 764/3 (1886)
+        '6M_0764_04' => '1145240',      # Recensement Saint-Hernin 6 M 764/4 (1891)
+        '6M_0764_05' => '1145241',      # Recensement Saint-Hernin 6 M 764/5 (1896)
+        '6M_0764_06' => '1145242',      # Recensement Saint-Hernin 6 M 764/6 (1901)
+        '6M_0764_07' => '1145243',      # Recensement Saint-Hernin 6 M 764/7 (1906)
+        '6M_0764_08' => '1145244',      # Recensement Saint-Hernin 6 M 764/8 (1911)
+        '6M_0764_09' => '1145245',      # Recensement Saint-Hernin 6 M 764/9 (1921)
+        '6M_0764_10' => '1145246',      # Recensement Saint-Hernin 6 M 764/10 (1926)
+        '6M_0764_11' => '1145247',      # Recensement Saint-Hernin 6 M 764/11 (1931)
+        '6M_0764_12' => '1145248',      # Recensement Saint-Hernin 6 M 764/12 (1936)
     },
 
     # https://recherche.archives.finistere.fr/archive/resultats/recensements/tableau?RECH_commune_Libel=Scaër%20(Finist_re)|&RECH_commune_Md5=9c354717cc7a5c14e68227d48522db2a|&type=recensements
