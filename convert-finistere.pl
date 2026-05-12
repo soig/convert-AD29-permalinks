@@ -41,15 +41,16 @@ my %convert = (
     # TODO: Fix handling of BMS IDs for "Collection communale"
 
     # BMS Bannalec
+    '1003EDEPOT_001' => '644270.1463518',            # BMS Bannalec 1003 E-dépôt 1 (Baptêmes (1621-1632). Mariages (1648-1662). Baptêmes, mariages et sépultures (1674, 1676-1691).)
     '1003EDEPOT_002' => '644271.1463519',            # BMS Bannalec 1003 E-dépôt 2 (1684-1692)
     '1003EDEPOT_003' => '644272.1463520',            # BMS Bannalec 1003 E-dépôt 3 (1708-1724)
     '1003EDEPOT_004' => '644273.1463521',            # BMS Bannalec 1003 E-dépôt 4 (1725-1738)
     '1003EDEPOT_005' => '644274.1463522',            # BMS Bannalec 1003 E-dépôt 5 (1739-1750)
     '1003EDEPOT_006' => '644275.1463524',            # BMS Bannalec 1003 E-dépôt 6 (1751-1766, 1768.)
-    '1003EDEPOT_009' => '644278.1463528',            # BMS Bannalec 1003 E-dépôt 9 (1751-1779)
     '1003EDEPOT_007' => '644276.1463525',            # BMS Bannalec 1003 E-dépôt 7 (1769-1781.)
+    '1003EDEPOT_008' => '644277.1463526',            # BMS Bannalec 1003 E-dépôt 8 (1782-1792.)
+    '1003EDEPOT_009' => '644278.1463528',            # BMS Bannalec 1003 E-dépôt 9 (1751-1779)
     '1003EDEPOT_010' => '644279.1463529',            # BMS Bannalec 1003 E-dépôt 10 (1780-1792)
-    '1003EDEPOT_001' => '644270.1463518',            # BMS Bannalec 1003 E-dépôt 1 (Baptêmes (1621-1632). Mariages (1648-1662). Baptêmes, mariages et sépultures (1674, 1676-1691).)
 
     # BMS Beuzec-Conq
     '1008EDEPOT_005' => '1463963',            # BMS Beuzec-Conq 1008 E DEPOT 5 (Baptêmes, mariages et sépultures.)
