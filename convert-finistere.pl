@@ -117,20 +117,20 @@ my %convert = (
 
     # BMS Spézet
     # FIXME: obviously broken (this needs a subhash due to shared ID)
-    '1267EDEPOT_001' => '1480480',            # BMS Spézet  E DEPOT 1/5 (12 décembre 1645- 1648)
     '1267EDEPOT_001' => '1480477',            # BMS Spézet 1267 E DEPOT 1/2 (1597-1611)
     '1267EDEPOT_001' => '1480478',            # BMS Spézet 1267 E DEPOT 1/3 (1617-1635)
     '1267EDEPOT_001' => '1480479',            # BMS Spézet 1267 E DEPOT 1/4 (1636- 10 décembre 1645)
+    '1267EDEPOT_001' => '1480480',            # BMS Spézet  E DEPOT 1/5 (12 décembre 1645- 1648)
+    '1267EDEPOT_002' => '1480496',            # BMS Spézet 1267 E DEPOT 2/1 (Baptêmes (3 août 1648- 1668))
+    '1267EDEPOT_002' => '1480497',            # BMS Spézet 1267 E DEPOT 2/2 (Mariages (1597- 1620))
+    '1267EDEPOT_002' => '1480498',            # BMS Spézet 1267 E DEPOT 2/3 (Mariages (1637-1646))
+    '1267EDEPOT_003' => '1480483',            # BMS Spézet 1267 E DEPOT 3/1 (Baptêmes (18 mars 1669- 3 mars 1671))
+    '1267EDEPOT_003' => '1480484',            # BMS Spézet 1267 E DEPOT 3/2 (Baptêmes, mariages et sépultures (1675-1684))
+    '1267EDEPOT_003' => '1480485',            # BMS Spézet 1267 E DEPOT 3/3 (Baptêmes, mariages et sépultures (1685-1692))
     '1267EDEPOT_004' => '1480487',            # BMS Spézet 1267 E DEPOT 4/1 (1693-1709)
     '1267EDEPOT_004' => '1480488',            # BMS Spézet 1267 E DEPOT 4/2 (1710-1720)
     '1267EDEPOT_005' => '1480490',            # BMS Spézet 1267 E DEPOT 5/1 (1721-1727)
     '1267EDEPOT_005' => '1480491',            # BMS Spézet 1267 E DEPOT 5/2 (1728-1743)
-    '1267EDEPOT_003' => '1480483',            # BMS Spézet 1267 E DEPOT 3/1 (Baptêmes (18 mars 1669- 3 mars 1671))
-    '1267EDEPOT_002' => '1480496',            # BMS Spézet 1267 E DEPOT 2/1 (Baptêmes (3 août 1648- 1668))
-    '1267EDEPOT_003' => '1480484',            # BMS Spézet 1267 E DEPOT 3/2 (Baptêmes, mariages et sépultures (1675-1684))
-    '1267EDEPOT_003' => '1480485',            # BMS Spézet 1267 E DEPOT 3/3 (Baptêmes, mariages et sépultures (1685-1692))
-    '1267EDEPOT_002' => '1480497',            # BMS Spézet 1267 E DEPOT 2/2 (Mariages (1597- 1620))
-    '1267EDEPOT_002' => '1480498',            # BMS Spézet 1267 E DEPOT 2/3 (Mariages (1637-1646))
 
     # BMS Tourc'h
     '1270EDEPOT_003' => '1480813',            # Registre naissance mariage décès administration administration générale structure administrative administration communale collectivité locale commune société population état civil décès mariage naissance Tourc'h 1270 E DEPOT 3/1 (1793-an XI)
