@@ -201,7 +201,7 @@ sub process {
 	$type = ucfirst($type);
 	$type =~ s/Registre paroissial (registre )?baptême mariage sépulture administration administration générale structure administrative administration communale collectivité locale commune société population état civil( décès mariage naissance)?/BMS/;
 	# Use the IDS that appears in old permalinks, eg: 'AN08' as in 'FRAD029_3E010_0028_00D_AN08_007.jpg':
-	my $year = $desc;
+	my $year = $id; # BMS doesn't show year like NMD, we need to rely on ID instead
 	my ($ark) = $link =~ m!/ark:/72506/([^/]+)/!;
 	my $mainID;
 	# The web site returns different types of IDs :-(
