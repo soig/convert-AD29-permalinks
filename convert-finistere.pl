@@ -4945,14 +4945,10 @@ my %convert = (
 	1885   => '1307391',            # Mariage Landeleau 3 E 122/20/16 (1885)
     },
 
-    '3E122_0021' => {			# Décès Landeleau 3 E 122 21   AN06-1812
+    '3E122_0021' => {			# Décès Landeleau 3 E 122 21   1793-1812
 	'1793-21 frimaire an III' => '1307447',            # Décès Landeleau 3 E 122/21/1 (1793-21 frimaire an III)
-	1807   => '1307460',            # Décès Landeleau 3 E 122/21/14 (1807)
-	1808   => '1307461',            # Décès Landeleau 3 E 122/21/15 (1808)
-	1809   => '1307462',            # Décès Landeleau 3 E 122/21/16 (1809)
-	1810   => '1307463',            # Décès Landeleau 3 E 122/21/17 (1810)
-	1811   => '1307464',            # Décès Landeleau 3 E 122/21/18 (1811)
-	1812   => '1307465',            # Décès Landeleau 3 E 122/21/19 (1812)
+	# There's no 3 E 122/21/2 in AD29
+	'an IV-15 messidor an V' => '1307449',            # Décès Landeleau 3 E 122/21/3 (an IV-15 messidor an V)
 	'AN06' => '1307451',            # Décès Landeleau 3 E 122/21/5 (an VI)
 	'AN07' => '1307452',            # Décès Landeleau 3 E 122/21/6 (an VII)
 	'AN08' => '1307453',            # Décès Landeleau 3 E 122/21/7 (an VIII)
@@ -4962,7 +4958,12 @@ my %convert = (
 	'AN12' => '1307457',            # Décès Landeleau 3 E 122/21/11 (an XII)
 	'AN13' => '1307458',            # Décès Landeleau 3 E 122/21/12 (an XIII)
 	'AN14' => '1307459',            # Décès Landeleau 3 E 122/21/13 (an XIV - 1806)
-	'an IV-15 messidor an V' => '1307449',            # Décès Landeleau 3 E 122/21/3 (an IV-15 messidor an V)
+	1807   => '1307460',            # Décès Landeleau 3 E 122/21/14 (1807)
+	1808   => '1307461',            # Décès Landeleau 3 E 122/21/15 (1808)
+	1809   => '1307462',            # Décès Landeleau 3 E 122/21/16 (1809)
+	1810   => '1307463',            # Décès Landeleau 3 E 122/21/17 (1810)
+	1811   => '1307464',            # Décès Landeleau 3 E 122/21/18 (1811)
+	1812   => '1307465',            # Décès Landeleau 3 E 122/21/19 (1812)
     },
 
     '3E122_0022' => {			# Décès Landeleau 3 E 122 22   1813-1832
