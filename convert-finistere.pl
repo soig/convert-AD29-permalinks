@@ -12059,10 +12059,14 @@ sub process {
 	my ($year) = /s=FRAD029_[^_]+_[^_]+_[^_]+_([A0-9][N0-9]\d\d)_001.jpg/;
 	if ($year) {
 	    $newID = $newID->{$year};
-	} elsif (my ($subID) = /levelDescription=FRAD029_[^_]+_pa-(\d+)/) {
+	} elsif (my ($subID) = /=FRAD029_(6M_\d+_\d+)_\d+/) {
 	    # Above does't work for recensements:
+	    # We cannot rely on "_pa-<ID>" : see recensements de Spézet: both 1931 & 1936 share the same "_pa-5362"!
 	    # https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M03/6M0833?s=FRAD029_6M_0833_04_000001.jpg&e=FRAD029_6M_0833_04_000068.jpg&img=FRAD029_6M_0833_04_000030.jpg&levelDescription=FRAD029_00000006M_pa-5360 (1926)
 	    # https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M05/6M0833?s=FRAD029_6M_0833_06_000001.jpg&e=FRAD029_6M_0833_06_000062.jpg&img=FRAD029_6M_0833_06_000034.jpg&levelDescription=FRAD029_00000006M_pa-5362 (1936)
+	    # https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M04/6M0833?s=FRAD029_6M_0833_05_000001.jpg&e=FRAD029_6M_0833_05_000065.jpg&levelDescription=FRAD029_00000006M_pa-5362 (1931)
+	    # https://recherche.archives.finistere.fr/viewer/series/medias/collections/M/06M/6M05/6M0833?s=FRAD029_6M_0833_06_000001.jpg&e=FRAD029_6M_0833_06_000062.jpg&img=FRAD029_6M_0833_06_000034.jpg&levelDescription=FRAD029_00000006M_pa-5362 (1936)
+	    # => we'll rely on the ID hardcoded in the image/s/e name instead
 	    $newID = $newID->{$subID};
 	} else {
 	    warn ">> Failed to parse: ID=$id, newID=$newID, URL='$_'\n";
