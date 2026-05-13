@@ -154,6 +154,13 @@ https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_
 
 ## Limitations :
 
+### Registres 1930-1940
+
+Certains registres des années 1930 & 1940 (Cléden-Poher par ex) mélangent naissances, mariages et décès, et en l'état je ne peux que convertir un type d'actes. J'ai choisi les mariages pour Cléden car c'est ceux pour lesquels j'avais un permalien.
+Afin de convertir mariages ET décès, il faudrait des exemples d'anciens permaliens sur chaque type d'évènement afin de voir s'il est possible de faire quelque chose.
+
+### Registres qui ont changé de côtes lors du changement de logiciel
+
 Lors du passage au nouveau site, ils se sont rendu comptes que certains registres étaient mal côtés. Ces registres ont donc été renommés et re-côtés.
 
 > "Lors de la préparation de la migration vers notre nouveau moteur de recherche, nous nous sommes aperçus qu’il y avait une erreur d’affectation de certains lots numérisés pour Carhaix et Morlaix.
