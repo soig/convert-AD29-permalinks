@@ -100,6 +100,9 @@ my $real_ville = $special_towns{$ville} || $ville =~ /Finist/ ? $ville : "$ville
 #my $real_ville = $ville =~ /Finist/ ? $ville : "$ville+(Finistère)"; # %20(Finistère)
 
 # The split is different for each type (eg: 1881-1891 for births but 1883-1892 for deaths)
+# FIXME: we cannot actually request the web site for a year range
+# => BUG: we're missing some recensements when there's more than 20 results
+# => do a request by "côte" ?
 my %years = (
     'Recensement' => {
 	1793 => 1946,
