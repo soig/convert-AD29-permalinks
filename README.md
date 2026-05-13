@@ -157,7 +157,7 @@ https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_
 
 ### Registres 1930-1940
 
-Certains registres des années 1930 & 1940 (Cléden-Poher par ex) mélangent naissances, mariages et décès, et en l'état je ne peux que convertir un type d'actes. J'ai choisi les mariages pour Cléden car c'est ceux pour lesquels j'avais un permalien.
+Certains registres des années 1930 & 1940 (Cléden-Poher par ex) mélangent naissances, mariages et décès, et en l'état je ne peux que convertir un seul type d'actes. J'ai choisi les mariages pour Cléden car c'est ceux pour lesquels j'avais un permalien.
 Afin de convertir mariages ET décès, il faudrait des exemples d'anciens permaliens sur chaque type d'évènement afin de voir s'il est possible de faire quelque chose.
 
 ### Registres qui ont changé de côtes lors du changement de logiciel
