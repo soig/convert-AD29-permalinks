@@ -12204,7 +12204,8 @@ sub process {
 
     # Special case for registers that has beep split per year (and thus share the same ID):
     if (ref($newID)) {
-	my ($year) = /s=FRAD029_[^_]+_[^_]+_[^_]+_([A0-9][N0-9]\d\d)_001.jpg/;
+	my ($year) = /=FRAD029_[^_]+_[^_]+_[^_]+_([A0-9][N0-9]\d\d)_00\d/;
+
 	if ($year) {
 	    $newID = $newID->{$year};
 	} elsif (my ($subID) = /=FRAD029_(6M_\d+_\d+)_\d+/) {
