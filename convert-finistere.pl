@@ -12108,7 +12108,6 @@ sub substInFile(&@) {
             print;
         }
         open(my $F, $file);
-	warn ">> opening $file\n";
         unlink "$file$^I"; # remove old backup now that we have closed new file
     } else {
         #- special handling for zero-sized or nonexistent files
