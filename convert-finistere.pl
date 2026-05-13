@@ -11938,7 +11938,7 @@ my %convert = (
     },
 
     '6M0210' => {                       # Recensement Cléden-Poher 6 M 210   1881-1936
-	# I only have (and thus only tested) the 1936 in my tree:
+	# I only have (and thus only tested) the 1936 one in my tree:
         '6M_0210_01' => '1140265',      # Recensement Cléden-Poher 6 M 210/1 (1881)
         '6M_0210_02' => '1140266',      # Recensement Cléden-Poher 6 M 210/2 (1886)
         '6M_0210_03' => '1140267',      # Recensement Cléden-Poher 6 M 210/3 (1891)
