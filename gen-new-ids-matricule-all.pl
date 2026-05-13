@@ -1,5 +1,5 @@
 #!/bin/perl
-# Wrapper for emitting all in once for one commune : all births, mariages & deaths, grouped by register
+# Wrapper for emitting all in once for one commune : all military registrations, grouped by register
 # Like gen-new-ids-nmd-all.pl but inline gen-new-ids-nmd.pl in order to have better output, readier to use
 # FIXME: add options to select only N, M or D?
 
