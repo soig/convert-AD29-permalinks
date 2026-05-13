@@ -12115,25 +12115,21 @@ sub process {
     s!&amp;!&!g;
     ## before last "/"
     #my ($id) = m!([^/]*)/[^/]*$!;
-    # after last "/" (more complete ID + extract image name); accept an optional "/" before "?img="
-    my ($id, $image) = m![^/]*/([^/?]*)/?\?(img=.*)\.jpg$!;
+    # after last "/" (more complete ID); accept an optional "/" before "?img="
+    my ($id) = m!/([^/?]*)/?\?!;
     # special case for one bogus matricule URL
     if ($id eq '01') {
 	# Try again if there was a spurious /01/ at end of URL:
 	# https://recherche.archives.finistere.fr/viewer/series/medias/collections/R/01R/1R00885/01/?img=FRAD029_1R_00885_0011.jpg
 	s!/01/!!;
-	($id) = m![^/]*/([^/?]*)/?\?$!;
+	($id) = m!/([^/?]*)/?\?$!;
     }
     if (!$id) {
-	# accept other args before "?img="
-	#https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E351/3E351_0010?s=FRAD029_3E351_0010_00N_1881_001.jpg&e=FRAD029_3E351_0010_00N_1881_008.jpg&img=FRAD029_3E351_0010_00N_1881_004.jpg&levelDescription=FRAD029_00003E351_pa-88
-	#KO: https://recherche.archives.finistere.fr/ark:/72506/652182.1275542/img:FRAD029_3E351_0010_00N_1881_004
-	#some URLs are KO b/c of missing "img=", eg: https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E106/3E106_0011?s=FRAD029_3E106_0011_00M_AN10_001.jpg&e=FRAD029_3E106_0011_00M_AN10_010.jpg&img=FRAD029_3E106_0011_00M_AN10_006.jpg (vue 6/10/)
-	# => I think I badly pasted the URL or wrongly tried to shortenize it => I've the view number so just add img= as e= but replacing the view nb: img=FRAD029_3E106_0011_00M_AN10_006.jpg
-	($id,$image) = m![^/]*/([^/?]*)\?.*(img=.*)\.jpg!;
+	# one special case:
+	s!#$!!;
+	# Handle URLs w/o any arg (usually URL to the whole register):
+	($id) = m!/([^/?]*)/?$!;
     }
-    # for new URL scheme:
-    $image =~ s/img=/img:/;
     # Looks like *some* communal collections have simplified ID (eg: 1237EDEPOT_003 => 1237EDEPOT):
     #$id =~ s/_00[0-9]$// if /EDEPOT_00/ && !/(1003|1008|1024|1040|1141|1164|1237|1267|1374)EDEPOT/;
     if (!$id) {
@@ -12146,9 +12142,15 @@ sub process {
     # https://recherche.archives.finistere.fr/viewer/series/medias/collections/E/03E/3E042/3E042_0012/AN11/?img=FRAD029_3E042_0012_00N_AN11_016.jpg
     # Add a special case for it:
     if ($id =~ /^AN[0-9]+/) {
-	(my $id2, $image) = m![^/]*/([^/?]*)/AN[0-9]+/?\?(img=.*)\.jpg$!;
+	my ($id2) = m![^/]*/([^/?]*)/AN[0-9]+/?!;
 	$newID = $convert{$id2}{$id};
     }
+
+    # extract image name after processing all the possible URL cases above
+    # (also silently handle URL w/o img=parameter)
+    my $image = /(img=.*)\.jpg$/;
+    # Adjust image to new URL scheme:
+    $image =~ s/img=/img:/;
 
     # Special case for registers that has beep split per year (and thus share the same ID):
     if (ref($newID)) {
