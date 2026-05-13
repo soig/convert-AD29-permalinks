@@ -12198,7 +12198,7 @@ sub process {
 
     # extract image name after processing all the possible URL cases above
     # (also silently handle URL w/o img=parameter)
-    my $image = /(img=.*)\.jpg$/;
+    my ($image) = /(img=.*)\.jpg/;
     # Adjust image to new URL scheme:
     $image =~ s/img=/img:/;
 
