@@ -1,7 +1,6 @@
 #!/bin/perl
 # Wrapper for emitting all in once for one commune : all births, mariages & deaths, grouped by register
 # Like gen-new-ids-nmd-all.pl but inline gen-new-ids-nmd.pl in order to have better output, readier to use
-# FIXME: add options to select only N, M or D?
 
 
 use strict;
@@ -100,12 +99,14 @@ my $real_ville = $special_towns{$ville} || $ville =~ /Finist/ ? $ville : "$ville
 #my $real_ville = $ville =~ /Finist/ ? $ville : "$ville+(Finistère)"; # %20(Finistère)
 
 # The split is different for each type (eg: 1881-1891 for births but 1883-1892 for deaths)
-# FIXME: we cannot actually request the web site for a year range
-# => BUG: we're missing some recensements when there's more than 20 results
-# => do a request by "côte" ?
-my %years = (
+# we cannot actually request the web site for a year range, but we can by "côte":
+my %cotes = (
     'Recensement' => {
-	1793 => 1946,
+	# Recensements < 1946:
+	'"6 M"' => undef, # doesn't work w/o doble quotes in the string
+	# Recensements >= 1946:4
+	'238 W' => undef,
+	# Other towns have "126 W", "179 W"
     },
     );
 
@@ -144,18 +145,17 @@ my %conv_cal_republicain = (
     );
 
 # https://recherche.archives.finistere.fr/archive/resultats/recensements/n:139?RECH_commune_Libel=Sca%C3%ABr%20(Finist%C3%A8re)|&RECH_commune_Md5=9c354717cc7a5c14e68227d48522db2a|&type=recensements
-my $url = "https://recherche.archives.finistere.fr/archive/resultats/recensements/n:139?RECH_commune_Libel=%s|&RECH_commune_Md5=%s|&type=recensements";
-my $url_nomd5 = "https://recherche.archives.finistere.fr/archive/resultats/recensements/n:139?RECH_commune=%s|&type=recensements";
+my $url = "https://recherche.archives.finistere.fr/archive/recherche/recensements/tableau?RECH_commune_Libel=%s|&RECH_commune_Md5=%s|&Rech_cote=%s&type=recensements";
+my $url_nomd5 = "https://recherche.archives.finistere.fr/archive/resultats/recensements/n:139?RECH_commune=%s&Rech_cote=%s&type=recensements";
 my (%results, %pretty);
 foreach my $type (qw(Recensement)) {
-    my $years2 = $years{$type};
-    foreach my $first (sort(keys %$years2)) {
-	my $end = $years2->{$first};
-	#warn ">> TRY " . sprintf($url, $real_ville, $md5, $type, $first, $end) . "\n";
+    my $cotes2 = $cotes{$type};
+    foreach my $cote (sort(keys %$cotes2)) {
+	warn ">> TRY " . sprintf($url, $real_ville, $md5, $cote) . "\n";
 	if ($md5) {
-	    process(sprintf($url, $real_ville, $md5, $type, $first, $end));
+	    process(sprintf($url, $real_ville, $md5, $cote));
 	} else {
-	    process(sprintf($url_nomd5, $real_ville, $type, $first, $end));
+	    process(sprintf($url_nomd5, $real_ville, $cote));
 	}
     }
 }
@@ -226,6 +226,8 @@ sub process {
 	    $mainID = format_6M($id);
 	} elsif ($id =~ m!^\d M \d+/\d+!) { # eg: "6 M 820/2"
 	    $mainID = format_6M($id);
+	} elsif ($id =~ m!^\d+ W \d+!) { # eg: "238 W 7"
+	    $mainID = format_238W($id);
 	} else {
 	    warn ">> FAILED TO PARSE ID='$id'\n";
 	}
@@ -252,6 +254,13 @@ sub process {
 	    $pretty{$mainID} = "Recensement $commune $prettyID";
 	}
     }
+}
+
+sub format_238W {
+    my ($id) = @_;
+    # Normalize: '238 W 2' => '238W02_10' # FIXME/BUG: the "_10" from old permalink doesn't appear on the new web site result!
+    $id =~ s!/! !g;
+    sprintf("%s%s%02d_%02d", split(' ', $id)); # Ideally to doble check in old tree!
 }
 
 sub format_6M_long {
