@@ -2645,6 +2645,45 @@ my %convert = (
         1925 => '1277322',              # Naissance Cléden-Poher 3 E 42/42/2 (1925)
     },
 
+    '3E042_0043' => {			# Mariage Cléden-Poher 3 E 42/43   1904-1917
+	1904   => '1277455',            # Mariage Cléden-Poher 3 E 42/43/1 (1904)
+	1905   => '1277456',            # Mariage Cléden-Poher 3 E 42/43/2 (1905 (incomplet))
+	1906   => '1277457',            # Mariage Cléden-Poher 3 E 42/43/3 (1906)
+	1907   => '1277458',            # Mariage Cléden-Poher 3 E 42/43/4 (1907)
+	1908   => '1277459',            # Mariage Cléden-Poher 3 E 42/43/5 (1908)
+	1909   => '1277460',            # Mariage Cléden-Poher 3 E 42/43/6 (1909)
+	1910   => '1277461',            # Mariage Cléden-Poher 3 E 42/43/7 (1910)
+	1911   => '1277462',            # Mariage Cléden-Poher 3 E 42/43/8 (1911)
+	1912   => '1277463',            # Mariage Cléden-Poher 3 E 42/43/9 (1912)
+	1913   => '1277464',            # Mariage Cléden-Poher 3 E 42/43/10 (1913)
+	1914   => '1277465',            # Mariage Cléden-Poher 3 E 42/43/11 (1914)
+	1915   => '1277466',            # Mariage Cléden-Poher 3 E 42/43/12 (1915)
+	1916   => '1277467',            # Mariage Cléden-Poher 3 E 42/43/13 (1916)
+	1917   => '1277468',            # Mariage Cléden-Poher 3 E 42/43/14 (1917)
+    },
+
+    '3E042_0044' => {			# Mariage Cléden-Poher 3 E 42/44   1918-1936
+	1918   => '1277470',            # Mariage Cléden-Poher 3 E 42/44/1 (1918)
+	1919   => '1277471',            # Mariage Cléden-Poher 3 E 42/44/2 (1919)
+	1920   => '1277472',            # Mariage Cléden-Poher 3 E 42/44/3 (1920)
+	1921   => '1277473',            # Mariage Cléden-Poher 3 E 42/44/4 (1921)
+	1922   => '1277474',            # Mariage Cléden-Poher 3 E 42/44/5 (1922)
+	1923   => '1277475',            # Mariage Cléden-Poher 3 E 42/44/6 (1923)
+	1924   => '1277476',            # Mariage Cléden-Poher 3 E 42/44/7 (1924)
+	1925   => '1277477',            # Mariage Cléden-Poher 3 E 42/44/8 (1925)
+	1926   => '1277478',            # Mariage Cléden-Poher 3 E 42/44/9 (1926)
+	1927   => '1277479',            # Mariage Cléden-Poher 3 E 42/44/10 (1927)
+	1928   => '1277480',            # Mariage Cléden-Poher 3 E 42/44/11 (1928)
+	1929   => '1277481',            # Mariage Cléden-Poher 3 E 42/44/12 (1929)
+	1930   => '1277482',            # Mariage Cléden-Poher 3 E 42/44/13 (1930)
+	1931   => '1277483',            # Mariage Cléden-Poher 3 E 42/44/14 (1931)
+	1932   => '1277484',            # Mariage Cléden-Poher 3 E 42/44/15 (1932)
+	1933   => '1277485',            # Mariage Cléden-Poher 3 E 42/44/16 (1933)
+	1934   => '1277486',            # Mariage Cléden-Poher 3 E 42/44/17 (1934)
+	1935   => '1277487',            # Mariage Cléden-Poher 3 E 42/44/18 (1935)
+	1936   => '1277488',            # Mariage Cléden-Poher 3 E 42/44/19 (1936)
+    },
+
     '3E042_0045' => {                   # Décès Cléden-Poher 3 E 42 45   1910-1921
         1910 => '1277617',              # Décès Cléden-Poher 3 E 42/45/1 (1910)
         1911 => '1277618',              # Décès Cléden-Poher 3 E 42/45/2 (1911)
@@ -2660,7 +2699,6 @@ my %convert = (
         1921 => '1277628',              # Décès Cléden-Poher 3 E 42/45/12 (1921)
     },
 
-    # I'm not sure that the old site offered events betweeen 1925 & 1936?
     '3E042_0046' => {                   # Décès Cléden-Poher 3 E 42 46   1922-1936
         1922 => '1277630',              # Décès Cléden-Poher 3 E 42/46/1 (1922)
         1923 => '1277631',              # Décès Cléden-Poher 3 E 42/46/2 (1923)
@@ -2677,6 +2715,18 @@ my %convert = (
         1934 => '1277642',              # Décès Cléden-Poher 3 E 42/46/13 (1934)
         1935 => '1277643',              # Décès Cléden-Poher 3 E 42/46/14 (1935)
         1936 => '1277644',              # Décès Cléden-Poher 3 E 42/46/15 (1936)
+    },
+
+    # Manually filled (I actually had permalink on 0047 for mariages):
+    # I cannot convert both Mariages & Deaths are they share the same years :-(
+    '3E042_0047' => {                   # NMD        Cléden-Poher 3 E 42 47   1937-1946
+        #1937 => '1277647',              # Naissances Cléden-Poher 3 E 42/47/1 (1937)
+        #1938 => '1277648',              # Naissances Cléden-Poher 3 E 42/47/2 (1938)
+        #1939 => '1277649',              # Naissances Cléden-Poher 3 E 42/47/3 (1939)
+        #1940 => '1277650',              # Naissances Cléden-Poher 3 E 42/47/4 (1940)
+	1937 => '1277657',              # Mariages   Cléden-Poher 3 E 42/47/11 (1937)
+	1938 => '1277658',              # Mariages   Cléden-Poher 3 E 42/47/12 (1938)
+	1939 => '1277659',              # Mariages   Cléden-Poher 3 E 42/47/13 (1939)
     },
 
     # NMD Concarneau
