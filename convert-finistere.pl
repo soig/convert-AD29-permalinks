@@ -12118,11 +12118,11 @@ sub process {
     # after last "/" (more complete ID); accept an optional "/" before "?img="
     my ($id) = m!/([^/?]*)/?\?!;
     # special case for one bogus matricule URL
-    if ($id eq '01') {
+    if (member($id, qw(01 1938M))) {
 	# Try again if there was a spurious /01/ at end of URL:
 	# https://recherche.archives.finistere.fr/viewer/series/medias/collections/R/01R/1R00885/01/?img=FRAD029_1R_00885_0011.jpg
-	s!/01/!!;
-	($id) = m!/([^/?]*)/?\?$!;
+	s!/(01|1938M)/!!;
+	($id) = m!/([^/?]*)/?\?!;
     }
     if (!$id) {
 	# one special case:
@@ -12176,3 +12176,6 @@ sub process {
     }
     return "${prefix}$newID/$image";
 }
+
+# From MDK::Common:
+sub member { my $e = shift; foreach (@_) { $e eq $_ and return 1 } 0 }
