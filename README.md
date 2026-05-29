@@ -2,7 +2,8 @@
 
 ## Présentation
 
-Convert old permalinks to new permalinks after upstream software change
+Convert old permalinks to new permalinks after upstream software change.
+
 Convertit les anciens permaliens (avant avril 2026) en nouveaux permaliens.
 Les AD 29 ont changé de logiciel en avril 2026, ce qui a cassé tous les anciens permaliens :
 * https://archives.finistere.fr/actualites/nouveau-moteur-de-recherche-en-ligne
