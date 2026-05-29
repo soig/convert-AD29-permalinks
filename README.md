@@ -143,14 +143,15 @@ Générateur plus efficace:
 ./gen-new-ids-matricule-all.pl --annee=1914 > matricule.all.1914
 ```
 
-Ancien générateur:
+Ancien générateur (qui nécessitait de récupérer l'URL du formulaire rempli) :
+
 Exemple pour 1914:
 ```
 ./gen-new-ids-matricule.pl "https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1914&type=matricules"
 ```
 Exemple pour 1914, seulement le bureau de Brest:
 ```
-https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1914&RECH_bureau_Libel=Bureau%20de%20Brest|&RECH_bureau_Md5=add9e871b619bc2d4431e6faa564285d|&type=matricules
+./gen-new-ids-matricule.pl "https://recherche.archives.finistere.fr/archive/resultats/matricules/n:141?RECH_dateclassefacettes=1914&RECH_bureau_Libel=Bureau%20de%20Brest|&RECH_bureau_Md5=add9e871b619bc2d4431e6faa564285d|&type=matricules"
 ```
 
 ## Limitations :
